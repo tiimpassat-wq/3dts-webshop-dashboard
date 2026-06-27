@@ -1,6 +1,6 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-06-27T13:04:47.392Z
+Gegenereerd: 2026-06-27T13:07:12.512Z
 
 ## Samenvatting gisteren
 
@@ -60,6 +60,6 @@ Gegenereerd: 2026-06-27T13:04:47.392Z
 
 ## Datakwaliteit
 
-- Shopify product cost import failed: Shopify request failed 200: {"errors":[{"message":"Access denied for productVariants field.","locations":[{"line":3,"column":5}],"extensions":{"code":"ACCESS_DENIED","documentation":"https://shopify.dev/api/usage/access-scopes"},"path":["productVariants"]}],"data":null,"extensions":{"cost":{"requestedQueryCost":29,"actualQueryCost":2,"throttleStatus":{"maximumAvailable":2000,"currentlyAvailable":1998,"restoreRate":100}}}}
-- Shopify product cost import failed: Shopify request failed 200: {"errors":[{"message":"Access denied for productVariants field.","locations":[{"line":3,"column":5}],"extensions":{"code":"ACCESS_DENIED","documentation":"https://shopify.dev/api/usage/access-scopes"},"path":["productVariants"]}],"data":null,"extensions":{"cost":{"requestedQueryCost":29,"actualQueryCost":2,"throttleStatus":{"maximumAvailable":2000,"currentlyAvailable":1998,"restoreRate":100}}}}
+- Shopify product cost import failed: Access denied for productVariants field. Add Shopify Admin API scopes read_products and read_inventory, reinstall the custom app, and update SHOPIFY_ADMIN_ACCESS_TOKEN in GitHub Secrets.
+- Shopify product cost import failed: Access denied for productVariants field. Add Shopify Admin API scopes read_products and read_inventory, reinstall the custom app, and update SHOPIFY_ADMIN_ACCESS_TOKEN in GitHub Secrets.
 - Productkosten ontbreken voor 17 orders; zie reports/missing_product_costs.md.

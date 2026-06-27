@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T13:04:47.391Z",
+  "generated_at": "2026-06-27T13:07:12.511Z",
   "period": "last_7_days",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
@@ -8,7 +8,7 @@
     "bol_ads": "bol_ads_last_7_days.json"
   },
   "warnings": [
-    "Shopify product cost import failed: Shopify request failed 200: {\"errors\":[{\"message\":\"Access denied for productVariants field.\",\"locations\":[{\"line\":3,\"column\":5}],\"extensions\":{\"code\":\"ACCESS_DENIED\",\"documentation\":\"https://shopify.dev/api/usage/access-scopes\"},\"path\":[\"productVariants\"]}],\"data\":null,\"extensions\":{\"cost\":{\"requestedQueryCost\":29,\"actualQueryCost\":2,\"throttleStatus\":{\"maximumAvailable\":2000,\"currentlyAvailable\":1998,\"restoreRate\":100}}}}"
+    "Shopify product cost import failed: Access denied for productVariants field. Add Shopify Admin API scopes read_products and read_inventory, reinstall the custom app, and update SHOPIFY_ADMIN_ACCESS_TOKEN in GitHub Secrets."
   ],
   "cost_lookup": {
     "entries": 13,
