@@ -8,12 +8,14 @@ const rootDir = path.resolve(__dirname, "..");
 const dataDir = path.join(rootDir, "data");
 const reportsDir = path.join(rootDir, "reports");
 const costWorkbookPath = path.join(rootDir, "config", "prijsberekening 2026.xlsx");
+const productCostsPath = path.join(rootDir, "config", "product_costs.json");
 const shippingRatesPath = path.join(rootDir, "config", "shipping_rates.json");
 
 await mkdir(dataDir, { recursive: true });
 await mkdir(reportsDir, { recursive: true });
 
-const costIndex = readCostIndex(costWorkbookPath);
+const legacyCostIndex = readCostIndex(costWorkbookPath);
+const productCostIndex = await readProductCostIndex(productCostsPath);
 const shippingRates = await readJson(shippingRatesPath, { rates: {} });
 
 const daily = await buildProfitPeriod({
@@ -36,6 +38,7 @@ const last7 = await buildProfitPeriod({
 
 await writeMorningReport(daily, last7);
 await writeActionItems(daily, last7);
+await writeMissingProductCosts(daily, last7);
 
 console.log(`profit_daily.json: ${daily.orders.length} orders, net EUR ${daily.totals.nettowinst.toFixed(2)}`);
 console.log(`profit_last_7_days.json: ${last7.orders.length} orders, net EUR ${last7.totals.nettowinst.toFixed(2)}`);
@@ -76,14 +79,15 @@ async function buildProfitPeriod({ label, shopifyFile, googleAdsFile, bolEnriche
     const bolCommission = channelInfo.channel === "Bol via Shopify" ? money(bolMatch?.bol?.total_commission || 0) : 0;
     const shippingPaid = money(order.shipping_paid_by_customer);
     const actualShipping = estimateShippingCost(order, shippingRates);
-    const lineItems = (order.line_items || []).map((item) => buildLineItemProfit(item, costIndex));
+    const lineItems = (order.line_items || []).map((item) => buildLineItemProfit(item, productCostIndex, bolMatch));
     const productCost = money(lineItems.reduce((sum, item) => sum + item.product_cost_total, 0));
+    const hasIncompleteProductCost = lineItems.some((item) => item.cost_status !== "matched" || item.product_cost_unit <= 0);
     const discount = money(order.discount);
     const grossProfit = money(revenue - actualShipping - productCost);
     const netProfit = money(grossProfit - adCost - bolCommission - bolAdsCost);
 
     const orderWarnings = [];
-    if (lineItems.some((item) => item.cost_status !== "matched")) orderWarnings.push("product_cost_missing_or_estimated");
+    if (hasIncompleteProductCost) orderWarnings.push("product_cost_missing_or_zero", "profit_incomplete");
     if (actualShipping === 0 && revenue > 0) orderWarnings.push("shipping_cost_unknown");
     if (adCost > 0) orderWarnings.push("ad_cost_allocated_by_revenue_share");
     if (bolAdsCost > 0) orderWarnings.push("bol_ads_allocated_by_bol_revenue_share");
@@ -116,6 +120,9 @@ async function buildProfitPeriod({ label, shopifyFile, googleAdsFile, bolEnriche
       bol_advertentiekosten: bolAdsCost,
       bol_advertentiekosten_methode: bolAdsCost > 0 ? "allocated_by_bol_order_revenue_share" : "none",
       nettowinst: netProfit,
+      betrouwbare_nettowinst: hasIncompleteProductCost ? null : netProfit,
+      geschatte_onvolledige_nettowinst: hasIncompleteProductCost ? netProfit : 0,
+      profit_reliability: hasIncompleteProductCost ? "incomplete" : "reliable",
       nettowinst_pct: revenue > 0 ? roundPercent(netProfit / revenue) : null,
       bol_order_id: bolMatch?.bol?.bol_order_id || null,
       bol_match_method: bolMatch?.match_method || null,
@@ -137,9 +144,10 @@ async function buildProfitPeriod({ label, shopifyFile, googleAdsFile, bolEnriche
       ...(bolAds?.warnings || []),
     ],
     cost_lookup: {
-      entries: costIndex.entries.length,
-      source: "config/prijsberekening 2026.xlsx",
-      note: costIndex.note,
+      entries: productCostIndex.entries.length,
+      source: "config/product_costs.json",
+      legacy_excel_entries: legacyCostIndex.entries.length,
+      note: productCostIndex.note,
     },
     totals: summarizeProfitOrders(orders, totalAdCost, googleAds, totalBolAdsCost, bolAds),
     channel_totals: summarizeChannels(orders),
@@ -155,19 +163,21 @@ async function buildProfitPeriod({ label, shopifyFile, googleAdsFile, bolEnriche
   return payload;
 }
 
-function buildLineItemProfit(item, costIndex) {
+function buildLineItemProfit(item, productCostIndex, bolMatch) {
   const sku = normalizeKey(item.sku);
+  const ean = normalizeKey(findBolEanForShopifyItem(item, bolMatch));
   const productName = normalizeKey(item.product_name);
   const quantity = Number(item.quantity || 0);
   const unitRevenue = money(item.product_sale_price);
   const lineRevenue = money(unitRevenue * quantity);
-  const match = costIndex.bySku.get(sku) || costIndex.byProduct.get(productName) || null;
+  const match = productCostIndex.bySku.get(sku) || productCostIndex.byEan.get(ean) || productCostIndex.byProduct.get(productName) || null;
   const unitCost = match ? money(match.cost) : 0;
   const productCostTotal = money(unitCost * quantity);
 
   return {
     product_name: item.product_name,
     sku: item.sku || null,
+    ean: ean || null,
     quantity,
     product_sale_price: unitRevenue,
     line_revenue: lineRevenue,
@@ -175,9 +185,24 @@ function buildLineItemProfit(item, costIndex) {
     product_cost_total: productCostTotal,
     gross_profit_before_shipping_ads: money(lineRevenue - productCostTotal),
     margin_before_shipping_ads_pct: lineRevenue > 0 ? roundPercent((lineRevenue - productCostTotal) / lineRevenue) : null,
-    cost_status: match ? "matched" : "missing",
+    cost_status: match && unitCost > 0 ? "matched" : match ? "zero_cost" : "missing",
     cost_match_key: match?.key || null,
   };
+}
+
+function findBolEanForShopifyItem(item, bolMatch) {
+  const bolItems = bolMatch?.bol?.line_items || [];
+  if (!bolItems.length) return null;
+  const sku = normalizeKey(item.sku);
+  const name = normalizeKey(item.product_name);
+  const exact = bolItems.find((bolItem) => (
+    normalizeKey(bolItem.sku) === sku
+    || normalizeKey(bolItem.offer_reference) === sku
+    || normalizeKey(bolItem.product_name) === name
+  ));
+  if (exact) return exact.ean;
+  if (bolItems.length === 1) return bolItems[0].ean;
+  return null;
 }
 
 function estimateShippingCost(order, shippingRates) {
@@ -254,9 +279,18 @@ function summarizeProfitOrders(orders, totalAdCost, googleAds, totalBolAdsCost, 
     sum.advertentiekosten += order.advertentiekosten;
     sum.bol_advertentiekosten += order.bol_advertentiekosten;
     sum.nettowinst += order.nettowinst;
+    if (order.profit_reliability === "reliable") {
+      sum.betrouwbare_orders += 1;
+      sum.betrouwbare_nettowinst += order.nettowinst;
+    } else {
+      sum.onvolledige_orders += 1;
+      sum.geschatte_onvolledige_nettowinst += order.nettowinst;
+    }
     return sum;
   }, {
     orders: 0,
+    betrouwbare_orders: 0,
+    onvolledige_orders: 0,
     omzet: 0,
     verzendkosten_betaald_door_klant: 0,
     werkelijke_verzendkosten: 0,
@@ -266,12 +300,15 @@ function summarizeProfitOrders(orders, totalAdCost, googleAds, totalBolAdsCost, 
     advertentiekosten: 0,
     bol_advertentiekosten: 0,
     nettowinst: 0,
+    betrouwbare_nettowinst: 0,
+    geschatte_onvolledige_nettowinst: 0,
   });
 
   for (const key of Object.keys(totals)) {
     if (key !== "orders") totals[key] = money(totals[key]);
   }
   totals.nettowinst_pct = totals.omzet > 0 ? roundPercent(totals.nettowinst / totals.omzet) : null;
+  totals.betrouwbare_nettowinst_pct = totals.omzet > 0 ? roundPercent(totals.betrouwbare_nettowinst / totals.omzet) : null;
   totals.gemiddelde_winst_per_order = totals.orders > 0 ? money(totals.nettowinst / totals.orders) : 0;
   totals.google_ads_cost_total = money(totalAdCost);
   totals.google_ads_unallocated = money(Math.max(0, totalAdCost - totals.advertentiekosten));
@@ -295,6 +332,10 @@ function summarizeChannels(orders) {
       advertentiekosten: 0,
       bol_advertentiekosten: 0,
       nettowinst: 0,
+      betrouwbare_nettowinst: 0,
+      geschatte_onvolledige_nettowinst: 0,
+      betrouwbare_orders: 0,
+      onvolledige_orders: 0,
     };
     current.orders += 1;
     current.omzet += order.omzet;
@@ -304,6 +345,13 @@ function summarizeChannels(orders) {
     current.advertentiekosten += order.advertentiekosten;
     current.bol_advertentiekosten += order.bol_advertentiekosten;
     current.nettowinst += order.nettowinst;
+    if (order.profit_reliability === "reliable") {
+      current.betrouwbare_orders += 1;
+      current.betrouwbare_nettowinst += order.nettowinst;
+    } else {
+      current.onvolledige_orders += 1;
+      current.geschatte_onvolledige_nettowinst += order.nettowinst;
+    }
     channels.set(order.channel, current);
   }
 
@@ -313,6 +361,36 @@ function summarizeChannels(orders) {
     rounded.nettowinst_pct = rounded.omzet > 0 ? roundPercent(rounded.nettowinst / rounded.omzet) : null;
     return [channel, rounded];
   }));
+}
+
+async function readProductCostIndex(filePath) {
+  const payload = await readJson(filePath, { products: [] });
+  const products = Array.isArray(payload?.products) ? payload.products : Array.isArray(payload) ? payload : [];
+  const entries = products.map((product) => ({
+    key: product.sku || product.ean || product.product_name,
+    sku: product.sku || null,
+    ean: product.ean || null,
+    product: product.product_name || null,
+    cost: Number(product.total_product_cost || 0),
+    raw: product,
+  }));
+
+  const bySku = new Map();
+  const byEan = new Map();
+  const byProduct = new Map();
+  for (const entry of entries) {
+    if (entry.sku) bySku.set(normalizeKey(entry.sku), entry);
+    if (entry.ean) byEan.set(normalizeKey(entry.ean), entry);
+    if (entry.product) byProduct.set(normalizeKey(entry.product), entry);
+  }
+
+  return {
+    entries,
+    bySku,
+    byEan,
+    byProduct,
+    note: "Authoritative product costs. Orders with missing or zero total_product_cost are marked incomplete and excluded from reliable net profit.",
+  };
 }
 
 function readCostIndex(workbookPath) {
@@ -378,6 +456,11 @@ async function writeMorningReport(daily, last7) {
   const dailyBol = daily.channel_totals?.["Bol via Shopify"] || emptyChannelTotals();
   const last7Bol = last7.channel_totals?.["Bol via Shopify"] || emptyChannelTotals();
   const dailyDirect = daily.channel_totals?.["Shopify direct"] || emptyChannelTotals();
+  const dataQualityWarnings = [
+    ...daily.warnings,
+    ...last7.warnings,
+    ...(last7.totals.onvolledige_orders > 0 ? [`Productkosten ontbreken voor ${last7.totals.onvolledige_orders} orders; zie reports/missing_product_costs.md.`] : []),
+  ];
 
   const lines = [
     "# 3DTS Morning Report",
@@ -387,15 +470,19 @@ async function writeMorningReport(daily, last7) {
     "## Samenvatting gisteren",
     "",
     `- Omzet gisteren: EUR ${daily.totals.omzet.toFixed(2)}`,
-    `- Nettowinst gisteren: EUR ${daily.totals.nettowinst.toFixed(2)}`,
+    `- Betrouwbare nettowinst gisteren: EUR ${daily.totals.betrouwbare_nettowinst.toFixed(2)}`,
+    `- Geschatte/onvolledige nettowinst gisteren: EUR ${daily.totals.geschatte_onvolledige_nettowinst.toFixed(2)}`,
+    `- Totale nettowinstindicatie gisteren: EUR ${daily.totals.nettowinst.toFixed(2)}`,
     `- Orders gisteren: ${daily.totals.orders}`,
+    `- Orders met betrouwbare kostprijs gisteren: ${daily.totals.betrouwbare_orders}`,
+    `- Orders met ontbrekende kostprijs gisteren: ${daily.totals.onvolledige_orders}`,
     `- Gemiddelde winst per order: EUR ${daily.totals.gemiddelde_winst_per_order.toFixed(2)}`,
     "",
-    "## Top 5 winstgevende producten",
+    "## Top 5 winstgevende producten (indicatief)",
     "",
     ...markdownProductList(topProducts, "Geen winstgevende producten gevonden in de beschikbare dagdata."),
     "",
-    "## Producten met lage marge",
+    "## Producten met lage marge (indicatief)",
     "",
     ...markdownProductList(lowMarginProducts, "Geen lage-marge producten gevonden in de beschikbare dagdata."),
     "",
@@ -407,7 +494,8 @@ async function writeMorningReport(daily, last7) {
     `- Google Ads ROAS gisteren: ${daily.totals.google_ads_roas ?? "onbekend"}`,
     `- Laatste 7 dagen omzet: EUR ${last7.totals.omzet.toFixed(2)}`,
     `- Laatste 7 dagen Google Ads kosten: EUR ${last7.totals.google_ads_cost_total.toFixed(2)}`,
-    `- Laatste 7 dagen nettowinst: EUR ${last7.totals.nettowinst.toFixed(2)}`,
+    `- Laatste 7 dagen betrouwbare nettowinst: EUR ${last7.totals.betrouwbare_nettowinst.toFixed(2)}`,
+    `- Laatste 7 dagen geschatte/onvolledige nettowinst: EUR ${last7.totals.geschatte_onvolledige_nettowinst.toFixed(2)}`,
     "",
     "## Bol.com",
     "",
@@ -430,8 +518,7 @@ async function writeMorningReport(daily, last7) {
     "",
     "## Datakwaliteit",
     "",
-    ...[...daily.warnings, ...last7.warnings].map((warning) => `- ${warning}`),
-    daily.warnings.length || last7.warnings.length ? "" : "- Geen waarschuwingen.",
+    ...(dataQualityWarnings.length ? dataQualityWarnings.map((warning) => `- ${warning}`) : ["- Geen waarschuwingen."]),
   ];
 
   await writeFile(path.join(reportsDir, "morning_report.md"), `${lines.join("\n")}\n`, "utf8");
@@ -447,6 +534,10 @@ function emptyChannelTotals() {
     advertentiekosten: 0,
     bol_advertentiekosten: 0,
     nettowinst: 0,
+    betrouwbare_nettowinst: 0,
+    geschatte_onvolledige_nettowinst: 0,
+    betrouwbare_orders: 0,
+    onvolledige_orders: 0,
     nettowinst_pct: null,
   };
 }
@@ -461,7 +552,7 @@ async function writeActionItems(daily, last7) {
           priority: "high",
           product_name: item.product_name,
           sku: item.sku,
-          reason: "Kostprijs ontbreekt in Excel-kostprijsindex; nettowinst kan te hoog lijken.",
+          reason: "Kostprijs ontbreekt of is 0 in config/product_costs.json; betrouwbare nettowinst telt deze order niet mee.",
         });
       }
       if (item.margin_before_shipping_ads_pct !== null && item.margin_before_shipping_ads_pct < 25) {
@@ -541,6 +632,59 @@ async function writeActionItems(daily, last7) {
   });
 }
 
+async function writeMissingProductCosts(daily, last7) {
+  const missing = new Map();
+  for (const order of [...daily.orders, ...last7.orders]) {
+    for (const item of order.line_items || []) {
+      if (item.cost_status === "matched" && item.product_cost_unit > 0) continue;
+      const key = normalizeKey(item.sku || item.ean || item.product_name);
+      const current = missing.get(key) || {
+        sku: item.sku || "",
+        ean: item.ean || "",
+        product_name: item.product_name || "",
+        quantity_sold: 0,
+        revenue: 0,
+        orders: new Set(),
+        cost_status: item.cost_status,
+      };
+      if (!current.ean && item.ean) current.ean = item.ean;
+      if (!current.sku && item.sku) current.sku = item.sku;
+      current.quantity_sold += Number(item.quantity || 0);
+      current.revenue += Number(item.line_revenue || 0);
+      current.orders.add(order.order_number);
+      missing.set(key, current);
+    }
+  }
+
+  const rows = [...missing.values()]
+    .map((item) => ({
+      ...item,
+      revenue: money(item.revenue),
+      orders: [...item.orders],
+    }))
+    .sort((a, b) => b.revenue - a.revenue);
+
+  const lines = [
+    "# Ontbrekende Productkostprijzen",
+    "",
+    `Gegenereerd: ${new Date().toISOString()}`,
+    "",
+    "Vul `config/product_costs.json` aan. Gebruik geen schatting als je de echte kostprijs nog niet weet.",
+    "",
+    "| SKU | EAN | Product | Aantal | Omzet | Status | Orders |",
+    "| --- | --- | --- | ---: | ---: | --- | --- |",
+    ...rows.map((item) => (
+      `| ${escapeMarkdownTable(item.sku || "-")} | ${escapeMarkdownTable(item.ean || "-")} | ${escapeMarkdownTable(item.product_name || "-")} | ${item.quantity_sold} | EUR ${item.revenue.toFixed(2)} | ${item.cost_status} | ${escapeMarkdownTable(item.orders.join(", "))} |`
+    )),
+  ];
+
+  if (!rows.length) {
+    lines.push("", "Geen ontbrekende productkostprijzen gevonden.");
+  }
+
+  await writeFile(path.join(reportsDir, "missing_product_costs.md"), `${lines.join("\n")}\n`, "utf8");
+}
+
 function productPerformance(orders) {
   const byKey = new Map();
   for (const order of orders) {
@@ -582,8 +726,8 @@ function buildAdvice(daily, last7) {
   if (last7.totals.google_ads_roas !== null && last7.totals.google_ads_roas < 1) {
     advice.push("Google Ads geeft minder conversiewaarde terug dan advertentiekosten; controleer tracking en pauzeer verliesgevende campagnes tijdelijk.");
   }
-  if (last7.orders.some((order) => order.warnings.includes("product_cost_missing_or_estimated"))) {
-    advice.push("Maak een echte SKU-kostprijstabel uit je calculator, anders lijkt winst hoger dan hij is.");
+  if (last7.orders.some((order) => order.warnings.includes("product_cost_missing_or_zero"))) {
+    advice.push("Vul config/product_costs.json met echte SKU/EAN-kostprijzen; onvolledige orders tellen nu niet mee als betrouwbare winst.");
   }
   if (last7.totals.werkelijke_verzendkosten > last7.totals.verzendkosten_betaald_door_klant) {
     advice.push("Verzendkosten liggen hoger dan wat klanten betalen; verhoog gratis-verzending drempel of bundel producten.");
@@ -633,4 +777,8 @@ function money(value) {
 
 function roundPercent(value) {
   return Math.round((Number(value || 0) * 100 + Number.EPSILON) * 100) / 100;
+}
+
+function escapeMarkdownTable(value) {
+  return String(value || "").replace(/\|/g, "\\|").replace(/\r?\n/g, " ");
 }

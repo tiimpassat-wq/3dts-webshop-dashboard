@@ -291,7 +291,7 @@ function findShopifyMatch(bolOrder, shopifyOrders, usedShopifyKeys) {
     bolOrder.bol_order_id,
     ...bolOrder.offer_references,
     ...bolOrder.eans,
-  ].map(normalizeKey).filter(Boolean);
+  ].map(normalizeKey).filter(isStrongIdentifier);
 
   for (const shopifyOrder of shopifyOrders) {
     if (usedShopifyKeys.has(shopifyOrder.order_number)) continue;
@@ -320,6 +320,12 @@ function findShopifyMatch(bolOrder, shopifyOrders, usedShopifyKeys) {
     match_method: "date_amount_country_product_fallback",
     confidence: Math.min(0.9, candidates[0].score / 100),
   };
+}
+
+function isStrongIdentifier(value) {
+  if (!value || value.length < 6) return false;
+  if (["3dts", "3dts.shop", "shop"].includes(value)) return false;
+  return true;
 }
 
 function fallbackScore(bolOrder, shopifyOrder) {

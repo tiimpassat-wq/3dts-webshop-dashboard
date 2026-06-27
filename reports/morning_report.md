@@ -1,21 +1,25 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-06-27T12:35:54.622Z
+Gegenereerd: 2026-06-27T12:44:27.429Z
 
 ## Samenvatting gisteren
 
 - Omzet gisteren: EUR 49.01
-- Nettowinst gisteren: EUR 26.38
+- Betrouwbare nettowinst gisteren: EUR 0.00
+- Geschatte/onvolledige nettowinst gisteren: EUR 26.38
+- Totale nettowinstindicatie gisteren: EUR 26.38
 - Orders gisteren: 3
+- Orders met betrouwbare kostprijs gisteren: 0
+- Orders met ontbrekende kostprijs gisteren: 3
 - Gemiddelde winst per order: EUR 8.79
 
-## Top 5 winstgevende producten
+## Top 5 winstgevende producten (indicatief)
 
 - Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite (Unifimountlite3DTS.shop): EUR 8.42 nettowinst, 68.12% marge
 - Montagebeugel passend voor UniFi UAP AC Pro (584061623340_133C): EUR 7.94 nettowinst, 62.27% marge
 - UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite (Unifikant3DTS.shop): EUR 4.59 nettowinst, 41.92% marge
 
-## Producten met lage marge
+## Producten met lage marge (indicatief)
 
 - Geen lage-marge producten gevonden in de beschikbare dagdata.
 
@@ -27,7 +31,8 @@ Gegenereerd: 2026-06-27T12:35:54.622Z
 - Google Ads ROAS gisteren: 0
 - Laatste 7 dagen omzet: EUR 468.81
 - Laatste 7 dagen Google Ads kosten: EUR 29.50
-- Laatste 7 dagen nettowinst: EUR 295.40
+- Laatste 7 dagen betrouwbare nettowinst: EUR 0.00
+- Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 295.40
 
 ## Bol.com
 
@@ -47,11 +52,11 @@ Gegenereerd: 2026-06-27T12:35:54.622Z
 ## AI-adviezen
 
 - Google Ads geeft minder conversiewaarde terug dan advertentiekosten; controleer tracking en pauzeer verliesgevende campagnes tijdelijk.
-- Maak een echte SKU-kostprijstabel uit je calculator, anders lijkt winst hoger dan hij is.
+- Vul config/product_costs.json met echte SKU/EAN-kostprijzen; onvolledige orders tellen nu niet mee als betrouwbare winst.
 - Verzendkosten liggen hoger dan wat klanten betalen; verhoog gratis-verzending drempel of bundel producten.
 - Voor sommige bol-orders ontbreekt commissie; voeg EAN/referentie goed toe of controleer bol Retailer API toegang.
 - Bol Sponsored Products kost relatief veel; verlaag biedingen of pauzeer campagnes met lage marge.
 
 ## Datakwaliteit
 
-- Geen waarschuwingen.
+- Productkosten ontbreken voor 17 orders; zie reports/missing_product_costs.md.

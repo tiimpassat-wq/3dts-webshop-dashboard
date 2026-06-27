@@ -1,0 +1,162 @@
+{
+  "generated_at": "2026-06-27T12:43:27.719Z",
+  "note": "Vul echte kostprijzen in. Regels met total_product_cost 0 tellen niet mee als betrouwbare nettowinst.",
+  "products": [
+    {
+      "sku": "584061623340_133C",
+      "ean": "",
+      "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
+      "material_cost": 0,
+      "electricity_cost": 0,
+      "packaging_cost": 0,
+      "labor_cost": 0,
+      "failure_rate_cost": 0,
+      "total_product_cost": 0,
+      "minimum_profit_margin_percent": 30
+    },
+    {
+      "sku": "629094928879_BD5D",
+      "ean": "",
+      "product_name": "HBM 20V Accuhouder – 2-voudig (Wandmontage)",
+      "material_cost": 0,
+      "electricity_cost": 0,
+      "packaging_cost": 0,
+      "labor_cost": 0,
+      "failure_rate_cost": 0,
+      "total_product_cost": 0,
+      "minimum_profit_margin_percent": 30
+    },
+    {
+      "sku": "629621091536_60CB",
+      "ean": "9504822112282",
+      "product_name": "Accuhouder Parkside 20V - 4-voudig",
+      "material_cost": 0,
+      "electricity_cost": 0,
+      "packaging_cost": 0,
+      "labor_cost": 0,
+      "failure_rate_cost": 0,
+      "total_product_cost": 0,
+      "minimum_profit_margin_percent": 30
+    },
+    {
+      "sku": "Bosch4a-3DTS",
+      "ean": "9503425233318",
+      "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+      "material_cost": 0,
+      "electricity_cost": 0,
+      "packaging_cost": 0,
+      "labor_cost": 0,
+      "failure_rate_cost": 0,
+      "total_product_cost": 0,
+      "minimum_profit_margin_percent": 30
+    },
+    {
+      "sku": "cloudkeygen23DTS.SHOP",
+      "ean": "8721516390615",
+      "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
+      "material_cost": 0,
+      "electricity_cost": 0,
+      "packaging_cost": 0,
+      "labor_cost": 0,
+      "failure_rate_cost": 0,
+      "total_product_cost": 0,
+      "minimum_profit_margin_percent": 30
+    },
+    {
+      "sku": "dc18rc3dts.shop",
+      "ean": "",
+      "product_name": "Wandhouder Makita DC18RC Oplader",
+      "material_cost": 0,
+      "electricity_cost": 0,
+      "packaging_cost": 0,
+      "labor_cost": 0,
+      "failure_rate_cost": 0,
+      "total_product_cost": 0,
+      "minimum_profit_margin_percent": 30
+    },
+    {
+      "sku": "dc18rd3dts.shop",
+      "ean": "9509658425575",
+      "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+      "material_cost": 0,
+      "electricity_cost": 0,
+      "packaging_cost": 0,
+      "labor_cost": 0,
+      "failure_rate_cost": 0,
+      "total_product_cost": 0,
+      "minimum_profit_margin_percent": 30
+    },
+    {
+      "sku": "ETSY-SHIPPING",
+      "ean": "",
+      "product_name": "Etsy Standard Shipping",
+      "material_cost": 0,
+      "electricity_cost": 0,
+      "packaging_cost": 0,
+      "labor_cost": 0,
+      "failure_rate_cost": 0,
+      "total_product_cost": 0,
+      "minimum_profit_margin_percent": 30
+    },
+    {
+      "sku": "Makita4v3dts.shop",
+      "ean": "",
+      "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
+      "material_cost": 0,
+      "electricity_cost": 0,
+      "packaging_cost": 0,
+      "labor_cost": 0,
+      "failure_rate_cost": 0,
+      "total_product_cost": 0,
+      "minimum_profit_margin_percent": 30
+    },
+    {
+      "sku": "Unifidesk3DTS.Shop",
+      "ean": "8721516390073",
+      "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
+      "material_cost": 0,
+      "electricity_cost": 0,
+      "packaging_cost": 0,
+      "labor_cost": 0,
+      "failure_rate_cost": 0,
+      "total_product_cost": 0,
+      "minimum_profit_margin_percent": 30
+    },
+    {
+      "sku": "Unifikant3DTS.shop",
+      "ean": "8721516390592",
+      "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+      "material_cost": 0,
+      "electricity_cost": 0,
+      "packaging_cost": 0,
+      "labor_cost": 0,
+      "failure_rate_cost": 0,
+      "total_product_cost": 0,
+      "minimum_profit_margin_percent": 30
+    },
+    {
+      "sku": "Unifimountlite3DTS.shop",
+      "ean": "",
+      "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+      "material_cost": 0,
+      "electricity_cost": 0,
+      "packaging_cost": 0,
+      "labor_cost": 0,
+      "failure_rate_cost": 0,
+      "total_product_cost": 0,
+      "minimum_profit_margin_percent": 30
+    },
+    {
+      "sku": "",
+      "ean": "",
+      "product_name": "Wandhouder TP-Link EAP650 / EAP653 / EAP723 Access Point – PETG (hittebestendig)",
+      "material_cost": 0,
+      "electricity_cost": 0,
+      "packaging_cost": 0,
+      "labor_cost": 0,
+      "failure_rate_cost": 0,
+      "total_product_cost": 0,
+      "minimum_profit_margin_percent": 30
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:35:54.621Z",
+  "generated_at": "2026-06-27T12:44:27.427Z",
   "period": "last_7_days",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
@@ -9,12 +9,15 @@
   },
   "warnings": [],
   "cost_lookup": {
-    "entries": 1,
-    "source": "config/prijsberekening 2026.xlsx",
-    "note": "Workbook appears to be a calculator/template, not a complete product cost table. Missing SKU costs will be flagged."
+    "entries": 13,
+    "source": "config/product_costs.json",
+    "legacy_excel_entries": 1,
+    "note": "Authoritative product costs. Orders with missing or zero total_product_cost are marked incomplete and excluded from reliable net profit."
   },
   "totals": {
     "orders": 17,
+    "betrouwbare_orders": 0,
+    "onvolledige_orders": 17,
     "omzet": 468.81,
     "verzendkosten_betaald_door_klant": 38.9,
     "werkelijke_verzendkosten": 104.02,
@@ -24,7 +27,10 @@
     "advertentiekosten": 29.5,
     "bol_advertentiekosten": 12.23,
     "nettowinst": 295.4,
+    "betrouwbare_nettowinst": 0,
+    "geschatte_onvolledige_nettowinst": 295.4,
     "nettowinst_pct": 63.01,
+    "betrouwbare_nettowinst_pct": 0,
     "gemiddelde_winst_per_order": 17.38,
     "google_ads_cost_total": 29.5,
     "google_ads_unallocated": 0,
@@ -44,6 +50,10 @@
       "advertentiekosten": 0,
       "bol_advertentiekosten": 12.23,
       "nettowinst": 274.11,
+      "betrouwbare_nettowinst": 0,
+      "geschatte_onvolledige_nettowinst": 274.11,
+      "betrouwbare_orders": 0,
+      "onvolledige_orders": 14,
       "nettowinst_pct": 70.22
     },
     "Onbekend/overig": {
@@ -55,6 +65,10 @@
       "advertentiekosten": 15.02,
       "bol_advertentiekosten": 0,
       "nettowinst": 12.82,
+      "betrouwbare_nettowinst": 0,
+      "geschatte_onvolledige_nettowinst": 12.82,
+      "betrouwbare_orders": 0,
+      "onvolledige_orders": 1,
       "nettowinst_pct": 32.1
     },
     "Shopify direct": {
@@ -66,6 +80,10 @@
       "advertentiekosten": 14.48,
       "bol_advertentiekosten": 0,
       "nettowinst": 8.47,
+      "betrouwbare_nettowinst": 0,
+      "geschatte_onvolledige_nettowinst": 8.47,
+      "betrouwbare_orders": 0,
+      "onvolledige_orders": 2,
       "nettowinst_pct": 22
     }
   },
@@ -100,6 +118,9 @@
       "bol_advertentiekosten": 1.16,
       "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
       "nettowinst": 26.93,
+      "betrouwbare_nettowinst": null,
+      "geschatte_onvolledige_nettowinst": 26.93,
+      "profit_reliability": "incomplete",
       "nettowinst_pct": 72.88,
       "bol_order_id": "C0007865CM",
       "bol_match_method": "identifier_or_sku_tag_source",
@@ -111,6 +132,7 @@
         {
           "product_name": "Wandhouder TP-Link EAP650 / EAP653 / EAP723 Access Point – PETG (hittebestendig)",
           "sku": null,
+          "ean": "9509192768565",
           "quantity": 3,
           "product_sale_price": 9.95,
           "line_revenue": 29.85,
@@ -118,12 +140,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 29.85,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "Wandhouder TP-Link EAP650 / EAP653 / EAP723 Access Point – PETG (hittebestendig)"
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
+        "product_cost_missing_or_zero",
+        "profit_incomplete",
         "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
@@ -152,6 +175,9 @@
       "bol_advertentiekosten": 1.59,
       "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
       "nettowinst": 42.56,
+      "betrouwbare_nettowinst": null,
+      "geschatte_onvolledige_nettowinst": 42.56,
+      "profit_reliability": "incomplete",
       "nettowinst_pct": 84.08,
       "bol_order_id": "C0007HD15W",
       "bol_match_method": "identifier_or_sku_tag_source",
@@ -163,6 +189,7 @@
         {
           "product_name": "HBM 20V Accuhouder – 2-voudig (Wandmontage)",
           "sku": "629094928879_BD5D",
+          "ean": "9504237317951",
           "quantity": 2,
           "product_sale_price": 11.95,
           "line_revenue": 23.9,
@@ -170,12 +197,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 23.9,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "629094928879_BD5D"
         },
         {
           "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
           "sku": "Makita4v3dts.shop",
+          "ean": "9504237317951",
           "quantity": 1,
           "product_sale_price": 12.5,
           "line_revenue": 12.5,
@@ -183,12 +211,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 12.5,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "Makita4v3dts.shop"
         },
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
           "sku": "dc18rd3dts.shop",
+          "ean": "9504237317951",
           "quantity": 1,
           "product_sale_price": 11.95,
           "line_revenue": 11.95,
@@ -196,12 +225,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 11.95,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "dc18rd3dts.shop"
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
+        "product_cost_missing_or_zero",
+        "profit_incomplete",
         "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
@@ -232,6 +262,9 @@
       "bol_advertentiekosten": 0.54,
       "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
       "nettowinst": 5.63,
+      "betrouwbare_nettowinst": null,
+      "geschatte_onvolledige_nettowinst": 5.63,
+      "profit_reliability": "incomplete",
       "nettowinst_pct": 32.47,
       "bol_order_id": "C00076MJ1J",
       "bol_match_method": "date_amount_country_product_fallback",
@@ -243,6 +276,7 @@
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
           "sku": "dc18rd3dts.shop",
+          "ean": "9509658425575",
           "quantity": 1,
           "product_sale_price": 17.34,
           "line_revenue": 17.34,
@@ -250,12 +284,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 17.34,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "dc18rd3dts.shop"
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
+        "product_cost_missing_or_zero",
+        "profit_incomplete",
         "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
@@ -286,6 +321,9 @@
       "bol_advertentiekosten": 0.37,
       "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
       "nettowinst": 7.04,
+      "betrouwbare_nettowinst": null,
+      "geschatte_onvolledige_nettowinst": 7.04,
+      "profit_reliability": "incomplete",
       "nettowinst_pct": 58.91,
       "bol_order_id": "C000775DHH",
       "bol_match_method": "identifier_or_sku_tag_source",
@@ -297,6 +335,7 @@
         {
           "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
           "sku": "cloudkeygen23DTS.SHOP",
+          "ean": "8721516390615",
           "quantity": 1,
           "product_sale_price": 11.95,
           "line_revenue": 11.95,
@@ -304,12 +343,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 11.95,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "cloudkeygen23DTS.SHOP"
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
+        "product_cost_missing_or_zero",
+        "profit_incomplete",
         "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
@@ -338,6 +378,9 @@
       "bol_advertentiekosten": 0.97,
       "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
       "nettowinst": 23.58,
+      "betrouwbare_nettowinst": null,
+      "geschatte_onvolledige_nettowinst": 23.58,
+      "profit_reliability": "incomplete",
       "nettowinst_pct": 76.06,
       "bol_order_id": "C0007DKH70",
       "bol_match_method": "identifier_or_sku_tag_source",
@@ -349,6 +392,7 @@
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
           "sku": "dc18rd3dts.shop",
+          "ean": "9504822112282",
           "quantity": 2,
           "product_sale_price": 11.95,
           "line_revenue": 23.9,
@@ -356,12 +400,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 23.9,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "dc18rd3dts.shop"
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
+        "product_cost_missing_or_zero",
+        "profit_incomplete",
         "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
@@ -392,6 +437,9 @@
       "bol_advertentiekosten": 0.46,
       "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
       "nettowinst": 5.19,
+      "betrouwbare_nettowinst": null,
+      "geschatte_onvolledige_nettowinst": 5.19,
+      "profit_reliability": "incomplete",
       "nettowinst_pct": 35.4,
       "bol_order_id": "C00077W384",
       "bol_match_method": "identifier_or_sku_tag_source",
@@ -403,6 +451,7 @@
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
           "sku": "Unifikant3DTS.shop",
+          "ean": "8721516390592",
           "quantity": 1,
           "product_sale_price": 14.66,
           "line_revenue": 14.66,
@@ -410,12 +459,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 14.66,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "Unifikant3DTS.shop"
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
+        "product_cost_missing_or_zero",
+        "profit_incomplete",
         "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
@@ -446,6 +496,9 @@
       "bol_advertentiekosten": 2.76,
       "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
       "nettowinst": 76.19,
+      "betrouwbare_nettowinst": null,
+      "geschatte_onvolledige_nettowinst": 76.19,
+      "profit_reliability": "incomplete",
       "nettowinst_pct": 86.38,
       "bol_order_id": "C000673CJH",
       "bol_match_method": "identifier_or_sku_tag_source",
@@ -457,6 +510,7 @@
         {
           "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
           "sku": "Unifidesk3DTS.Shop",
+          "ean": "8721516390073",
           "quantity": 6,
           "product_sale_price": 14.7,
           "line_revenue": 88.2,
@@ -464,12 +518,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 88.2,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "Unifidesk3DTS.Shop"
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
+        "product_cost_missing_or_zero",
+        "profit_incomplete",
         "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
@@ -500,6 +555,9 @@
       "bol_advertentiekosten": 0.58,
       "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
       "nettowinst": 9.02,
+      "betrouwbare_nettowinst": null,
+      "geschatte_onvolledige_nettowinst": 9.02,
+      "profit_reliability": "incomplete",
       "nettowinst_pct": 48.65,
       "bol_order_id": "C0007HWT86",
       "bol_match_method": "identifier_or_sku_tag_source",
@@ -511,6 +569,7 @@
         {
           "product_name": "Accuhouder Parkside 20V - 4-voudig",
           "sku": "629621091536_60CB",
+          "ean": "9504822112282",
           "quantity": 1,
           "product_sale_price": 18.54,
           "line_revenue": 18.54,
@@ -518,12 +577,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 18.54,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "629621091536_60CB"
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
+        "product_cost_missing_or_zero",
+        "profit_incomplete",
         "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
@@ -554,6 +614,9 @@
       "bol_advertentiekosten": 0.92,
       "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
       "nettowinst": 20.95,
+      "betrouwbare_nettowinst": null,
+      "geschatte_onvolledige_nettowinst": 20.95,
+      "profit_reliability": "incomplete",
       "nettowinst_pct": 71.45,
       "bol_order_id": "C0007C0W73",
       "bol_match_method": "identifier_or_sku_tag_source",
@@ -565,6 +628,7 @@
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
           "sku": "Unifikant3DTS.shop",
+          "ean": "8721516390592",
           "quantity": 2,
           "product_sale_price": 14.66,
           "line_revenue": 29.32,
@@ -572,12 +636,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 29.32,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "Unifikant3DTS.shop"
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
+        "product_cost_missing_or_zero",
+        "profit_incomplete",
         "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
@@ -608,6 +673,9 @@
       "bol_advertentiekosten": 0.54,
       "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
       "nettowinst": 8.12,
+      "betrouwbare_nettowinst": null,
+      "geschatte_onvolledige_nettowinst": 8.12,
+      "profit_reliability": "incomplete",
       "nettowinst_pct": 46.83,
       "bol_order_id": "C0007C97MC",
       "bol_match_method": "date_amount_country_product_fallback",
@@ -619,6 +687,7 @@
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
           "sku": "dc18rd3dts.shop",
+          "ean": "9509658425575",
           "quantity": 1,
           "product_sale_price": 17.34,
           "line_revenue": 17.34,
@@ -626,12 +695,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 17.34,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "dc18rd3dts.shop"
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
+        "product_cost_missing_or_zero",
+        "profit_incomplete",
         "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
@@ -664,6 +734,9 @@
       "bol_advertentiekosten": 0,
       "bol_advertentiekosten_methode": "none",
       "nettowinst": 12.82,
+      "betrouwbare_nettowinst": null,
+      "geschatte_onvolledige_nettowinst": 12.82,
+      "profit_reliability": "incomplete",
       "nettowinst_pct": 32.1,
       "bol_order_id": null,
       "bol_match_method": null,
@@ -673,6 +746,7 @@
         {
           "product_name": "Wandhouder Makita DC18RC Oplader",
           "sku": "dc18rc3dts.shop",
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 24.94,
           "line_revenue": 24.94,
@@ -680,12 +754,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 24.94,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "dc18rc3dts.shop"
         },
         {
           "product_name": "Etsy Standard Shipping",
           "sku": "ETSY-SHIPPING",
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 15,
           "line_revenue": 15,
@@ -693,12 +768,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 15,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "ETSY-SHIPPING"
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
+        "product_cost_missing_or_zero",
+        "profit_incomplete",
         "ad_cost_allocated_by_revenue_share"
       ]
     },
@@ -727,6 +803,9 @@
       "bol_advertentiekosten": 0,
       "bol_advertentiekosten_methode": "none",
       "nettowinst": 5.41,
+      "betrouwbare_nettowinst": null,
+      "geschatte_onvolledige_nettowinst": 5.41,
+      "profit_reliability": "incomplete",
       "nettowinst_pct": 37.05,
       "bol_order_id": null,
       "bol_match_method": null,
@@ -736,6 +815,7 @@
         {
           "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
           "sku": "cloudkeygen23DTS.SHOP",
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 9.95,
           "line_revenue": 9.95,
@@ -743,12 +823,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 9.95,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "cloudkeygen23DTS.SHOP"
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
+        "product_cost_missing_or_zero",
+        "profit_incomplete",
         "ad_cost_allocated_by_revenue_share"
       ]
     },
@@ -781,6 +862,9 @@
       "bol_advertentiekosten": 0.39,
       "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
       "nettowinst": 8.27,
+      "betrouwbare_nettowinst": null,
+      "geschatte_onvolledige_nettowinst": 8.27,
+      "profit_reliability": "incomplete",
       "nettowinst_pct": 66.91,
       "bol_order_id": null,
       "bol_match_method": null,
@@ -790,6 +874,7 @@
         {
           "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
           "sku": "Unifimountlite3DTS.shop",
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 12.36,
           "line_revenue": 12.36,
@@ -797,12 +882,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 12.36,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "Unifimountlite3DTS.shop"
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
+        "product_cost_missing_or_zero",
+        "profit_incomplete",
         "bol_ads_allocated_by_bol_revenue_share",
         "commission_missing_or_estimated",
         "bol_order_not_matched_but_shopify_source_is_bol"
@@ -835,6 +921,9 @@
       "bol_advertentiekosten": 1.16,
       "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
       "nettowinst": 23.71,
+      "betrouwbare_nettowinst": null,
+      "geschatte_onvolledige_nettowinst": 23.71,
+      "profit_reliability": "incomplete",
       "nettowinst_pct": 64.12,
       "bol_order_id": "C0007FK7L2",
       "bol_match_method": "identifier_or_sku_tag_source",
@@ -846,6 +935,7 @@
         {
           "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
           "sku": "Bosch4a-3DTS",
+          "ean": "9503425233318",
           "quantity": 2,
           "product_sale_price": 18.49,
           "line_revenue": 36.98,
@@ -853,12 +943,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 36.98,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "Bosch4a-3DTS"
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
+        "product_cost_missing_or_zero",
+        "profit_incomplete",
         "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
@@ -889,6 +980,9 @@
       "bol_advertentiekosten": 0.4,
       "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
       "nettowinst": 8.65,
+      "betrouwbare_nettowinst": null,
+      "geschatte_onvolledige_nettowinst": 8.65,
+      "profit_reliability": "incomplete",
       "nettowinst_pct": 67.84,
       "bol_order_id": null,
       "bol_match_method": null,
@@ -898,6 +992,7 @@
         {
           "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
           "sku": "584061623340_133C",
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 12.75,
           "line_revenue": 12.75,
@@ -905,12 +1000,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 12.75,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "584061623340_133C"
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
+        "product_cost_missing_or_zero",
+        "profit_incomplete",
         "bol_ads_allocated_by_bol_revenue_share",
         "commission_missing_or_estimated",
         "bol_order_not_matched_but_shopify_source_is_bol"
@@ -941,6 +1037,9 @@
       "bol_advertentiekosten": 0,
       "bol_advertentiekosten_methode": "none",
       "nettowinst": 3.06,
+      "betrouwbare_nettowinst": null,
+      "geschatte_onvolledige_nettowinst": 3.06,
+      "profit_reliability": "incomplete",
       "nettowinst_pct": 12.8,
       "bol_order_id": null,
       "bol_match_method": null,
@@ -950,6 +1049,7 @@
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
           "sku": "Unifikant3DTS.shop",
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 10.95,
           "line_revenue": 10.95,
@@ -957,12 +1057,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 10.95,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "Unifikant3DTS.shop"
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
+        "product_cost_missing_or_zero",
+        "profit_incomplete",
         "ad_cost_allocated_by_revenue_share"
       ]
     },
@@ -993,6 +1094,9 @@
       "bol_advertentiekosten": 0.39,
       "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
       "nettowinst": 8.27,
+      "betrouwbare_nettowinst": null,
+      "geschatte_onvolledige_nettowinst": 8.27,
+      "profit_reliability": "incomplete",
       "nettowinst_pct": 66.91,
       "bol_order_id": null,
       "bol_match_method": null,
@@ -1002,6 +1106,7 @@
         {
           "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
           "sku": "Unifimountlite3DTS.shop",
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 12.36,
           "line_revenue": 12.36,
@@ -1009,12 +1114,13 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 12.36,
           "margin_before_shipping_ads_pct": 100,
-          "cost_status": "missing",
-          "cost_match_key": null
+          "cost_status": "zero_cost",
+          "cost_match_key": "Unifimountlite3DTS.shop"
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
+        "product_cost_missing_or_zero",
+        "profit_incomplete",
         "bol_ads_allocated_by_bol_revenue_share",
         "commission_missing_or_estimated",
         "bol_order_not_matched_but_shopify_source_is_bol"
