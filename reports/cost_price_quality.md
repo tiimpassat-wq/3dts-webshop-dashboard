@@ -1,13 +1,13 @@
 # Kostprijs Kwaliteit
 
-Gegenereerd: 2026-06-27T13:15:56.003Z
+Gegenereerd: 2026-06-27T13:20:47.915Z
 
 ## Samenvatting
 
-- Verkochte unieke producten: 13
+- Verkochte unieke producten: 12
 - Verkochte producten met Shopify Cost per item: 10
 - Verkochte producten met product_costs.json fallback: 0
-- Verkochte producten zonder kostprijs: 3
+- Verkochte producten zonder kostprijs: 2
 - Shopify varianten met Cost per item in volledige productimport: 57
 - Fallback-producten met kostprijs in product_costs.json: 0
 
@@ -17,7 +17,6 @@ Gegenereerd: 2026-06-27T13:15:56.003Z
 | --- | --- | --- | --- | ---: | ---: |
 | missing | - | 8721516390677 | Wandhouder TP-Link EAP650 / EAP653 / EAP723 Access Point – PETG (hittebestendig) | EUR 0.00 | 3 |
 | missing | 629094928879_BD5D | 8721516390424 | HBM 20V Accuhouder – 2-voudig (Wandmontage) | EUR 0.00 | 2 |
-| missing | ETSY-SHIPPING | - | Etsy Standard Shipping | EUR 0.00 | 1 |
 | shopify_unit_cost | Unifidesk3DTS.Shop | 8721516390073 | UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint) | EUR 3.63 | 6 |
 | shopify_unit_cost | Unifikant3DTS.shop | 8721516390592 | UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite | EUR 4.30 | 5 |
 | shopify_unit_cost | dc18rd3dts.shop | 8721516390004 | Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation | EUR 4.30 | 5 |

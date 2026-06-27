@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T13:15:56.001Z",
+  "generated_at": "2026-06-27T13:20:47.911Z",
   "actions": [
     {
       "type": "product controleren",
@@ -13,13 +13,6 @@
       "priority": "high",
       "product_name": "HBM 20V Accuhouder – 2-voudig (Wandmontage)",
       "sku": "629094928879_BD5D",
-      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
-    },
-    {
-      "type": "product controleren",
-      "priority": "high",
-      "product_name": "Etsy Standard Shipping",
-      "sku": "ETSY-SHIPPING",
       "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
     },
     {

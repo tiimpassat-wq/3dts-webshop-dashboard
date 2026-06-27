@@ -10,6 +10,12 @@ const reportsDir = path.join(rootDir, "reports");
 const costWorkbookPath = path.join(rootDir, "config", "prijsberekening 2026.xlsx");
 const productCostsPath = path.join(rootDir, "config", "product_costs.json");
 const shippingRatesPath = path.join(rootDir, "config", "shipping_rates.json");
+const pseudoProductTerms = [
+  "etsy-shipping",
+  "shipping",
+  "verzendkosten",
+  "shipping line",
+];
 
 await mkdir(dataDir, { recursive: true });
 await mkdir(reportsDir, { recursive: true });
@@ -40,6 +46,7 @@ const last7 = await buildProfitPeriod({
 await writeMorningReport(daily, last7);
 await writeActionItems(daily, last7);
 await writeMissingProductCosts(daily, last7);
+await writeMissingShopifyCosts(daily, last7);
 await writeCostPriceQualityReport(daily, last7, shopifyCostIndex, productCostIndex);
 
 console.log(`profit_daily.json: ${daily.orders.length} orders, net EUR ${daily.totals.nettowinst.toFixed(2)}`);
@@ -82,11 +89,13 @@ async function buildProfitPeriod({ label, shopifyFile, googleAdsFile, bolEnriche
       ? money(totalBolAdsCost * (revenue / bolRevenue))
       : 0;
     const bolCommission = channelInfo.channel === "Bol via Shopify" ? money(bolMatch?.bol?.total_commission || 0) : 0;
-    const shippingPaid = money(order.shipping_paid_by_customer);
-    const actualShipping = estimateShippingCost(order, shippingRates);
     const lineItems = (order.line_items || []).map((item) => buildLineItemProfit(item, shopifyCostIndex, productCostIndex, bolMatch));
+    const pseudoShippingRevenue = money(lineItems.filter((item) => item.item_type === "shipping_revenue").reduce((sum, item) => sum + item.line_revenue, 0));
+    const shippingPaid = money(order.shipping_paid_by_customer + pseudoShippingRevenue);
+    const actualShipping = estimateShippingCost(order, shippingRates);
     const productCost = money(lineItems.reduce((sum, item) => sum + item.product_cost_total, 0));
-    const hasIncompleteProductCost = lineItems.some((item) => item.cost_status !== "matched" || item.product_cost_unit <= 0);
+    const productLineItems = lineItems.filter((item) => item.item_type === "product");
+    const hasIncompleteProductCost = productLineItems.some((item) => item.cost_status !== "matched" || item.product_cost_unit <= 0);
     const costCoverage = classifyCostCoverage(lineItems);
     const discount = money(order.discount);
     const grossProfit = money(revenue - actualShipping - productCost);
@@ -116,6 +125,7 @@ async function buildProfitPeriod({ label, shopifyFile, googleAdsFile, bolEnriche
       referring_site: order.referring_site || null,
       omzet: revenue,
       verzendkosten_betaald_door_klant: shippingPaid,
+      verzendopbrengst_uit_pseudo_producten: pseudoShippingRevenue,
       werkelijke_verzendkosten: actualShipping,
       productkostprijs: productCost,
       korting: discount,
@@ -181,6 +191,28 @@ function buildLineItemProfit(item, shopifyCostIndex, productCostIndex, bolMatch)
   const quantity = Number(item.quantity || 0);
   const unitRevenue = money(item.product_sale_price);
   const lineRevenue = money(unitRevenue * quantity);
+  const isPseudoProductLine = isPseudoProduct({ sku, productName });
+
+  if (isPseudoProductLine) {
+    return {
+      product_name: item.product_name,
+      variant_id: item.variant_id || null,
+      sku: item.sku || null,
+      ean: ean || null,
+      quantity,
+      item_type: "shipping_revenue",
+      product_sale_price: unitRevenue,
+      line_revenue: lineRevenue,
+      product_cost_unit: 0,
+      product_cost_total: 0,
+      gross_profit_before_shipping_ads: lineRevenue,
+      margin_before_shipping_ads_pct: null,
+      cost_source: "not_required_shipping_revenue",
+      cost_status: "not_required",
+      cost_match_key: "pseudo_product_exclusion",
+    };
+  }
+
   const shopifyMatch = shopifyCostIndex.byVariantId.get(variantId)
     || shopifyCostIndex.bySku.get(sku)
     || shopifyCostIndex.byEan.get(ean)
@@ -201,6 +233,7 @@ function buildLineItemProfit(item, shopifyCostIndex, productCostIndex, bolMatch)
     sku: item.sku || null,
     ean: ean || null,
     quantity,
+    item_type: "product",
     product_sale_price: unitRevenue,
     line_revenue: lineRevenue,
     product_cost_unit: unitCost,
@@ -214,10 +247,16 @@ function buildLineItemProfit(item, shopifyCostIndex, productCostIndex, bolMatch)
 }
 
 function classifyCostCoverage(lineItems) {
-  if (!lineItems.length) return "missing";
-  if (lineItems.some((item) => item.cost_status !== "matched" || item.product_cost_unit <= 0)) return "missing";
-  if (lineItems.every((item) => item.cost_source === "shopify_unit_cost")) return "shopify";
+  const productLineItems = lineItems.filter((item) => item.item_type === "product");
+  if (!productLineItems.length) return "not_required";
+  if (productLineItems.some((item) => item.cost_status !== "matched" || item.product_cost_unit <= 0)) return "missing";
+  if (productLineItems.every((item) => item.cost_source === "shopify_unit_cost")) return "shopify";
   return "fallback";
+}
+
+function isPseudoProduct({ sku, productName }) {
+  const text = normalizeKey(`${sku || ""} ${productName || ""}`).replace(/[_\s]+/g, "-");
+  return pseudoProductTerms.some((term) => text.includes(normalizeKey(term).replace(/[_\s]+/g, "-")));
 }
 
 function findBolEanForShopifyItem(item, bolMatch) {
@@ -346,6 +385,11 @@ function summarizeProfitOrders(orders, totalAdCost, googleAds, totalBolAdsCost, 
   }
   totals.nettowinst_pct = totals.omzet > 0 ? roundPercent(totals.nettowinst / totals.omzet) : null;
   totals.betrouwbare_nettowinst_pct = totals.omzet > 0 ? roundPercent(totals.betrouwbare_nettowinst / totals.omzet) : null;
+  totals.betrouwbare_orders_pct = totals.orders > 0 ? roundPercent(totals.betrouwbare_orders / totals.orders) : null;
+  totals.betrouwbare_winst_pct = totals.nettowinst !== 0 ? roundPercent(totals.betrouwbare_nettowinst / totals.nettowinst) : null;
+  totals.winst_betrouwbaarheid = totals.orders > 0 && (totals.orders_met_shopify_kostprijs / totals.orders) > 0.95
+    ? "betrouwbaar"
+    : "gedeeltelijk betrouwbaar";
   totals.gemiddelde_winst_per_order = totals.orders > 0 ? money(totals.nettowinst / totals.orders) : 0;
   totals.google_ads_cost_total = money(totalAdCost);
   totals.google_ads_unallocated = money(Math.max(0, totalAdCost - totals.advertentiekosten));
@@ -528,7 +572,7 @@ async function writeMorningReport(daily, last7) {
   const dataQualityWarnings = [
     ...daily.warnings,
     ...last7.warnings,
-    ...(last7.totals.onvolledige_orders > 0 ? [`Productkosten ontbreken voor ${last7.totals.onvolledige_orders} orders; zie reports/missing_product_costs.md.`] : []),
+    ...(last7.totals.onvolledige_orders > 0 ? [`Shopify Cost per item ontbreekt voor ${last7.totals.onvolledige_orders} orders; zie reports/missing_shopify_costs.md.`] : []),
   ];
 
   const lines = [
@@ -547,6 +591,7 @@ async function writeMorningReport(daily, last7) {
     `- Orders met Shopify kostprijs gisteren: ${daily.totals.orders_met_shopify_kostprijs}`,
     `- Orders met fallback kostprijs gisteren: ${daily.totals.orders_met_fallback_kostprijs}`,
     `- Orders met ontbrekende kostprijs gisteren: ${daily.totals.onvolledige_orders}`,
+    `- Winststatus gisteren: ${daily.totals.winst_betrouwbaarheid}`,
     `- Gemiddelde winst per order: EUR ${daily.totals.gemiddelde_winst_per_order.toFixed(2)}`,
     "",
     "## Top 5 winstgevende producten (indicatief)",
@@ -589,6 +634,14 @@ async function writeMorningReport(daily, last7) {
     "",
     "## Datakwaliteit",
     "",
+    `- Shopify producten met Cost per item: ${last7.cost_lookup.shopify_with_unit_cost}`,
+    `- Shopify producten zonder Cost per item: ${Math.max(0, last7.cost_lookup.shopify_entries - last7.cost_lookup.shopify_with_unit_cost)}`,
+    `- Percentage betrouwbare orders gisteren: ${daily.totals.betrouwbare_orders_pct ?? "onbekend"}%`,
+    `- Percentage betrouwbare winst gisteren: ${daily.totals.betrouwbare_winst_pct ?? "onbekend"}%`,
+    `- Winststatus gisteren: ${daily.totals.winst_betrouwbaarheid}`,
+    `- Percentage betrouwbare orders laatste 7 dagen: ${last7.totals.betrouwbare_orders_pct ?? "onbekend"}%`,
+    `- Percentage betrouwbare winst laatste 7 dagen: ${last7.totals.betrouwbare_winst_pct ?? "onbekend"}%`,
+    `- Winststatus laatste 7 dagen: ${last7.totals.winst_betrouwbaarheid}`,
     ...(dataQualityWarnings.length ? dataQualityWarnings.map((warning) => `- ${warning}`) : ["- Geen waarschuwingen."]),
   ];
 
@@ -599,6 +652,7 @@ async function writeCostPriceQualityReport(daily, last7, shopifyCostIndex, produ
   const soldProducts = new Map();
   for (const order of [...daily.orders, ...last7.orders]) {
     for (const item of order.line_items || []) {
+      if (item.item_type !== "product") continue;
       const key = normalizeKey(item.variant_id || item.sku || item.ean || item.product_name);
       const current = soldProducts.get(key) || {
         variant_id: item.variant_id || "",
@@ -675,6 +729,7 @@ async function writeActionItems(daily, last7) {
   const actions = [];
   for (const order of [...daily.orders, ...last7.orders]) {
     for (const item of order.line_items) {
+      if (item.item_type !== "product") continue;
       if (item.cost_status !== "matched") {
         actions.push({
           type: "product controleren",
@@ -765,6 +820,7 @@ async function writeMissingProductCosts(daily, last7) {
   const missing = new Map();
   for (const order of [...daily.orders, ...last7.orders]) {
     for (const item of order.line_items || []) {
+      if (item.item_type !== "product") continue;
       if (item.cost_status === "matched" && item.product_cost_unit > 0) continue;
       const key = normalizeKey(item.sku || item.ean || item.product_name);
       const current = missing.get(key) || {
@@ -814,10 +870,66 @@ async function writeMissingProductCosts(daily, last7) {
   await writeFile(path.join(reportsDir, "missing_product_costs.md"), `${lines.join("\n")}\n`, "utf8");
 }
 
+async function writeMissingShopifyCosts(daily, last7) {
+  const missing = new Map();
+  for (const order of [...daily.orders, ...last7.orders]) {
+    for (const item of order.line_items || []) {
+      if (item.item_type !== "product") continue;
+      if (item.cost_source === "shopify_unit_cost" && item.product_cost_unit > 0) continue;
+      const key = normalizeKey(item.variant_id || item.sku || item.ean || item.product_name);
+      const current = missing.get(key) || {
+        sku: item.sku || "",
+        ean: item.ean || "",
+        product_name: item.product_name || "",
+        quantity_sold: 0,
+        revenue: 0,
+        orders: new Set(),
+        current_cost_source: item.cost_source || "missing",
+        cost_status: item.cost_status,
+      };
+      if (!current.ean && item.ean) current.ean = item.ean;
+      if (!current.sku && item.sku) current.sku = item.sku;
+      current.quantity_sold += Number(item.quantity || 0);
+      current.revenue += Number(item.line_revenue || 0);
+      current.orders.add(order.order_number);
+      missing.set(key, current);
+    }
+  }
+
+  const rows = [...missing.values()]
+    .map((item) => ({
+      ...item,
+      revenue: money(item.revenue),
+      orders: [...item.orders],
+    }))
+    .sort((a, b) => b.revenue - a.revenue);
+
+  const lines = [
+    "# Ontbrekende Shopify Cost per item",
+    "",
+    `Gegenereerd: ${new Date().toISOString()}`,
+    "",
+    "Alleen echte verkoopproducten staan hier. Pseudo-producten zoals verzendregels worden genegeerd.",
+    "",
+    "| SKU | EAN | Product | Aantal | Omzet | Huidige bron | Status | Orders |",
+    "| --- | --- | --- | ---: | ---: | --- | --- | --- |",
+    ...rows.map((item) => (
+      `| ${escapeMarkdownTable(item.sku || "-")} | ${escapeMarkdownTable(item.ean || "-")} | ${escapeMarkdownTable(item.product_name || "-")} | ${item.quantity_sold} | EUR ${item.revenue.toFixed(2)} | ${escapeMarkdownTable(item.current_cost_source)} | ${item.cost_status} | ${escapeMarkdownTable(item.orders.join(", "))} |`
+    )),
+  ];
+
+  if (!rows.length) {
+    lines.push("", "Geen echte verkoopproducten zonder Shopify Cost per item gevonden.");
+  }
+
+  await writeFile(path.join(reportsDir, "missing_shopify_costs.md"), `${lines.join("\n")}\n`, "utf8");
+}
+
 function productPerformance(orders) {
   const byKey = new Map();
   for (const order of orders) {
     for (const item of order.line_items) {
+      if (item.item_type !== "product") continue;
       const key = normalizeKey(item.sku || item.product_name);
       const current = byKey.get(key) || {
         product_name: item.product_name,

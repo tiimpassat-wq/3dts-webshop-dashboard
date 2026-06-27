@@ -1,6 +1,6 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-06-27T13:15:56.000Z
+Gegenereerd: 2026-06-27T13:20:47.910Z
 
 ## Samenvatting gisteren
 
@@ -13,6 +13,7 @@ Gegenereerd: 2026-06-27T13:15:56.000Z
 - Orders met Shopify kostprijs gisteren: 3
 - Orders met fallback kostprijs gisteren: 0
 - Orders met ontbrekende kostprijs gisteren: 0
+- Winststatus gisteren: betrouwbaar
 - Gemiddelde winst per order: EUR 5.47
 
 ## Top 5 winstgevende producten (indicatief)
@@ -33,8 +34,8 @@ Gegenereerd: 2026-06-27T13:15:56.000Z
 - Google Ads ROAS gisteren: 0
 - Laatste 7 dagen omzet: EUR 468.81
 - Laatste 7 dagen Google Ads kosten: EUR 29.50
-- Laatste 7 dagen betrouwbare nettowinst: EUR 126.99
-- Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 70.62
+- Laatste 7 dagen betrouwbare nettowinst: EUR 144.98
+- Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 52.63
 
 ## Bol.com
 
@@ -60,4 +61,12 @@ Gegenereerd: 2026-06-27T13:15:56.000Z
 
 ## Datakwaliteit
 
-- Productkosten ontbreken voor 3 orders; zie reports/missing_product_costs.md.
+- Shopify producten met Cost per item: 57
+- Shopify producten zonder Cost per item: 19
+- Percentage betrouwbare orders gisteren: 100%
+- Percentage betrouwbare winst gisteren: 100%
+- Winststatus gisteren: betrouwbaar
+- Percentage betrouwbare orders laatste 7 dagen: 88.24%
+- Percentage betrouwbare winst laatste 7 dagen: 73.37%
+- Winststatus laatste 7 dagen: gedeeltelijk betrouwbaar
+- Shopify Cost per item ontbreekt voor 2 orders; zie reports/missing_shopify_costs.md.
