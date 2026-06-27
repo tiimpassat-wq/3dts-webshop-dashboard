@@ -1,18 +1,18 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-06-27T12:26:49.564Z
+Gegenereerd: 2026-06-27T12:29:32.182Z
 
 ## Samenvatting gisteren
 
 - Omzet gisteren: EUR 49.01
-- Nettowinst gisteren: EUR 27.73
+- Nettowinst gisteren: EUR 26.86
 - Orders gisteren: 3
-- Gemiddelde winst per order: EUR 9.24
+- Gemiddelde winst per order: EUR 8.95
 
 ## Top 5 winstgevende producten
 
-- Montagebeugel passend voor UniFi UAP AC Pro (584061623340_133C): EUR 9.05 nettowinst, 70.98% marge
 - Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite (Unifimountlite3DTS.shop): EUR 8.66 nettowinst, 70.06% marge
+- Montagebeugel passend voor UniFi UAP AC Pro (584061623340_133C): EUR 8.18 nettowinst, 64.16% marge
 - UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite (Unifikant3DTS.shop): EUR 4.59 nettowinst, 41.92% marge
 
 ## Producten met lage marge
@@ -27,21 +27,21 @@ Gegenereerd: 2026-06-27T12:26:49.564Z
 - Google Ads ROAS gisteren: 0
 - Laatste 7 dagen omzet: EUR 468.81
 - Laatste 7 dagen Google Ads kosten: EUR 29.50
-- Laatste 7 dagen nettowinst: EUR 335.29
+- Laatste 7 dagen nettowinst: EUR 307.63
 
 ## Bol.com
 
 - Bol omzet gisteren: EUR 25.11
-- Bol winst gisteren: EUR 17.71
-- Bol commissie gisteren: EUR 0.00
+- Bol winst gisteren: EUR 16.84
+- Bol commissie gisteren: EUR 0.87
 - Bol Ads kosten gisteren: EUR 0.00
-- Winst na Bol Ads gisteren: EUR 17.71
-- Bol omzet laatste 7 dagen: EUR 271.80
-- Bol winst laatste 7 dagen: EUR 212.23
-- Bol commissie laatste 7 dagen: EUR 0.00
+- Winst na Bol Ads gisteren: EUR 16.84
+- Bol omzet laatste 7 dagen: EUR 390.37
+- Bol winst laatste 7 dagen: EUR 286.34
+- Bol commissie laatste 7 dagen: EUR 27.66
 - Bol Ads kosten laatste 7 dagen: EUR 0.00
 - Bol Ads ROAS laatste 7 dagen: onbekend
-- Bol orders gematcht laatste 7 dagen: 0
+- Bol orders gematcht laatste 7 dagen: 11
 - Bol orders niet in Shopify gevonden laatste 7 dagen: 0
 
 ## AI-adviezen
@@ -53,8 +53,6 @@ Gegenereerd: 2026-06-27T12:26:49.564Z
 
 ## Datakwaliteit
 
-- Missing BOL_CLIENT_ID or BOL_CLIENT_SECRET; bol enrichment skipped.
-- Missing BOL_CLIENT_ID or BOL_CLIENT_SECRET; bol ads skipped.
-- Missing BOL_CLIENT_ID or BOL_CLIENT_SECRET; bol enrichment skipped.
-- Missing BOL_CLIENT_ID or BOL_CLIENT_SECRET; bol ads skipped.
+- Bol Advertising API unavailable or not authorized: 406: {"type":"https://api.bol.com/problems","title":"Not Acceptable","status":406,"detail":"Accept headers are required (e.g. 'application/vnd.retailer.{version}+json'). No wildcards allowed i.e. '*/*', 'application/*', '*/json'.","host":"Instance-6967562","instance":"https://api.bol.com/advertiser/sponsored-products/reporting/performance/advertiser?period-start-date=2026-06-26&period-end-date=2026-06-26","X-Request-ID":"019f090e5270712b9b9d3e3e1c85e43d"}
+- Bol Advertising API unavailable or not authorized: 406: {"type":"https://api.bol.com/problems","title":"Not Acceptable","status":406,"detail":"Accept headers are required (e.g. 'application/vnd.retailer.{version}+json'). No wildcards allowed i.e. '*/*', 'application/*', '*/json'.","host":"Instance-696756228","instance":"https://api.bol.com/advertiser/sponsored-products/reporting/performance/advertiser?period-start-date=2026-06-21&period-end-date=2026-06-27","X-Request-ID":"019f090e7aba778c937dcceeb5ebf7ce"}
 

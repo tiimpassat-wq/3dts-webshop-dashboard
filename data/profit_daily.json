@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:26:49.559Z",
+  "generated_at": "2026-06-27T12:29:32.178Z",
   "period": "daily",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
@@ -8,8 +8,7 @@
     "bol_ads": "bol_ads_daily.json"
   },
   "warnings": [
-    "Missing BOL_CLIENT_ID or BOL_CLIENT_SECRET; bol enrichment skipped.",
-    "Missing BOL_CLIENT_ID or BOL_CLIENT_SECRET; bol ads skipped."
+    "Bol Advertising API unavailable or not authorized: 406: {\"type\":\"https://api.bol.com/problems\",\"title\":\"Not Acceptable\",\"status\":406,\"detail\":\"Accept headers are required (e.g. 'application/vnd.retailer.{version}+json'). No wildcards allowed i.e. '*/*', 'application/*', '*/json'.\",\"host\":\"Instance-6967562\",\"instance\":\"https://api.bol.com/advertiser/sponsored-products/reporting/performance/advertiser?period-start-date=2026-06-26&period-end-date=2026-06-26\",\"X-Request-ID\":\"019f090e5270712b9b9d3e3e1c85e43d\"}"
   ],
   "cost_lookup": {
     "entries": 1,
@@ -23,12 +22,12 @@
     "werkelijke_verzendkosten": 19.25,
     "productkostprijs": 0,
     "bruto_winst": 29.76,
-    "bol_commissie": 0,
+    "bol_commissie": 0.87,
     "advertentiekosten": 2.03,
     "bol_advertentiekosten": 0,
-    "nettowinst": 27.73,
-    "nettowinst_pct": 56.58,
-    "gemiddelde_winst_per_order": 9.24,
+    "nettowinst": 26.86,
+    "nettowinst_pct": 54.81,
+    "gemiddelde_winst_per_order": 8.95,
     "google_ads_cost_total": 2.03,
     "google_ads_unallocated": 0,
     "google_ads_roas": 0,
@@ -43,11 +42,11 @@
       "omzet": 25.11,
       "werkelijke_verzendkosten": 7.4,
       "productkostprijs": 0,
-      "bol_commissie": 0,
+      "bol_commissie": 0.87,
       "advertentiekosten": 0,
       "bol_advertentiekosten": 0,
-      "nettowinst": 17.71,
-      "nettowinst_pct": 70.53
+      "nettowinst": 16.84,
+      "nettowinst_pct": 67.06
     },
     "Shopify direct": {
       "orders": 1,
@@ -62,7 +61,7 @@
     }
   },
   "bol": {
-    "matched_orders": 0,
+    "matched_orders": 1,
     "missing_in_shopify": 0,
     "ads_supported": false
   },
@@ -72,7 +71,7 @@
       "date": "2026-06-26T13:00:49Z",
       "channel_source": "bol",
       "channel": "Bol via Shopify",
-      "channel_reason": "shopify_source_or_tag_is_bol",
+      "channel_reason": "matched_bol_retailer_api",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "tags": [
@@ -88,17 +87,19 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 9.05,
-      "bol_commissie": 0,
+      "bol_commissie": 0.87,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
       "bol_advertentiekosten": 0,
       "bol_advertentiekosten_methode": "none",
-      "nettowinst": 9.05,
-      "nettowinst_pct": 70.98,
-      "bol_order_id": null,
-      "bol_match_method": null,
-      "bol_match_confidence": null,
-      "eans": [],
+      "nettowinst": 8.18,
+      "nettowinst_pct": 64.16,
+      "bol_order_id": "C0007HD15W",
+      "bol_match_method": "identifier_or_sku_tag_source",
+      "bol_match_confidence": 0.95,
+      "eans": [
+        "9504237317951"
+      ],
       "line_items": [
         {
           "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
@@ -115,9 +116,7 @@
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated",
-        "commission_missing_or_estimated",
-        "bol_order_not_matched_but_shopify_source_is_bol"
+        "product_cost_missing_or_estimated"
       ]
     },
     {

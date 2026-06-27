@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:26:49.289Z",
+  "generated_at": "2026-06-27T12:29:20.673Z",
   "period": "daily",
   "date_from": "2026-06-26",
   "date_to_exclusive": "2026-06-27",
@@ -8,15 +8,58 @@
     "bol_raw": "bol_orders_raw_daily.json"
   },
   "summary": {
-    "bol_orders": 0,
-    "matched_orders": 0,
+    "bol_orders": 1,
+    "matched_orders": 1,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 0,
-    "total_bol_commission": 0
+    "total_bol_revenue": 12.75,
+    "total_bol_commission": 0.87
   },
-  "warnings": [
-    "Missing BOL_CLIENT_ID or BOL_CLIENT_SECRET; bol enrichment skipped."
+  "warnings": [],
+  "matches": [
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1658",
+      "shopify_order_date": "2026-06-26T13:00:49Z",
+      "shopify_total_order_amount": 12.75,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0007HD15W",
+        "order_placed_at": "2026-06-26T14:56:05+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 12.75,
+        "total_commission": 0.87,
+        "eans": [
+          "9504237317951"
+        ],
+        "offer_references": [
+          "3DTS"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3948111700",
+            "ean": "9504237317951",
+            "product_name": "Plafondbeugel voor acces point - geschikt voor Unifi UAP AC PRO - Vervangende Montage beugel",
+            "offer_id": "54695faf-5d5f-49a6-b90c-b54e515e1fc3",
+            "offer_reference": "3DTS",
+            "sku": "3DTS",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 12.75,
+            "total_price": 12.75,
+            "commission": 0.87,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": true,
+            "latest_changed_at": "2026-06-26T17:19:52+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    }
   ],
-  "matches": [],
   "unmatched_bol_orders": []
 }
