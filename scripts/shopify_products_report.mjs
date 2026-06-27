@@ -159,7 +159,14 @@ function money(value) {
 }
 
 function safeError(error) {
-  return String(error?.message || error).replace(accessToken || "NO_TOKEN", "[redacted]");
+  const message = String(error?.message || error).replace(accessToken || "NO_TOKEN", "[redacted]");
+  if (message.includes("Access denied for productVariants field")) {
+    return "Access denied for productVariants field. Add Shopify Admin API scopes read_products and read_inventory, reinstall the custom app, and update SHOPIFY_ADMIN_ACCESS_TOKEN in GitHub Secrets.";
+  }
+  if (message.includes("Access denied") && message.includes("unitCost")) {
+    return "Access denied for inventoryItem.unitCost. Add Shopify Admin API scope read_inventory, reinstall the custom app, and update SHOPIFY_ADMIN_ACCESS_TOKEN in GitHub Secrets.";
+  }
+  return message;
 }
 
 async function writeJson(filePath, value) {
