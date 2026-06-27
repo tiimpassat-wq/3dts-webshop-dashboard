@@ -10,6 +10,8 @@ const retailerBaseUrl = "https://api.bol.com/retailer";
 const advertiserBaseUrl = "https://api.bol.com/advertiser/sponsored-products/reporting";
 const clientId = process.env.BOL_CLIENT_ID;
 const clientSecret = process.env.BOL_CLIENT_SECRET;
+const adsClientId = process.env.BOL_ADS_CLIENT_ID || clientId;
+const adsClientSecret = process.env.BOL_ADS_CLIENT_SECRET || clientSecret;
 
 await mkdir(dataDir, { recursive: true });
 
@@ -55,7 +57,7 @@ async function fetchBolOrdersPayload(range) {
   }
 
   try {
-    const token = await getBolAccessToken();
+    const token = await getBolAccessToken(clientId, clientSecret);
     const summaries = await fetchBolOrderSummaries(token, range);
     const details = [];
     for (const summary of summaries) {
@@ -100,15 +102,15 @@ async function fetchBolAdsPayload(range) {
     warnings: [],
   };
 
-  if (!clientId || !clientSecret) {
+  if (!adsClientId || !adsClientSecret) {
     return {
       ...basePayload,
-      warnings: ["Missing BOL_CLIENT_ID or BOL_CLIENT_SECRET; bol ads skipped."],
+      warnings: ["Missing BOL_ADS_CLIENT_ID/BOL_ADS_CLIENT_SECRET or BOL_CLIENT_ID/BOL_CLIENT_SECRET; bol ads skipped."],
     };
   }
 
   try {
-    const token = await getBolAccessToken();
+    const token = await getBolAccessToken(adsClientId, adsClientSecret);
     const params = new URLSearchParams({
       "period-start-date": range.from,
       "period-end-date": range.toInclusive,
@@ -160,8 +162,8 @@ async function fetchBolOrderDetail(token, orderId) {
   return bolFetchJson(`${retailerBaseUrl}/orders/${encodeURIComponent(orderId)}`, token);
 }
 
-async function getBolAccessToken() {
-  const credentials = Buffer.from(`${clientId}:${clientSecret}`, "utf8").toString("base64");
+async function getBolAccessToken(id, secret) {
+  const credentials = Buffer.from(`${id}:${secret}`, "utf8").toString("base64");
   const response = await fetch("https://login.bol.com/token?grant_type=client_credentials", {
     method: "POST",
     headers: {
@@ -485,5 +487,7 @@ function nullableMoney(value, hasValue) {
 }
 
 function safeError(error) {
-  return String(error?.message || error).replace(clientSecret || "NO_SECRET", "[redacted]");
+  return String(error?.message || error)
+    .replace(clientSecret || "NO_SECRET", "[redacted]")
+    .replace(adsClientSecret || "NO_ADS_SECRET", "[redacted]");
 }

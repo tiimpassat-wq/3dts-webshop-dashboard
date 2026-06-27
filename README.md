@@ -63,6 +63,8 @@ SHOPIFY_ADMIN_ACCESS_TOKEN=
 
 BOL_CLIENT_ID=
 BOL_CLIENT_SECRET=
+BOL_ADS_CLIENT_ID=
+BOL_ADS_CLIENT_SECRET=
 ```
 
 Zet echte tokens nooit in GitHub. Gebruik lokaal `.env` en in GitHub Actions alleen repository secrets.
@@ -83,6 +85,8 @@ Zet hiervoor in GitHub bij `Settings -> Secrets and variables -> Actions` deze s
 - `SHOPIFY_ADMIN_ACCESS_TOKEN`
 - `BOL_CLIENT_ID`
 - `BOL_CLIENT_SECRET`
+- `BOL_ADS_CLIENT_ID`
+- `BOL_ADS_CLIENT_SECRET`
 
 ## Shopify orders
 
@@ -166,7 +170,12 @@ Benodigd:
 - `BOL_CLIENT_ID`
 - `BOL_CLIENT_SECRET`
 
-De Advertising API gebruikt dezelfde tokenflow, maar kan aparte bol Advertising API rechten vereisen. Als de API geen toegang geeft, schrijft het script `supported: false` en blijft de rest van het dashboard draaien.
+Voor Bol Ads kan een aparte Advertising API credential nodig zijn:
+
+- `BOL_ADS_CLIENT_ID`
+- `BOL_ADS_CLIENT_SECRET`
+
+Als deze ontbreken, probeert het script de gewone bol credentials. Als de API geen advertiser-rechten geeft, schrijft het script `supported: false` en blijft de rest van het dashboard draaien.
 
 ### Moneybird
 
