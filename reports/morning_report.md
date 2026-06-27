@@ -1,6 +1,6 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-06-27T12:29:32.182Z
+Gegenereerd: 2026-06-27T12:31:09.490Z
 
 ## Samenvatting gisteren
 
@@ -53,6 +53,6 @@ Gegenereerd: 2026-06-27T12:29:32.182Z
 
 ## Datakwaliteit
 
-- Bol Advertising API unavailable or not authorized: 406: {"type":"https://api.bol.com/problems","title":"Not Acceptable","status":406,"detail":"Accept headers are required (e.g. 'application/vnd.retailer.{version}+json'). No wildcards allowed i.e. '*/*', 'application/*', '*/json'.","host":"Instance-6967562","instance":"https://api.bol.com/advertiser/sponsored-products/reporting/performance/advertiser?period-start-date=2026-06-26&period-end-date=2026-06-26","X-Request-ID":"019f090e5270712b9b9d3e3e1c85e43d"}
-- Bol Advertising API unavailable or not authorized: 406: {"type":"https://api.bol.com/problems","title":"Not Acceptable","status":406,"detail":"Accept headers are required (e.g. 'application/vnd.retailer.{version}+json'). No wildcards allowed i.e. '*/*', 'application/*', '*/json'.","host":"Instance-696756228","instance":"https://api.bol.com/advertiser/sponsored-products/reporting/performance/advertiser?period-start-date=2026-06-21&period-end-date=2026-06-27","X-Request-ID":"019f090e7aba778c937dcceeb5ebf7ce"}
+- Bol Advertising API unavailable or not authorized: 400: {"type":"https://api.bol.com/problems","title":"Bad Request","status":400,"detail":"The supplied accept header media type is not supported.","host":"Instance-696756228","instance":"https://api.bol.com/advertiser/sponsored-products/reporting/performance/advertiser?period-start-date=2026-06-26&period-end-date=2026-06-26","X-Request-ID":"019f090fcde07bebaad9ec93d5cb7ad2"}
+- Bol Advertising API unavailable or not authorized: 400: {"type":"https://api.bol.com/problems","title":"Bad Request","status":400,"detail":"The supplied accept header media type is not supported.","host":"Instance-6967568","instance":"https://api.bol.com/advertiser/sponsored-products/reporting/performance/advertiser?period-start-date=2026-06-21&period-end-date=2026-06-27","X-Request-ID":"019f090ff71d76478566300ec4550fec"}
 

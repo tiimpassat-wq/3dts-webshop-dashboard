@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:29:32.178Z",
+  "generated_at": "2026-06-27T12:31:09.486Z",
   "period": "daily",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
@@ -8,7 +8,7 @@
     "bol_ads": "bol_ads_daily.json"
   },
   "warnings": [
-    "Bol Advertising API unavailable or not authorized: 406: {\"type\":\"https://api.bol.com/problems\",\"title\":\"Not Acceptable\",\"status\":406,\"detail\":\"Accept headers are required (e.g. 'application/vnd.retailer.{version}+json'). No wildcards allowed i.e. '*/*', 'application/*', '*/json'.\",\"host\":\"Instance-6967562\",\"instance\":\"https://api.bol.com/advertiser/sponsored-products/reporting/performance/advertiser?period-start-date=2026-06-26&period-end-date=2026-06-26\",\"X-Request-ID\":\"019f090e5270712b9b9d3e3e1c85e43d\"}"
+    "Bol Advertising API unavailable or not authorized: 400: {\"type\":\"https://api.bol.com/problems\",\"title\":\"Bad Request\",\"status\":400,\"detail\":\"The supplied accept header media type is not supported.\",\"host\":\"Instance-696756228\",\"instance\":\"https://api.bol.com/advertiser/sponsored-products/reporting/performance/advertiser?period-start-date=2026-06-26&period-end-date=2026-06-26\",\"X-Request-ID\":\"019f090fcde07bebaad9ec93d5cb7ad2\"}"
   ],
   "cost_lookup": {
     "entries": 1,
