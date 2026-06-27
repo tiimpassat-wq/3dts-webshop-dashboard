@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:35:48.213Z",
+  "generated_at": "2026-06-27T12:45:31.077Z",
   "period": "daily",
   "date_from": "2026-06-26",
   "date_to_exclusive": "2026-06-27",
@@ -18,8 +18,8 @@
   "matches": [
     {
       "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
+      "match_method": "date_amount_country_product_fallback",
+      "confidence": 0.9,
       "shopify_order_number": "#3dts1658",
       "shopify_order_date": "2026-06-26T13:00:49Z",
       "shopify_total_order_amount": 12.75,

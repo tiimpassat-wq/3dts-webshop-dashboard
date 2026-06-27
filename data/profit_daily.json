@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:44:27.423Z",
+  "generated_at": "2026-06-27T12:45:37.924Z",
   "period": "daily",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
@@ -110,8 +110,8 @@
       "profit_reliability": "incomplete",
       "nettowinst_pct": 62.27,
       "bol_order_id": "C0007HD15W",
-      "bol_match_method": "identifier_or_sku_tag_source",
-      "bol_match_confidence": 0.95,
+      "bol_match_method": "date_amount_country_product_fallback",
+      "bol_match_confidence": 0.9,
       "eans": [
         "9504237317951"
       ],

@@ -1,6 +1,6 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-06-27T12:44:27.429Z
+Gegenereerd: 2026-06-27T12:45:37.928Z
 
 ## Samenvatting gisteren
 
@@ -41,8 +41,8 @@ Gegenereerd: 2026-06-27T12:44:27.429Z
 - Bol commissie gisteren: EUR 0.87
 - Bol Ads kosten gisteren: EUR 0.48
 - Winst na Bol Ads gisteren: EUR 16.36
-- Bol omzet laatste 7 dagen: EUR 390.37
-- Bol winst laatste 7 dagen: EUR 274.11
+- Bol omzet laatste 7 dagen: EUR 271.80
+- Bol winst laatste 7 dagen: EUR 172.34
 - Bol commissie laatste 7 dagen: EUR 27.66
 - Bol Ads kosten laatste 7 dagen: EUR 12.23
 - Bol Ads ROAS laatste 7 dagen: 0.8618
@@ -54,7 +54,6 @@ Gegenereerd: 2026-06-27T12:44:27.429Z
 - Google Ads geeft minder conversiewaarde terug dan advertentiekosten; controleer tracking en pauzeer verliesgevende campagnes tijdelijk.
 - Vul config/product_costs.json met echte SKU/EAN-kostprijzen; onvolledige orders tellen nu niet mee als betrouwbare winst.
 - Verzendkosten liggen hoger dan wat klanten betalen; verhoog gratis-verzending drempel of bundel producten.
-- Voor sommige bol-orders ontbreekt commissie; voeg EAN/referentie goed toe of controleer bol Retailer API toegang.
 - Bol Sponsored Products kost relatief veel; verlaag biedingen of pauzeer campagnes met lage marge.
 
 ## Datakwaliteit
