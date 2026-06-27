@@ -14,7 +14,19 @@ if (!shopDomain) throw new Error("Missing SHOPIFY_SHOP_DOMAIN");
 if (!accessToken) throw new Error("Missing SHOPIFY_ADMIN_ACCESS_TOKEN");
 
 const ranges = buildRanges();
-const ordersQuery = `
+const queryWarnings = [];
+const ordersQuery = buildOrdersQuery({ includeVariantFields: true });
+const ordersQueryWithoutVariants = buildOrdersQuery({ includeVariantFields: false });
+
+function buildOrdersQuery({ includeVariantFields }) {
+  const variantFields = includeVariantFields
+    ? `variant {
+              id
+              barcode
+            }`
+    : "";
+
+  return `
   query OrdersReport($query: String!, $cursor: String) {
     orders(first: 100, after: $cursor, query: $query, sortKey: CREATED_AT) {
       pageInfo {
@@ -63,10 +75,7 @@ const ordersQuery = `
         lineItems(first: 100) {
           nodes {
             name
-            variant {
-              id
-              barcode
-            }
+            ${variantFields}
             sku
             quantity
             discountedUnitPriceSet {
@@ -92,6 +101,7 @@ const ordersQuery = `
       }
     }
   }`;
+}
 
 await mkdir(dataDir, { recursive: true });
 
@@ -102,6 +112,7 @@ for (const range of ranges) {
     period: range.label,
     date_from: range.from,
     date_to_exclusive: range.to,
+    warnings: queryWarnings,
     totals: summarizeOrders(orders),
     orders,
   };
@@ -111,11 +122,22 @@ for (const range of ranges) {
 }
 
 async function fetchOrders(searchQuery) {
+  try {
+    return await fetchOrdersWithQuery(searchQuery, ordersQuery);
+  } catch (error) {
+    if (!isVariantScopeError(error)) throw error;
+    const warning = "Shopify read_products scope is missing; orders were imported without variant_id/barcode. Product cost matching will use SKU/EAN/product name fallback.";
+    if (!queryWarnings.includes(warning)) queryWarnings.push(warning);
+    return fetchOrdersWithQuery(searchQuery, ordersQueryWithoutVariants);
+  }
+}
+
+async function fetchOrdersWithQuery(searchQuery, query) {
   const orders = [];
   let cursor = null;
 
   do {
-    const response = await shopifyGraphql(ordersQuery, {
+    const response = await shopifyGraphql(query, {
       query: searchQuery,
       cursor,
     });
@@ -130,6 +152,11 @@ async function fetchOrders(searchQuery) {
   } while (cursor);
 
   return orders;
+}
+
+function isVariantScopeError(error) {
+  return String(error?.message || error).includes("Access denied for variant field")
+    && String(error?.message || error).includes("read_products");
 }
 
 async function shopifyGraphql(query, variables) {
