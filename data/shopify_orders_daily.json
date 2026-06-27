@@ -1,8 +1,11 @@
 {
-  "generated_at": "2026-06-27T12:45:28.045Z",
+  "generated_at": "2026-06-27T13:04:29.671Z",
   "period": "daily",
   "date_from": "2026-06-26",
   "date_to_exclusive": "2026-06-27",
+  "warnings": [
+    "Shopify read_products scope is missing; orders were imported without variant_id/barcode. Product cost matching will use SKU/EAN/product name fallback."
+  ],
   "totals": {
     "order_count": 3,
     "item_count": 3,
@@ -33,7 +36,11 @@
       "line_items": [
         {
           "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "584061623340_133C",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 12.75,
           "original_unit_price": 12.75,
@@ -62,7 +69,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifikant3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 10.95,
           "original_unit_price": 10.95,
@@ -93,7 +104,11 @@
       "line_items": [
         {
           "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifimountlite3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 12.36,
           "original_unit_price": 12.36,

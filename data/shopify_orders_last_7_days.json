@@ -1,8 +1,11 @@
 {
-  "generated_at": "2026-06-27T12:45:28.419Z",
+  "generated_at": "2026-06-27T13:04:30.632Z",
   "period": "last_7_days",
   "date_from": "2026-06-21",
   "date_to_exclusive": "2026-06-28",
+  "warnings": [
+    "Shopify read_products scope is missing; orders were imported without variant_id/barcode. Product cost matching will use SKU/EAN/product name fallback."
+  ],
   "totals": {
     "order_count": 17,
     "item_count": 31,
@@ -31,7 +34,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder TP-Link EAP650 / EAP653 / EAP723 Access Point – PETG (hittebestendig)",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": null,
+          "barcode": null,
+          "ean": null,
           "quantity": 3,
           "product_sale_price": 9.95,
           "original_unit_price": 9.95,
@@ -60,7 +67,11 @@
       "line_items": [
         {
           "product_name": "HBM 20V Accuhouder – 2-voudig (Wandmontage)",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "629094928879_BD5D",
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 11.95,
           "original_unit_price": 11.95,
@@ -69,7 +80,11 @@
         },
         {
           "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Makita4v3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 12.5,
           "original_unit_price": 12.5,
@@ -78,7 +93,11 @@
         },
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 11.95,
           "original_unit_price": 11.95,
@@ -109,7 +128,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 17.34,
           "original_unit_price": 17.34,
@@ -140,7 +163,11 @@
       "line_items": [
         {
           "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "cloudkeygen23DTS.SHOP",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 11.95,
           "original_unit_price": 11.95,
@@ -169,7 +196,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 11.95,
           "original_unit_price": 11.95,
@@ -200,7 +231,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifikant3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 14.66,
           "original_unit_price": 14.66,
@@ -231,7 +266,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifidesk3DTS.Shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 6,
           "product_sale_price": 14.7,
           "original_unit_price": 14.7,
@@ -262,7 +301,11 @@
       "line_items": [
         {
           "product_name": "Accuhouder Parkside 20V - 4-voudig",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "629621091536_60CB",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 18.54,
           "original_unit_price": 18.54,
@@ -293,7 +336,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifikant3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 14.66,
           "original_unit_price": 14.66,
@@ -324,7 +371,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 17.34,
           "original_unit_price": 17.34,
@@ -357,7 +408,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder Makita DC18RC Oplader",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rc3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 24.94,
           "original_unit_price": 24.94,
@@ -366,7 +421,11 @@
         },
         {
           "product_name": "Etsy Standard Shipping",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "ETSY-SHIPPING",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 15,
           "original_unit_price": 15,
@@ -395,7 +454,11 @@
       "line_items": [
         {
           "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "cloudkeygen23DTS.SHOP",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 9.95,
           "original_unit_price": 9.95,
@@ -428,7 +491,11 @@
       "line_items": [
         {
           "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifimountlite3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 12.36,
           "original_unit_price": 12.36,
@@ -459,7 +526,11 @@
       "line_items": [
         {
           "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Bosch4a-3DTS",
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 18.49,
           "original_unit_price": 18.49,
@@ -490,7 +561,11 @@
       "line_items": [
         {
           "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "584061623340_133C",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 12.75,
           "original_unit_price": 12.75,
@@ -519,7 +594,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifikant3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 10.95,
           "original_unit_price": 10.95,
@@ -550,7 +629,11 @@
       "line_items": [
         {
           "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifimountlite3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 12.36,
           "original_unit_price": 12.36,

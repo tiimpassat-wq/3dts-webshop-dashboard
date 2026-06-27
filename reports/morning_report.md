@@ -1,6 +1,6 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-06-27T12:45:37.928Z
+Gegenereerd: 2026-06-27T13:04:47.392Z
 
 ## Samenvatting gisteren
 
@@ -10,6 +10,8 @@ Gegenereerd: 2026-06-27T12:45:37.928Z
 - Totale nettowinstindicatie gisteren: EUR 26.38
 - Orders gisteren: 3
 - Orders met betrouwbare kostprijs gisteren: 0
+- Orders met Shopify kostprijs gisteren: 0
+- Orders met fallback kostprijs gisteren: 0
 - Orders met ontbrekende kostprijs gisteren: 3
 - Gemiddelde winst per order: EUR 8.79
 
@@ -52,10 +54,12 @@ Gegenereerd: 2026-06-27T12:45:37.928Z
 ## AI-adviezen
 
 - Google Ads geeft minder conversiewaarde terug dan advertentiekosten; controleer tracking en pauzeer verliesgevende campagnes tijdelijk.
-- Vul config/product_costs.json met echte SKU/EAN-kostprijzen; onvolledige orders tellen nu niet mee als betrouwbare winst.
+- Vul Shopify Cost per item aan waar mogelijk; gebruik config/product_costs.json alleen als fallback. Onvolledige orders tellen niet mee als betrouwbare winst.
 - Verzendkosten liggen hoger dan wat klanten betalen; verhoog gratis-verzending drempel of bundel producten.
 - Bol Sponsored Products kost relatief veel; verlaag biedingen of pauzeer campagnes met lage marge.
 
 ## Datakwaliteit
 
+- Shopify product cost import failed: Shopify request failed 200: {"errors":[{"message":"Access denied for productVariants field.","locations":[{"line":3,"column":5}],"extensions":{"code":"ACCESS_DENIED","documentation":"https://shopify.dev/api/usage/access-scopes"},"path":["productVariants"]}],"data":null,"extensions":{"cost":{"requestedQueryCost":29,"actualQueryCost":2,"throttleStatus":{"maximumAvailable":2000,"currentlyAvailable":1998,"restoreRate":100}}}}
+- Shopify product cost import failed: Shopify request failed 200: {"errors":[{"message":"Access denied for productVariants field.","locations":[{"line":3,"column":5}],"extensions":{"code":"ACCESS_DENIED","documentation":"https://shopify.dev/api/usage/access-scopes"},"path":["productVariants"]}],"data":null,"extensions":{"cost":{"requestedQueryCost":29,"actualQueryCost":2,"throttleStatus":{"maximumAvailable":2000,"currentlyAvailable":1998,"restoreRate":100}}}}
 - Productkosten ontbreken voor 17 orders; zie reports/missing_product_costs.md.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:45:37.924Z",
+  "generated_at": "2026-06-27T13:04:47.387Z",
   "period": "daily",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
@@ -7,17 +7,24 @@
     "bol_enriched": "bol_enriched_daily.json",
     "bol_ads": "bol_ads_daily.json"
   },
-  "warnings": [],
+  "warnings": [
+    "Shopify product cost import failed: Shopify request failed 200: {\"errors\":[{\"message\":\"Access denied for productVariants field.\",\"locations\":[{\"line\":3,\"column\":5}],\"extensions\":{\"code\":\"ACCESS_DENIED\",\"documentation\":\"https://shopify.dev/api/usage/access-scopes\"},\"path\":[\"productVariants\"]}],\"data\":null,\"extensions\":{\"cost\":{\"requestedQueryCost\":29,\"actualQueryCost\":2,\"throttleStatus\":{\"maximumAvailable\":2000,\"currentlyAvailable\":1998,\"restoreRate\":100}}}}"
+  ],
   "cost_lookup": {
     "entries": 13,
-    "source": "config/product_costs.json",
+    "source": "Shopify inventoryItem.unitCost, fallback config/product_costs.json",
+    "shopify_entries": 0,
+    "shopify_with_unit_cost": 0,
     "legacy_excel_entries": 1,
-    "note": "Authoritative product costs. Orders with missing or zero total_product_cost are marked incomplete and excluded from reliable net profit."
+    "note": "Cost order: Shopify Cost per item, config/product_costs.json, then missing."
   },
   "totals": {
     "orders": 3,
     "betrouwbare_orders": 0,
     "onvolledige_orders": 3,
+    "orders_met_shopify_kostprijs": 0,
+    "orders_met_fallback_kostprijs": 0,
+    "orders_zonder_kostprijs": 3,
     "omzet": 49.01,
     "verzendkosten_betaald_door_klant": 12.95,
     "werkelijke_verzendkosten": 19.25,
@@ -54,6 +61,9 @@
       "geschatte_onvolledige_nettowinst": 16.36,
       "betrouwbare_orders": 0,
       "onvolledige_orders": 2,
+      "orders_met_shopify_kostprijs": 0,
+      "orders_met_fallback_kostprijs": 0,
+      "orders_zonder_kostprijs": 2,
       "nettowinst_pct": 65.15
     },
     "Shopify direct": {
@@ -69,6 +79,9 @@
       "geschatte_onvolledige_nettowinst": 10.02,
       "betrouwbare_orders": 0,
       "onvolledige_orders": 1,
+      "orders_met_shopify_kostprijs": 0,
+      "orders_met_fallback_kostprijs": 0,
+      "orders_zonder_kostprijs": 1,
       "nettowinst_pct": 41.92
     }
   },
@@ -108,6 +121,7 @@
       "betrouwbare_nettowinst": null,
       "geschatte_onvolledige_nettowinst": 7.94,
       "profit_reliability": "incomplete",
+      "cost_coverage": "missing",
       "nettowinst_pct": 62.27,
       "bol_order_id": "C0007HD15W",
       "bol_match_method": "date_amount_country_product_fallback",
@@ -118,6 +132,7 @@
       "line_items": [
         {
           "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
+          "variant_id": null,
           "sku": "584061623340_133C",
           "ean": "9504237317951",
           "quantity": 1,
@@ -127,12 +142,14 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 12.75,
           "margin_before_shipping_ads_pct": 100,
+          "cost_source": "product_costs_json",
           "cost_status": "zero_cost",
           "cost_match_key": "584061623340_133C"
         }
       ],
+      "cost_sources": [],
       "warnings": [
-        "product_cost_missing_or_zero",
+        "product_cost_missing",
         "profit_incomplete",
         "bol_ads_allocated_by_bol_revenue_share"
       ]
@@ -165,6 +182,7 @@
       "betrouwbare_nettowinst": null,
       "geschatte_onvolledige_nettowinst": 10.02,
       "profit_reliability": "incomplete",
+      "cost_coverage": "missing",
       "nettowinst_pct": 41.92,
       "bol_order_id": null,
       "bol_match_method": null,
@@ -173,6 +191,7 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "variant_id": null,
           "sku": "Unifikant3DTS.shop",
           "ean": null,
           "quantity": 1,
@@ -182,12 +201,14 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 10.95,
           "margin_before_shipping_ads_pct": 100,
+          "cost_source": "product_costs_json",
           "cost_status": "zero_cost",
           "cost_match_key": "Unifikant3DTS.shop"
         }
       ],
+      "cost_sources": [],
       "warnings": [
-        "product_cost_missing_or_zero",
+        "product_cost_missing",
         "profit_incomplete",
         "ad_cost_allocated_by_revenue_share"
       ]
@@ -222,6 +243,7 @@
       "betrouwbare_nettowinst": null,
       "geschatte_onvolledige_nettowinst": 8.42,
       "profit_reliability": "incomplete",
+      "cost_coverage": "missing",
       "nettowinst_pct": 68.12,
       "bol_order_id": null,
       "bol_match_method": null,
@@ -230,6 +252,7 @@
       "line_items": [
         {
           "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+          "variant_id": null,
           "sku": "Unifimountlite3DTS.shop",
           "ean": null,
           "quantity": 1,
@@ -239,12 +262,14 @@
           "product_cost_total": 0,
           "gross_profit_before_shipping_ads": 12.36,
           "margin_before_shipping_ads_pct": 100,
+          "cost_source": "product_costs_json",
           "cost_status": "zero_cost",
           "cost_match_key": "Unifimountlite3DTS.shop"
         }
       ],
+      "cost_sources": [],
       "warnings": [
-        "product_cost_missing_or_zero",
+        "product_cost_missing",
         "profit_incomplete",
         "bol_ads_allocated_by_bol_revenue_share",
         "commission_missing_or_estimated",

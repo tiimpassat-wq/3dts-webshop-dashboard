@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-06-27T13:04:32.408Z",
+  "source": "Shopify Admin GraphQL productVariants.inventoryItem.unitCost",
+  "required_scopes": [
+    "read_products",
+    "read_inventory"
+  ],
+  "status": "error",
+  "warnings": [
+    "Shopify product cost import failed: Shopify request failed 200: {\"errors\":[{\"message\":\"Access denied for productVariants field.\",\"locations\":[{\"line\":3,\"column\":5}],\"extensions\":{\"code\":\"ACCESS_DENIED\",\"documentation\":\"https://shopify.dev/api/usage/access-scopes\"},\"path\":[\"productVariants\"]}],\"data\":null,\"extensions\":{\"cost\":{\"requestedQueryCost\":29,\"actualQueryCost\":2,\"throttleStatus\":{\"maximumAvailable\":2000,\"currentlyAvailable\":1998,\"restoreRate\":100}}}}"
+  ],
+  "totals": {
+    "variants": 0,
+    "with_unit_cost": 0,
+    "missing_unit_cost": 0
+  },
+  "variants": []
+}

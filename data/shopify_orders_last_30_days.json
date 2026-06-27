@@ -1,8 +1,11 @@
 {
-  "generated_at": "2026-06-27T12:45:29.439Z",
+  "generated_at": "2026-06-27T13:04:32.269Z",
   "period": "last_30_days",
   "date_from": "2026-05-29",
   "date_to_exclusive": "2026-06-28",
+  "warnings": [
+    "Shopify read_products scope is missing; orders were imported without variant_id/barcode. Product cost matching will use SKU/EAN/product name fallback."
+  ],
   "totals": {
     "order_count": 80,
     "item_count": 136,
@@ -33,7 +36,11 @@
       "line_items": [
         {
           "product_name": "Machine Houder voor Hilti Nuron",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "588003752349_4111",
+          "barcode": null,
+          "ean": null,
           "quantity": 6,
           "product_sale_price": 7.65,
           "original_unit_price": 8.5,
@@ -42,7 +49,11 @@
         },
         {
           "product_name": "Accu Houder Geschikt voor Hilti Nuron",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Hiltinuronaccu3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 3,
           "product_sale_price": 16.65,
           "original_unit_price": 18.5,
@@ -73,7 +84,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rc3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 15,
           "original_unit_price": 15,
@@ -104,7 +119,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifikant3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 13.95,
           "original_unit_price": 13.95,
@@ -135,7 +154,11 @@
       "line_items": [
         {
           "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "cloudkeygen23DTS.SHOP",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 11.95,
           "original_unit_price": 11.95,
@@ -166,7 +189,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 17,
           "original_unit_price": 17,
@@ -197,7 +224,11 @@
       "line_items": [
         {
           "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "584061623340_133C",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 12.5,
           "original_unit_price": 12.5,
@@ -226,7 +257,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rc3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 9.46,
           "original_unit_price": 9.95,
@@ -235,7 +270,11 @@
         },
         {
           "product_name": "3D Geprinte Accu Houder – passend met Makita 18V – Wandmontage - 4",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Makita4v3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 11.88,
           "original_unit_price": 12.5,
@@ -266,7 +305,11 @@
       "line_items": [
         {
           "product_name": "Beugel geschikt voor UniFi AC Lite, nanoHD, AC LR & U6 Lite – 3D Geprint",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifimountlite3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 12.5,
           "original_unit_price": 12.5,
@@ -297,7 +340,11 @@
       "line_items": [
         {
           "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "cloudkeygen23DTS.SHOP",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 11.95,
           "original_unit_price": 11.95,
@@ -328,7 +375,11 @@
       "line_items": [
         {
           "product_name": "3D Geprinte Accu Houder – passend met Makita 18V – Wandmontage - 4",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Makita4v3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 3,
           "product_sale_price": 11.25,
           "original_unit_price": 12.5,
@@ -359,7 +410,11 @@
       "line_items": [
         {
           "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Bosch4a-3DTS",
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 16,
           "original_unit_price": 16,
@@ -390,7 +445,11 @@
       "line_items": [
         {
           "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Bosch4a-3DTS",
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 16,
           "original_unit_price": 16,
@@ -421,7 +480,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifidesk3DTS.Shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 14,
           "original_unit_price": 14,
@@ -452,7 +515,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifidesk3DTS.Shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 14,
           "original_unit_price": 14,
@@ -483,7 +550,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 17,
           "original_unit_price": 17,
@@ -514,7 +585,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 17,
           "original_unit_price": 17,
@@ -545,7 +620,11 @@
       "line_items": [
         {
           "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Bosch4a-3DTS",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 16,
           "original_unit_price": 16,
@@ -576,7 +655,11 @@
       "line_items": [
         {
           "product_name": "Beugel geschikt voor UniFi AC Lite, nanoHD, AC LR & U6 Lite – 3D Geprint",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifimountlite3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 3,
           "product_sale_price": 7.2,
           "original_unit_price": 8,
@@ -607,7 +690,11 @@
       "line_items": [
         {
           "product_name": "Machine houder geschikt voor Parkside 20V",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": null,
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 8.08,
           "original_unit_price": 8.5,
@@ -638,7 +725,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 17,
           "original_unit_price": 17,
@@ -669,7 +760,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifidesk3DTS.Shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 14,
           "original_unit_price": 14,
@@ -700,7 +795,11 @@
       "line_items": [
         {
           "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Bosch4a-3DTS",
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 16,
           "original_unit_price": 16,
@@ -731,7 +830,11 @@
       "line_items": [
         {
           "product_name": "Beugel geschikt voor Bosch 18V Power For All (Groen) - 3",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Bosch18Vgroen3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 3,
           "product_sale_price": 8.96,
           "original_unit_price": 9.95,
@@ -762,7 +865,11 @@
       "line_items": [
         {
           "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Bosch4a-3DTS",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 16,
           "original_unit_price": 16,
@@ -793,7 +900,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rc3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 15.76,
           "original_unit_price": 15.76,
@@ -824,7 +935,11 @@
       "line_items": [
         {
           "product_name": "Unifi USW Lite 8 & 16 PoE-montagebeugel",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "627819952868_0CD6",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 11.33,
           "original_unit_price": 11.33,
@@ -855,7 +970,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 17.34,
           "original_unit_price": 17.34,
@@ -886,7 +1005,11 @@
       "line_items": [
         {
           "product_name": "Beugel geschikt voor Bosch 18V Power For All (Groen) - 3",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Bosch18Vgroen3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 14.37,
           "original_unit_price": 14.37,
@@ -917,7 +1040,11 @@
       "line_items": [
         {
           "product_name": "Beugel geschikt voor Bosch 18V Power For All (Groen) - 3",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Bosch18Vgroen3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 14.37,
           "original_unit_price": 14.37,
@@ -948,7 +1075,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rc3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 15.76,
           "original_unit_price": 15.76,
@@ -979,7 +1110,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 10.76,
           "original_unit_price": 11.95,
@@ -988,7 +1123,11 @@
         },
         {
           "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rc3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 8.96,
           "original_unit_price": 9.95,
@@ -997,7 +1136,11 @@
         },
         {
           "product_name": "Machinehouder geschikt voor Makita, Bosch, DeWalt & Festool – Wandmontage",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": null,
+          "barcode": null,
+          "ean": null,
           "quantity": 3,
           "product_sale_price": 6.75,
           "original_unit_price": 7.5,
@@ -1006,7 +1149,11 @@
         },
         {
           "product_name": "3D Geprinte Accu Houder – passend met Makita 18V – Wandmontage - 4",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Makita4v3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 11.25,
           "original_unit_price": 12.5,
@@ -1035,7 +1182,11 @@
       "line_items": [
         {
           "product_name": "3D Geprinte Accu Houder – passend met Makita 18V – Wandmontage - 4",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Makita4v3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 11.88,
           "original_unit_price": 12.5,
@@ -1044,7 +1195,11 @@
         },
         {
           "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rc3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 9.95,
           "original_unit_price": 9.95,
@@ -1075,7 +1230,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifidesk3DTS.Shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 14,
           "original_unit_price": 14,
@@ -1106,7 +1265,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 17.34,
           "original_unit_price": 17.34,
@@ -1137,7 +1300,11 @@
       "line_items": [
         {
           "product_name": "Unifi USW Lite 8 & 16 PoE-montagebeugel",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "627819952868_0CD6",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 11,
           "original_unit_price": 11,
@@ -1168,7 +1335,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rc3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 15.76,
           "original_unit_price": 15.76,
@@ -1199,7 +1370,11 @@
       "line_items": [
         {
           "product_name": "Beugel geschikt voor Bosch Professional 18V – Wandmontage. - 4",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": null,
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 16.48,
           "original_unit_price": 16.48,
@@ -1230,7 +1405,11 @@
       "line_items": [
         {
           "product_name": "Machinehouder compatibel met Bosch Professional 18V",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Bosch18VPRO3DTS.SHOP",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 13.9,
           "original_unit_price": 13.9,
@@ -1261,7 +1440,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 17.34,
           "original_unit_price": 17.34,
@@ -1292,7 +1475,11 @@
       "line_items": [
         {
           "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "584061623340_133C",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 12.75,
           "original_unit_price": 12.75,
@@ -1323,7 +1510,11 @@
       "line_items": [
         {
           "product_name": "Accu Houder Geschikt voor Hilti Nuron",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Hiltinuronaccu3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 25.75,
           "original_unit_price": 25.75,
@@ -1354,7 +1545,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 17.34,
           "original_unit_price": 17.34,
@@ -1385,7 +1580,11 @@
       "line_items": [
         {
           "product_name": "Beugel geschikt voor Parkside 20V – Wandmontage - 4",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "629621091536_60CB",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 18.54,
           "original_unit_price": 18.54,
@@ -1414,7 +1613,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 10.76,
           "original_unit_price": 11.95,
@@ -1423,7 +1626,11 @@
         },
         {
           "product_name": "Machinehouder geschikt voor Makita, Bosch, DeWalt & Festool – Wandmontage",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": null,
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 6.75,
           "original_unit_price": 7.5,
@@ -1454,7 +1661,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifikant3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 14.66,
           "original_unit_price": 14.66,
@@ -1485,7 +1696,11 @@
       "line_items": [
         {
           "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "cloudkeygen23DTS.SHOP",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 11.95,
           "original_unit_price": 11.95,
@@ -1516,7 +1731,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rc3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 15.76,
           "original_unit_price": 15.76,
@@ -1547,7 +1766,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 17.34,
           "original_unit_price": 17.34,
@@ -1578,7 +1801,11 @@
       "line_items": [
         {
           "product_name": "Reciprozaag Wandhouder – Universeel (PETG 3D Geprint)",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "640203879878_00D9",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 8.06,
           "original_unit_price": 8.95,
@@ -1587,7 +1814,11 @@
         },
         {
           "product_name": "Universele Decoupeerzaag Wandhouder – 3D Geprint (PETG)",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "640203743890_05A3",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 8.96,
           "original_unit_price": 9.95,
@@ -1596,7 +1827,11 @@
         },
         {
           "product_name": "Beugel geschikt voor Makita DUB185 Bladblazer",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": null,
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 3.56,
           "original_unit_price": 3.95,
@@ -1605,7 +1840,11 @@
         },
         {
           "product_name": "Machinehouder geschikt voor Makita 18V LXT Gereedschap - Zwart",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "MachineLXT18V3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 3,
           "product_sale_price": 8.06,
           "original_unit_price": 8.95,
@@ -1634,7 +1873,11 @@
       "line_items": [
         {
           "product_name": "Beugel geschikt voor UniFi AC Lite, nanoHD, AC LR & U6 Lite – 3D Geprint",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifimountlite3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 8.95,
           "original_unit_price": 8.95,
@@ -1665,7 +1908,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifidesk3DTS.Shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 14.7,
           "original_unit_price": 14.7,
@@ -1696,7 +1943,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 17.34,
           "original_unit_price": 17.34,
@@ -1727,7 +1978,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rc3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 15.76,
           "original_unit_price": 15.76,
@@ -1758,7 +2013,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rc3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 15.76,
           "original_unit_price": 15.76,
@@ -1789,7 +2048,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 17.34,
           "original_unit_price": 17.34,
@@ -1820,7 +2083,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 17.34,
           "original_unit_price": 17.34,
@@ -1851,7 +2118,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifikant3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 14.66,
           "original_unit_price": 14.66,
@@ -1882,7 +2153,11 @@
       "line_items": [
         {
           "product_name": "Beugel geschikt voor Bosch Professional 18V – Wandmontage. - 4",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": null,
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 16.48,
           "original_unit_price": 16.48,
@@ -1913,7 +2188,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifikant3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 3,
           "product_sale_price": 14.66,
           "original_unit_price": 14.66,
@@ -1944,7 +2223,11 @@
       "line_items": [
         {
           "product_name": "Beugel geschikt voor Bosch 18V Power For All (Groen) - 3",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Bosch18Vgroen3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 13.95,
           "original_unit_price": 13.95,
@@ -1975,7 +2258,11 @@
       "line_items": [
         {
           "product_name": "Accuhouder Beugel – geschikt voor CAS accu’s (Metabo, Hikoki, Mafell, Würth e.a.)",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": null,
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 15.45,
           "original_unit_price": 15.45,
@@ -2006,7 +2293,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifikant3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 14.66,
           "original_unit_price": 14.66,
@@ -2037,7 +2328,11 @@
       "line_items": [
         {
           "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Bosch4a-3DTS",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 16,
           "original_unit_price": 16,
@@ -2066,7 +2361,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder TP-Link EAP650 / EAP653 / EAP723 Access Point – PETG (hittebestendig)",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": null,
+          "barcode": null,
+          "ean": null,
           "quantity": 3,
           "product_sale_price": 9.95,
           "original_unit_price": 9.95,
@@ -2095,7 +2394,11 @@
       "line_items": [
         {
           "product_name": "HBM 20V Accuhouder – 2-voudig (Wandmontage)",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "629094928879_BD5D",
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 11.95,
           "original_unit_price": 11.95,
@@ -2104,7 +2407,11 @@
         },
         {
           "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Makita4v3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 12.5,
           "original_unit_price": 12.5,
@@ -2113,7 +2420,11 @@
         },
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 11.95,
           "original_unit_price": 11.95,
@@ -2144,7 +2455,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 17.34,
           "original_unit_price": 17.34,
@@ -2175,7 +2490,11 @@
       "line_items": [
         {
           "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "cloudkeygen23DTS.SHOP",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 11.95,
           "original_unit_price": 11.95,
@@ -2204,7 +2523,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 11.95,
           "original_unit_price": 11.95,
@@ -2235,7 +2558,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifikant3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 14.66,
           "original_unit_price": 14.66,
@@ -2266,7 +2593,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifidesk3DTS.Shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 6,
           "product_sale_price": 14.7,
           "original_unit_price": 14.7,
@@ -2297,7 +2628,11 @@
       "line_items": [
         {
           "product_name": "Accuhouder Parkside 20V - 4-voudig",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "629621091536_60CB",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 18.54,
           "original_unit_price": 18.54,
@@ -2328,7 +2663,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifikant3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 14.66,
           "original_unit_price": 14.66,
@@ -2359,7 +2698,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 17.34,
           "original_unit_price": 17.34,
@@ -2392,7 +2735,11 @@
       "line_items": [
         {
           "product_name": "Wandhouder Makita DC18RC Oplader",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "dc18rc3dts.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 24.94,
           "original_unit_price": 24.94,
@@ -2401,7 +2748,11 @@
         },
         {
           "product_name": "Etsy Standard Shipping",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "ETSY-SHIPPING",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 15,
           "original_unit_price": 15,
@@ -2430,7 +2781,11 @@
       "line_items": [
         {
           "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "cloudkeygen23DTS.SHOP",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 9.95,
           "original_unit_price": 9.95,
@@ -2463,7 +2818,11 @@
       "line_items": [
         {
           "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifimountlite3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 12.36,
           "original_unit_price": 12.36,
@@ -2494,7 +2853,11 @@
       "line_items": [
         {
           "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Bosch4a-3DTS",
+          "barcode": null,
+          "ean": null,
           "quantity": 2,
           "product_sale_price": 18.49,
           "original_unit_price": 18.49,
@@ -2525,7 +2888,11 @@
       "line_items": [
         {
           "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "584061623340_133C",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 12.75,
           "original_unit_price": 12.75,
@@ -2554,7 +2921,11 @@
       "line_items": [
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifikant3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 10.95,
           "original_unit_price": 10.95,
@@ -2585,7 +2956,11 @@
       "line_items": [
         {
           "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+          "variant_id": null,
+          "variant_gid": null,
           "sku": "Unifimountlite3DTS.shop",
+          "barcode": null,
+          "ean": null,
           "quantity": 1,
           "product_sale_price": 12.36,
           "original_unit_price": 12.36,
