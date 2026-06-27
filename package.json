@@ -1,0 +1,13 @@
+{
+  "name": "3dts-webshop-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "google-ads": "node scripts/google_ads_report.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+

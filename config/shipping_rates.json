@@ -1,0 +1,21 @@
+{
+  "currency": "EUR",
+  "source": "Vaste VerzendSimpel/PostNL tarieven opgegeven door 3DTS",
+  "rates": {
+    "NL": {
+      "letterbox": 3.7,
+      "parcel": 5.6
+    },
+    "BE": {
+      "parcel": 8.09
+    },
+    "FR": {
+      "parcel_0_2kg": 11.85
+    },
+    "EU_OTHER": {
+      "parcel_0_2kg_surcharge": 0.25,
+      "note": "Gebruik het basis 0-2 kg tarief van het land plus 0,25 euro."
+    }
+  }
+}
+
