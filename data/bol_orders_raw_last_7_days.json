@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-06-27T12:26:49.295Z",
+  "period": "last_7_days",
+  "date_from": "2026-06-21",
+  "date_to_exclusive": "2026-06-28",
+  "source": "bol.com Retailer API",
+  "orders": [],
+  "warnings": [
+    "Missing BOL_CLIENT_ID or BOL_CLIENT_SECRET; bol enrichment skipped."
+  ],
+  "credentials_configured": false
+}

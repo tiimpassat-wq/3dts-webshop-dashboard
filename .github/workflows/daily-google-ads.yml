@@ -39,6 +39,12 @@ jobs:
           SHOPIFY_ADMIN_ACCESS_TOKEN: ${{ secrets.SHOPIFY_ADMIN_ACCESS_TOKEN }}
         run: npm run shopify-orders
 
+      - name: Enrich with bol.com orders and ads
+        env:
+          BOL_CLIENT_ID: ${{ secrets.BOL_CLIENT_ID }}
+          BOL_CLIENT_SECRET: ${{ secrets.BOL_CLIENT_SECRET }}
+        run: npm run bol-enrichment
+
       - name: Build profit report
         run: npm run profit
 

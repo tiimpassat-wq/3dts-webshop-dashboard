@@ -13,7 +13,7 @@ Dagelijkse data-opslag voor het 3DTS ochtendrapport: advertenties, kosten, verze
 
 1. Installeer Node.js 20 of nieuwer.
 2. Kopieer `.env.example` naar `.env`.
-3. Vul je eigen Google Ads en Shopify waarden in `.env`.
+3. Vul je eigen Google Ads, Shopify en bol.com waarden in `.env`.
 4. Laad de env vars en draai de scripts:
 
 ```powershell
@@ -25,6 +25,7 @@ Get-Content .env | ForEach-Object {
 }
 npm run google-ads
 npm run shopify-orders
+npm run bol-enrichment
 npm run profit
 ```
 
@@ -36,6 +37,12 @@ De scripts schrijven:
 - `data/shopify_orders_daily.json`
 - `data/shopify_orders_last_7_days.json`
 - `data/shopify_orders_last_30_days.json`
+- `data/bol_orders_raw_daily.json`
+- `data/bol_orders_raw_last_7_days.json`
+- `data/bol_enriched_daily.json`
+- `data/bol_enriched_last_7_days.json`
+- `data/bol_ads_daily.json`
+- `data/bol_ads_last_7_days.json`
 - `data/profit_daily.json`
 - `data/profit_last_7_days.json`
 - `reports/morning_report.md`
@@ -53,6 +60,9 @@ GOOGLE_ADS_LOGIN_CUSTOMER_ID=3221449798
 
 SHOPIFY_SHOP_DOMAIN=
 SHOPIFY_ADMIN_ACCESS_TOKEN=
+
+BOL_CLIENT_ID=
+BOL_CLIENT_SECRET=
 ```
 
 Zet echte tokens nooit in GitHub. Gebruik lokaal `.env` en in GitHub Actions alleen repository secrets.
@@ -71,6 +81,8 @@ Zet hiervoor in GitHub bij `Settings -> Secrets and variables -> Actions` deze s
 - `GOOGLE_ADS_LOGIN_CUSTOMER_ID`
 - `SHOPIFY_SHOP_DOMAIN`
 - `SHOPIFY_ADMIN_ACCESS_TOKEN`
+- `BOL_CLIENT_ID`
+- `BOL_CLIENT_SECRET`
 
 ## Shopify orders
 
@@ -86,7 +98,7 @@ De Shopify Admin token heeft minimaal order-leestoegang nodig, bijvoorbeeld `rea
 
 ## Winstcalculator
 
-Het script `scripts/profit_report.mjs` combineert Shopify orders, Google Ads kosten, verzendtarieven en het Excel-kostprijsbestand.
+Het script `scripts/profit_report.mjs` combineert Shopify orders, Google Ads kosten, bol.com verrijking, Bol Ads kosten, verzendtarieven en het Excel-kostprijsbestand.
 
 Het rekent per order:
 
@@ -95,9 +107,13 @@ Het rekent per order:
 - werkelijke verzendkosten
 - productkostprijs uit Excel
 - bruto winst
+- bol.com commissie
 - advertentiekosten
+- Bol Ads kosten
 - nettowinst
 - nettowinstpercentage
+
+Shopify blijft de primaire orderbron. Bol.com-orders die via Market Sync al in Shopify staan, worden verrijkt met bol-data en tellen niet dubbel mee. Bol-orders die niet in Shopify gematcht worden, krijgen de waarschuwing `bol_order_missing_in_shopify` en worden niet automatisch bij omzet/winst opgeteld.
 
 Output:
 
@@ -126,7 +142,31 @@ Shopify orders zijn toegevoegd via `scripts/shopify_orders_report.mjs`. Een volg
 
 ### Bol.com
 
-Voeg `scripts/bol_orders.mjs` toe voor bestellingen, commissies en uitbetalingen. Nodig: Bol Retailer API client ID/secret. Sponsored Products data kan apart zodra de Bol Advertising API endpoints toegang geven.
+Bol.com is toegevoegd via `scripts/bol_enrichment_report.mjs`.
+
+Het script doet drie dingen:
+
+- haalt bol-orders op via de Retailer API
+- matcht bol-orders met bestaande Shopify-orders
+- haalt, waar mogelijk, Sponsored Products advertiser performance op via de Advertising API
+
+Output:
+
+- `data/bol_orders_raw_daily.json`
+- `data/bol_orders_raw_last_7_days.json`
+- `data/bol_enriched_daily.json`
+- `data/bol_enriched_last_7_days.json`
+- `data/bol_ads_daily.json`
+- `data/bol_ads_last_7_days.json`
+
+Matching gebeurt eerst op bol order-id, offer reference, EAN, SKU, tags en source. Als dat niet lukt, probeert het script datum + totaalbedrag + klantland + productmatch. Als er geen match is, blijft Shopify leidend en telt de bol-order niet dubbel mee.
+
+Benodigd:
+
+- `BOL_CLIENT_ID`
+- `BOL_CLIENT_SECRET`
+
+De Advertising API gebruikt dezelfde tokenflow, maar kan aparte bol Advertising API rechten vereisen. Als de API geen toegang geeft, schrijft het script `supported: false` en blijft de rest van het dashboard draaien.
 
 ### Moneybird
 

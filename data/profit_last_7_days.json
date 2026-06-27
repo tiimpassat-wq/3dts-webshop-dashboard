@@ -1,11 +1,16 @@
 {
-  "generated_at": "2026-06-27T12:09:59.313Z",
+  "generated_at": "2026-06-27T12:26:49.563Z",
   "period": "last_7_days",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
-    "google_ads": "google_ads_last_7_days.json"
+    "google_ads": "google_ads_last_7_days.json",
+    "bol_enriched": "bol_enriched_last_7_days.json",
+    "bol_ads": "bol_ads_last_7_days.json"
   },
-  "warnings": [],
+  "warnings": [
+    "Missing BOL_CLIENT_ID or BOL_CLIENT_SECRET; bol enrichment skipped.",
+    "Missing BOL_CLIENT_ID or BOL_CLIENT_SECRET; bol ads skipped."
+  ],
   "cost_lookup": {
     "entries": 1,
     "source": "config/prijsberekening 2026.xlsx",
@@ -18,19 +23,67 @@
     "werkelijke_verzendkosten": 104.02,
     "productkostprijs": 0,
     "bruto_winst": 364.79,
+    "bol_commissie": 0,
     "advertentiekosten": 29.5,
+    "bol_advertentiekosten": 0,
     "nettowinst": 335.29,
     "nettowinst_pct": 71.52,
     "gemiddelde_winst_per_order": 19.72,
     "google_ads_cost_total": 29.5,
     "google_ads_unallocated": 0,
-    "google_ads_roas": 0.4949
+    "google_ads_roas": 0.4949,
+    "bol_ads_cost_total": 0,
+    "bol_ads_unallocated": 0,
+    "bol_ads_roas": null,
+    "bol_ads_supported": false
+  },
+  "channel_totals": {
+    "Shopify direct": {
+      "orders": 5,
+      "omzet": 157.07,
+      "werkelijke_verzendkosten": 32.35,
+      "productkostprijs": 0,
+      "bol_commissie": 0,
+      "advertentiekosten": 23.52,
+      "bol_advertentiekosten": 0,
+      "nettowinst": 101.2,
+      "nettowinst_pct": 64.43
+    },
+    "Bol via Shopify": {
+      "orders": 11,
+      "omzet": 271.8,
+      "werkelijke_verzendkosten": 59.57,
+      "productkostprijs": 0,
+      "bol_commissie": 0,
+      "advertentiekosten": 0,
+      "bol_advertentiekosten": 0,
+      "nettowinst": 212.23,
+      "nettowinst_pct": 78.08
+    },
+    "Onbekend/overig": {
+      "orders": 1,
+      "omzet": 39.94,
+      "werkelijke_verzendkosten": 12.1,
+      "productkostprijs": 0,
+      "bol_commissie": 0,
+      "advertentiekosten": 5.98,
+      "bol_advertentiekosten": 0,
+      "nettowinst": 21.86,
+      "nettowinst_pct": 54.73
+    }
+  },
+  "bol": {
+    "matched_orders": 0,
+    "missing_in_shopify": 0,
+    "ads_supported": false
   },
   "orders": [
     {
       "order_number": "#3dts1644",
       "date": "2026-06-21T12:46:37Z",
       "channel_source": "web",
+      "channel": "Shopify direct",
+      "channel_reason": "shopify_source_web",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "tags": [],
@@ -44,10 +97,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 31.35,
-      "advertentiekosten": 2.33,
+      "bol_commissie": 0,
+      "advertentiekosten": 5.53,
       "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 29.02,
-      "nettowinst_pct": 78.54,
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 25.82,
+      "nettowinst_pct": 69.88,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "Wandhouder TP-Link EAP650 / EAP653 / EAP723 Access Point – PETG (hittebestendig)",
@@ -72,6 +132,8 @@
       "order_number": "#3dts1645",
       "date": "2026-06-22T11:28:32Z",
       "channel_source": "web",
+      "channel": "Shopify direct",
+      "channel_reason": "shopify_source_web",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "tags": [],
@@ -85,10 +147,17 @@
       "productkostprijs": 0,
       "korting": 4.83,
       "bruto_winst": 45.02,
-      "advertentiekosten": 3.19,
+      "bol_commissie": 0,
+      "advertentiekosten": 7.58,
       "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 41.83,
-      "nettowinst_pct": 82.64,
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 37.44,
+      "nettowinst_pct": 73.96,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "HBM 20V Accuhouder – 2-voudig (Wandmontage)",
@@ -139,6 +208,8 @@
       "order_number": "#3dts1646",
       "date": "2026-06-22T15:10:08Z",
       "channel_source": "bol",
+      "channel": "Bol via Shopify",
+      "channel_reason": "shopify_source_or_tag_is_bol",
       "customer_country_code": "BE",
       "customer_country": "Belgium",
       "tags": [
@@ -154,10 +225,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 9.25,
-      "advertentiekosten": 1.09,
-      "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 8.16,
-      "nettowinst_pct": 47.06,
+      "bol_commissie": 0,
+      "advertentiekosten": 0,
+      "advertentiekosten_methode": "none",
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 9.25,
+      "nettowinst_pct": 53.34,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
@@ -175,13 +253,16 @@
       ],
       "warnings": [
         "product_cost_missing_or_estimated",
-        "ad_cost_allocated_by_revenue_share"
+        "commission_missing_or_estimated",
+        "bol_order_not_matched_but_shopify_source_is_bol"
       ]
     },
     {
       "order_number": "#3dts1647",
       "date": "2026-06-22T19:25:07Z",
       "channel_source": "bol",
+      "channel": "Bol via Shopify",
+      "channel_reason": "shopify_source_or_tag_is_bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "tags": [
@@ -197,10 +278,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 8.25,
-      "advertentiekosten": 0.75,
-      "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 7.5,
-      "nettowinst_pct": 62.76,
+      "bol_commissie": 0,
+      "advertentiekosten": 0,
+      "advertentiekosten_methode": "none",
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 8.25,
+      "nettowinst_pct": 69.04,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
@@ -218,13 +306,16 @@
       ],
       "warnings": [
         "product_cost_missing_or_estimated",
-        "ad_cost_allocated_by_revenue_share"
+        "commission_missing_or_estimated",
+        "bol_order_not_matched_but_shopify_source_is_bol"
       ]
     },
     {
       "order_number": "#3dts1648",
       "date": "2026-06-23T09:23:03Z",
       "channel_source": "web",
+      "channel": "Shopify direct",
+      "channel_reason": "shopify_source_web",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "tags": [],
@@ -238,10 +329,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 25.4,
-      "advertentiekosten": 1.95,
+      "bol_commissie": 0,
+      "advertentiekosten": 4.64,
       "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 23.45,
-      "nettowinst_pct": 75.65,
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 20.76,
+      "nettowinst_pct": 66.97,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
@@ -266,6 +364,8 @@
       "order_number": "#3dts1649",
       "date": "2026-06-23T09:45:56Z",
       "channel_source": "bol",
+      "channel": "Bol via Shopify",
+      "channel_reason": "shopify_source_or_tag_is_bol",
       "customer_country_code": "BE",
       "customer_country": "Belgium",
       "tags": [
@@ -281,10 +381,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 6.57,
-      "advertentiekosten": 0.92,
-      "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 5.65,
-      "nettowinst_pct": 38.54,
+      "bol_commissie": 0,
+      "advertentiekosten": 0,
+      "advertentiekosten_methode": "none",
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 6.57,
+      "nettowinst_pct": 44.82,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
@@ -302,13 +409,16 @@
       ],
       "warnings": [
         "product_cost_missing_or_estimated",
-        "ad_cost_allocated_by_revenue_share"
+        "commission_missing_or_estimated",
+        "bol_order_not_matched_but_shopify_source_is_bol"
       ]
     },
     {
       "order_number": "#3dts1650",
       "date": "2026-06-23T10:30:58Z",
       "channel_source": "bol",
+      "channel": "Bol via Shopify",
+      "channel_reason": "shopify_source_or_tag_is_bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "tags": [
@@ -324,10 +434,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 84.5,
-      "advertentiekosten": 5.55,
-      "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 78.95,
-      "nettowinst_pct": 89.51,
+      "bol_commissie": 0,
+      "advertentiekosten": 0,
+      "advertentiekosten_methode": "none",
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 84.5,
+      "nettowinst_pct": 95.8,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
@@ -345,13 +462,16 @@
       ],
       "warnings": [
         "product_cost_missing_or_estimated",
-        "ad_cost_allocated_by_revenue_share"
+        "commission_missing_or_estimated",
+        "bol_order_not_matched_but_shopify_source_is_bol"
       ]
     },
     {
       "order_number": "#3dts1651",
       "date": "2026-06-23T13:55:57Z",
       "channel_source": "bol",
+      "channel": "Bol via Shopify",
+      "channel_reason": "shopify_source_or_tag_is_bol",
       "customer_country_code": "BE",
       "customer_country": "Belgium",
       "tags": [
@@ -367,10 +487,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 10.45,
-      "advertentiekosten": 1.17,
-      "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 9.28,
-      "nettowinst_pct": 50.05,
+      "bol_commissie": 0,
+      "advertentiekosten": 0,
+      "advertentiekosten_methode": "none",
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 10.45,
+      "nettowinst_pct": 56.36,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "Accuhouder Parkside 20V - 4-voudig",
@@ -388,13 +515,16 @@
       ],
       "warnings": [
         "product_cost_missing_or_estimated",
-        "ad_cost_allocated_by_revenue_share"
+        "commission_missing_or_estimated",
+        "bol_order_not_matched_but_shopify_source_is_bol"
       ]
     },
     {
       "order_number": "#3dts1652",
       "date": "2026-06-24T12:40:09Z",
       "channel_source": "bol",
+      "channel": "Bol via Shopify",
+      "channel_reason": "shopify_source_or_tag_is_bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "tags": [
@@ -410,10 +540,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 23.72,
-      "advertentiekosten": 1.84,
-      "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 21.88,
-      "nettowinst_pct": 74.62,
+      "bol_commissie": 0,
+      "advertentiekosten": 0,
+      "advertentiekosten_methode": "none",
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 23.72,
+      "nettowinst_pct": 80.9,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
@@ -431,13 +568,16 @@
       ],
       "warnings": [
         "product_cost_missing_or_estimated",
-        "ad_cost_allocated_by_revenue_share"
+        "commission_missing_or_estimated",
+        "bol_order_not_matched_but_shopify_source_is_bol"
       ]
     },
     {
       "order_number": "#3dts1653",
       "date": "2026-06-24T15:16:13Z",
       "channel_source": "bol",
+      "channel": "Bol via Shopify",
+      "channel_reason": "shopify_source_or_tag_is_bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "tags": [
@@ -453,10 +593,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 11.74,
-      "advertentiekosten": 1.09,
-      "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 10.65,
-      "nettowinst_pct": 61.42,
+      "bol_commissie": 0,
+      "advertentiekosten": 0,
+      "advertentiekosten_methode": "none",
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 11.74,
+      "nettowinst_pct": 67.7,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
@@ -474,13 +621,16 @@
       ],
       "warnings": [
         "product_cost_missing_or_estimated",
-        "ad_cost_allocated_by_revenue_share"
+        "commission_missing_or_estimated",
+        "bol_order_not_matched_but_shopify_source_is_bol"
       ]
     },
     {
       "order_number": "#3dts1654",
       "date": "2026-06-24T19:17:18Z",
       "channel_source": "340764327937",
+      "channel": "Onbekend/overig",
+      "channel_reason": "source_not_classified",
       "customer_country_code": "NO",
       "customer_country": "Norway",
       "tags": [
@@ -498,10 +648,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 27.84,
-      "advertentiekosten": 2.51,
+      "bol_commissie": 0,
+      "advertentiekosten": 5.98,
       "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 25.33,
-      "nettowinst_pct": 63.42,
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 21.86,
+      "nettowinst_pct": 54.73,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "Wandhouder Makita DC18RC Oplader",
@@ -539,6 +696,8 @@
       "order_number": "#3dts1655",
       "date": "2026-06-24T19:23:22Z",
       "channel_source": "web",
+      "channel": "Shopify direct",
+      "channel_reason": "shopify_source_web",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "tags": [],
@@ -552,10 +711,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 10.9,
-      "advertentiekosten": 0.92,
+      "bol_commissie": 0,
+      "advertentiekosten": 2.19,
       "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 9.98,
-      "nettowinst_pct": 68.36,
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 8.71,
+      "nettowinst_pct": 59.66,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
@@ -580,6 +746,8 @@
       "order_number": "#3dts1656",
       "date": "2026-06-25T08:30:57Z",
       "channel_source": "bol",
+      "channel": "Bol via Shopify",
+      "channel_reason": "shopify_source_or_tag_is_bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "tags": [
@@ -597,10 +765,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 8.66,
-      "advertentiekosten": 0.78,
-      "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 7.88,
-      "nettowinst_pct": 63.75,
+      "bol_commissie": 0,
+      "advertentiekosten": 0,
+      "advertentiekosten_methode": "none",
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 8.66,
+      "nettowinst_pct": 70.06,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
@@ -618,13 +793,16 @@
       ],
       "warnings": [
         "product_cost_missing_or_estimated",
-        "ad_cost_allocated_by_revenue_share"
+        "commission_missing_or_estimated",
+        "bol_order_not_matched_but_shopify_source_is_bol"
       ]
     },
     {
       "order_number": "#3dts1657",
       "date": "2026-06-25T19:15:49Z",
       "channel_source": "bol",
+      "channel": "Bol via Shopify",
+      "channel_reason": "shopify_source_or_tag_is_bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "tags": [
@@ -640,10 +818,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 31.38,
-      "advertentiekosten": 2.33,
-      "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 29.05,
-      "nettowinst_pct": 78.56,
+      "bol_commissie": 0,
+      "advertentiekosten": 0,
+      "advertentiekosten_methode": "none",
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 31.38,
+      "nettowinst_pct": 84.86,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
@@ -661,13 +846,16 @@
       ],
       "warnings": [
         "product_cost_missing_or_estimated",
-        "ad_cost_allocated_by_revenue_share"
+        "commission_missing_or_estimated",
+        "bol_order_not_matched_but_shopify_source_is_bol"
       ]
     },
     {
       "order_number": "#3dts1658",
       "date": "2026-06-26T13:00:49Z",
       "channel_source": "bol",
+      "channel": "Bol via Shopify",
+      "channel_reason": "shopify_source_or_tag_is_bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "tags": [
@@ -683,10 +871,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 9.05,
-      "advertentiekosten": 0.8,
-      "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 8.25,
-      "nettowinst_pct": 64.71,
+      "bol_commissie": 0,
+      "advertentiekosten": 0,
+      "advertentiekosten_methode": "none",
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 9.05,
+      "nettowinst_pct": 70.98,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
@@ -704,13 +899,16 @@
       ],
       "warnings": [
         "product_cost_missing_or_estimated",
-        "ad_cost_allocated_by_revenue_share"
+        "commission_missing_or_estimated",
+        "bol_order_not_matched_but_shopify_source_is_bol"
       ]
     },
     {
       "order_number": "#3dts1659",
       "date": "2026-06-26T17:07:42Z",
       "channel_source": "web",
+      "channel": "Shopify direct",
+      "channel_reason": "shopify_source_web",
       "customer_country_code": "FR",
       "customer_country": "France",
       "tags": [],
@@ -724,10 +922,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 12.05,
-      "advertentiekosten": 1.5,
+      "bol_commissie": 0,
+      "advertentiekosten": 3.58,
       "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 10.55,
-      "nettowinst_pct": 44.14,
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 8.47,
+      "nettowinst_pct": 35.44,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
@@ -752,6 +957,8 @@
       "order_number": "#3dts1660",
       "date": "2026-06-26T20:15:53Z",
       "channel_source": "bol",
+      "channel": "Bol via Shopify",
+      "channel_reason": "shopify_source_or_tag_is_bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "tags": [
@@ -767,10 +974,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 8.66,
-      "advertentiekosten": 0.78,
-      "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 7.88,
-      "nettowinst_pct": 63.75,
+      "bol_commissie": 0,
+      "advertentiekosten": 0,
+      "advertentiekosten_methode": "none",
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 8.66,
+      "nettowinst_pct": 70.06,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
@@ -788,7 +1002,8 @@
       ],
       "warnings": [
         "product_cost_missing_or_estimated",
-        "ad_cost_allocated_by_revenue_share"
+        "commission_missing_or_estimated",
+        "bol_order_not_matched_but_shopify_source_is_bol"
       ]
     }
   ]

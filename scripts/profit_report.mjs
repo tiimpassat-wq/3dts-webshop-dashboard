@@ -20,6 +20,8 @@ const daily = await buildProfitPeriod({
   label: "daily",
   shopifyFile: "shopify_orders_daily.json",
   googleAdsFile: "google_ads_daily.json",
+  bolEnrichedFile: "bol_enriched_daily.json",
+  bolAdsFile: "bol_ads_daily.json",
   outputFile: "profit_daily.json",
 });
 
@@ -27,6 +29,8 @@ const last7 = await buildProfitPeriod({
   label: "last_7_days",
   shopifyFile: "shopify_orders_last_7_days.json",
   googleAdsFile: "google_ads_last_7_days.json",
+  bolEnrichedFile: "bol_enriched_last_7_days.json",
+  bolAdsFile: "bol_ads_last_7_days.json",
   outputFile: "profit_last_7_days.json",
 });
 
@@ -36,38 +40,63 @@ await writeActionItems(daily, last7);
 console.log(`profit_daily.json: ${daily.orders.length} orders, net EUR ${daily.totals.nettowinst.toFixed(2)}`);
 console.log(`profit_last_7_days.json: ${last7.orders.length} orders, net EUR ${last7.totals.nettowinst.toFixed(2)}`);
 
-async function buildProfitPeriod({ label, shopifyFile, googleAdsFile, outputFile }) {
+async function buildProfitPeriod({ label, shopifyFile, googleAdsFile, bolEnrichedFile, bolAdsFile, outputFile }) {
   const warnings = [];
   const shopify = await readJson(path.join(dataDir, shopifyFile), null);
   const googleAds = await readJson(path.join(dataDir, googleAdsFile), null);
+  const bolEnriched = await readJson(path.join(dataDir, bolEnrichedFile), null);
+  const bolAds = await readJson(path.join(dataDir, bolAdsFile), null);
 
   if (!shopify) warnings.push(`Missing ${shopifyFile}; run npm run shopify-orders after setting Shopify secrets.`);
   if (!googleAds) warnings.push(`Missing ${googleAdsFile}; run npm run google-ads after setting Google Ads secrets.`);
+  if (!bolEnriched) warnings.push(`Missing ${bolEnrichedFile}; run npm run bol-enrichment after setting bol secrets.`);
+  if (!bolAds) warnings.push(`Missing ${bolAdsFile}; run npm run bol-enrichment after setting bol secrets.`);
 
-  const rawOrders = Array.isArray(shopify?.orders) ? shopify.orders : [];
+  const rawOrders = dedupeOrders(Array.isArray(shopify?.orders) ? shopify.orders : []);
+  const bolMatches = buildBolMatchIndex(bolEnriched);
   const totalAdCost = Number(googleAds?.totals?.cost_eur || 0);
-  const totalRevenue = rawOrders.reduce((sum, order) => sum + money(order.total_order_amount), 0);
+  const totalBolAdsCost = Number(bolAds?.totals?.cost || 0);
+  const nonBolRevenue = rawOrders
+    .filter((order) => classifyChannel(order, bolMatches).channel !== "Bol via Shopify")
+    .reduce((sum, order) => sum + money(order.total_order_amount), 0);
+  const bolRevenue = rawOrders
+    .filter((order) => classifyChannel(order, bolMatches).channel === "Bol via Shopify")
+    .reduce((sum, order) => sum + money(order.total_order_amount), 0);
 
   const orders = rawOrders.map((order) => {
+    const channelInfo = classifyChannel(order, bolMatches);
+    const bolMatch = bolMatches.get(order.order_number);
     const revenue = money(order.total_order_amount);
-    const adCost = totalRevenue > 0 ? money(totalAdCost * (revenue / totalRevenue)) : 0;
+    const adCost = channelInfo.channel === "Bol via Shopify"
+      ? 0
+      : nonBolRevenue > 0 ? money(totalAdCost * (revenue / nonBolRevenue)) : 0;
+    const bolAdsCost = channelInfo.channel === "Bol via Shopify" && bolRevenue > 0
+      ? money(totalBolAdsCost * (revenue / bolRevenue))
+      : 0;
+    const bolCommission = channelInfo.channel === "Bol via Shopify" ? money(bolMatch?.bol?.total_commission || 0) : 0;
     const shippingPaid = money(order.shipping_paid_by_customer);
     const actualShipping = estimateShippingCost(order, shippingRates);
     const lineItems = (order.line_items || []).map((item) => buildLineItemProfit(item, costIndex));
     const productCost = money(lineItems.reduce((sum, item) => sum + item.product_cost_total, 0));
     const discount = money(order.discount);
     const grossProfit = money(revenue - actualShipping - productCost);
-    const netProfit = money(grossProfit - adCost);
+    const netProfit = money(grossProfit - adCost - bolCommission - bolAdsCost);
 
     const orderWarnings = [];
     if (lineItems.some((item) => item.cost_status !== "matched")) orderWarnings.push("product_cost_missing_or_estimated");
     if (actualShipping === 0 && revenue > 0) orderWarnings.push("shipping_cost_unknown");
     if (adCost > 0) orderWarnings.push("ad_cost_allocated_by_revenue_share");
+    if (bolAdsCost > 0) orderWarnings.push("bol_ads_allocated_by_bol_revenue_share");
+    if (channelInfo.channel === "Bol via Shopify" && bolCommission === 0) orderWarnings.push("commission_missing_or_estimated");
+    if (channelInfo.channel === "Bol via Shopify" && !bolMatch) orderWarnings.push("bol_order_not_matched_but_shopify_source_is_bol");
+    if (bolMatch?.warnings?.length) orderWarnings.push(...bolMatch.warnings);
 
     return {
       order_number: order.order_number,
       date: order.date,
       channel_source: order.channel_source,
+      channel: channelInfo.channel,
+      channel_reason: channelInfo.reason,
       customer_country_code: order.customer_country_code,
       customer_country: order.customer_country,
       tags: order.tags || [],
@@ -81,26 +110,44 @@ async function buildProfitPeriod({ label, shopifyFile, googleAdsFile, outputFile
       productkostprijs: productCost,
       korting: discount,
       bruto_winst: grossProfit,
+      bol_commissie: bolCommission,
       advertentiekosten: adCost,
       advertentiekosten_methode: adCost > 0 ? "allocated_by_order_revenue_share" : "none",
+      bol_advertentiekosten: bolAdsCost,
+      bol_advertentiekosten_methode: bolAdsCost > 0 ? "allocated_by_bol_order_revenue_share" : "none",
       nettowinst: netProfit,
       nettowinst_pct: revenue > 0 ? roundPercent(netProfit / revenue) : null,
+      bol_order_id: bolMatch?.bol?.bol_order_id || null,
+      bol_match_method: bolMatch?.match_method || null,
+      bol_match_confidence: bolMatch?.confidence || null,
+      eans: bolMatch?.bol?.eans || [],
       line_items: lineItems,
-      warnings: orderWarnings,
+      warnings: [...new Set(orderWarnings)],
     };
   });
 
   const payload = {
     generated_at: new Date().toISOString(),
     period: label,
-    source_files: { shopify: shopifyFile, google_ads: googleAdsFile },
-    warnings,
+    source_files: { shopify: shopifyFile, google_ads: googleAdsFile, bol_enriched: bolEnrichedFile, bol_ads: bolAdsFile },
+    warnings: [
+      ...warnings,
+      ...(bolEnriched?.warnings || []),
+      ...(bolEnriched?.unmatched_bol_orders || []).map((order) => `${order.bol?.bol_order_id || "unknown"}: bol_order_missing_in_shopify`),
+      ...(bolAds?.warnings || []),
+    ],
     cost_lookup: {
       entries: costIndex.entries.length,
       source: "config/prijsberekening 2026.xlsx",
       note: costIndex.note,
     },
-    totals: summarizeProfitOrders(orders, totalAdCost, googleAds),
+    totals: summarizeProfitOrders(orders, totalAdCost, googleAds, totalBolAdsCost, bolAds),
+    channel_totals: summarizeChannels(orders),
+    bol: {
+      matched_orders: bolEnriched?.summary?.matched_orders || 0,
+      missing_in_shopify: bolEnriched?.summary?.missing_in_shopify || 0,
+      ads_supported: Boolean(bolAds?.supported),
+    },
     orders,
   };
 
@@ -161,7 +208,41 @@ function looksLikeLetterbox(text) {
   return letterboxWords.some((word) => text.includes(word));
 }
 
-function summarizeProfitOrders(orders, totalAdCost, googleAds) {
+function dedupeOrders(orders) {
+  const seen = new Map();
+  for (const order of orders) {
+    const key = order.order_number || `${order.date}|${order.total_order_amount}`;
+    if (!seen.has(key)) seen.set(key, order);
+  }
+  return [...seen.values()];
+}
+
+function buildBolMatchIndex(bolEnriched) {
+  const index = new Map();
+  for (const match of bolEnriched?.matches || []) {
+    if (match.shopify_order_number) index.set(match.shopify_order_number, match);
+  }
+  return index;
+}
+
+function classifyChannel(order, bolMatches) {
+  if (bolMatches.has(order.order_number)) {
+    return { channel: "Bol via Shopify", reason: "matched_bol_retailer_api" };
+  }
+
+  const text = normalizeKey([order.channel_source, ...(order.tags || [])].join(" "));
+  if (text.includes("bol")) {
+    return { channel: "Bol via Shopify", reason: "shopify_source_or_tag_is_bol" };
+  }
+
+  if (normalizeKey(order.channel_source).includes("web")) {
+    return { channel: "Shopify direct", reason: "shopify_source_web" };
+  }
+
+  return { channel: "Onbekend/overig", reason: "source_not_classified" };
+}
+
+function summarizeProfitOrders(orders, totalAdCost, googleAds, totalBolAdsCost, bolAds) {
   const totals = orders.reduce((sum, order) => {
     sum.orders += 1;
     sum.omzet += order.omzet;
@@ -169,7 +250,9 @@ function summarizeProfitOrders(orders, totalAdCost, googleAds) {
     sum.werkelijke_verzendkosten += order.werkelijke_verzendkosten;
     sum.productkostprijs += order.productkostprijs;
     sum.bruto_winst += order.bruto_winst;
+    sum.bol_commissie += order.bol_commissie;
     sum.advertentiekosten += order.advertentiekosten;
+    sum.bol_advertentiekosten += order.bol_advertentiekosten;
     sum.nettowinst += order.nettowinst;
     return sum;
   }, {
@@ -179,7 +262,9 @@ function summarizeProfitOrders(orders, totalAdCost, googleAds) {
     werkelijke_verzendkosten: 0,
     productkostprijs: 0,
     bruto_winst: 0,
+    bol_commissie: 0,
     advertentiekosten: 0,
+    bol_advertentiekosten: 0,
     nettowinst: 0,
   });
 
@@ -191,7 +276,43 @@ function summarizeProfitOrders(orders, totalAdCost, googleAds) {
   totals.google_ads_cost_total = money(totalAdCost);
   totals.google_ads_unallocated = money(Math.max(0, totalAdCost - totals.advertentiekosten));
   totals.google_ads_roas = googleAds?.totals?.roas ?? null;
+  totals.bol_ads_cost_total = money(totalBolAdsCost);
+  totals.bol_ads_unallocated = money(Math.max(0, totalBolAdsCost - totals.bol_advertentiekosten));
+  totals.bol_ads_roas = bolAds?.totals?.roas ?? null;
+  totals.bol_ads_supported = Boolean(bolAds?.supported);
   return totals;
+}
+
+function summarizeChannels(orders) {
+  const channels = new Map();
+  for (const order of orders) {
+    const current = channels.get(order.channel) || {
+      orders: 0,
+      omzet: 0,
+      werkelijke_verzendkosten: 0,
+      productkostprijs: 0,
+      bol_commissie: 0,
+      advertentiekosten: 0,
+      bol_advertentiekosten: 0,
+      nettowinst: 0,
+    };
+    current.orders += 1;
+    current.omzet += order.omzet;
+    current.werkelijke_verzendkosten += order.werkelijke_verzendkosten;
+    current.productkostprijs += order.productkostprijs;
+    current.bol_commissie += order.bol_commissie;
+    current.advertentiekosten += order.advertentiekosten;
+    current.bol_advertentiekosten += order.bol_advertentiekosten;
+    current.nettowinst += order.nettowinst;
+    channels.set(order.channel, current);
+  }
+
+  return Object.fromEntries([...channels.entries()].map(([channel, values]) => {
+    const rounded = {};
+    for (const [key, value] of Object.entries(values)) rounded[key] = key === "orders" ? value : money(value);
+    rounded.nettowinst_pct = rounded.omzet > 0 ? roundPercent(rounded.nettowinst / rounded.omzet) : null;
+    return [channel, rounded];
+  }));
 }
 
 function readCostIndex(workbookPath) {
@@ -254,6 +375,9 @@ async function writeMorningReport(daily, last7) {
   const lowMarginProducts = productPerformance(daily.orders)
     .filter((product) => product.nettowinst_pct !== null && product.nettowinst_pct < 20)
     .slice(0, 10);
+  const dailyBol = daily.channel_totals?.["Bol via Shopify"] || emptyChannelTotals();
+  const last7Bol = last7.channel_totals?.["Bol via Shopify"] || emptyChannelTotals();
+  const dailyDirect = daily.channel_totals?.["Shopify direct"] || emptyChannelTotals();
 
   const lines = [
     "# 3DTS Morning Report",
@@ -278,11 +402,27 @@ async function writeMorningReport(daily, last7) {
     "## Shopify vs Google Ads",
     "",
     `- Shopify omzet gisteren: EUR ${daily.totals.omzet.toFixed(2)}`,
+    `- Shopify direct omzet gisteren: EUR ${dailyDirect.omzet.toFixed(2)}`,
     `- Google Ads kosten gisteren: EUR ${daily.totals.google_ads_cost_total.toFixed(2)}`,
     `- Google Ads ROAS gisteren: ${daily.totals.google_ads_roas ?? "onbekend"}`,
     `- Laatste 7 dagen omzet: EUR ${last7.totals.omzet.toFixed(2)}`,
     `- Laatste 7 dagen Google Ads kosten: EUR ${last7.totals.google_ads_cost_total.toFixed(2)}`,
     `- Laatste 7 dagen nettowinst: EUR ${last7.totals.nettowinst.toFixed(2)}`,
+    "",
+    "## Bol.com",
+    "",
+    `- Bol omzet gisteren: EUR ${dailyBol.omzet.toFixed(2)}`,
+    `- Bol winst gisteren: EUR ${dailyBol.nettowinst.toFixed(2)}`,
+    `- Bol commissie gisteren: EUR ${dailyBol.bol_commissie.toFixed(2)}`,
+    `- Bol Ads kosten gisteren: EUR ${daily.totals.bol_ads_cost_total.toFixed(2)}`,
+    `- Winst na Bol Ads gisteren: EUR ${dailyBol.nettowinst.toFixed(2)}`,
+    `- Bol omzet laatste 7 dagen: EUR ${last7Bol.omzet.toFixed(2)}`,
+    `- Bol winst laatste 7 dagen: EUR ${last7Bol.nettowinst.toFixed(2)}`,
+    `- Bol commissie laatste 7 dagen: EUR ${last7Bol.bol_commissie.toFixed(2)}`,
+    `- Bol Ads kosten laatste 7 dagen: EUR ${last7.totals.bol_ads_cost_total.toFixed(2)}`,
+    `- Bol Ads ROAS laatste 7 dagen: ${last7.totals.bol_ads_roas ?? "onbekend"}`,
+    `- Bol orders gematcht laatste 7 dagen: ${last7.bol?.matched_orders || 0}`,
+    `- Bol orders niet in Shopify gevonden laatste 7 dagen: ${last7.bol?.missing_in_shopify || 0}`,
     "",
     "## AI-adviezen",
     "",
@@ -295,6 +435,20 @@ async function writeMorningReport(daily, last7) {
   ];
 
   await writeFile(path.join(reportsDir, "morning_report.md"), `${lines.join("\n")}\n`, "utf8");
+}
+
+function emptyChannelTotals() {
+  return {
+    orders: 0,
+    omzet: 0,
+    werkelijke_verzendkosten: 0,
+    productkostprijs: 0,
+    bol_commissie: 0,
+    advertentiekosten: 0,
+    bol_advertentiekosten: 0,
+    nettowinst: 0,
+    nettowinst_pct: null,
+  };
 }
 
 async function writeActionItems(daily, last7) {
@@ -329,6 +483,36 @@ async function writeActionItems(daily, last7) {
       campaign: "Google Ads",
       reason: `ROAS laatste 7 dagen is ${last7.totals.google_ads_roas}; eerst tracking/productmarges controleren voordat budget omhoog gaat.`,
     });
+  }
+
+  if (last7.totals.bol_ads_cost_total > 0 && last7.totals.bol_ads_roas !== null && last7.totals.bol_ads_roas < 1.5) {
+    actions.push({
+      type: "campagne pauzeren",
+      priority: "high",
+      campaign: "Bol Sponsored Products",
+      reason: `Bol Ads ROAS laatste 7 dagen is ${last7.totals.bol_ads_roas}; controleer zoektermen en biedingen voordat budget omhoog gaat.`,
+    });
+  }
+
+  for (const order of [...daily.orders, ...last7.orders]) {
+    if (order.warnings.includes("commission_missing_or_estimated")) {
+      actions.push({
+        type: "product controleren",
+        priority: "high",
+        product_name: order.line_items?.[0]?.product_name,
+        sku: order.line_items?.[0]?.sku,
+        reason: `Bol commissie ontbreekt voor order ${order.order_number}; winst kan te hoog lijken.`,
+      });
+    }
+    if (order.warnings.includes("bol_order_not_matched_but_shopify_source_is_bol")) {
+      actions.push({
+        type: "product controleren",
+        priority: "medium",
+        product_name: order.line_items?.[0]?.product_name,
+        sku: order.line_items?.[0]?.sku,
+        reason: `Shopify markeert order ${order.order_number} als bol, maar Retailer API match ontbreekt.`,
+      });
+    }
   }
 
   if (last7.totals.orders > 0 && last7.totals.gemiddelde_winst_per_order > 8 && last7.totals.google_ads_roas > 2.5) {
@@ -403,6 +587,15 @@ function buildAdvice(daily, last7) {
   }
   if (last7.totals.werkelijke_verzendkosten > last7.totals.verzendkosten_betaald_door_klant) {
     advice.push("Verzendkosten liggen hoger dan wat klanten betalen; verhoog gratis-verzending drempel of bundel producten.");
+  }
+  if ((last7.bol?.missing_in_shopify || 0) > 0) {
+    advice.push("Er zijn bol-orders die niet in Shopify gematcht zijn; controleer Market Sync voordat omzet dubbel of juist niet wordt meegenomen.");
+  }
+  if (last7.orders.some((order) => order.warnings.includes("commission_missing_or_estimated"))) {
+    advice.push("Voor sommige bol-orders ontbreekt commissie; voeg EAN/referentie goed toe of controleer bol Retailer API toegang.");
+  }
+  if (last7.totals.bol_ads_cost_total > 0 && last7.totals.bol_ads_roas !== null && last7.totals.bol_ads_roas < 1.5) {
+    advice.push("Bol Sponsored Products kost relatief veel; verlaag biedingen of pauzeer campagnes met lage marge.");
   }
   if (!advice.length) advice.push("Data ziet er gezond uit; focus op producten met hoogste nettowinst en test bundels.");
   return advice;

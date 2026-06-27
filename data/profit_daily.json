@@ -1,11 +1,16 @@
 {
-  "generated_at": "2026-06-27T12:09:59.311Z",
+  "generated_at": "2026-06-27T12:26:49.559Z",
   "period": "daily",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
-    "google_ads": "google_ads_daily.json"
+    "google_ads": "google_ads_daily.json",
+    "bol_enriched": "bol_enriched_daily.json",
+    "bol_ads": "bol_ads_daily.json"
   },
-  "warnings": [],
+  "warnings": [
+    "Missing BOL_CLIENT_ID or BOL_CLIENT_SECRET; bol enrichment skipped.",
+    "Missing BOL_CLIENT_ID or BOL_CLIENT_SECRET; bol ads skipped."
+  ],
   "cost_lookup": {
     "entries": 1,
     "source": "config/prijsberekening 2026.xlsx",
@@ -18,19 +23,56 @@
     "werkelijke_verzendkosten": 19.25,
     "productkostprijs": 0,
     "bruto_winst": 29.76,
+    "bol_commissie": 0,
     "advertentiekosten": 2.03,
+    "bol_advertentiekosten": 0,
     "nettowinst": 27.73,
     "nettowinst_pct": 56.58,
     "gemiddelde_winst_per_order": 9.24,
     "google_ads_cost_total": 2.03,
     "google_ads_unallocated": 0,
-    "google_ads_roas": 0
+    "google_ads_roas": 0,
+    "bol_ads_cost_total": 0,
+    "bol_ads_unallocated": 0,
+    "bol_ads_roas": null,
+    "bol_ads_supported": false
+  },
+  "channel_totals": {
+    "Bol via Shopify": {
+      "orders": 2,
+      "omzet": 25.11,
+      "werkelijke_verzendkosten": 7.4,
+      "productkostprijs": 0,
+      "bol_commissie": 0,
+      "advertentiekosten": 0,
+      "bol_advertentiekosten": 0,
+      "nettowinst": 17.71,
+      "nettowinst_pct": 70.53
+    },
+    "Shopify direct": {
+      "orders": 1,
+      "omzet": 23.9,
+      "werkelijke_verzendkosten": 11.85,
+      "productkostprijs": 0,
+      "bol_commissie": 0,
+      "advertentiekosten": 2.03,
+      "bol_advertentiekosten": 0,
+      "nettowinst": 10.02,
+      "nettowinst_pct": 41.92
+    }
+  },
+  "bol": {
+    "matched_orders": 0,
+    "missing_in_shopify": 0,
+    "ads_supported": false
   },
   "orders": [
     {
       "order_number": "#3dts1658",
       "date": "2026-06-26T13:00:49Z",
       "channel_source": "bol",
+      "channel": "Bol via Shopify",
+      "channel_reason": "shopify_source_or_tag_is_bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "tags": [
@@ -46,10 +88,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 9.05,
-      "advertentiekosten": 0.53,
-      "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 8.52,
-      "nettowinst_pct": 66.82,
+      "bol_commissie": 0,
+      "advertentiekosten": 0,
+      "advertentiekosten_methode": "none",
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 9.05,
+      "nettowinst_pct": 70.98,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
@@ -67,13 +116,16 @@
       ],
       "warnings": [
         "product_cost_missing_or_estimated",
-        "ad_cost_allocated_by_revenue_share"
+        "commission_missing_or_estimated",
+        "bol_order_not_matched_but_shopify_source_is_bol"
       ]
     },
     {
       "order_number": "#3dts1659",
       "date": "2026-06-26T17:07:42Z",
       "channel_source": "web",
+      "channel": "Shopify direct",
+      "channel_reason": "shopify_source_web",
       "customer_country_code": "FR",
       "customer_country": "France",
       "tags": [],
@@ -87,10 +139,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 12.05,
-      "advertentiekosten": 0.99,
+      "bol_commissie": 0,
+      "advertentiekosten": 2.03,
       "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 11.06,
-      "nettowinst_pct": 46.28,
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 10.02,
+      "nettowinst_pct": 41.92,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
@@ -115,6 +174,8 @@
       "order_number": "#3dts1660",
       "date": "2026-06-26T20:15:53Z",
       "channel_source": "bol",
+      "channel": "Bol via Shopify",
+      "channel_reason": "shopify_source_or_tag_is_bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "tags": [
@@ -130,10 +191,17 @@
       "productkostprijs": 0,
       "korting": 0,
       "bruto_winst": 8.66,
-      "advertentiekosten": 0.51,
-      "advertentiekosten_methode": "allocated_by_order_revenue_share",
-      "nettowinst": 8.15,
-      "nettowinst_pct": 65.94,
+      "bol_commissie": 0,
+      "advertentiekosten": 0,
+      "advertentiekosten_methode": "none",
+      "bol_advertentiekosten": 0,
+      "bol_advertentiekosten_methode": "none",
+      "nettowinst": 8.66,
+      "nettowinst_pct": 70.06,
+      "bol_order_id": null,
+      "bol_match_method": null,
+      "bol_match_confidence": null,
+      "eans": [],
       "line_items": [
         {
           "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
@@ -151,7 +219,8 @@
       ],
       "warnings": [
         "product_cost_missing_or_estimated",
-        "ad_cost_allocated_by_revenue_share"
+        "commission_missing_or_estimated",
+        "bol_order_not_matched_but_shopify_source_is_bol"
       ]
     }
   ]

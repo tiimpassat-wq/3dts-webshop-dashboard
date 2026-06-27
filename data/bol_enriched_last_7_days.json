@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-06-27T12:26:49.296Z",
+  "period": "last_7_days",
+  "date_from": "2026-06-21",
+  "date_to_exclusive": "2026-06-28",
+  "source_files": {
+    "shopify": "shopify_orders_last_7_days.json",
+    "bol_raw": "bol_orders_raw_last_7_days.json"
+  },
+  "summary": {
+    "bol_orders": 0,
+    "matched_orders": 0,
+    "missing_in_shopify": 0,
+    "total_bol_revenue": 0,
+    "total_bol_commission": 0
+  },
+  "warnings": [
+    "Missing BOL_CLIENT_ID or BOL_CLIENT_SECRET; bol enrichment skipped."
+  ],
+  "matches": [],
+  "unmatched_bol_orders": []
+}

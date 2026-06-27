@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-06-27T12:26:49.290Z",
+  "period": "daily",
+  "date_from": "2026-06-26",
+  "date_to": "2026-06-26",
+  "source": "bol.com Advertising API Sponsored Products advertiser performance",
+  "supported": false,
+  "totals": {
+    "impressions": 0,
+    "clicks": 0,
+    "conversions": 0,
+    "direct_conversions": 0,
+    "indirect_conversions": 0,
+    "sales": 0,
+    "cost": 0,
+    "average_cpc": null,
+    "acos": null,
+    "roas": null,
+    "ctr": null
+  },
+  "raw": null,
+  "warnings": [
+    "Missing BOL_CLIENT_ID or BOL_CLIENT_SECRET; bol ads skipped."
+  ]
+}
