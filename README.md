@@ -25,6 +25,7 @@ Get-Content .env | ForEach-Object {
 }
 npm run google-ads
 npm run shopify-orders
+npm run shopify-products
 npm run bol-enrichment
 npm run profit
 ```
@@ -37,6 +38,7 @@ De scripts schrijven:
 - `data/shopify_orders_daily.json`
 - `data/shopify_orders_last_7_days.json`
 - `data/shopify_orders_last_30_days.json`
+- `data/shopify_products.json`
 - `data/bol_orders_raw_daily.json`
 - `data/bol_orders_raw_last_7_days.json`
 - `data/bol_enriched_daily.json`
@@ -47,6 +49,8 @@ De scripts schrijven:
 - `data/profit_last_7_days.json`
 - `reports/morning_report.md`
 - `reports/action_items.json`
+- `reports/missing_product_costs.md`
+- `reports/cost_price_quality.md`
 
 ## Benodigde `.env` variabelen
 
@@ -100,16 +104,31 @@ Per order worden onder andere ordernummer, datum, kanaal/source, klantland, verz
 
 De Shopify Admin token heeft minimaal order-leestoegang nodig, bijvoorbeeld `read_orders`.
 
+## Shopify productkostprijzen
+
+Het script `scripts/shopify_products_report.mjs` haalt alle productvarianten op en schrijft:
+
+- `data/shopify_products.json`
+
+Per variant worden product-id, variant-id, SKU, barcode/EAN, producttitel, varianttitel, verkoopprijs en `inventoryItem.unitCost` opgeslagen. Dit is de Shopify waarde `Cost per item`.
+
+De Shopify Admin token heeft hiervoor deze extra scopes nodig:
+
+- `read_products`
+- `read_inventory`
+
+Als Shopify `Cost per item` leeg is, wijzigt het dashboard niets automatisch. Het rapporteert alleen welke producten nog een kostprijs missen.
+
 ## Winstcalculator
 
-Het script `scripts/profit_report.mjs` combineert Shopify orders, Google Ads kosten, bol.com verrijking, Bol Ads kosten, verzendtarieven en het Excel-kostprijsbestand.
+Het script `scripts/profit_report.mjs` combineert Shopify orders, Shopify productkostprijzen, Google Ads kosten, bol.com verrijking, Bol Ads kosten, verzendtarieven en fallback-kostprijzen.
 
 Het rekent per order:
 
 - omzet
 - verzendkosten betaald door klant
 - werkelijke verzendkosten
-- productkostprijs uit Excel
+- productkostprijs uit Shopify `Cost per item`, met fallback naar `config/product_costs.json`
 - bruto winst
 - bol.com commissie
 - advertentiekosten
@@ -125,12 +144,25 @@ Output:
 - `data/profit_last_7_days.json`
 - `reports/morning_report.md`
 - `reports/action_items.json`
+- `reports/missing_product_costs.md`
+- `reports/cost_price_quality.md`
 
-Let op: `config/prijsberekening 2026.xlsx` lijkt nu vooral een calculator-template. Als een SKU niet exact in het workbook staat, markeert het rapport `product_cost_missing_or_estimated`. Voor betrouwbare winst per verkoop is een echte SKU-kostprijstabel nodig.
+Kostprijsvolgorde:
+
+1. Shopify variant-id via `inventoryItem.unitCost`
+2. Shopify SKU via `inventoryItem.unitCost`
+3. Shopify EAN/barcode via `inventoryItem.unitCost`
+4. Shopify productnaam via `inventoryItem.unitCost`
+5. `config/product_costs.json` als fallback
+6. Als beide ontbreken of 0 zijn: `product_cost_missing`
+
+Orders met ontbrekende kostprijs tellen niet mee in de betrouwbare nettowinst. Ze blijven wel zichtbaar als geschatte/onvolledige winst, zodat je ziet hoeveel omzet nog niet hard doorgerekend kan worden.
 
 ## Kostprijzen en verzendtarieven
 
-Het bestand `config/prijsberekening 2026.xlsx` bevat de kostprijsbasis. De vaste verzendtarieven staan in `config/shipping_rates.json`:
+Shopify `Cost per item` is de primaire kostprijsbron. Het bestand `config/product_costs.json` is alleen fallback voor producten waar Shopify nog geen kostprijs heeft. `config/prijsberekening 2026.xlsx` blijft in de repo als bron/calculator, maar wordt niet meer gebruikt als betrouwbare hoofdbron voor orderwinst.
+
+De vaste verzendtarieven staan in `config/shipping_rates.json`:
 
 - NL brievenbus: EUR 3,70
 - NL pakket: EUR 5,60
@@ -142,7 +174,7 @@ Het bestand `config/prijsberekening 2026.xlsx` bevat de kostprijsbasis. De vaste
 
 ### Shopify
 
-Shopify orders zijn toegevoegd via `scripts/shopify_orders_report.mjs`. Een volgende stap is Shopify refunds, transactiekosten en product cost/metafields toevoegen voor nauwkeurigere marge per orderregel.
+Shopify orders en productkostprijzen zijn toegevoegd via `scripts/shopify_orders_report.mjs` en `scripts/shopify_products_report.mjs`. Een volgende stap is Shopify refunds en betaalproviderkosten toevoegen voor nauwkeurigere marge per orderregel.
 
 ### Bol.com
 

@@ -63,6 +63,10 @@ const ordersQuery = `
         lineItems(first: 100) {
           nodes {
             name
+            variant {
+              id
+              barcode
+            }
             sku
             quantity
             discountedUnitPriceSet {
@@ -171,7 +175,11 @@ function normalizeOrder(order) {
     referral_code: lastVisit.referralCode || null,
     line_items: (order.lineItems?.nodes || []).map((item) => ({
       product_name: item.name,
+      variant_id: numericId(item.variant?.id),
+      variant_gid: item.variant?.id || null,
       sku: item.sku || null,
+      barcode: item.variant?.barcode || null,
+      ean: item.variant?.barcode || null,
       quantity: Number(item.quantity || 0),
       product_sale_price: moneyAmount(item.discountedUnitPriceSet),
       original_unit_price: moneyAmount(item.originalUnitPriceSet),
@@ -253,6 +261,10 @@ function moneyAmount(priceSet) {
 
 function moneyCurrency(priceSet) {
   return priceSet?.shopMoney?.currencyCode || null;
+}
+
+function numericId(gid) {
+  return String(gid || "").split("/").pop() || null;
 }
 
 function roundMoney(value) {

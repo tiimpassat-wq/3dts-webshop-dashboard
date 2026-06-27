@@ -6,9 +6,10 @@
   "scripts": {
     "google-ads": "node scripts/google_ads_report.mjs",
     "shopify-orders": "node scripts/shopify_orders_report.mjs",
+    "shopify-products": "node scripts/shopify_products_report.mjs",
     "bol-enrichment": "node scripts/bol_enrichment_report.mjs",
     "profit": "node scripts/profit_report.mjs",
-    "daily": "npm run google-ads && npm run shopify-orders && npm run bol-enrichment && npm run profit"
+    "daily": "npm run google-ads && npm run shopify-orders && npm run shopify-products && npm run bol-enrichment && npm run profit"
   },
   "dependencies": {
     "xlsx": "^0.18.5"
