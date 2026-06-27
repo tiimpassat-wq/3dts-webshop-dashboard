@@ -1,0 +1,2598 @@
+{
+  "generated_at": "2026-06-27T12:09:58.939Z",
+  "period": "last_30_days",
+  "date_from": "2026-05-29",
+  "date_to_exclusive": "2026-06-28",
+  "totals": {
+    "order_count": 80,
+    "item_count": 136,
+    "total_order_amount": 1877.94,
+    "shipping_paid_by_customer": 97.84,
+    "discount": 42.74
+  },
+  "orders": [
+    {
+      "order_number": "#3dts1581",
+      "date": "2026-05-29T20:41:16Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Gratis Verzending",
+      "discount": 10.65,
+      "total_order_amount": 95.85,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Kaching Bundles"
+      ],
+      "landing_site": "https://3dts.shop/products/accu-houder-geschikt-voor-hilti-nuron",
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Machine Houder voor Hilti Nuron",
+          "sku": "588003752349_4111",
+          "quantity": 6,
+          "product_sale_price": 7.65,
+          "original_unit_price": 8.5,
+          "line_discount": 5.1,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Accu Houder Geschikt voor Hilti Nuron",
+          "sku": "Hiltinuronaccu3dts.shop",
+          "quantity": 3,
+          "product_sale_price": 16.65,
+          "original_unit_price": 18.5,
+          "line_discount": 5.55,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1582",
+      "date": "2026-05-29T20:55:11Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 15,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rc3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 15,
+          "original_unit_price": 15,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1583",
+      "date": "2026-05-29T21:30:54Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 13.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "sku": "Unifikant3DTS.shop",
+          "quantity": 1,
+          "product_sale_price": 13.95,
+          "original_unit_price": 13.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1584",
+      "date": "2026-05-30T12:30:24Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 11.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
+          "sku": "cloudkeygen23DTS.SHOP",
+          "quantity": 1,
+          "product_sale_price": 11.95,
+          "original_unit_price": 11.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1585",
+      "date": "2026-05-30T15:16:22Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 17,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 17,
+          "original_unit_price": 17,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1586",
+      "date": "2026-05-30T16:55:18Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 12.5,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
+          "sku": "584061623340_133C",
+          "quantity": 1,
+          "product_sale_price": 12.5,
+          "original_unit_price": 12.5,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1587",
+      "date": "2026-05-31T01:03:01Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7.1,
+      "shipping_title": "Pakket",
+      "discount": 1.11,
+      "total_order_amount": 28.44,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/",
+      "referring_site": "https://www.youtube.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rc3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 9.46,
+          "original_unit_price": 9.95,
+          "line_discount": 0.49,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "3D Geprinte Accu Houder – passend met Makita 18V – Wandmontage - 4",
+          "sku": "Makita4v3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 11.88,
+          "original_unit_price": 12.5,
+          "line_discount": 0.62,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1588",
+      "date": "2026-05-31T13:15:56Z",
+      "channel_source": "etsy",
+      "customer_country_code": "DE",
+      "customer_country": "Germany",
+      "shipping_paid_by_customer": 2.99,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 15.49,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Etsy.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Beugel geschikt voor UniFi AC Lite, nanoHD, AC LR & U6 Lite – 3D Geprint",
+          "sku": "Unifimountlite3DTS.shop",
+          "quantity": 1,
+          "product_sale_price": 12.5,
+          "original_unit_price": 12.5,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1589",
+      "date": "2026-05-31T14:00:22Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 11.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
+          "sku": "cloudkeygen23DTS.SHOP",
+          "quantity": 1,
+          "product_sale_price": 11.95,
+          "original_unit_price": 11.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1590",
+      "date": "2026-06-01T10:44:20Z",
+      "channel_source": "web",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 8.95,
+      "shipping_title": "België Post NL",
+      "discount": 3.75,
+      "total_order_amount": 42.7,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Kaching Bundles"
+      ],
+      "landing_site": "https://3dts.shop/fr/products/makita-accu-houder-4v",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3D Geprinte Accu Houder – passend met Makita 18V – Wandmontage - 4",
+          "sku": "Makita4v3dts.shop",
+          "quantity": 3,
+          "product_sale_price": 11.25,
+          "original_unit_price": 12.5,
+          "line_discount": 3.75,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1591",
+      "date": "2026-06-01T14:45:54Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 32,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+          "sku": "Bosch4a-3DTS",
+          "quantity": 2,
+          "product_sale_price": 16,
+          "original_unit_price": 16,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1592",
+      "date": "2026-06-01T18:40:07Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 32,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+          "sku": "Bosch4a-3DTS",
+          "quantity": 2,
+          "product_sale_price": 16,
+          "original_unit_price": 16,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1593",
+      "date": "2026-06-01T22:15:56Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 28,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
+          "sku": "Unifidesk3DTS.Shop",
+          "quantity": 2,
+          "product_sale_price": 14,
+          "original_unit_price": 14,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1594",
+      "date": "2026-06-02T10:45:53Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 14,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
+          "sku": "Unifidesk3DTS.Shop",
+          "quantity": 1,
+          "product_sale_price": 14,
+          "original_unit_price": 14,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1595",
+      "date": "2026-06-02T12:31:02Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 17,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 17,
+          "original_unit_price": 17,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1596",
+      "date": "2026-06-02T14:55:52Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 17,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 17,
+          "original_unit_price": 17,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1597",
+      "date": "2026-06-03T08:55:58Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 16,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+          "sku": "Bosch4a-3DTS",
+          "quantity": 1,
+          "product_sale_price": 16,
+          "original_unit_price": 16,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1598",
+      "date": "2026-06-03T09:41:56Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 2.4,
+      "total_order_amount": 26.25,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Kaching Bundles"
+      ],
+      "landing_site": "https://3dts.shop/",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Beugel geschikt voor UniFi AC Lite, nanoHD, AC LR & U6 Lite – 3D Geprint",
+          "sku": "Unifimountlite3DTS.shop",
+          "quantity": 3,
+          "product_sale_price": 7.2,
+          "original_unit_price": 8,
+          "line_discount": 2.4,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1599",
+      "date": "2026-06-03T12:00:49Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 0.84,
+      "total_order_amount": 20.81,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Kaching Bundles"
+      ],
+      "landing_site": "https://3dts.shop/products/machine-houder-geschikt-voor-parkside-20v",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Machine houder geschikt voor Parkside 20V",
+          "sku": null,
+          "quantity": 2,
+          "product_sale_price": 8.08,
+          "original_unit_price": 8.5,
+          "line_discount": 0.84,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1600",
+      "date": "2026-06-03T13:45:59Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 17,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 17,
+          "original_unit_price": 17,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1601",
+      "date": "2026-06-04T12:00:54Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 14,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
+          "sku": "Unifidesk3DTS.Shop",
+          "quantity": 1,
+          "product_sale_price": 14,
+          "original_unit_price": 14,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1602",
+      "date": "2026-06-04T14:45:55Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 32,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+          "sku": "Bosch4a-3DTS",
+          "quantity": 2,
+          "product_sale_price": 16,
+          "original_unit_price": 16,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1603",
+      "date": "2026-06-04T23:44:01Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 2.97,
+      "total_order_amount": 31.53,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Kaching Bundles"
+      ],
+      "landing_site": "https://3dts.shop/products/bosch-18v-power-for-all-dubbele-accu-houder",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Beugel geschikt voor Bosch 18V Power For All (Groen) - 3",
+          "sku": "Bosch18Vgroen3DTS.shop",
+          "quantity": 3,
+          "product_sale_price": 8.96,
+          "original_unit_price": 9.95,
+          "line_discount": 2.97,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1604",
+      "date": "2026-06-05T13:10:09Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 16,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+          "sku": "Bosch4a-3DTS",
+          "quantity": 1,
+          "product_sale_price": 16,
+          "original_unit_price": 16,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1605",
+      "date": "2026-06-05T13:20:07Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 15.76,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rc3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 15.76,
+          "original_unit_price": 15.76,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1606",
+      "date": "2026-06-05T19:00:32Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 11.33,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Unifi USW Lite 8 & 16 PoE-montagebeugel",
+          "sku": "627819952868_0CD6",
+          "quantity": 1,
+          "product_sale_price": 11.33,
+          "original_unit_price": 11.33,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1607",
+      "date": "2026-06-06T11:30:32Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 17.34,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 17.34,
+          "original_unit_price": 17.34,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1608",
+      "date": "2026-06-06T12:55:52Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 14.37,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Beugel geschikt voor Bosch 18V Power For All (Groen) - 3",
+          "sku": "Bosch18Vgroen3DTS.shop",
+          "quantity": 1,
+          "product_sale_price": 14.37,
+          "original_unit_price": 14.37,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1609",
+      "date": "2026-06-06T14:08:55Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 14.37,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Beugel geschikt voor Bosch 18V Power For All (Groen) - 3",
+          "sku": "Bosch18Vgroen3DTS.shop",
+          "quantity": 1,
+          "product_sale_price": 14.37,
+          "original_unit_price": 14.37,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1610",
+      "date": "2026-06-06T18:30:50Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 15.76,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rc3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 15.76,
+          "original_unit_price": 15.76,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1611",
+      "date": "2026-06-07T06:37:48Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Gratis Verzending",
+      "discount": 6.93,
+      "total_order_amount": 62.47,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Kaching Bundles"
+      ],
+      "landing_site": "https://3dts.shop/products/makita-accu-houder-4v",
+      "referring_site": "https://3dts.shop/collections/makita-beugels",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 10.76,
+          "original_unit_price": 11.95,
+          "line_discount": 1.19,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rc3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 8.96,
+          "original_unit_price": 9.95,
+          "line_discount": 0.99,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Machinehouder geschikt voor Makita, Bosch, DeWalt & Festool – Wandmontage",
+          "sku": null,
+          "quantity": 3,
+          "product_sale_price": 6.75,
+          "original_unit_price": 7.5,
+          "line_discount": 2.25,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "3D Geprinte Accu Houder – passend met Makita 18V – Wandmontage - 4",
+          "sku": "Makita4v3dts.shop",
+          "quantity": 2,
+          "product_sale_price": 11.25,
+          "original_unit_price": 12.5,
+          "line_discount": 2.5,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1612",
+      "date": "2026-06-07T09:13:35Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7.1,
+      "shipping_title": "Pakket",
+      "discount": 1.24,
+      "total_order_amount": 40.81,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/makita-beugel-voor-de-dc18rc",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3D Geprinte Accu Houder – passend met Makita 18V – Wandmontage - 4",
+          "sku": "Makita4v3dts.shop",
+          "quantity": 2,
+          "product_sale_price": 11.88,
+          "original_unit_price": 12.5,
+          "line_discount": 1.24,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rc3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 9.95,
+          "original_unit_price": 9.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1613",
+      "date": "2026-06-07T09:45:57Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 14,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
+          "sku": "Unifidesk3DTS.Shop",
+          "quantity": 1,
+          "product_sale_price": 14,
+          "original_unit_price": 14,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1614",
+      "date": "2026-06-07T14:05:09Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 17.34,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 17.34,
+          "original_unit_price": 17.34,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1615",
+      "date": "2026-06-07T15:31:02Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 11,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Unifi USW Lite 8 & 16 PoE-montagebeugel",
+          "sku": "627819952868_0CD6",
+          "quantity": 1,
+          "product_sale_price": 11,
+          "original_unit_price": 11,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1616",
+      "date": "2026-06-07T18:00:54Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 15.76,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rc3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 15.76,
+          "original_unit_price": 15.76,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1617",
+      "date": "2026-06-07T19:00:53Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 16.48,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Beugel geschikt voor Bosch Professional 18V – Wandmontage. - 4",
+          "sku": null,
+          "quantity": 1,
+          "product_sale_price": 16.48,
+          "original_unit_price": 16.48,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1618",
+      "date": "2026-06-07T19:30:50Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 13.9,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Machinehouder compatibel met Bosch Professional 18V",
+          "sku": "Bosch18VPRO3DTS.SHOP",
+          "quantity": 1,
+          "product_sale_price": 13.9,
+          "original_unit_price": 13.9,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1619",
+      "date": "2026-06-08T06:30:59Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 17.34,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 17.34,
+          "original_unit_price": 17.34,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1620",
+      "date": "2026-06-09T16:55:18Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 12.75,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
+          "sku": "584061623340_133C",
+          "quantity": 1,
+          "product_sale_price": 12.75,
+          "original_unit_price": 12.75,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1621",
+      "date": "2026-06-10T14:16:09Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 25.75,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accu Houder Geschikt voor Hilti Nuron",
+          "sku": "Hiltinuronaccu3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 25.75,
+          "original_unit_price": 25.75,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1622",
+      "date": "2026-06-11T11:45:15Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 34.68,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 2,
+          "product_sale_price": 17.34,
+          "original_unit_price": 17.34,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1623",
+      "date": "2026-06-11T16:15:58Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 18.54,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Beugel geschikt voor Parkside 20V – Wandmontage - 4",
+          "sku": "629621091536_60CB",
+          "quantity": 1,
+          "product_sale_price": 18.54,
+          "original_unit_price": 18.54,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1624",
+      "date": "2026-06-11T18:56:35Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7.1,
+      "shipping_title": "Pakket",
+      "discount": 2.69,
+      "total_order_amount": 31.36,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/universele-machine-houder-makita-bosch-dewalt-festool",
+      "referring_site": "https://3dts.shop/products/wandhouder-schuin-voor-makita-dc18rd-duo-oplader-3d-geprint-compatibel-met-18v-laadstation",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 10.76,
+          "original_unit_price": 11.95,
+          "line_discount": 1.19,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Machinehouder geschikt voor Makita, Bosch, DeWalt & Festool – Wandmontage",
+          "sku": null,
+          "quantity": 2,
+          "product_sale_price": 6.75,
+          "original_unit_price": 7.5,
+          "line_discount": 1.5,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1625",
+      "date": "2026-06-12T00:36:00Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 29.32,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "sku": "Unifikant3DTS.shop",
+          "quantity": 2,
+          "product_sale_price": 14.66,
+          "original_unit_price": 14.66,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1626",
+      "date": "2026-06-12T10:45:48Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 11.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
+          "sku": "cloudkeygen23DTS.SHOP",
+          "quantity": 1,
+          "product_sale_price": 11.95,
+          "original_unit_price": 11.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1627",
+      "date": "2026-06-12T12:45:48Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 15.76,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rc3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 15.76,
+          "original_unit_price": 15.76,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1628",
+      "date": "2026-06-12T15:15:56Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 17.34,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 17.34,
+          "original_unit_price": 17.34,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1629",
+      "date": "2026-06-13T13:39:47Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7.1,
+      "shipping_title": "Pakket",
+      "discount": 5.33,
+      "total_order_amount": 55.42,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Kaching Bundles"
+      ],
+      "landing_site": "https://3dts.shop/",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Reciprozaag Wandhouder – Universeel (PETG 3D Geprint)",
+          "sku": "640203879878_00D9",
+          "quantity": 1,
+          "product_sale_price": 8.06,
+          "original_unit_price": 8.95,
+          "line_discount": 0.89,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Universele Decoupeerzaag Wandhouder – 3D Geprint (PETG)",
+          "sku": "640203743890_05A3",
+          "quantity": 1,
+          "product_sale_price": 8.96,
+          "original_unit_price": 9.95,
+          "line_discount": 0.99,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Beugel geschikt voor Makita DUB185 Bladblazer",
+          "sku": null,
+          "quantity": 2,
+          "product_sale_price": 3.56,
+          "original_unit_price": 3.95,
+          "line_discount": 0.78,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Machinehouder geschikt voor Makita 18V LXT Gereedschap - Zwart",
+          "sku": "MachineLXT18V3DTS.shop",
+          "quantity": 3,
+          "product_sale_price": 8.06,
+          "original_unit_price": 8.95,
+          "line_discount": 2.67,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1630",
+      "date": "2026-06-14T15:43:07Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 0,
+      "total_order_amount": 13.6,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/",
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Beugel geschikt voor UniFi AC Lite, nanoHD, AC LR & U6 Lite – 3D Geprint",
+          "sku": "Unifimountlite3DTS.shop",
+          "quantity": 1,
+          "product_sale_price": 8.95,
+          "original_unit_price": 8.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1631",
+      "date": "2026-06-15T13:15:56Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 14.7,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
+          "sku": "Unifidesk3DTS.Shop",
+          "quantity": 1,
+          "product_sale_price": 14.7,
+          "original_unit_price": 14.7,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1632",
+      "date": "2026-06-16T04:45:50Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 17.34,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 17.34,
+          "original_unit_price": 17.34,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1633",
+      "date": "2026-06-16T10:45:47Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 15.76,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rc3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 15.76,
+          "original_unit_price": 15.76,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1634",
+      "date": "2026-06-16T14:15:30Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 15.76,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rc3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 15.76,
+          "original_unit_price": 15.76,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1635",
+      "date": "2026-06-16T14:40:07Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 34.68,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 2,
+          "product_sale_price": 17.34,
+          "original_unit_price": 17.34,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1636",
+      "date": "2026-06-16T17:55:46Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 17.34,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 17.34,
+          "original_unit_price": 17.34,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1637",
+      "date": "2026-06-17T13:45:11Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 14.66,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "sku": "Unifikant3DTS.shop",
+          "quantity": 1,
+          "product_sale_price": 14.66,
+          "original_unit_price": 14.66,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1638",
+      "date": "2026-06-17T15:00:33Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 16.48,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Beugel geschikt voor Bosch Professional 18V – Wandmontage. - 4",
+          "sku": null,
+          "quantity": 1,
+          "product_sale_price": 16.48,
+          "original_unit_price": 16.48,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1639",
+      "date": "2026-06-18T09:55:31Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 43.98,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "sku": "Unifikant3DTS.shop",
+          "quantity": 3,
+          "product_sale_price": 14.66,
+          "original_unit_price": 14.66,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1640",
+      "date": "2026-06-18T10:45:48Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 13.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Beugel geschikt voor Bosch 18V Power For All (Groen) - 3",
+          "sku": "Bosch18Vgroen3DTS.shop",
+          "quantity": 1,
+          "product_sale_price": 13.95,
+          "original_unit_price": 13.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1641",
+      "date": "2026-06-18T16:30:28Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 30.9,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder Beugel – geschikt voor CAS accu’s (Metabo, Hikoki, Mafell, Würth e.a.)",
+          "sku": null,
+          "quantity": 2,
+          "product_sale_price": 15.45,
+          "original_unit_price": 15.45,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1642",
+      "date": "2026-06-18T19:55:52Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 14.66,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "sku": "Unifikant3DTS.shop",
+          "quantity": 1,
+          "product_sale_price": 14.66,
+          "original_unit_price": 14.66,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1643",
+      "date": "2026-06-20T07:15:48Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 16,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+          "sku": "Bosch4a-3DTS",
+          "quantity": 1,
+          "product_sale_price": 16,
+          "original_unit_price": 16,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1644",
+      "date": "2026-06-21T12:46:37Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7.1,
+      "shipping_title": "Pakket",
+      "discount": 0,
+      "total_order_amount": 36.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/wandhouder-tp-link-eap650-eap653-eap723-access-point-petg-hittebestendig",
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder TP-Link EAP650 / EAP653 / EAP723 Access Point – PETG (hittebestendig)",
+          "sku": null,
+          "quantity": 3,
+          "product_sale_price": 9.95,
+          "original_unit_price": 9.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1645",
+      "date": "2026-06-22T11:28:32Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7.1,
+      "shipping_title": "Pakket",
+      "discount": 4.83,
+      "total_order_amount": 50.62,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "HBM 20V Accuhouder – 2-voudig (Wandmontage)",
+          "sku": "629094928879_BD5D",
+          "quantity": 2,
+          "product_sale_price": 11.95,
+          "original_unit_price": 11.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
+          "sku": "Makita4v3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 12.5,
+          "original_unit_price": 12.5,
+          "line_discount": 0,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 11.95,
+          "original_unit_price": 11.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1646",
+      "date": "2026-06-22T15:10:08Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 17.34,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 17.34,
+          "original_unit_price": 17.34,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1647",
+      "date": "2026-06-22T19:25:07Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 11.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
+          "sku": "cloudkeygen23DTS.SHOP",
+          "quantity": 1,
+          "product_sale_price": 11.95,
+          "original_unit_price": 11.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1648",
+      "date": "2026-06-23T09:23:03Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7.1,
+      "shipping_title": "Pakket",
+      "discount": 0,
+      "total_order_amount": 31,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/wandhouder-schuin-voor-makita-dc18rd-duo-oplader-3d-geprint-compatibel-met-18v-laadstation",
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 2,
+          "product_sale_price": 11.95,
+          "original_unit_price": 11.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1649",
+      "date": "2026-06-23T09:45:56Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 14.66,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "sku": "Unifikant3DTS.shop",
+          "quantity": 1,
+          "product_sale_price": 14.66,
+          "original_unit_price": 14.66,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1650",
+      "date": "2026-06-23T10:30:58Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 88.2,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
+          "sku": "Unifidesk3DTS.Shop",
+          "quantity": 6,
+          "product_sale_price": 14.7,
+          "original_unit_price": 14.7,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1651",
+      "date": "2026-06-23T13:55:57Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 18.54,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder Parkside 20V - 4-voudig",
+          "sku": "629621091536_60CB",
+          "quantity": 1,
+          "product_sale_price": 18.54,
+          "original_unit_price": 18.54,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1652",
+      "date": "2026-06-24T12:40:09Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 29.32,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "sku": "Unifikant3DTS.shop",
+          "quantity": 2,
+          "product_sale_price": 14.66,
+          "original_unit_price": 14.66,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1653",
+      "date": "2026-06-24T15:16:13Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 17.34,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "sku": "dc18rd3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 17.34,
+          "original_unit_price": 17.34,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1654",
+      "date": "2026-06-24T19:17:18Z",
+      "channel_source": "340764327937",
+      "customer_country_code": "NO",
+      "customer_country": "Norway",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Verzending",
+      "discount": 0,
+      "total_order_amount": 39.94,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Etsy",
+        "Etsy order 4097516788",
+        "VOEC"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder Makita DC18RC Oplader",
+          "sku": "dc18rc3dts.shop",
+          "quantity": 1,
+          "product_sale_price": 24.94,
+          "original_unit_price": 24.94,
+          "line_discount": 0,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Etsy Standard Shipping",
+          "sku": "ETSY-SHIPPING",
+          "quantity": 1,
+          "product_sale_price": 15,
+          "original_unit_price": 15,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1655",
+      "date": "2026-06-24T19:23:22Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 0,
+      "total_order_amount": 14.6,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
+          "sku": "cloudkeygen23DTS.SHOP",
+          "quantity": 1,
+          "product_sale_price": 9.95,
+          "original_unit_price": 9.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1656",
+      "date": "2026-06-25T08:30:57Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 12.36,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "bol-cancel-accepted",
+        "bol-geannuleerd",
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+          "sku": "Unifimountlite3DTS.shop",
+          "quantity": 1,
+          "product_sale_price": 12.36,
+          "original_unit_price": 12.36,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1657",
+      "date": "2026-06-25T19:15:49Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 36.98,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+          "sku": "Bosch4a-3DTS",
+          "quantity": 2,
+          "product_sale_price": 18.49,
+          "original_unit_price": 18.49,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1658",
+      "date": "2026-06-26T13:00:49Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 12.75,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
+          "sku": "584061623340_133C",
+          "quantity": 1,
+          "product_sale_price": 12.75,
+          "original_unit_price": 12.75,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1659",
+      "date": "2026-06-26T17:07:42Z",
+      "channel_source": "web",
+      "customer_country_code": "FR",
+      "customer_country": "France",
+      "shipping_paid_by_customer": 12.95,
+      "shipping_title": "Post NL EU",
+      "discount": 0,
+      "total_order_amount": 23.9,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "sku": "Unifikant3DTS.shop",
+          "quantity": 1,
+          "product_sale_price": 10.95,
+          "original_unit_price": 10.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1660",
+      "date": "2026-06-26T20:15:53Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 12.36,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+          "sku": "Unifimountlite3DTS.shop",
+          "quantity": 1,
+          "product_sale_price": 12.36,
+          "original_unit_price": 12.36,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    }
+  ]
+}

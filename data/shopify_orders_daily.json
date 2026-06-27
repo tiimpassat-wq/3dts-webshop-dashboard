@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-06-27T12:09:57.899Z",
+  "period": "daily",
+  "date_from": "2026-06-26",
+  "date_to_exclusive": "2026-06-27",
+  "totals": {
+    "order_count": 3,
+    "item_count": 3,
+    "total_order_amount": 49.01,
+    "shipping_paid_by_customer": 12.95,
+    "discount": 0
+  },
+  "orders": [
+    {
+      "order_number": "#3dts1658",
+      "date": "2026-06-26T13:00:49Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 12.75,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
+          "sku": "584061623340_133C",
+          "quantity": 1,
+          "product_sale_price": 12.75,
+          "original_unit_price": 12.75,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1659",
+      "date": "2026-06-26T17:07:42Z",
+      "channel_source": "web",
+      "customer_country_code": "FR",
+      "customer_country": "France",
+      "shipping_paid_by_customer": 12.95,
+      "shipping_title": "Post NL EU",
+      "discount": 0,
+      "total_order_amount": 23.9,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "sku": "Unifikant3DTS.shop",
+          "quantity": 1,
+          "product_sale_price": 10.95,
+          "original_unit_price": 10.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1660",
+      "date": "2026-06-26T20:15:53Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 12.36,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+          "sku": "Unifimountlite3DTS.shop",
+          "quantity": 1,
+          "product_sale_price": 12.36,
+          "original_unit_price": 12.36,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    }
+  ]
+}

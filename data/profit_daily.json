@@ -1,32 +1,158 @@
 {
-  "generated_at": "2026-06-27T11:46:42.222Z",
+  "generated_at": "2026-06-27T12:09:59.311Z",
   "period": "daily",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
     "google_ads": "google_ads_daily.json"
   },
-  "warnings": [
-    "Missing shopify_orders_daily.json; run npm run shopify-orders after setting Shopify secrets."
-  ],
+  "warnings": [],
   "cost_lookup": {
     "entries": 1,
     "source": "config/prijsberekening 2026.xlsx",
     "note": "Workbook appears to be a calculator/template, not a complete product cost table. Missing SKU costs will be flagged."
   },
   "totals": {
-    "orders": 0,
-    "omzet": 0,
-    "verzendkosten_betaald_door_klant": 0,
-    "werkelijke_verzendkosten": 0,
+    "orders": 3,
+    "omzet": 49.01,
+    "verzendkosten_betaald_door_klant": 12.95,
+    "werkelijke_verzendkosten": 19.25,
     "productkostprijs": 0,
-    "bruto_winst": 0,
-    "advertentiekosten": 0,
-    "nettowinst": 0,
-    "nettowinst_pct": null,
-    "gemiddelde_winst_per_order": 0,
+    "bruto_winst": 29.76,
+    "advertentiekosten": 2.03,
+    "nettowinst": 27.73,
+    "nettowinst_pct": 56.58,
+    "gemiddelde_winst_per_order": 9.24,
     "google_ads_cost_total": 2.03,
-    "google_ads_unallocated": 2.03,
+    "google_ads_unallocated": 0,
     "google_ads_roas": 0
   },
-  "orders": []
+  "orders": [
+    {
+      "order_number": "#3dts1658",
+      "date": "2026-06-26T13:00:49Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "tags": [
+        "bol.com"
+      ],
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "landing_site": null,
+      "referring_site": null,
+      "omzet": 12.75,
+      "verzendkosten_betaald_door_klant": 0,
+      "werkelijke_verzendkosten": 3.7,
+      "productkostprijs": 0,
+      "korting": 0,
+      "bruto_winst": 9.05,
+      "advertentiekosten": 0.53,
+      "advertentiekosten_methode": "allocated_by_order_revenue_share",
+      "nettowinst": 8.52,
+      "nettowinst_pct": 66.82,
+      "line_items": [
+        {
+          "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
+          "sku": "584061623340_133C",
+          "quantity": 1,
+          "product_sale_price": 12.75,
+          "line_revenue": 12.75,
+          "product_cost_unit": 0,
+          "product_cost_total": 0,
+          "gross_profit_before_shipping_ads": 12.75,
+          "margin_before_shipping_ads_pct": 100,
+          "cost_status": "missing",
+          "cost_match_key": null
+        }
+      ],
+      "warnings": [
+        "product_cost_missing_or_estimated",
+        "ad_cost_allocated_by_revenue_share"
+      ]
+    },
+    {
+      "order_number": "#3dts1659",
+      "date": "2026-06-26T17:07:42Z",
+      "channel_source": "web",
+      "customer_country_code": "FR",
+      "customer_country": "France",
+      "tags": [],
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "landing_site": null,
+      "referring_site": null,
+      "omzet": 23.9,
+      "verzendkosten_betaald_door_klant": 12.95,
+      "werkelijke_verzendkosten": 11.85,
+      "productkostprijs": 0,
+      "korting": 0,
+      "bruto_winst": 12.05,
+      "advertentiekosten": 0.99,
+      "advertentiekosten_methode": "allocated_by_order_revenue_share",
+      "nettowinst": 11.06,
+      "nettowinst_pct": 46.28,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "sku": "Unifikant3DTS.shop",
+          "quantity": 1,
+          "product_sale_price": 10.95,
+          "line_revenue": 10.95,
+          "product_cost_unit": 0,
+          "product_cost_total": 0,
+          "gross_profit_before_shipping_ads": 10.95,
+          "margin_before_shipping_ads_pct": 100,
+          "cost_status": "missing",
+          "cost_match_key": null
+        }
+      ],
+      "warnings": [
+        "product_cost_missing_or_estimated",
+        "ad_cost_allocated_by_revenue_share"
+      ]
+    },
+    {
+      "order_number": "#3dts1660",
+      "date": "2026-06-26T20:15:53Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "tags": [
+        "bol.com"
+      ],
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "landing_site": null,
+      "referring_site": null,
+      "omzet": 12.36,
+      "verzendkosten_betaald_door_klant": 0,
+      "werkelijke_verzendkosten": 3.7,
+      "productkostprijs": 0,
+      "korting": 0,
+      "bruto_winst": 8.66,
+      "advertentiekosten": 0.51,
+      "advertentiekosten_methode": "allocated_by_order_revenue_share",
+      "nettowinst": 8.15,
+      "nettowinst_pct": 65.94,
+      "line_items": [
+        {
+          "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+          "sku": "Unifimountlite3DTS.shop",
+          "quantity": 1,
+          "product_sale_price": 12.36,
+          "line_revenue": 12.36,
+          "product_cost_unit": 0,
+          "product_cost_total": 0,
+          "gross_profit_before_shipping_ads": 12.36,
+          "margin_before_shipping_ads_pct": 100,
+          "cost_status": "missing",
+          "cost_match_key": null
+        }
+      ],
+      "warnings": [
+        "product_cost_missing_or_estimated",
+        "ad_cost_allocated_by_revenue_share"
+      ]
+    }
+  ]
 }
