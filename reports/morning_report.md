@@ -1,6 +1,6 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-06-27T12:31:09.490Z
+Gegenereerd: 2026-06-27T12:33:05.791Z
 
 ## Samenvatting gisteren
 
@@ -53,6 +53,6 @@ Gegenereerd: 2026-06-27T12:31:09.490Z
 
 ## Datakwaliteit
 
-- Bol Advertising API unavailable or not authorized: 400: {"type":"https://api.bol.com/problems","title":"Bad Request","status":400,"detail":"The supplied accept header media type is not supported.","host":"Instance-696756228","instance":"https://api.bol.com/advertiser/sponsored-products/reporting/performance/advertiser?period-start-date=2026-06-26&period-end-date=2026-06-26","X-Request-ID":"019f090fcde07bebaad9ec93d5cb7ad2"}
-- Bol Advertising API unavailable or not authorized: 400: {"type":"https://api.bol.com/problems","title":"Bad Request","status":400,"detail":"The supplied accept header media type is not supported.","host":"Instance-6967568","instance":"https://api.bol.com/advertiser/sponsored-products/reporting/performance/advertiser?period-start-date=2026-06-21&period-end-date=2026-06-27","X-Request-ID":"019f090ff71d76478566300ec4550fec"}
+- Bol Advertising API unavailable or not authorized: 403: {"type":"https://api.bol.com/problems","title":"Forbidden","status":403,"detail":"Access denied for endpoint: GET /advertiser/sponsored-products/reporting/performance/advertiser. None of the required identities (advertiser) are present in the access token. For more information, please see https://developers.bol.com for more information.","host":"Instance-696756","instance":"https://api.bol.com/advertiser/sponsored-products/reporting/performance/advertiser?period-start-date=2026-06-26&period-end-
+- Bol Advertising API unavailable or not authorized: 403: {"type":"https://api.bol.com/problems","title":"Forbidden","status":403,"detail":"Access denied for endpoint: GET /advertiser/sponsored-products/reporting/performance/advertiser. None of the required identities (advertiser) are present in the access token. For more information, please see https://developers.bol.com for more information.","host":"Instance-6967568","instance":"https://api.bol.com/advertiser/sponsored-products/reporting/performance/advertiser?period-start-date=2026-06-21&period-end
 
