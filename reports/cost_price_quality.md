@@ -1,6 +1,6 @@
 # Kostprijs Kwaliteit
 
-Gegenereerd: 2026-06-27T13:20:47.915Z
+Gegenereerd: 2026-06-27T13:24:41.371Z
 
 ## Samenvatting
 
