@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:33:05.786Z",
+  "generated_at": "2026-06-27T12:35:54.618Z",
   "period": "daily",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
@@ -7,9 +7,7 @@
     "bol_enriched": "bol_enriched_daily.json",
     "bol_ads": "bol_ads_daily.json"
   },
-  "warnings": [
-    "Bol Advertising API unavailable or not authorized: 403: {\"type\":\"https://api.bol.com/problems\",\"title\":\"Forbidden\",\"status\":403,\"detail\":\"Access denied for endpoint: GET /advertiser/sponsored-products/reporting/performance/advertiser. None of the required identities (advertiser) are present in the access token. For more information, please see https://developers.bol.com for more information.\",\"host\":\"Instance-696756\",\"instance\":\"https://api.bol.com/advertiser/sponsored-products/reporting/performance/advertiser?period-start-date=2026-06-26&period-end-"
-  ],
+  "warnings": [],
   "cost_lookup": {
     "entries": 1,
     "source": "config/prijsberekening 2026.xlsx",
@@ -24,17 +22,17 @@
     "bruto_winst": 29.76,
     "bol_commissie": 0.87,
     "advertentiekosten": 2.03,
-    "bol_advertentiekosten": 0,
-    "nettowinst": 26.86,
-    "nettowinst_pct": 54.81,
-    "gemiddelde_winst_per_order": 8.95,
+    "bol_advertentiekosten": 0.48,
+    "nettowinst": 26.38,
+    "nettowinst_pct": 53.83,
+    "gemiddelde_winst_per_order": 8.79,
     "google_ads_cost_total": 2.03,
     "google_ads_unallocated": 0,
     "google_ads_roas": 0,
-    "bol_ads_cost_total": 0,
+    "bol_ads_cost_total": 0.48,
     "bol_ads_unallocated": 0,
-    "bol_ads_roas": null,
-    "bol_ads_supported": false
+    "bol_ads_roas": 21.9583,
+    "bol_ads_supported": true
   },
   "channel_totals": {
     "Bol via Shopify": {
@@ -44,9 +42,9 @@
       "productkostprijs": 0,
       "bol_commissie": 0.87,
       "advertentiekosten": 0,
-      "bol_advertentiekosten": 0,
-      "nettowinst": 16.84,
-      "nettowinst_pct": 67.06
+      "bol_advertentiekosten": 0.48,
+      "nettowinst": 16.36,
+      "nettowinst_pct": 65.15
     },
     "Shopify direct": {
       "orders": 1,
@@ -63,7 +61,7 @@
   "bol": {
     "matched_orders": 1,
     "missing_in_shopify": 0,
-    "ads_supported": false
+    "ads_supported": true
   },
   "orders": [
     {
@@ -90,10 +88,10 @@
       "bol_commissie": 0.87,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 0,
-      "bol_advertentiekosten_methode": "none",
-      "nettowinst": 8.18,
-      "nettowinst_pct": 64.16,
+      "bol_advertentiekosten": 0.24,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 7.94,
+      "nettowinst_pct": 62.27,
       "bol_order_id": "C0007HD15W",
       "bol_match_method": "identifier_or_sku_tag_source",
       "bol_match_confidence": 0.95,
@@ -116,7 +114,8 @@
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated"
+        "product_cost_missing_or_estimated",
+        "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
     {
@@ -193,10 +192,10 @@
       "bol_commissie": 0,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 0,
-      "bol_advertentiekosten_methode": "none",
-      "nettowinst": 8.66,
-      "nettowinst_pct": 70.06,
+      "bol_advertentiekosten": 0.24,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 8.42,
+      "nettowinst_pct": 68.12,
       "bol_order_id": null,
       "bol_match_method": null,
       "bol_match_confidence": null,
@@ -218,6 +217,7 @@
       ],
       "warnings": [
         "product_cost_missing_or_estimated",
+        "bol_ads_allocated_by_bol_revenue_share",
         "commission_missing_or_estimated",
         "bol_order_not_matched_but_shopify_source_is_bol"
       ]

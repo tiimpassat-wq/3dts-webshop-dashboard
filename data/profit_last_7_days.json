@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:33:05.789Z",
+  "generated_at": "2026-06-27T12:35:54.621Z",
   "period": "last_7_days",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
@@ -7,9 +7,7 @@
     "bol_enriched": "bol_enriched_last_7_days.json",
     "bol_ads": "bol_ads_last_7_days.json"
   },
-  "warnings": [
-    "Bol Advertising API unavailable or not authorized: 403: {\"type\":\"https://api.bol.com/problems\",\"title\":\"Forbidden\",\"status\":403,\"detail\":\"Access denied for endpoint: GET /advertiser/sponsored-products/reporting/performance/advertiser. None of the required identities (advertiser) are present in the access token. For more information, please see https://developers.bol.com for more information.\",\"host\":\"Instance-6967568\",\"instance\":\"https://api.bol.com/advertiser/sponsored-products/reporting/performance/advertiser?period-start-date=2026-06-21&period-end"
-  ],
+  "warnings": [],
   "cost_lookup": {
     "entries": 1,
     "source": "config/prijsberekening 2026.xlsx",
@@ -24,17 +22,17 @@
     "bruto_winst": 364.79,
     "bol_commissie": 27.66,
     "advertentiekosten": 29.5,
-    "bol_advertentiekosten": 0,
-    "nettowinst": 307.63,
-    "nettowinst_pct": 65.62,
-    "gemiddelde_winst_per_order": 18.1,
+    "bol_advertentiekosten": 12.23,
+    "nettowinst": 295.4,
+    "nettowinst_pct": 63.01,
+    "gemiddelde_winst_per_order": 17.38,
     "google_ads_cost_total": 29.5,
     "google_ads_unallocated": 0,
     "google_ads_roas": 0.4949,
-    "bol_ads_cost_total": 0,
+    "bol_ads_cost_total": 12.23,
     "bol_ads_unallocated": 0,
-    "bol_ads_roas": null,
-    "bol_ads_supported": false
+    "bol_ads_roas": 0.8618,
+    "bol_ads_supported": true
   },
   "channel_totals": {
     "Bol via Shopify": {
@@ -44,9 +42,9 @@
       "productkostprijs": 0,
       "bol_commissie": 27.66,
       "advertentiekosten": 0,
-      "bol_advertentiekosten": 0,
-      "nettowinst": 286.34,
-      "nettowinst_pct": 73.35
+      "bol_advertentiekosten": 12.23,
+      "nettowinst": 274.11,
+      "nettowinst_pct": 70.22
     },
     "Onbekend/overig": {
       "orders": 1,
@@ -74,7 +72,7 @@
   "bol": {
     "matched_orders": 11,
     "missing_in_shopify": 0,
-    "ads_supported": false
+    "ads_supported": true
   },
   "orders": [
     {
@@ -99,10 +97,10 @@
       "bol_commissie": 3.26,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 0,
-      "bol_advertentiekosten_methode": "none",
-      "nettowinst": 28.09,
-      "nettowinst_pct": 76.02,
+      "bol_advertentiekosten": 1.16,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 26.93,
+      "nettowinst_pct": 72.88,
       "bol_order_id": "C0007865CM",
       "bol_match_method": "identifier_or_sku_tag_source",
       "bol_match_confidence": 0.95,
@@ -125,7 +123,8 @@
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated"
+        "product_cost_missing_or_estimated",
+        "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
     {
@@ -150,10 +149,10 @@
       "bol_commissie": 0.87,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 0,
-      "bol_advertentiekosten_methode": "none",
-      "nettowinst": 44.15,
-      "nettowinst_pct": 87.22,
+      "bol_advertentiekosten": 1.59,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 42.56,
+      "nettowinst_pct": 84.08,
       "bol_order_id": "C0007HD15W",
       "bol_match_method": "identifier_or_sku_tag_source",
       "bol_match_confidence": 0.95,
@@ -202,7 +201,8 @@
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated"
+        "product_cost_missing_or_estimated",
+        "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
     {
@@ -229,10 +229,10 @@
       "bol_commissie": 3.08,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 0,
-      "bol_advertentiekosten_methode": "none",
-      "nettowinst": 6.17,
-      "nettowinst_pct": 35.58,
+      "bol_advertentiekosten": 0.54,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 5.63,
+      "nettowinst_pct": 32.47,
       "bol_order_id": "C00076MJ1J",
       "bol_match_method": "date_amount_country_product_fallback",
       "bol_match_confidence": 0.9,
@@ -255,7 +255,8 @@
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated"
+        "product_cost_missing_or_estimated",
+        "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
     {
@@ -282,10 +283,10 @@
       "bol_commissie": 0.84,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 0,
-      "bol_advertentiekosten_methode": "none",
-      "nettowinst": 7.41,
-      "nettowinst_pct": 62.01,
+      "bol_advertentiekosten": 0.37,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 7.04,
+      "nettowinst_pct": 58.91,
       "bol_order_id": "C000775DHH",
       "bol_match_method": "identifier_or_sku_tag_source",
       "bol_match_confidence": 0.95,
@@ -308,7 +309,8 @@
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated"
+        "product_cost_missing_or_estimated",
+        "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
     {
@@ -333,10 +335,10 @@
       "bol_commissie": 0.85,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 0,
-      "bol_advertentiekosten_methode": "none",
-      "nettowinst": 24.55,
-      "nettowinst_pct": 79.19,
+      "bol_advertentiekosten": 0.97,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 23.58,
+      "nettowinst_pct": 76.06,
       "bol_order_id": "C0007DKH70",
       "bol_match_method": "identifier_or_sku_tag_source",
       "bol_match_confidence": 0.95,
@@ -359,7 +361,8 @@
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated"
+        "product_cost_missing_or_estimated",
+        "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
     {
@@ -386,10 +389,10 @@
       "bol_commissie": 0.92,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 0,
-      "bol_advertentiekosten_methode": "none",
-      "nettowinst": 5.65,
-      "nettowinst_pct": 38.54,
+      "bol_advertentiekosten": 0.46,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 5.19,
+      "nettowinst_pct": 35.4,
       "bol_order_id": "C00077W384",
       "bol_match_method": "identifier_or_sku_tag_source",
       "bol_match_confidence": 0.95,
@@ -412,7 +415,8 @@
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated"
+        "product_cost_missing_or_estimated",
+        "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
     {
@@ -439,10 +443,10 @@
       "bol_commissie": 5.55,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 0,
-      "bol_advertentiekosten_methode": "none",
-      "nettowinst": 78.95,
-      "nettowinst_pct": 89.51,
+      "bol_advertentiekosten": 2.76,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 76.19,
+      "nettowinst_pct": 86.38,
       "bol_order_id": "C000673CJH",
       "bol_match_method": "identifier_or_sku_tag_source",
       "bol_match_confidence": 0.95,
@@ -465,7 +469,8 @@
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated"
+        "product_cost_missing_or_estimated",
+        "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
     {
@@ -492,10 +497,10 @@
       "bol_commissie": 0.85,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 0,
-      "bol_advertentiekosten_methode": "none",
-      "nettowinst": 9.6,
-      "nettowinst_pct": 51.78,
+      "bol_advertentiekosten": 0.58,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 9.02,
+      "nettowinst_pct": 48.65,
       "bol_order_id": "C0007HWT86",
       "bol_match_method": "identifier_or_sku_tag_source",
       "bol_match_confidence": 0.95,
@@ -518,7 +523,8 @@
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated"
+        "product_cost_missing_or_estimated",
+        "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
     {
@@ -545,10 +551,10 @@
       "bol_commissie": 1.85,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 0,
-      "bol_advertentiekosten_methode": "none",
-      "nettowinst": 21.87,
-      "nettowinst_pct": 74.59,
+      "bol_advertentiekosten": 0.92,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 20.95,
+      "nettowinst_pct": 71.45,
       "bol_order_id": "C0007C0W73",
       "bol_match_method": "identifier_or_sku_tag_source",
       "bol_match_confidence": 0.95,
@@ -571,7 +577,8 @@
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated"
+        "product_cost_missing_or_estimated",
+        "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
     {
@@ -598,10 +605,10 @@
       "bol_commissie": 3.08,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 0,
-      "bol_advertentiekosten_methode": "none",
-      "nettowinst": 8.66,
-      "nettowinst_pct": 49.94,
+      "bol_advertentiekosten": 0.54,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 8.12,
+      "nettowinst_pct": 46.83,
       "bol_order_id": "C0007C97MC",
       "bol_match_method": "date_amount_country_product_fallback",
       "bol_match_confidence": 0.9,
@@ -624,7 +631,8 @@
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated"
+        "product_cost_missing_or_estimated",
+        "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
     {
@@ -770,10 +778,10 @@
       "bol_commissie": 0,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 0,
-      "bol_advertentiekosten_methode": "none",
-      "nettowinst": 8.66,
-      "nettowinst_pct": 70.06,
+      "bol_advertentiekosten": 0.39,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 8.27,
+      "nettowinst_pct": 66.91,
       "bol_order_id": null,
       "bol_match_method": null,
       "bol_match_confidence": null,
@@ -795,6 +803,7 @@
       ],
       "warnings": [
         "product_cost_missing_or_estimated",
+        "bol_ads_allocated_by_bol_revenue_share",
         "commission_missing_or_estimated",
         "bol_order_not_matched_but_shopify_source_is_bol"
       ]
@@ -823,10 +832,10 @@
       "bol_commissie": 6.51,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 0,
-      "bol_advertentiekosten_methode": "none",
-      "nettowinst": 24.87,
-      "nettowinst_pct": 67.25,
+      "bol_advertentiekosten": 1.16,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 23.71,
+      "nettowinst_pct": 64.12,
       "bol_order_id": "C0007FK7L2",
       "bol_match_method": "identifier_or_sku_tag_source",
       "bol_match_confidence": 0.95,
@@ -849,7 +858,8 @@
         }
       ],
       "warnings": [
-        "product_cost_missing_or_estimated"
+        "product_cost_missing_or_estimated",
+        "bol_ads_allocated_by_bol_revenue_share"
       ]
     },
     {
@@ -876,10 +886,10 @@
       "bol_commissie": 0,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 0,
-      "bol_advertentiekosten_methode": "none",
-      "nettowinst": 9.05,
-      "nettowinst_pct": 70.98,
+      "bol_advertentiekosten": 0.4,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 8.65,
+      "nettowinst_pct": 67.84,
       "bol_order_id": null,
       "bol_match_method": null,
       "bol_match_confidence": null,
@@ -901,6 +911,7 @@
       ],
       "warnings": [
         "product_cost_missing_or_estimated",
+        "bol_ads_allocated_by_bol_revenue_share",
         "commission_missing_or_estimated",
         "bol_order_not_matched_but_shopify_source_is_bol"
       ]
@@ -979,10 +990,10 @@
       "bol_commissie": 0,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 0,
-      "bol_advertentiekosten_methode": "none",
-      "nettowinst": 8.66,
-      "nettowinst_pct": 70.06,
+      "bol_advertentiekosten": 0.39,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 8.27,
+      "nettowinst_pct": 66.91,
       "bol_order_id": null,
       "bol_match_method": null,
       "bol_match_confidence": null,
@@ -1004,6 +1015,7 @@
       ],
       "warnings": [
         "product_cost_missing_or_estimated",
+        "bol_ads_allocated_by_bol_revenue_share",
         "commission_missing_or_estimated",
         "bol_order_not_matched_but_shopify_source_is_bol"
       ]

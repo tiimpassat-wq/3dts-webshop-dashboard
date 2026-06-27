@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:33:05.792Z",
+  "generated_at": "2026-06-27T12:35:54.623Z",
   "actions": [
     {
       "type": "product controleren",
@@ -97,6 +97,12 @@
       "priority": "high",
       "campaign": "Google Ads",
       "reason": "ROAS laatste 7 dagen is 0.4949; eerst tracking/productmarges controleren voordat budget omhoog gaat."
+    },
+    {
+      "type": "campagne pauzeren",
+      "priority": "high",
+      "campaign": "Bol Sponsored Products",
+      "reason": "Bol Ads ROAS laatste 7 dagen is 0.8618; controleer zoektermen en biedingen voordat budget omhoog gaat."
     },
     {
       "type": "bundel maken",
