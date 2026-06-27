@@ -114,7 +114,7 @@ async function fetchBolAdsPayload(range) {
       "period-end-date": range.toInclusive,
     });
     const raw = await bolFetchJson(`${advertiserBaseUrl}/performance/advertiser?${params}`, token, {
-      accept: "application/json",
+      accept: "application/vnd.retailer.v11+json",
     });
     return {
       ...basePayload,
