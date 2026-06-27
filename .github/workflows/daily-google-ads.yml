@@ -1,4 +1,4 @@
-name: Daily Google Ads import
+name: Daily data import
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  import-google-ads:
+  import-dashboard-data:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -30,9 +30,14 @@ jobs:
           GOOGLE_ADS_LOGIN_CUSTOMER_ID: ${{ secrets.GOOGLE_ADS_LOGIN_CUSTOMER_ID }}
         run: npm run google-ads
 
+      - name: Fetch Shopify orders
+        env:
+          SHOPIFY_SHOP_DOMAIN: ${{ secrets.SHOPIFY_SHOP_DOMAIN }}
+          SHOPIFY_ADMIN_ACCESS_TOKEN: ${{ secrets.SHOPIFY_ADMIN_ACCESS_TOKEN }}
+        run: npm run shopify-orders
+
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update daily Google Ads data"
-          file_pattern: "data/google_ads_*.json"
-
+          commit_message: "Update daily dashboard data"
+          file_pattern: "data/*.json"

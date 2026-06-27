@@ -4,10 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "google-ads": "node scripts/google_ads_report.mjs"
+    "google-ads": "node scripts/google_ads_report.mjs",
+    "shopify-orders": "node scripts/shopify_orders_report.mjs",
+    "daily": "npm run google-ads && npm run shopify-orders"
   },
   "engines": {
     "node": ">=20"
   }
 }
-

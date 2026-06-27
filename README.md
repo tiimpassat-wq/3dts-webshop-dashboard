@@ -13,8 +13,8 @@ Dagelijkse data-opslag voor het 3DTS ochtendrapport: advertenties, kosten, verze
 
 1. Installeer Node.js 20 of nieuwer.
 2. Kopieer `.env.example` naar `.env`.
-3. Vul je eigen Google Ads waarden in `.env`.
-4. Laad de env vars en draai het script:
+3. Vul je eigen Google Ads en Shopify waarden in `.env`.
+4. Laad de env vars en draai de scripts:
 
 ```powershell
 Get-Content .env | ForEach-Object {
@@ -24,13 +24,17 @@ Get-Content .env | ForEach-Object {
   }
 }
 npm run google-ads
+npm run shopify-orders
 ```
 
-Het script schrijft:
+De scripts schrijven:
 
 - `data/google_ads_daily.json`
 - `data/google_ads_last_7_days.json`
 - `data/google_ads_last_30_days.json`
+- `data/shopify_orders_daily.json`
+- `data/shopify_orders_last_7_days.json`
+- `data/shopify_orders_last_30_days.json`
 
 ## Benodigde `.env` variabelen
 
@@ -41,6 +45,9 @@ GOOGLE_ADS_CLIENT_SECRET=
 GOOGLE_ADS_REFRESH_TOKEN=
 GOOGLE_ADS_CUSTOMER_ID=5233371293
 GOOGLE_ADS_LOGIN_CUSTOMER_ID=3221449798
+
+SHOPIFY_SHOP_DOMAIN=
+SHOPIFY_ADMIN_ACCESS_TOKEN=
 ```
 
 Zet echte tokens nooit in GitHub. Gebruik lokaal `.env` en in GitHub Actions alleen repository secrets.
@@ -57,6 +64,20 @@ Zet hiervoor in GitHub bij `Settings -> Secrets and variables -> Actions` deze s
 - `GOOGLE_ADS_REFRESH_TOKEN`
 - `GOOGLE_ADS_CUSTOMER_ID`
 - `GOOGLE_ADS_LOGIN_CUSTOMER_ID`
+- `SHOPIFY_SHOP_DOMAIN`
+- `SHOPIFY_ADMIN_ACCESS_TOKEN`
+
+## Shopify orders
+
+Het script `scripts/shopify_orders_report.mjs` haalt orders op via de Shopify Admin GraphQL API en schrijft drie bestanden:
+
+- `data/shopify_orders_daily.json`
+- `data/shopify_orders_last_7_days.json`
+- `data/shopify_orders_last_30_days.json`
+
+Per order worden onder andere ordernummer, datum, kanaal/source, klantland, verzendkosten, korting, ordertotaal, betaalstatus, fulfillmentstatus, tags, landing site, referring site en line items met productnaam, SKU, aantal en verkoopprijs opgeslagen.
+
+De Shopify Admin token heeft minimaal order-leestoegang nodig, bijvoorbeeld `read_orders`.
 
 ## Kostprijzen en verzendtarieven
 
@@ -72,7 +93,7 @@ Het bestand `config/prijsberekening 2026.xlsx` bevat de kostprijsbasis. De vaste
 
 ### Shopify
 
-Voeg een script toe zoals `scripts/shopify_orders.mjs` dat orders ophaalt en opslaat in `data/shopify_orders_daily.json`. Nodig: Shopify Admin API token, store URL en eventueel location IDs.
+Shopify orders zijn toegevoegd via `scripts/shopify_orders_report.mjs`. Een volgende stap is Shopify refunds, transactiekosten en product cost/metafields toevoegen voor nauwkeurigere marge per orderregel.
 
 ### Bol.com
 
@@ -93,4 +114,3 @@ Uiteindelijk combineert het rapport:
 - marketplace fees en betaalproviderkosten
 
 Daarmee kan ChatGPT per verkoop aangeven: omzet, kosten, winst, marge en concrete actiepunten.
-
