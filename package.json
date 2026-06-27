@@ -6,7 +6,11 @@
   "scripts": {
     "google-ads": "node scripts/google_ads_report.mjs",
     "shopify-orders": "node scripts/shopify_orders_report.mjs",
-    "daily": "npm run google-ads && npm run shopify-orders"
+    "profit": "node scripts/profit_report.mjs",
+    "daily": "npm run google-ads && npm run shopify-orders && npm run profit"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
   },
   "engines": {
     "node": ">=20"

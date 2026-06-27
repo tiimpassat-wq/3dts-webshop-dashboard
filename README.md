@@ -25,6 +25,7 @@ Get-Content .env | ForEach-Object {
 }
 npm run google-ads
 npm run shopify-orders
+npm run profit
 ```
 
 De scripts schrijven:
@@ -35,6 +36,10 @@ De scripts schrijven:
 - `data/shopify_orders_daily.json`
 - `data/shopify_orders_last_7_days.json`
 - `data/shopify_orders_last_30_days.json`
+- `data/profit_daily.json`
+- `data/profit_last_7_days.json`
+- `reports/morning_report.md`
+- `reports/action_items.json`
 
 ## Benodigde `.env` variabelen
 
@@ -78,6 +83,30 @@ Het script `scripts/shopify_orders_report.mjs` haalt orders op via de Shopify Ad
 Per order worden onder andere ordernummer, datum, kanaal/source, klantland, verzendkosten, korting, ordertotaal, betaalstatus, fulfillmentstatus, tags, landing site, referring site en line items met productnaam, SKU, aantal en verkoopprijs opgeslagen.
 
 De Shopify Admin token heeft minimaal order-leestoegang nodig, bijvoorbeeld `read_orders`.
+
+## Winstcalculator
+
+Het script `scripts/profit_report.mjs` combineert Shopify orders, Google Ads kosten, verzendtarieven en het Excel-kostprijsbestand.
+
+Het rekent per order:
+
+- omzet
+- verzendkosten betaald door klant
+- werkelijke verzendkosten
+- productkostprijs uit Excel
+- bruto winst
+- advertentiekosten
+- nettowinst
+- nettowinstpercentage
+
+Output:
+
+- `data/profit_daily.json`
+- `data/profit_last_7_days.json`
+- `reports/morning_report.md`
+- `reports/action_items.json`
+
+Let op: `config/prijsberekening 2026.xlsx` lijkt nu vooral een calculator-template. Als een SKU niet exact in het workbook staat, markeert het rapport `product_cost_missing_or_estimated`. Voor betrouwbare winst per verkoop is een echte SKU-kostprijstabel nodig.
 
 ## Kostprijzen en verzendtarieven
 

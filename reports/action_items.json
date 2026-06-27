@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-06-27T11:46:42.225Z",
+  "actions": [
+    {
+      "type": "campagne pauzeren",
+      "priority": "high",
+      "campaign": "Google Ads",
+      "reason": "ROAS laatste 7 dagen is 0.4949; eerst tracking/productmarges controleren voordat budget omhoog gaat."
+    }
+  ]
+}

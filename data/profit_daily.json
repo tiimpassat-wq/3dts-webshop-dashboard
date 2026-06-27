@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-06-27T11:46:42.222Z",
+  "period": "daily",
+  "source_files": {
+    "shopify": "shopify_orders_daily.json",
+    "google_ads": "google_ads_daily.json"
+  },
+  "warnings": [
+    "Missing shopify_orders_daily.json; run npm run shopify-orders after setting Shopify secrets."
+  ],
+  "cost_lookup": {
+    "entries": 1,
+    "source": "config/prijsberekening 2026.xlsx",
+    "note": "Workbook appears to be a calculator/template, not a complete product cost table. Missing SKU costs will be flagged."
+  },
+  "totals": {
+    "orders": 0,
+    "omzet": 0,
+    "verzendkosten_betaald_door_klant": 0,
+    "werkelijke_verzendkosten": 0,
+    "productkostprijs": 0,
+    "bruto_winst": 0,
+    "advertentiekosten": 0,
+    "nettowinst": 0,
+    "nettowinst_pct": null,
+    "gemiddelde_winst_per_order": 0,
+    "google_ads_cost_total": 2.03,
+    "google_ads_unallocated": 2.03,
+    "google_ads_roas": 0
+  },
+  "orders": []
+}
