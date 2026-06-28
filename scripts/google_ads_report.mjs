@@ -27,11 +27,7 @@ for (const [name, value] of Object.entries(required)) {
   if (!value) throw new Error(`Missing ${name}`);
 }
 
-const ranges = [
-  { label: "daily", file: "google_ads_daily.json", where: "segments.date DURING YESTERDAY" },
-  { label: "last_7_days", file: "google_ads_last_7_days.json", where: "segments.date DURING LAST_7_DAYS" },
-  { label: "last_30_days", file: "google_ads_last_30_days.json", where: "segments.date DURING LAST_30_DAYS" },
-];
+const ranges = buildRanges();
 
 await mkdir(dataDir, { recursive: true });
 
@@ -43,6 +39,9 @@ for (const range of ranges) {
   const payload = {
     generated_at: new Date().toISOString(),
     period: range.label,
+    date_from: range.from,
+    date_to: range.toInclusive,
+    timezone: "Europe/Amsterdam",
     customer_id: customerId,
     login_customer_id: loginCustomerId,
     accessible_customers: accessibleCustomers.resourceNames || [],
@@ -105,8 +104,7 @@ async function fetchCampaignReport(accessToken, dateWhereClause) {
       metrics.conversions_value
     FROM campaign
     WHERE ${dateWhereClause}
-    ORDER BY metrics.cost_micros DESC
-    LIMIT 200`;
+    ORDER BY metrics.cost_micros DESC`;
 
   const stream = await googleAdsFetch(accessToken, `customers/${customerId}/googleAds:searchStream`, {
     method: "POST",
@@ -128,6 +126,42 @@ async function fetchCampaignReport(accessToken, dateWhereClause) {
       roas: cost > 0 ? roundNumber(conversionValue / cost, 4) : null,
     };
   });
+}
+
+function buildRanges() {
+  const today = localDateParts(0);
+  const yesterday = localDateParts(-1);
+  const sevenDaysAgo = localDateParts(-6);
+  const thirtyDaysAgo = localDateParts(-29);
+
+  return [
+    makeRange("daily", "google_ads_daily.json", yesterday, yesterday),
+    makeRange("last_7_days", "google_ads_last_7_days.json", sevenDaysAgo, today),
+    makeRange("last_30_days", "google_ads_last_30_days.json", thirtyDaysAgo, today),
+  ];
+}
+
+function makeRange(label, file, from, toInclusive) {
+  return {
+    label,
+    file,
+    from,
+    toInclusive,
+    where: `segments.date BETWEEN '${from}' AND '${toInclusive}'`,
+  };
+}
+
+function localDateParts(offsetDays) {
+  const date = new Date();
+  date.setDate(date.getDate() + offsetDays);
+  const formatter = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Amsterdam",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  });
+  const parts = Object.fromEntries(formatter.formatToParts(date).map((part) => [part.type, part.value]));
+  return `${parts.year}-${parts.month}-${parts.day}`;
 }
 
 async function googleAdsFetch(accessToken, resourcePath, options = {}) {
@@ -189,4 +223,3 @@ function roundNumber(value, decimals) {
   const factor = 10 ** decimals;
   return Math.round((value + Number.EPSILON) * factor) / factor;
 }
-
