@@ -1,50 +1,15 @@
 {
-  "generated_at": "2026-06-27T13:24:28.063Z",
+  "generated_at": "2026-06-28T08:28:49.616Z",
   "period": "daily",
-  "date_from": "2026-06-26",
-  "date_to_exclusive": "2026-06-27",
+  "date_from": "2026-06-27",
+  "date_to_exclusive": "2026-06-28",
   "source": "bol.com Retailer API",
-  "orders": [
-    {
-      "bol_order_id": "C0007HD15W",
-      "order_placed_at": "2026-06-26T14:56:05+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 12.75,
-      "total_commission": 0.87,
-      "eans": [
-        "9504237317951"
-      ],
-      "offer_references": [
-        "3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3948111700",
-          "ean": "9504237317951",
-          "product_name": "Plafondbeugel voor acces point - geschikt voor Unifi UAP AC PRO - Vervangende Montage beugel",
-          "offer_id": "54695faf-5d5f-49a6-b90c-b54e515e1fc3",
-          "offer_reference": "3DTS",
-          "sku": "3DTS",
-          "quantity": 1,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 12.75,
-          "total_price": 12.75,
-          "commission": 0.87,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": true,
-          "latest_changed_at": "2026-06-26T17:19:52+02:00"
-        }
-      ]
-    }
-  ],
+  "orders": [],
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 1,
-    "total_order_amount": 12.75,
-    "total_commission": 0.87
+    "order_count": 0,
+    "total_order_amount": 0,
+    "total_commission": 0
   }
 }
