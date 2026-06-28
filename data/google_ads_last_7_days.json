@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T12:55:49.614Z",
+  "generated_at": "2026-06-28T13:05:41.181Z",
   "period": "last_7_days",
   "date_from": "2026-06-22",
   "date_to": "2026-06-28",
@@ -11,7 +11,7 @@
     "customers/3221449798"
   ],
   "totals": {
-    "impressions": 3069,
+    "impressions": 3073,
     "clicks": 47,
     "cost_eur": 20.66,
     "conversions": 2,
@@ -24,7 +24,7 @@
       "id": "22500757895",
       "name": "Beugels",
       "status": "ENABLED",
-      "impressions": 3069,
+      "impressions": 3073,
       "clicks": 47,
       "cost_eur": 20.66,
       "conversions": 2,

@@ -1,17 +1,135 @@
 {
-  "generated_at": "2026-06-28T12:55:52.418Z",
+  "generated_at": "2026-06-28T13:05:43.631Z",
   "period": "last_30_days",
   "date_from": "2026-05-30",
   "date_to_exclusive": "2026-06-29",
   "warnings": [],
   "totals": {
-    "order_count": 78,
-    "item_count": 126,
-    "total_order_amount": 1774.04,
+    "order_count": 81,
+    "item_count": 137,
+    "total_order_amount": 1898.84,
     "shipping_paid_by_customer": 106.79,
-    "discount": 32.09
+    "discount": 42.74
   },
   "orders": [
+    {
+      "order_number": "#3dts1581",
+      "date": "2026-05-29T20:41:16Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Gratis Verzending",
+      "discount": 10.65,
+      "total_order_amount": 95.85,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Kaching Bundles"
+      ],
+      "landing_site": "https://3dts.shop/products/accu-houder-geschikt-voor-hilti-nuron",
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Machine Houder voor Hilti Nuron",
+          "variant_id": "58800375234909",
+          "variant_gid": "gid://shopify/ProductVariant/58800375234909",
+          "sku": "588003752349_4111",
+          "barcode": "9507975182331",
+          "ean": "9507975182331",
+          "quantity": 6,
+          "product_sale_price": 7.65,
+          "original_unit_price": 8.5,
+          "line_discount": 5.1,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Accu Houder Geschikt voor Hilti Nuron",
+          "variant_id": "58706483183965",
+          "variant_gid": "gid://shopify/ProductVariant/58706483183965",
+          "sku": "Hiltinuronaccu3dts.shop",
+          "barcode": "08721516390066",
+          "ean": "08721516390066",
+          "quantity": 3,
+          "product_sale_price": 16.65,
+          "original_unit_price": 18.5,
+          "line_discount": 5.55,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1582",
+      "date": "2026-05-29T20:55:11Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 15,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
+          "quantity": 1,
+          "product_sale_price": 15,
+          "original_unit_price": 15,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1583",
+      "date": "2026-05-29T21:30:54Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 13.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+          "variant_id": "63739025588573",
+          "variant_gid": "gid://shopify/ProductVariant/63739025588573",
+          "sku": "Unifikant3DTS.shop",
+          "barcode": "8721516390592",
+          "ean": "8721516390592",
+          "quantity": 1,
+          "product_sale_price": 13.95,
+          "original_unit_price": 13.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
     {
       "order_number": "#3dts1584",
       "date": "2026-05-30T12:30:24Z",
