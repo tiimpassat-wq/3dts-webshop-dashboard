@@ -1,13 +1,6 @@
 {
-  "generated_at": "2026-06-28T13:05:52.968Z",
+  "generated_at": "2026-06-28T13:09:35.749Z",
   "actions": [
-    {
-      "type": "product controleren",
-      "priority": "high",
-      "product_name": "Wandhouder TP-Link EAP650 / EAP653 / EAP723 Access Point – PETG (hittebestendig)",
-      "sku": null,
-      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
-    },
     {
       "type": "product controleren",
       "priority": "high",
@@ -28,20 +21,6 @@
       "reason": "Bol Ads ROAS laatste 7 dagen is 0.9295; controleer zoektermen en biedingen voordat budget omhoog gaat."
     },
     {
-      "type": "product controleren",
-      "priority": "high",
-      "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
-      "sku": "584061623340_133C",
-      "reason": "Bol commissie ontbreekt voor order #3dts1658; winst kan te hoog lijken."
-    },
-    {
-      "type": "product controleren",
-      "priority": "high",
-      "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
-      "sku": "Unifimountlite3DTS.shop",
-      "reason": "Bol commissie ontbreekt voor order #3dts1660; winst kan te hoog lijken."
-    },
-    {
       "type": "bundel maken",
       "priority": "medium",
       "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
@@ -58,13 +37,6 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Wandhouder TP-Link EAP650 / EAP653 / EAP723 Access Point – PETG (hittebestendig)",
-      "sku": null,
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
       "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
       "sku": "Unifikant3DTS.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
@@ -74,6 +46,13 @@
       "priority": "medium",
       "product_name": "HBM 20V Accuhouder – 2-voudig (Wandmontage)",
       "sku": "629094928879_BD5D",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+      "sku": "Bosch4a-3DTS",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]

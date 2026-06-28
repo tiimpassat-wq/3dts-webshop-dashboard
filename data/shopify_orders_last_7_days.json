@@ -1,50 +1,18 @@
 {
-  "generated_at": "2026-06-28T13:05:42.688Z",
+  "generated_at": "2026-06-28T13:09:22.819Z",
   "period": "last_7_days",
   "date_from": "2026-06-22",
   "date_to_exclusive": "2026-06-29",
+  "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 18,
-    "item_count": 32,
-    "total_order_amount": 489.71,
-    "shipping_paid_by_customer": 47.85,
+    "order_count": 17,
+    "item_count": 29,
+    "total_order_amount": 452.76,
+    "shipping_paid_by_customer": 40.75,
     "discount": 4.83
   },
   "orders": [
-    {
-      "order_number": "#3dts1644",
-      "date": "2026-06-21T12:46:37Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
-      "discount": 0,
-      "total_order_amount": 36.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/wandhouder-tp-link-eap650-eap653-eap723-access-point-petg-hittebestendig",
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder TP-Link EAP650 / EAP653 / EAP723 Access Point – PETG (hittebestendig)",
-          "variant_id": "65028834951517",
-          "variant_gid": "gid://shopify/ProductVariant/65028834951517",
-          "sku": null,
-          "barcode": "8721516390677",
-          "ean": "8721516390677",
-          "quantity": 3,
-          "product_sale_price": 9.95,
-          "original_unit_price": 9.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1645",
       "date": "2026-06-22T11:28:32Z",
