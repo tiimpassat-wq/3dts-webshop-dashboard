@@ -106,12 +106,13 @@ function buildOrdersQuery({ includeVariantFields }) {
 await mkdir(dataDir, { recursive: true });
 
 for (const range of ranges) {
-  const orders = await fetchOrders(range.query);
+  const orders = (await fetchOrders(range.query)).filter((order) => isOrderInRange(order.date, range));
   const payload = {
     generated_at: new Date().toISOString(),
     period: range.label,
     date_from: range.from,
     date_to_exclusive: range.to,
+    timezone: range.timezone,
     warnings: queryWarnings,
     totals: summarizeOrders(orders),
     orders,
@@ -261,13 +262,17 @@ function makeRange(label, file, from, to) {
     from,
     to,
     timezone: "Europe/Amsterdam",
-    query: `created_at:>=${fromUtc} created_at:<${toUtc}`,
+    query: `created_at:>='${fromUtc}' created_at:<'${toUtc}'`,
   };
 }
 
 function localDateParts(offsetDays) {
   const date = new Date();
   date.setDate(date.getDate() + offsetDays);
+  return formatLocalDate(date);
+}
+
+function formatLocalDate(date) {
   const formatter = new Intl.DateTimeFormat("en-CA", {
     timeZone: "Europe/Amsterdam",
     year: "numeric",
@@ -278,10 +283,16 @@ function localDateParts(offsetDays) {
   return `${parts.year}-${parts.month}-${parts.day}`;
 }
 
+function isOrderInRange(isoDate, range) {
+  if (!isoDate) return false;
+  const localDate = formatLocalDate(new Date(isoDate));
+  return localDate >= range.from && localDate < range.to;
+}
+
 function localDateStartAsUtcIso(localDate) {
   const utcGuess = new Date(`${localDate}T00:00:00.000Z`);
   const offsetMinutes = timeZoneOffsetMinutes(utcGuess, "Europe/Amsterdam");
-  return new Date(utcGuess.getTime() - offsetMinutes * 60_000).toISOString();
+  return new Date(utcGuess.getTime() - offsetMinutes * 60_000).toISOString().replace(".000Z", "Z");
 }
 
 function timeZoneOffsetMinutes(date, timeZone) {
