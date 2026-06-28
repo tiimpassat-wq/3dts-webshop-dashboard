@@ -1,6 +1,6 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-06-28T08:29:01.532Z
+Gegenereerd: 2026-06-28T12:56:05.218Z
 
 ## Samenvatting gisteren
 
@@ -31,9 +31,9 @@ Gegenereerd: 2026-06-28T08:29:01.532Z
 - Google Ads kosten gisteren: EUR 4.66
 - Google Ads ROAS gisteren: 0
 - Laatste 7 dagen omzet: EUR 452.76
-- Laatste 7 dagen Google Ads kosten: EUR 26.40
-- Laatste 7 dagen betrouwbare nettowinst: EUR 152.37
-- Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 27.01
+- Laatste 7 dagen Google Ads kosten: EUR 20.66
+- Laatste 7 dagen betrouwbare nettowinst: EUR 155.89
+- Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 28.61
 
 ## Bol.com
 
@@ -43,16 +43,15 @@ Gegenereerd: 2026-06-28T08:29:01.532Z
 - Bol Ads kosten gisteren: EUR 1.51
 - Winst na Bol Ads gisteren: EUR 0.00
 - Bol omzet laatste 7 dagen: EUR 271.80
-- Bol winst laatste 7 dagen: EUR 106.53
+- Bol winst laatste 7 dagen: EUR 105.92
 - Bol commissie laatste 7 dagen: EUR 27.66
-- Bol Ads kosten laatste 7 dagen: EUR 10.72
-- Bol Ads ROAS laatste 7 dagen: 0.9832
+- Bol Ads kosten laatste 7 dagen: EUR 11.34
+- Bol Ads ROAS laatste 7 dagen: 0.9295
 - Bol orders gematcht laatste 7 dagen: 11
 - Bol orders niet in Shopify gevonden laatste 7 dagen: 0
 
 ## AI-adviezen
 
-- Google Ads geeft minder conversiewaarde terug dan advertentiekosten; controleer tracking en pauzeer verliesgevende campagnes tijdelijk.
 - Vul Shopify Cost per item aan waar mogelijk; gebruik config/product_costs.json alleen als fallback. Onvolledige orders tellen niet mee als betrouwbare winst.
 - Verzendkosten liggen hoger dan wat klanten betalen; verhoog gratis-verzending drempel of bundel producten.
 - Bol Sponsored Products kost relatief veel; verlaag biedingen of pauzeer campagnes met lage marge.
@@ -65,6 +64,6 @@ Gegenereerd: 2026-06-28T08:29:01.532Z
 - Percentage betrouwbare winst gisteren: 100%
 - Winststatus gisteren: betrouwbaar
 - Percentage betrouwbare orders laatste 7 dagen: 94.12%
-- Percentage betrouwbare winst laatste 7 dagen: 84.94%
+- Percentage betrouwbare winst laatste 7 dagen: 84.49%
 - Winststatus laatste 7 dagen: gedeeltelijk betrouwbaar
 - Shopify Cost per item ontbreekt voor 1 orders; zie reports/missing_shopify_costs.md.

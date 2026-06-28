@@ -1,6 +1,9 @@
 {
-  "generated_at": "2026-06-28T08:28:44.523Z",
+  "generated_at": "2026-06-28T12:55:49.059Z",
   "period": "daily",
+  "date_from": "2026-06-27",
+  "date_to": "2026-06-27",
+  "timezone": "Europe/Amsterdam",
   "customer_id": "5233371293",
   "login_customer_id": "3221449798",
   "accessible_customers": [
