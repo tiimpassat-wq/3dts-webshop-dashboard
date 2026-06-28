@@ -253,12 +253,15 @@ function buildRanges() {
 }
 
 function makeRange(label, file, from, to) {
+  const fromUtc = localDateStartAsUtcIso(from);
+  const toUtc = localDateStartAsUtcIso(to);
   return {
     label,
     file,
     from,
     to,
-    query: `created_at:>=${from} created_at:<${to}`,
+    timezone: "Europe/Amsterdam",
+    query: `created_at:>=${fromUtc} created_at:<${toUtc}`,
   };
 }
 
@@ -273,6 +276,35 @@ function localDateParts(offsetDays) {
   });
   const parts = Object.fromEntries(formatter.formatToParts(date).map((part) => [part.type, part.value]));
   return `${parts.year}-${parts.month}-${parts.day}`;
+}
+
+function localDateStartAsUtcIso(localDate) {
+  const utcGuess = new Date(`${localDate}T00:00:00.000Z`);
+  const offsetMinutes = timeZoneOffsetMinutes(utcGuess, "Europe/Amsterdam");
+  return new Date(utcGuess.getTime() - offsetMinutes * 60_000).toISOString();
+}
+
+function timeZoneOffsetMinutes(date, timeZone) {
+  const formatter = new Intl.DateTimeFormat("en-CA", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hourCycle: "h23",
+  });
+  const parts = Object.fromEntries(formatter.formatToParts(date).map((part) => [part.type, part.value]));
+  const asUtc = Date.UTC(
+    Number(parts.year),
+    Number(parts.month) - 1,
+    Number(parts.day),
+    Number(parts.hour),
+    Number(parts.minute),
+    Number(parts.second),
+  );
+  return (asUtc - date.getTime()) / 60_000;
 }
 
 function normalizeShopDomain(value = "") {
