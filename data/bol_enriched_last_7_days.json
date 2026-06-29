@@ -1,109 +1,21 @@
 {
-  "generated_at": "2026-06-28T13:09:34.825Z",
+  "generated_at": "2026-06-29T09:58:55.813Z",
   "period": "last_7_days",
-  "date_from": "2026-06-22",
-  "date_to_exclusive": "2026-06-29",
+  "date_from": "2026-06-23",
+  "date_to_exclusive": "2026-06-30",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
   },
   "summary": {
-    "bol_orders": 11,
-    "matched_orders": 11,
+    "bol_orders": 13,
+    "matched_orders": 13,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 271.8,
-    "total_bol_commission": 27.66
+    "total_bol_revenue": 292.93,
+    "total_bol_commission": 27.18
   },
   "warnings": [],
   "matches": [
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1647",
-      "shopify_order_date": "2026-06-22T19:25:07Z",
-      "shopify_total_order_amount": 11.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000775DHH",
-        "order_placed_at": "2026-06-22T21:07:50+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 11.95,
-        "total_commission": 0.84,
-        "eans": [
-          "8721516390615"
-        ],
-        "offer_references": [
-          "cloudkeygen23DTS.SHOP"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3945743608",
-            "ean": "8721516390615",
-            "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
-            "offer_id": "963adcff-f602-4154-bc70-bf5afef9c1a1",
-            "offer_reference": "cloudkeygen23DTS.SHOP",
-            "sku": "cloudkeygen23DTS.SHOP",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 11.95,
-            "total_price": 11.95,
-            "commission": 0.84,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-06-23T17:20:48+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "date_amount_country_product_fallback",
-      "confidence": 0.9,
-      "shopify_order_number": "#3dts1646",
-      "shopify_order_date": "2026-06-22T15:10:08Z",
-      "shopify_total_order_amount": 17.34,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C00076MJ1J",
-        "order_placed_at": "2026-06-22T16:53:33+02:00",
-        "customer_country_code": "BE",
-        "pickup_point": false,
-        "total_order_amount": 17.34,
-        "total_commission": 3.08,
-        "eans": [
-          "9509658425575"
-        ],
-        "offer_references": [
-          "U0-INRG-KJHL"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3945540207",
-            "ean": "9509658425575",
-            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-            "offer_reference": "U0-INRG-KJHL",
-            "sku": "U0-INRG-KJHL",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 17.34,
-            "total_price": 17.34,
-            "commission": 3.08,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-06-23T17:20:45+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
     {
       "match_status": "matched",
       "match_method": "date_amount_country_product_fallback",
@@ -495,6 +407,182 @@
             "distribution_party": "RETAILER",
             "cancellation_request": false,
             "latest_changed_at": "2026-06-27T10:31:07+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "date_amount_country_product_fallback",
+      "confidence": 0.9,
+      "shopify_order_number": "#3dts1662",
+      "shopify_order_date": "2026-06-28T15:16:49Z",
+      "shopify_total_order_amount": 12.36,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0007L0XXF",
+        "order_placed_at": "2026-06-28T19:17:01+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 12.36,
+        "total_commission": 0.85,
+        "eans": [
+          "9504822112282"
+        ],
+        "offer_references": [
+          "3DTS"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3949249945",
+            "ean": "9504822112282",
+            "product_name": "Plafondbeugel geschikt voor Unifi AC LitenanoHD, AC LR & U6 Lite",
+            "offer_id": "4aad4ef2-a01c-4064-999a-014698d672df",
+            "offer_reference": "3DTS",
+            "sku": "3DTS",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 12.36,
+            "total_price": 12.36,
+            "commission": 0.85,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-06-28T21:08:07+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "date_amount_country_product_fallback",
+      "confidence": 0.9,
+      "shopify_order_number": "#3dts1664",
+      "shopify_order_date": "2026-06-28T17:40:09Z",
+      "shopify_total_order_amount": 12.36,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0005N8MMK",
+        "order_placed_at": "2026-06-28T17:09:20+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 12.36,
+        "total_commission": 0.85,
+        "eans": [
+          "9504822112282"
+        ],
+        "offer_references": [
+          "3DTS"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3949175198",
+            "ean": "9504822112282",
+            "product_name": "Plafondbeugel geschikt voor Unifi AC LitenanoHD, AC LR & U6 Lite",
+            "offer_id": "4aad4ef2-a01c-4064-999a-014698d672df",
+            "offer_reference": "3DTS",
+            "sku": "3DTS",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 12.36,
+            "total_price": 12.36,
+            "commission": 0.85,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-06-28T21:08:00+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1655",
+      "shopify_order_date": "2026-06-24T19:23:22Z",
+      "shopify_total_order_amount": 14.6,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0007L3TX9",
+        "order_placed_at": "2026-06-28T20:35:36+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 12.95,
+        "total_commission": 0.87,
+        "eans": [
+          "8721516390615"
+        ],
+        "offer_references": [
+          "cloudkeygen23DTS.SHOP"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3949305321",
+            "ean": "8721516390615",
+            "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
+            "offer_id": "963adcff-f602-4154-bc70-bf5afef9c1a1",
+            "offer_reference": "cloudkeygen23DTS.SHOP",
+            "sku": "cloudkeygen23DTS.SHOP",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 12.95,
+            "total_price": 12.95,
+            "commission": 0.87,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-06-28T20:35:49+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "date_amount_country_product_fallback",
+      "confidence": 0.9,
+      "shopify_order_number": "#3dts1663",
+      "shopify_order_date": "2026-06-28T15:16:51Z",
+      "shopify_total_order_amount": 12.75,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C00072M6D1",
+        "order_placed_at": "2026-06-28T17:06:36+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 12.75,
+        "total_commission": 0.87,
+        "eans": [
+          "9504237317951"
+        ],
+        "offer_references": [
+          "3DTS"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3949173548",
+            "ean": "9504237317951",
+            "product_name": "Plafondbeugel voor acces point - geschikt voor Unifi UAP AC PRO - Vervangende Montage beugel",
+            "offer_id": "54695faf-5d5f-49a6-b90c-b54e515e1fc3",
+            "offer_reference": "3DTS",
+            "sku": "3DTS",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 12.75,
+            "total_price": 12.75,
+            "commission": 0.87,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-06-28T17:07:17+02:00"
           }
         ]
       },

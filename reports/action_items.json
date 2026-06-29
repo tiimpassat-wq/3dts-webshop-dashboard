@@ -1,30 +1,31 @@
 {
-  "generated_at": "2026-06-28T13:09:35.749Z",
+  "generated_at": "2026-06-29T09:58:56.529Z",
   "actions": [
-    {
-      "type": "product controleren",
-      "priority": "high",
-      "product_name": "HBM 20V Accuhouder – 2-voudig (Wandmontage)",
-      "sku": "629094928879_BD5D",
-      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
-    },
     {
       "type": "campagne pauzeren",
       "priority": "high",
       "campaign": "Google Ads",
-      "reason": "ROAS laatste 7 dagen is 1.2851; eerst tracking/productmarges controleren voordat budget omhoog gaat."
+      "reason": "ROAS laatste 7 dagen is 1.0784; eerst tracking/productmarges controleren voordat budget omhoog gaat."
     },
     {
-      "type": "campagne pauzeren",
+      "type": "product controleren",
       "priority": "high",
-      "campaign": "Bol Sponsored Products",
-      "reason": "Bol Ads ROAS laatste 7 dagen is 0.9295; controleer zoektermen en biedingen voordat budget omhoog gaat."
+      "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
+      "sku": "cloudkeygen23DTS.SHOP",
+      "reason": "Bol commissie ontbreekt voor order #3dts1665; winst kan te hoog lijken."
     },
     {
       "type": "bundel maken",
       "priority": "medium",
       "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
       "sku": "Unifidesk3DTS.Shop",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+      "sku": "Unifimountlite3DTS.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -39,13 +40,6 @@
       "priority": "medium",
       "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
       "sku": "Unifikant3DTS.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "HBM 20V Accuhouder – 2-voudig (Wandmontage)",
-      "sku": "629094928879_BD5D",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {

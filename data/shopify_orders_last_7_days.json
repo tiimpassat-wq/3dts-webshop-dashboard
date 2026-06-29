@@ -1,147 +1,18 @@
 {
-  "generated_at": "2026-06-28T13:09:22.819Z",
+  "generated_at": "2026-06-29T09:58:44.717Z",
   "period": "last_7_days",
-  "date_from": "2026-06-22",
-  "date_to_exclusive": "2026-06-29",
+  "date_from": "2026-06-23",
+  "date_to_exclusive": "2026-06-30",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 17,
-    "item_count": 29,
-    "total_order_amount": 452.76,
-    "shipping_paid_by_customer": 40.75,
-    "discount": 4.83
+    "order_count": 19,
+    "item_count": 28,
+    "total_order_amount": 443.31,
+    "shipping_paid_by_customer": 36.64,
+    "discount": 1.9
   },
   "orders": [
-    {
-      "order_number": "#3dts1645",
-      "date": "2026-06-22T11:28:32Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
-      "discount": 4.83,
-      "total_order_amount": 50.62,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "HBM 20V Accuhouder – 2-voudig (Wandmontage)",
-          "variant_id": "62909492887901",
-          "variant_gid": "gid://shopify/ProductVariant/62909492887901",
-          "sku": "629094928879_BD5D",
-          "barcode": "8721516390424",
-          "ean": "8721516390424",
-          "quantity": 2,
-          "product_sale_price": 11.95,
-          "original_unit_price": 11.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
-          "variant_id": "57872304963933",
-          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
-          "sku": "Makita4v3dts.shop",
-          "barcode": "8721516390097",
-          "ean": "8721516390097",
-          "quantity": 1,
-          "product_sale_price": 12.5,
-          "original_unit_price": 12.5,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 1,
-          "product_sale_price": 11.95,
-          "original_unit_price": 11.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1646",
-      "date": "2026-06-22T15:10:08Z",
-      "channel_source": "bol",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 17.34,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 1,
-          "product_sale_price": 17.34,
-          "original_unit_price": 17.34,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1647",
-      "date": "2026-06-22T19:25:07Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 11.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
-          "variant_id": "63992391369053",
-          "variant_gid": "gid://shopify/ProductVariant/63992391369053",
-          "sku": "cloudkeygen23DTS.SHOP",
-          "barcode": "8721516390615",
-          "ean": "8721516390615",
-          "quantity": 1,
-          "product_sale_price": 11.95,
-          "original_unit_price": 11.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1648",
       "date": "2026-06-23T09:23:03Z",
@@ -620,7 +491,7 @@
       "total_order_amount": 20.9,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": "https://3dts.shop/products/wandhouder-schuin-voor-makita-dc18rd-duo-oplader-3d-geprint-compatibel-met-18v-laadstation",
       "referring_site": "https://www.google.com/",
@@ -636,6 +507,182 @@
           "quantity": 1,
           "product_sale_price": 11.95,
           "original_unit_price": 11.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1662",
+      "date": "2026-06-28T15:16:49Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 12.36,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+          "variant_id": "57838610743645",
+          "variant_gid": "gid://shopify/ProductVariant/57838610743645",
+          "sku": "Unifimountlite3DTS.shop",
+          "barcode": "08721516390042",
+          "ean": "08721516390042",
+          "quantity": 1,
+          "product_sale_price": 12.36,
+          "original_unit_price": 12.36,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1663",
+      "date": "2026-06-28T15:16:51Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 12.75,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
+          "variant_id": "58406162334045",
+          "variant_gid": "gid://shopify/ProductVariant/58406162334045",
+          "sku": "584061623340_133C",
+          "barcode": "8721516390196",
+          "ean": "8721516390196",
+          "quantity": 1,
+          "product_sale_price": 12.75,
+          "original_unit_price": 12.75,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1664",
+      "date": "2026-06-28T17:40:09Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 12.36,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+          "variant_id": "57838610743645",
+          "variant_gid": "gid://shopify/ProductVariant/57838610743645",
+          "sku": "Unifimountlite3DTS.shop",
+          "barcode": "08721516390042",
+          "ean": "08721516390042",
+          "quantity": 1,
+          "product_sale_price": 12.36,
+          "original_unit_price": 12.36,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1665",
+      "date": "2026-06-28T19:00:28Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 12.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
+          "variant_id": "63992391369053",
+          "variant_gid": "gid://shopify/ProductVariant/63992391369053",
+          "sku": "cloudkeygen23DTS.SHOP",
+          "barcode": "8721516390615",
+          "ean": "8721516390615",
+          "quantity": 1,
+          "product_sale_price": 12.95,
+          "original_unit_price": 12.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1668",
+      "date": "2026-06-28T19:20:33Z",
+      "channel_source": "390185975809",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 2.99,
+      "shipping_title": "Etsy shipping",
+      "discount": 1.9,
+      "total_order_amount": 20.04,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Etsy",
+        "Etsy-4100824320"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Makita DC18RD Wall Mount – Dual Battery Charger Holder – Workshop Garage Tool Organizer – 3D Printed PETG",
+          "variant_id": null,
+          "variant_gid": null,
+          "sku": "dc18rd3dts.shop",
+          "barcode": null,
+          "ean": null,
+          "quantity": 1,
+          "product_sale_price": 18.95,
+          "original_unit_price": 18.95,
           "line_discount": 0,
           "currency": "EUR"
         }
