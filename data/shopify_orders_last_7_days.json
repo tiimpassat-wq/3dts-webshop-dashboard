@@ -1,156 +1,18 @@
 {
-  "generated_at": "2026-06-29T09:58:44.717Z",
+  "generated_at": "2026-06-30T08:37:41.028Z",
   "period": "last_7_days",
-  "date_from": "2026-06-23",
-  "date_to_exclusive": "2026-06-30",
+  "date_from": "2026-06-24",
+  "date_to_exclusive": "2026-07-01",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 19,
-    "item_count": 28,
-    "total_order_amount": 443.31,
-    "shipping_paid_by_customer": 36.64,
+    "order_count": 16,
+    "item_count": 19,
+    "total_order_amount": 310.86,
+    "shipping_paid_by_customer": 29.54,
     "discount": 1.9
   },
   "orders": [
-    {
-      "order_number": "#3dts1648",
-      "date": "2026-06-23T09:23:03Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
-      "discount": 0,
-      "total_order_amount": 31,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/wandhouder-schuin-voor-makita-dc18rd-duo-oplader-3d-geprint-compatibel-met-18v-laadstation",
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 2,
-          "product_sale_price": 11.95,
-          "original_unit_price": 11.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1649",
-      "date": "2026-06-23T09:45:56Z",
-      "channel_source": "bol",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 14.66,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
-          "variant_id": "63739025588573",
-          "variant_gid": "gid://shopify/ProductVariant/63739025588573",
-          "sku": "Unifikant3DTS.shop",
-          "barcode": "8721516390592",
-          "ean": "8721516390592",
-          "quantity": 1,
-          "product_sale_price": 14.66,
-          "original_unit_price": 14.66,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1650",
-      "date": "2026-06-23T10:30:58Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 88.2,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
-          "variant_id": "63433470476637",
-          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
-          "sku": "Unifidesk3DTS.Shop",
-          "barcode": "8721516390073",
-          "ean": "8721516390073",
-          "quantity": 6,
-          "product_sale_price": 14.7,
-          "original_unit_price": 14.7,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1651",
-      "date": "2026-06-23T13:55:57Z",
-      "channel_source": "bol",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 18.54,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accuhouder Parkside 20V - 4-voudig",
-          "variant_id": "62962109153629",
-          "variant_gid": "gid://shopify/ProductVariant/62962109153629",
-          "sku": "629621091536_60CB",
-          "barcode": "8721516390431",
-          "ean": "8721516390431",
-          "quantity": 1,
-          "product_sale_price": 18.54,
-          "original_unit_price": 18.54,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1652",
       "date": "2026-06-24T12:40:09Z",
@@ -559,7 +421,7 @@
       "total_order_amount": 12.75,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "bol.com"
       ],
@@ -629,7 +491,7 @@
       "total_order_amount": 12.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "bol.com"
       ],
@@ -664,7 +526,7 @@
       "total_order_amount": 20.04,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Etsy",
         "Etsy-4100824320"
@@ -683,6 +545,41 @@
           "quantity": 1,
           "product_sale_price": 18.95,
           "original_unit_price": 18.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1669",
+      "date": "2026-06-30T07:55:59Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Junction Box / Muurmontage Behuizing voor Ubiquiti UniFi Protect G6 Dome — Weerbestendig",
+          "variant_id": "64936038498653",
+          "variant_gid": "gid://shopify/ProductVariant/64936038498653",
+          "sku": null,
+          "barcode": "8721516390660",
+          "ean": "8721516390660",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
           "line_discount": 0,
           "currency": "EUR"
         }

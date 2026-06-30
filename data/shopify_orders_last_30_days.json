@@ -1,134 +1,18 @@
 {
-  "generated_at": "2026-06-29T09:58:45.653Z",
+  "generated_at": "2026-06-30T08:37:42.048Z",
   "period": "last_30_days",
-  "date_from": "2026-05-31",
-  "date_to_exclusive": "2026-06-30",
+  "date_from": "2026-06-01",
+  "date_to_exclusive": "2026-07-01",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 80,
-    "item_count": 128,
-    "total_order_amount": 1803.05,
-    "shipping_paid_by_customer": 109.78,
-    "discount": 33.99
+    "order_count": 78,
+    "item_count": 125,
+    "total_order_amount": 1767.12,
+    "shipping_paid_by_customer": 99.69,
+    "discount": 32.88
   },
   "orders": [
-    {
-      "order_number": "#3dts1587",
-      "date": "2026-05-31T01:03:01Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
-      "discount": 1.11,
-      "total_order_amount": 28.44,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/",
-      "referring_site": "https://www.youtube.com/",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder voor Makita DC18RC Oplader – 3D Geprint – Compatibel met 18V Laadstation",
-          "variant_id": "57512098234717",
-          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
-          "sku": "dc18rc3dts.shop",
-          "barcode": "8721516390011",
-          "ean": "8721516390011",
-          "quantity": 1,
-          "product_sale_price": 9.46,
-          "original_unit_price": 9.95,
-          "line_discount": 0.49,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "3D Geprinte Accu Houder – passend met Makita 18V – Wandmontage - 4",
-          "variant_id": "57872304963933",
-          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
-          "sku": "Makita4v3dts.shop",
-          "barcode": "8721516390097",
-          "ean": "8721516390097",
-          "quantity": 1,
-          "product_sale_price": 11.88,
-          "original_unit_price": 12.5,
-          "line_discount": 0.62,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1588",
-      "date": "2026-05-31T13:15:56Z",
-      "channel_source": "etsy",
-      "customer_country_code": "DE",
-      "customer_country": "Germany",
-      "shipping_paid_by_customer": 2.99,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 15.49,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Etsy.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Beugel geschikt voor UniFi AC Lite, nanoHD, AC LR & U6 Lite – 3D Geprint",
-          "variant_id": "57838610743645",
-          "variant_gid": "gid://shopify/ProductVariant/57838610743645",
-          "sku": "Unifimountlite3DTS.shop",
-          "barcode": "08721516390042",
-          "ean": "08721516390042",
-          "quantity": 1,
-          "product_sale_price": 12.5,
-          "original_unit_price": 12.5,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1589",
-      "date": "2026-05-31T14:00:22Z",
-      "channel_source": "bol",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 11.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
-          "variant_id": "63992391369053",
-          "variant_gid": "gid://shopify/ProductVariant/63992391369053",
-          "sku": "cloudkeygen23DTS.SHOP",
-          "barcode": "8721516390615",
-          "ean": "8721516390615",
-          "quantity": 1,
-          "product_sale_price": 11.95,
-          "original_unit_price": 11.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1590",
       "date": "2026-06-01T10:44:20Z",
@@ -2825,7 +2709,7 @@
       "total_order_amount": 12.75,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "bol.com"
       ],
@@ -2895,7 +2779,7 @@
       "total_order_amount": 12.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "bol.com"
       ],
@@ -2930,7 +2814,7 @@
       "total_order_amount": 20.04,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Etsy",
         "Etsy-4100824320"
@@ -2949,6 +2833,41 @@
           "quantity": 1,
           "product_sale_price": 18.95,
           "original_unit_price": 18.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1669",
+      "date": "2026-06-30T07:55:59Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Junction Box / Muurmontage Behuizing voor Ubiquiti UniFi Protect G6 Dome — Weerbestendig",
+          "variant_id": "64936038498653",
+          "variant_gid": "gid://shopify/ProductVariant/64936038498653",
+          "sku": null,
+          "barcode": "8721516390660",
+          "ean": "8721516390660",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
           "line_discount": 0,
           "currency": "EUR"
         }

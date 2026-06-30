@@ -1,152 +1,15 @@
 {
-  "generated_at": "2026-06-29T09:58:46.463Z",
+  "generated_at": "2026-06-30T08:37:42.893Z",
   "period": "daily",
-  "date_from": "2026-06-28",
-  "date_to_exclusive": "2026-06-29",
+  "date_from": "2026-06-29",
+  "date_to_exclusive": "2026-06-30",
   "source": "bol.com Retailer API",
-  "orders": [
-    {
-      "bol_order_id": "C0007L0XXF",
-      "order_placed_at": "2026-06-28T19:17:01+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 12.36,
-      "total_commission": 0.85,
-      "eans": [
-        "9504822112282"
-      ],
-      "offer_references": [
-        "3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3949249945",
-          "ean": "9504822112282",
-          "product_name": "Plafondbeugel geschikt voor Unifi AC LitenanoHD, AC LR & U6 Lite",
-          "offer_id": "4aad4ef2-a01c-4064-999a-014698d672df",
-          "offer_reference": "3DTS",
-          "sku": "3DTS",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 12.36,
-          "total_price": 12.36,
-          "commission": 0.85,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-06-28T21:08:07+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C0005N8MMK",
-      "order_placed_at": "2026-06-28T17:09:20+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 12.36,
-      "total_commission": 0.85,
-      "eans": [
-        "9504822112282"
-      ],
-      "offer_references": [
-        "3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3949175198",
-          "ean": "9504822112282",
-          "product_name": "Plafondbeugel geschikt voor Unifi AC LitenanoHD, AC LR & U6 Lite",
-          "offer_id": "4aad4ef2-a01c-4064-999a-014698d672df",
-          "offer_reference": "3DTS",
-          "sku": "3DTS",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 12.36,
-          "total_price": 12.36,
-          "commission": 0.85,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-06-28T21:08:00+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C0007L3TX9",
-      "order_placed_at": "2026-06-28T20:35:36+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 12.95,
-      "total_commission": 0.87,
-      "eans": [
-        "8721516390615"
-      ],
-      "offer_references": [
-        "cloudkeygen23DTS.SHOP"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3949305321",
-          "ean": "8721516390615",
-          "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
-          "offer_id": "963adcff-f602-4154-bc70-bf5afef9c1a1",
-          "offer_reference": "cloudkeygen23DTS.SHOP",
-          "sku": "cloudkeygen23DTS.SHOP",
-          "quantity": 1,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 12.95,
-          "total_price": 12.95,
-          "commission": 0.87,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-06-28T20:35:49+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C00072M6D1",
-      "order_placed_at": "2026-06-28T17:06:36+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 12.75,
-      "total_commission": 0.87,
-      "eans": [
-        "9504237317951"
-      ],
-      "offer_references": [
-        "3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3949173548",
-          "ean": "9504237317951",
-          "product_name": "Plafondbeugel voor acces point - geschikt voor Unifi UAP AC PRO - Vervangende Montage beugel",
-          "offer_id": "54695faf-5d5f-49a6-b90c-b54e515e1fc3",
-          "offer_reference": "3DTS",
-          "sku": "3DTS",
-          "quantity": 1,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 12.75,
-          "total_price": 12.75,
-          "commission": 0.87,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-06-28T17:07:17+02:00"
-        }
-      ]
-    }
-  ],
+  "orders": [],
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 4,
-    "total_order_amount": 50.42,
-    "total_commission": 3.44
+    "order_count": 0,
+    "total_order_amount": 0,
+    "total_commission": 0
   }
 }
