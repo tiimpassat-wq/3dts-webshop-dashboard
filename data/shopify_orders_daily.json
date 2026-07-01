@@ -1,16 +1,135 @@
 {
-  "generated_at": "2026-06-30T08:37:40.615Z",
+  "generated_at": "2026-07-01T08:55:54.280Z",
   "period": "daily",
-  "date_from": "2026-06-29",
-  "date_to_exclusive": "2026-06-30",
+  "date_from": "2026-06-30",
+  "date_to_exclusive": "2026-07-01",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 0,
-    "item_count": 0,
-    "total_order_amount": 0,
+    "order_count": 3,
+    "item_count": 5,
+    "total_order_amount": 73.91,
     "shipping_paid_by_customer": 0,
     "discount": 0
   },
-  "orders": []
+  "orders": [
+    {
+      "order_number": "#3dts1669",
+      "date": "2026-06-30T07:55:59Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Junction Box / Muurmontage Behuizing voor Ubiquiti UniFi Protect G6 Dome — Weerbestendig",
+          "variant_id": "64936038498653",
+          "variant_gid": "gid://shopify/ProductVariant/64936038498653",
+          "sku": null,
+          "barcode": "8721516390660",
+          "ean": "8721516390660",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1670",
+      "date": "2026-06-30T10:15:59Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 37.47,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+          "variant_id": "57838610743645",
+          "variant_gid": "gid://shopify/ProductVariant/57838610743645",
+          "sku": "Unifimountlite3DTS.shop",
+          "barcode": "08721516390042",
+          "ean": "08721516390042",
+          "quantity": 2,
+          "product_sale_price": 12.36,
+          "original_unit_price": 12.36,
+          "line_discount": 0,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
+          "variant_id": "58406162334045",
+          "variant_gid": "gid://shopify/ProductVariant/58406162334045",
+          "sku": "584061623340_133C",
+          "barcode": "8721516390196",
+          "ean": "8721516390196",
+          "quantity": 1,
+          "product_sale_price": 12.75,
+          "original_unit_price": 12.75,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1671",
+      "date": "2026-06-30T18:15:55Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 16.49,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder Makita DC18RC Oplader",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
+          "quantity": 1,
+          "product_sale_price": 16.49,
+          "original_unit_price": 16.49,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    }
+  ]
 }

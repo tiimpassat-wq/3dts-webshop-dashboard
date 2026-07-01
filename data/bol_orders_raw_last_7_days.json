@@ -1,78 +1,10 @@
 {
-  "generated_at": "2026-06-30T08:37:45.106Z",
+  "generated_at": "2026-07-01T08:55:59.105Z",
   "period": "last_7_days",
-  "date_from": "2026-06-24",
-  "date_to_exclusive": "2026-07-01",
+  "date_from": "2026-06-25",
+  "date_to_exclusive": "2026-07-02",
   "source": "bol.com Retailer API",
   "orders": [
-    {
-      "bol_order_id": "C0007C97MC",
-      "order_placed_at": "2026-06-24T17:00:54+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 17.34,
-      "total_commission": 3.08,
-      "eans": [
-        "9509658425575"
-      ],
-      "offer_references": [
-        "U0-INRG-KJHL"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3946984484",
-          "ean": "9509658425575",
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-          "offer_reference": "U0-INRG-KJHL",
-          "sku": "U0-INRG-KJHL",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 17.34,
-          "total_price": 17.34,
-          "commission": 3.08,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-06-25T18:44:45+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C0007C0W73",
-      "order_placed_at": "2026-06-24T14:19:35+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 29.32,
-      "total_commission": 1.85,
-      "eans": [
-        "8721516390592"
-      ],
-      "offer_references": [
-        "Unifikant3DTS.shop"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3946865347",
-          "ean": "8721516390592",
-          "product_name": "UniFi Access Point Wandbeugel – Kantelbaar / Verstelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite en U7-Lite – Wit",
-          "offer_id": "3c22c742-be8a-44fe-b296-01c8a787c2b9",
-          "offer_reference": "Unifikant3DTS.shop",
-          "sku": "Unifikant3DTS.shop",
-          "quantity": 2,
-          "quantity_shipped": 2,
-          "quantity_cancelled": 0,
-          "unit_price": 14.66,
-          "total_price": 29.32,
-          "commission": 1.85,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-06-25T18:44:44+02:00"
-        }
-      ]
-    },
     {
       "bol_order_id": "C0007HD15W",
       "order_placed_at": "2026-06-26T14:56:05+02:00",
@@ -346,6 +278,38 @@
       ]
     },
     {
+      "bol_order_id": "C0008L0MX1",
+      "order_placed_at": "2026-06-30T20:12:23+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 16.49,
+      "total_commission": 2.95,
+      "eans": [
+        "9504741952723"
+      ],
+      "offer_references": [],
+      "line_items": [
+        {
+          "bol_order_item_id": "3950548976",
+          "ean": "9504741952723",
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
+          "offer_reference": null,
+          "sku": null,
+          "quantity": 1,
+          "quantity_shipped": 1,
+          "quantity_cancelled": 0,
+          "unit_price": 16.49,
+          "total_price": 16.49,
+          "commission": 2.95,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-06-30T21:19:27+02:00"
+        }
+      ]
+    },
+    {
       "bol_order_id": "C0007N3L06",
       "order_placed_at": "2026-06-30T09:45:18+02:00",
       "customer_country_code": "NL",
@@ -365,7 +329,7 @@
           "offer_reference": null,
           "sku": null,
           "quantity": 1,
-          "quantity_shipped": 0,
+          "quantity_shipped": 1,
           "quantity_cancelled": 0,
           "unit_price": 19.95,
           "total_price": 19.95,
@@ -373,7 +337,60 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-06-30T09:45:46+02:00"
+          "latest_changed_at": "2026-06-30T21:10:13+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C0007N2F10",
+      "order_placed_at": "2026-06-30T12:06:54+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 37.47,
+      "total_commission": 2.58,
+      "eans": [
+        "9504822112282",
+        "9504237317951"
+      ],
+      "offer_references": [
+        "3DTS"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3950274102",
+          "ean": "9504822112282",
+          "product_name": "Plafondbeugel geschikt voor Unifi AC LitenanoHD, AC LR & U6 Lite",
+          "offer_id": "4aad4ef2-a01c-4064-999a-014698d672df",
+          "offer_reference": "3DTS",
+          "sku": "3DTS",
+          "quantity": 2,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 12.36,
+          "total_price": 24.72,
+          "commission": 1.71,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-06-30T12:07:15+02:00"
+        },
+        {
+          "bol_order_item_id": "3950274103",
+          "ean": "9504237317951",
+          "product_name": "Plafondbeugel voor acces point - geschikt voor Unifi UAP AC PRO - Vervangende Montage beugel",
+          "offer_id": "54695faf-5d5f-49a6-b90c-b54e515e1fc3",
+          "offer_reference": "3DTS",
+          "sku": "3DTS",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 12.75,
+          "total_price": 12.75,
+          "commission": 0.87,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-06-30T12:07:15+02:00"
         }
       ]
     }
@@ -382,7 +399,7 @@
   "credentials_configured": true,
   "totals": {
     "order_count": 11,
-    "total_order_amount": 191.48,
-    "total_commission": 18.53
+    "total_order_amount": 198.78,
+    "total_commission": 19.13
   }
 }

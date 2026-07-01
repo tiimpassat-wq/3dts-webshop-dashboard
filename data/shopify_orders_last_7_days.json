@@ -1,171 +1,18 @@
 {
-  "generated_at": "2026-06-30T08:37:41.028Z",
+  "generated_at": "2026-07-01T08:55:54.584Z",
   "period": "last_7_days",
-  "date_from": "2026-06-24",
-  "date_to_exclusive": "2026-07-01",
+  "date_from": "2026-06-25",
+  "date_to_exclusive": "2026-07-02",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 16,
-    "item_count": 19,
-    "total_order_amount": 310.86,
-    "shipping_paid_by_customer": 29.54,
+    "order_count": 14,
+    "item_count": 17,
+    "total_order_amount": 263.62,
+    "shipping_paid_by_customer": 24.89,
     "discount": 1.9
   },
   "orders": [
-    {
-      "order_number": "#3dts1652",
-      "date": "2026-06-24T12:40:09Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 29.32,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
-          "variant_id": "63739025588573",
-          "variant_gid": "gid://shopify/ProductVariant/63739025588573",
-          "sku": "Unifikant3DTS.shop",
-          "barcode": "8721516390592",
-          "ean": "8721516390592",
-          "quantity": 2,
-          "product_sale_price": 14.66,
-          "original_unit_price": 14.66,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1653",
-      "date": "2026-06-24T15:16:13Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 17.34,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 1,
-          "product_sale_price": 17.34,
-          "original_unit_price": 17.34,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1654",
-      "date": "2026-06-24T19:17:18Z",
-      "channel_source": "340764327937",
-      "customer_country_code": "NO",
-      "customer_country": "Norway",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Verzending",
-      "discount": 0,
-      "total_order_amount": 39.94,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Etsy",
-        "Etsy order 4097516788",
-        "VOEC"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder Makita DC18RC Oplader",
-          "variant_id": "57512098234717",
-          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
-          "sku": "dc18rc3dts.shop",
-          "barcode": "8721516390011",
-          "ean": "8721516390011",
-          "quantity": 1,
-          "product_sale_price": 24.94,
-          "original_unit_price": 24.94,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Etsy Standard Shipping",
-          "variant_id": null,
-          "variant_gid": null,
-          "sku": "ETSY-SHIPPING",
-          "barcode": null,
-          "ean": null,
-          "quantity": 1,
-          "product_sale_price": 15,
-          "original_unit_price": 15,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1655",
-      "date": "2026-06-24T19:23:22Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 4.65,
-      "shipping_title": "Nederland",
-      "discount": 0,
-      "total_order_amount": 14.6,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
-          "variant_id": "63992391369053",
-          "variant_gid": "gid://shopify/ProductVariant/63992391369053",
-          "sku": "cloudkeygen23DTS.SHOP",
-          "barcode": "8721516390615",
-          "ean": "8721516390615",
-          "quantity": 1,
-          "product_sale_price": 9.95,
-          "original_unit_price": 9.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1656",
       "date": "2026-06-25T08:30:57Z",
@@ -562,7 +409,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "bol.com"
       ],
@@ -580,6 +427,89 @@
           "quantity": 1,
           "product_sale_price": 19.95,
           "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1670",
+      "date": "2026-06-30T10:15:59Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 37.47,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+          "variant_id": "57838610743645",
+          "variant_gid": "gid://shopify/ProductVariant/57838610743645",
+          "sku": "Unifimountlite3DTS.shop",
+          "barcode": "08721516390042",
+          "ean": "08721516390042",
+          "quantity": 2,
+          "product_sale_price": 12.36,
+          "original_unit_price": 12.36,
+          "line_discount": 0,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
+          "variant_id": "58406162334045",
+          "variant_gid": "gid://shopify/ProductVariant/58406162334045",
+          "sku": "584061623340_133C",
+          "barcode": "8721516390196",
+          "ean": "8721516390196",
+          "quantity": 1,
+          "product_sale_price": 12.75,
+          "original_unit_price": 12.75,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1671",
+      "date": "2026-06-30T18:15:55Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 16.49,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder Makita DC18RC Oplader",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
+          "quantity": 1,
+          "product_sale_price": 16.49,
+          "original_unit_price": 16.49,
           "line_discount": 0,
           "currency": "EUR"
         }
