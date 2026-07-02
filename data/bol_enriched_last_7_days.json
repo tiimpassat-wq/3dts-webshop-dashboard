@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-01T08:56:04.771Z",
+  "generated_at": "2026-07-02T08:25:20.946Z",
   "period": "last_7_days",
-  "date_from": "2026-06-25",
-  "date_to_exclusive": "2026-07-02",
+  "date_from": "2026-06-26",
+  "date_to_exclusive": "2026-07-03",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
@@ -11,8 +11,8 @@
     "bol_orders": 11,
     "matched_orders": 11,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 198.78,
-    "total_bol_commission": 19.13
+    "total_bol_revenue": 179.73,
+    "total_bol_commission": 15.72
   },
   "warnings": [],
   "matches": [
@@ -64,50 +64,6 @@
       "match_status": "matched",
       "match_method": "date_amount_country_product_fallback",
       "confidence": 0.9,
-      "shopify_order_number": "#3dts1656",
-      "shopify_order_date": "2026-06-25T08:30:57Z",
-      "shopify_total_order_amount": 12.36,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C0007DKH70",
-        "order_placed_at": "2026-06-25T10:28:04+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 12.36,
-        "total_commission": 0.85,
-        "eans": [
-          "9504822112282"
-        ],
-        "offer_references": [
-          "3DTS"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3947390001",
-            "ean": "9504822112282",
-            "product_name": "Plafondbeugel geschikt voor Unifi AC LitenanoHD, AC LR & U6 Lite",
-            "offer_id": "4aad4ef2-a01c-4064-999a-014698d672df",
-            "offer_reference": "3DTS",
-            "sku": "3DTS",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 1,
-            "unit_price": 12.36,
-            "total_price": 12.36,
-            "commission": 0.85,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": true,
-            "latest_changed_at": "2026-06-26T15:43:45+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "date_amount_country_product_fallback",
-      "confidence": 0.9,
       "shopify_order_number": "#3dts1660",
       "shopify_order_date": "2026-06-26T20:15:53Z",
       "shopify_total_order_amount": 12.36,
@@ -143,50 +99,6 @@
             "distribution_party": "RETAILER",
             "cancellation_request": false,
             "latest_changed_at": "2026-06-27T10:31:08+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1657",
-      "shopify_order_date": "2026-06-25T19:15:49Z",
-      "shopify_total_order_amount": 36.98,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C0007FK7L2",
-        "order_placed_at": "2026-06-25T21:04:45+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 36.98,
-        "total_commission": 6.51,
-        "eans": [
-          "9503425233318"
-        ],
-        "offer_references": [
-          "Bosch4a-3DTS"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3947773964",
-            "ean": "9503425233318",
-            "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel",
-            "offer_id": "7699e825-2bc3-4838-9cdb-74d3b1057833",
-            "offer_reference": "Bosch4a-3DTS",
-            "sku": "Bosch4a-3DTS",
-            "quantity": 2,
-            "quantity_shipped": 2,
-            "quantity_cancelled": 0,
-            "unit_price": 18.49,
-            "total_price": 36.98,
-            "commission": 6.51,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-06-27T10:31:07+02:00"
           }
         ]
       },
@@ -454,6 +366,94 @@
     },
     {
       "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1674",
+      "shopify_order_date": "2026-07-01T21:30:27Z",
+      "shopify_total_order_amount": 12.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0008MPTNJ",
+        "order_placed_at": "2026-07-01T23:00:43+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 12.95,
+        "total_commission": 0.87,
+        "eans": [
+          "8721516390615"
+        ],
+        "offer_references": [
+          "cloudkeygen23DTS.SHOP"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3951346277",
+            "ean": "8721516390615",
+            "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
+            "offer_id": "963adcff-f602-4154-bc70-bf5afef9c1a1",
+            "offer_reference": "cloudkeygen23DTS.SHOP",
+            "sku": "cloudkeygen23DTS.SHOP",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 12.95,
+            "total_price": 12.95,
+            "commission": 0.87,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-07-01T23:01:16+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "date_amount_country_product_fallback",
+      "confidence": 0.9,
+      "shopify_order_number": "#3dts1672",
+      "shopify_order_date": "2026-07-01T11:55:57Z",
+      "shopify_total_order_amount": 17.34,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0008LWH9T",
+        "order_placed_at": "2026-07-01T13:44:39+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 17.34,
+        "total_commission": 3.08,
+        "eans": [
+          "9509658425575"
+        ],
+        "offer_references": [
+          "U0-INRG-KJHL"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3950958338",
+            "ean": "9509658425575",
+            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+            "offer_reference": "U0-INRG-KJHL",
+            "sku": "U0-INRG-KJHL",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 17.34,
+            "total_price": 17.34,
+            "commission": 3.08,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-07-01T19:21:33+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
       "match_method": "date_amount_country_product_fallback",
       "confidence": 0.9,
       "shopify_order_number": "#3dts1670",
@@ -483,7 +483,7 @@
             "offer_reference": "3DTS",
             "sku": "3DTS",
             "quantity": 2,
-            "quantity_shipped": 0,
+            "quantity_shipped": 2,
             "quantity_cancelled": 0,
             "unit_price": 12.36,
             "total_price": 24.72,
@@ -491,7 +491,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-06-30T12:07:15+02:00"
+            "latest_changed_at": "2026-07-01T18:41:58+02:00"
           },
           {
             "bol_order_item_id": "3950274103",
@@ -501,7 +501,7 @@
             "offer_reference": "3DTS",
             "sku": "3DTS",
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
             "unit_price": 12.75,
             "total_price": 12.75,
@@ -509,7 +509,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-06-30T12:07:15+02:00"
+            "latest_changed_at": "2026-07-01T18:41:58+02:00"
           }
         ]
       },

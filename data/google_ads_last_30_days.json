@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-01T08:55:53.732Z",
+  "generated_at": "2026-07-02T08:25:06.737Z",
   "period": "last_30_days",
-  "date_from": "2026-06-02",
-  "date_to": "2026-07-01",
+  "date_from": "2026-06-03",
+  "date_to": "2026-07-02",
   "timezone": "Europe/Amsterdam",
   "customer_id": "5233371293",
   "login_customer_id": "3221449798",
@@ -11,25 +11,25 @@
     "customers/3221449798"
   ],
   "totals": {
-    "impressions": 56713,
-    "clicks": 640,
-    "cost_eur": 238.5,
-    "conversions": 7,
-    "conversion_value": 171.42,
-    "roas": 0.7187,
-    "cpc_eur": 0.37
+    "impressions": 56199,
+    "clicks": 632,
+    "cost_eur": 237.06,
+    "conversions": 8,
+    "conversion_value": 195.87,
+    "roas": 0.8262,
+    "cpc_eur": 0.38
   },
   "campaigns": [
     {
       "id": "22500757895",
       "name": "Beugels",
       "status": "ENABLED",
-      "impressions": 56713,
-      "clicks": 640,
-      "cost_eur": 238.5,
-      "conversions": 7,
-      "conversion_value": 171.42,
-      "roas": 0.7187
+      "impressions": 56199,
+      "clicks": 632,
+      "cost_eur": 237.06,
+      "conversions": 8,
+      "conversion_value": 195.87,
+      "roas": 0.8262
     },
     {
       "id": "22486477620",
