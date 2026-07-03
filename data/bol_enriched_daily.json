@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-02T08:25:12.108Z",
+  "generated_at": "2026-07-03T08:27:53.466Z",
   "period": "daily",
-  "date_from": "2026-07-01",
-  "date_to_exclusive": "2026-07-02",
+  "date_from": "2026-07-02",
+  "date_to_exclusive": "2026-07-03",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
     "bol_raw": "bol_orders_raw_daily.json"
   },
   "summary": {
-    "bol_orders": 2,
-    "matched_orders": 2,
+    "bol_orders": 1,
+    "matched_orders": 1,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 30.29,
-    "total_bol_commission": 3.95
+    "total_bol_revenue": 36.98,
+    "total_bol_commission": 6.51
   },
   "warnings": [],
   "matches": [
@@ -20,85 +20,41 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1674",
-      "shopify_order_date": "2026-07-01T21:30:27Z",
-      "shopify_total_order_amount": 12.95,
+      "shopify_order_number": "#3dts1675",
+      "shopify_order_date": "2026-07-02T10:31:01Z",
+      "shopify_total_order_amount": 36.98,
       "channel": "bol.com",
       "bol": {
-        "bol_order_id": "C0008MPTNJ",
-        "order_placed_at": "2026-07-01T23:00:43+02:00",
+        "bol_order_id": "C0008N9048",
+        "order_placed_at": "2026-07-02T12:29:16+02:00",
         "customer_country_code": "NL",
         "pickup_point": false,
-        "total_order_amount": 12.95,
-        "total_commission": 0.87,
+        "total_order_amount": 36.98,
+        "total_commission": 6.51,
         "eans": [
-          "8721516390615"
+          "9503425233318"
         ],
         "offer_references": [
-          "cloudkeygen23DTS.SHOP"
+          "Bosch4a-3DTS"
         ],
         "line_items": [
           {
-            "bol_order_item_id": "3951346277",
-            "ean": "8721516390615",
-            "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
-            "offer_id": "963adcff-f602-4154-bc70-bf5afef9c1a1",
-            "offer_reference": "cloudkeygen23DTS.SHOP",
-            "sku": "cloudkeygen23DTS.SHOP",
-            "quantity": 1,
+            "bol_order_item_id": "3951552822",
+            "ean": "9503425233318",
+            "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel",
+            "offer_id": "7699e825-2bc3-4838-9cdb-74d3b1057833",
+            "offer_reference": "Bosch4a-3DTS",
+            "sku": "Bosch4a-3DTS",
+            "quantity": 2,
             "quantity_shipped": 0,
             "quantity_cancelled": 0,
-            "unit_price": 12.95,
-            "total_price": 12.95,
-            "commission": 0.87,
+            "unit_price": 18.49,
+            "total_price": 36.98,
+            "commission": 6.51,
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-07-01T23:01:16+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "date_amount_country_product_fallback",
-      "confidence": 0.9,
-      "shopify_order_number": "#3dts1672",
-      "shopify_order_date": "2026-07-01T11:55:57Z",
-      "shopify_total_order_amount": 17.34,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C0008LWH9T",
-        "order_placed_at": "2026-07-01T13:44:39+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 17.34,
-        "total_commission": 3.08,
-        "eans": [
-          "9509658425575"
-        ],
-        "offer_references": [
-          "U0-INRG-KJHL"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3950958338",
-            "ean": "9509658425575",
-            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-            "offer_reference": "U0-INRG-KJHL",
-            "sku": "U0-INRG-KJHL",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 17.34,
-            "total_price": 17.34,
-            "commission": 3.08,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-07-01T19:21:33+02:00"
+            "latest_changed_at": "2026-07-02T12:29:49+02:00"
           }
         ]
       },

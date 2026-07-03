@@ -1,121 +1,18 @@
 {
-  "generated_at": "2026-07-02T08:25:07.831Z",
+  "generated_at": "2026-07-03T08:27:49.349Z",
   "period": "last_7_days",
-  "date_from": "2026-06-26",
-  "date_to_exclusive": "2026-07-03",
+  "date_from": "2026-06-27",
+  "date_to_exclusive": "2026-07-04",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 15,
+    "order_count": 14,
     "item_count": 18,
-    "total_order_amount": 276.12,
-    "shipping_paid_by_customer": 31.99,
+    "total_order_amount": 281.24,
+    "shipping_paid_by_customer": 23.69,
     "discount": 1.9
   },
   "orders": [
-    {
-      "order_number": "#3dts1658",
-      "date": "2026-06-26T13:00:49Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 12.75,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
-          "variant_id": "58406162334045",
-          "variant_gid": "gid://shopify/ProductVariant/58406162334045",
-          "sku": "584061623340_133C",
-          "barcode": "8721516390196",
-          "ean": "8721516390196",
-          "quantity": 1,
-          "product_sale_price": 12.75,
-          "original_unit_price": 12.75,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1659",
-      "date": "2026-06-26T17:07:42Z",
-      "channel_source": "web",
-      "customer_country_code": "FR",
-      "customer_country": "France",
-      "shipping_paid_by_customer": 12.95,
-      "shipping_title": "Post NL EU",
-      "discount": 0,
-      "total_order_amount": 23.9,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
-          "variant_id": "63739025588573",
-          "variant_gid": "gid://shopify/ProductVariant/63739025588573",
-          "sku": "Unifikant3DTS.shop",
-          "barcode": "8721516390592",
-          "ean": "8721516390592",
-          "quantity": 1,
-          "product_sale_price": 10.95,
-          "original_unit_price": 10.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1660",
-      "date": "2026-06-26T20:15:53Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 12.36,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
-          "variant_id": "57838610743645",
-          "variant_gid": "gid://shopify/ProductVariant/57838610743645",
-          "sku": "Unifimountlite3DTS.shop",
-          "barcode": "08721516390042",
-          "ean": "08721516390042",
-          "quantity": 1,
-          "product_sale_price": 12.36,
-          "original_unit_price": 12.36,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1661",
       "date": "2026-06-28T06:52:27Z",
@@ -490,7 +387,7 @@
       "total_order_amount": 31.55,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": "https://3dts.shop/products/makita-accu-houder-4v",
       "referring_site": "https://3dts.shop/",
@@ -536,7 +433,7 @@
       "total_order_amount": 12.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "bol.com"
       ],
@@ -554,6 +451,74 @@
           "quantity": 1,
           "product_sale_price": 12.95,
           "original_unit_price": 12.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1675",
+      "date": "2026-07-02T10:31:01Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Standard",
+      "discount": 0,
+      "total_order_amount": 36.98,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "bol.com"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+          "variant_id": "58800397255005",
+          "variant_gid": "gid://shopify/ProductVariant/58800397255005",
+          "sku": "Bosch4a-3DTS",
+          "barcode": "9503425233318",
+          "ean": "9503425233318",
+          "quantity": 2,
+          "product_sale_price": 18.49,
+          "original_unit_price": 18.49,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1676",
+      "date": "2026-07-02T13:03:02Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 0,
+      "total_order_amount": 17.15,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/makita-accu-houder-4v",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
+          "variant_id": "57872304963933",
+          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
+          "sku": "Makita4v3dts.shop",
+          "barcode": "8721516390097",
+          "ean": "8721516390097",
+          "quantity": 1,
+          "product_sale_price": 12.5,
+          "original_unit_price": 12.5,
           "line_discount": 0,
           "currency": "EUR"
         }

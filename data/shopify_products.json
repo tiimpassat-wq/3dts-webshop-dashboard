@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T08:25:09.048Z",
+  "generated_at": "2026-07-03T08:27:50.419Z",
   "source": "Shopify Admin GraphQL productVariants.inventoryItem.unitCost",
   "required_scopes": [
     "read_products",
@@ -9,8 +9,8 @@
   "warnings": [],
   "totals": {
     "variants": 76,
-    "with_unit_cost": 58,
-    "missing_unit_cost": 18
+    "with_unit_cost": 59,
+    "missing_unit_cost": 17
   },
   "variants": [
     {
@@ -1104,9 +1104,9 @@
       "product_title": "Junction Box / Muurmontage Behuizing voor Ubiquiti UniFi Protect G6 Dome — Weerbestendig",
       "variant_title": "Default Title",
       "verkoopprijs": 15,
-      "unit_cost_amount": 0,
-      "unit_cost_currency_code": null,
-      "has_unit_cost": false
+      "unit_cost_amount": 6.27,
+      "unit_cost_currency_code": "EUR",
+      "has_unit_cost": true
     },
     {
       "product_id": "16268218106205",

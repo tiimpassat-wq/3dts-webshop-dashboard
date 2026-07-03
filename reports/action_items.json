@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-02T08:25:21.757Z",
+  "generated_at": "2026-07-03T08:28:03.836Z",
   "actions": [
-    {
-      "type": "product controleren",
-      "priority": "high",
-      "product_name": "Junction Box / Muurmontage Behuizing voor Ubiquiti UniFi Protect G6 Dome — Weerbestendig",
-      "sku": null,
-      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
-    },
     {
       "type": "campagne pauzeren",
       "priority": "high",
       "campaign": "Google Ads",
-      "reason": "ROAS laatste 7 dagen is 1.0885; eerst tracking/productmarges controleren voordat budget omhoog gaat."
+      "reason": "ROAS laatste 7 dagen is 1.3682; eerst tracking/productmarges controleren voordat budget omhoog gaat."
     },
     {
       "type": "bundel maken",
       "priority": "medium",
       "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
       "sku": "Unifimountlite3DTS.shop",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+      "sku": "Bosch4a-3DTS",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
