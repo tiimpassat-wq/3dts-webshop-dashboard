@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-03T08:27:53.466Z",
+  "generated_at": "2026-07-04T08:05:18.909Z",
   "period": "daily",
-  "date_from": "2026-07-02",
-  "date_to_exclusive": "2026-07-03",
+  "date_from": "2026-07-03",
+  "date_to_exclusive": "2026-07-04",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
     "bol_raw": "bol_orders_raw_daily.json"
   },
   "summary": {
-    "bol_orders": 1,
-    "matched_orders": 1,
+    "bol_orders": 3,
+    "matched_orders": 3,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 36.98,
-    "total_bol_commission": 6.51
+    "total_bol_revenue": 46.83,
+    "total_bol_commission": 7.14
   },
   "warnings": [],
   "matches": [
@@ -20,17 +20,61 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1675",
-      "shopify_order_date": "2026-07-02T10:31:01Z",
-      "shopify_total_order_amount": 36.98,
+      "shopify_order_number": "#3dts1679",
+      "shopify_order_date": "2026-07-03T21:33:59Z",
+      "shopify_total_order_amount": 17.34,
       "channel": "bol.com",
       "bol": {
-        "bol_order_id": "C0008N9048",
-        "order_placed_at": "2026-07-02T12:29:16+02:00",
+        "bol_order_id": "C0008RFW6R",
+        "order_placed_at": "2026-07-03T23:31:32+02:00",
         "customer_country_code": "NL",
         "pickup_point": false,
-        "total_order_amount": 36.98,
-        "total_commission": 6.51,
+        "total_order_amount": 17.34,
+        "total_commission": 3.08,
+        "eans": [
+          "9509658425575"
+        ],
+        "offer_references": [
+          "U0-INRG-KJHL"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3952487445",
+            "ean": "9509658425575",
+            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+            "offer_reference": "U0-INRG-KJHL",
+            "sku": "U0-INRG-KJHL",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 17.34,
+            "total_price": 17.34,
+            "commission": 3.08,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-07-03T23:31:46+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1677",
+      "shopify_order_date": "2026-07-03T15:48:55Z",
+      "shopify_total_order_amount": 18.49,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0008R38MD",
+        "order_placed_at": "2026-07-03T17:46:18+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 18.49,
+        "total_commission": 3.25,
         "eans": [
           "9503425233318"
         ],
@@ -39,22 +83,64 @@
         ],
         "line_items": [
           {
-            "bol_order_item_id": "3951552822",
+            "bol_order_item_id": "3952313712",
             "ean": "9503425233318",
             "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel",
             "offer_id": "7699e825-2bc3-4838-9cdb-74d3b1057833",
             "offer_reference": "Bosch4a-3DTS",
             "sku": "Bosch4a-3DTS",
-            "quantity": 2,
+            "quantity": 1,
             "quantity_shipped": 0,
             "quantity_cancelled": 0,
             "unit_price": 18.49,
-            "total_price": 36.98,
-            "commission": 6.51,
+            "total_price": 18.49,
+            "commission": 3.25,
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-07-02T12:29:49+02:00"
+            "latest_changed_at": "2026-07-03T17:46:45+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1678",
+      "shopify_order_date": "2026-07-03T16:28:42Z",
+      "shopify_total_order_amount": 11,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0008R1FHP",
+        "order_placed_at": "2026-07-03T16:43:48+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 11,
+        "total_commission": 0.81,
+        "eans": [
+          "9502163482132"
+        ],
+        "offer_references": [],
+        "line_items": [
+          {
+            "bol_order_item_id": "3952280505",
+            "ean": "9502163482132",
+            "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
+            "offer_id": "9452ecb2-fb08-40ca-9bac-5ecac48d376c",
+            "offer_reference": null,
+            "sku": null,
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 11,
+            "total_price": 11,
+            "commission": 0.81,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-07-03T16:44:15+02:00"
           }
         ]
       },

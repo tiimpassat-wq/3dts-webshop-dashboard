@@ -1,17 +1,51 @@
 {
-  "generated_at": "2026-07-03T08:27:51.163Z",
+  "generated_at": "2026-07-04T08:05:15.064Z",
   "period": "daily",
-  "date_from": "2026-07-02",
-  "date_to_exclusive": "2026-07-03",
+  "date_from": "2026-07-03",
+  "date_to_exclusive": "2026-07-04",
   "source": "bol.com Retailer API",
   "orders": [
     {
-      "bol_order_id": "C0008N9048",
-      "order_placed_at": "2026-07-02T12:29:16+02:00",
+      "bol_order_id": "C0008RFW6R",
+      "order_placed_at": "2026-07-03T23:31:32+02:00",
       "customer_country_code": "NL",
       "pickup_point": false,
-      "total_order_amount": 36.98,
-      "total_commission": 6.51,
+      "total_order_amount": 17.34,
+      "total_commission": 3.08,
+      "eans": [
+        "9509658425575"
+      ],
+      "offer_references": [
+        "U0-INRG-KJHL"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3952487445",
+          "ean": "9509658425575",
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+          "offer_reference": "U0-INRG-KJHL",
+          "sku": "U0-INRG-KJHL",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 17.34,
+          "total_price": 17.34,
+          "commission": 3.08,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-07-03T23:31:46+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C0008R38MD",
+      "order_placed_at": "2026-07-03T17:46:18+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 18.49,
+      "total_commission": 3.25,
       "eans": [
         "9503425233318"
       ],
@@ -20,22 +54,54 @@
       ],
       "line_items": [
         {
-          "bol_order_item_id": "3951552822",
+          "bol_order_item_id": "3952313712",
           "ean": "9503425233318",
           "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel",
           "offer_id": "7699e825-2bc3-4838-9cdb-74d3b1057833",
           "offer_reference": "Bosch4a-3DTS",
           "sku": "Bosch4a-3DTS",
-          "quantity": 2,
+          "quantity": 1,
           "quantity_shipped": 0,
           "quantity_cancelled": 0,
           "unit_price": 18.49,
-          "total_price": 36.98,
-          "commission": 6.51,
+          "total_price": 18.49,
+          "commission": 3.25,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-07-02T12:29:49+02:00"
+          "latest_changed_at": "2026-07-03T17:46:45+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C0008R1FHP",
+      "order_placed_at": "2026-07-03T16:43:48+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 11,
+      "total_commission": 0.81,
+      "eans": [
+        "9502163482132"
+      ],
+      "offer_references": [],
+      "line_items": [
+        {
+          "bol_order_item_id": "3952280505",
+          "ean": "9502163482132",
+          "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
+          "offer_id": "9452ecb2-fb08-40ca-9bac-5ecac48d376c",
+          "offer_reference": null,
+          "sku": null,
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 11,
+          "total_price": 11,
+          "commission": 0.81,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-07-03T16:44:15+02:00"
         }
       ]
     }
@@ -43,8 +109,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 1,
-    "total_order_amount": 36.98,
-    "total_commission": 6.51
+    "order_count": 3,
+    "total_order_amount": 46.83,
+    "total_commission": 7.14
   }
 }
