@@ -23,34 +23,50 @@ const required = {
   GOOGLE_ADS_LOGIN_CUSTOMER_ID: loginCustomerId,
 };
 
-for (const [name, value] of Object.entries(required)) {
-  if (!value) throw new Error(`Missing ${name}`);
-}
-
 const ranges = buildRanges();
 
 await mkdir(dataDir, { recursive: true });
 
-const accessToken = await requestAccessToken();
-const accessibleCustomers = await listAccessibleCustomers(accessToken);
+const missingRequired = Object.entries(required)
+  .filter(([, value]) => !value)
+  .map(([name]) => name);
 
-for (const range of ranges) {
-  const campaigns = await fetchCampaignReport(accessToken, range.where);
-  const payload = {
-    generated_at: new Date().toISOString(),
-    period: range.label,
-    date_from: range.from,
-    date_to: range.toInclusive,
-    timezone: "Europe/Amsterdam",
-    customer_id: customerId,
-    login_customer_id: loginCustomerId,
-    accessible_customers: accessibleCustomers.resourceNames || [],
-    totals: summarize(campaigns),
-    campaigns,
-  };
+if (missingRequired.length) {
+  await writeErrorReports(ranges, {
+    errorType: "missing_secret",
+    errorMessage: `Missing Google Ads GitHub secret(s): ${missingRequired.join(", ")}`,
+  });
+} else {
+  try {
+    const accessToken = await requestAccessToken();
+    const accessibleCustomers = await listAccessibleCustomers(accessToken);
 
-  await writeJson(path.join(dataDir, range.file), payload);
-  console.log(`${range.file}: ${campaigns.length} campaigns, cost EUR ${payload.totals.cost_eur.toFixed(2)}`);
+    for (const range of ranges) {
+      const campaigns = await fetchCampaignReport(accessToken, range.where);
+      const payload = {
+        generated_at: new Date().toISOString(),
+        period: range.label,
+        date_from: range.from,
+        date_to: range.toInclusive,
+        timezone: "Europe/Amsterdam",
+        status: "ok",
+        data_quality: "complete",
+        customer_id: customerId,
+        login_customer_id: loginCustomerId,
+        accessible_customers: accessibleCustomers.resourceNames || [],
+        totals: summarize(campaigns),
+        campaigns,
+      };
+
+      await writeJson(path.join(dataDir, range.file), payload);
+      console.log(`${range.file}: ${campaigns.length} campaigns, cost EUR ${payload.totals.cost_eur.toFixed(2)}`);
+    }
+  } catch (error) {
+    const errorType = classifyImportError(error);
+    const errorMessage = safeImportError(error);
+    await writeErrorReports(ranges, { errorType, errorMessage });
+    console.error(`Google Ads import warning (${errorType}): ${errorMessage}`);
+  }
 }
 
 function cleanCustomerId(value = "") {
@@ -209,6 +225,59 @@ function summarize(campaigns) {
   totals.roas = totals.cost_eur > 0 ? roundNumber(totals.conversion_value / totals.cost_eur, 4) : null;
   totals.cpc_eur = totals.clicks > 0 ? roundMoney(totals.cost_eur / totals.clicks) : null;
   return totals;
+}
+
+async function writeErrorReports(reportRanges, { errorType, errorMessage }) {
+  for (const range of reportRanges) {
+    const payload = {
+      generated_at: new Date().toISOString(),
+      period: range.label,
+      date_from: range.from,
+      date_to: range.toInclusive,
+      timezone: "Europe/Amsterdam",
+      status: "error",
+      data_quality: "google_ads_unavailable",
+      error_type: errorType,
+      error_message: errorMessage,
+      customer_id: customerId || null,
+      login_customer_id: loginCustomerId || null,
+      accessible_customers: [],
+      totals: emptyTotals(),
+      campaigns: [],
+    };
+
+    await writeJson(path.join(dataDir, range.file), payload);
+    console.log(`${range.file}: Google Ads unavailable (${errorType})`);
+  }
+}
+
+function emptyTotals() {
+  return {
+    impressions: 0,
+    clicks: 0,
+    cost_eur: 0,
+    conversions: 0,
+    conversion_value: 0,
+    roas: null,
+    cpc_eur: null,
+  };
+}
+
+function classifyImportError(error) {
+  const message = String(error?.message || error);
+  if (message.includes("invalid_grant")) return "oauth_invalid_grant";
+  if (message.includes("OAuth refresh failed")) return "oauth_refresh_failed";
+  if (message.includes("Google Ads request failed")) return "google_ads_api_error";
+  if (message.includes("Accessible customers failed")) return "google_ads_access_error";
+  return "google_ads_import_error";
+}
+
+function safeImportError(error) {
+  const message = String(error?.message || error);
+  if (message.includes("invalid_grant")) {
+    return "Google Ads OAuth refresh token is invalid or revoked. Update GOOGLE_ADS_REFRESH_TOKEN in GitHub Actions secrets.";
+  }
+  return message.replace(/[A-Za-z0-9_-]{30,}/g, "[redacted]");
 }
 
 async function writeJson(filePath, value) {
