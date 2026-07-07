@@ -1,145 +1,24 @@
 {
-  "generated_at": "2026-07-04T08:05:11.076Z",
+  "generated_at": "2026-07-07T10:08:15.367Z",
   "period": "last_7_days",
-  "date_from": "2026-06-28",
-  "date_to": "2026-07-04",
+  "date_from": "2026-07-01",
+  "date_to": "2026-07-07",
   "timezone": "Europe/Amsterdam",
+  "status": "error",
+  "data_quality": "google_ads_unavailable",
+  "error_type": "oauth_invalid_grant",
+  "error_message": "Google Ads OAuth refresh token is invalid or revoked. Update GOOGLE_ADS_REFRESH_TOKEN in GitHub Actions secrets.",
   "customer_id": "5233371293",
   "login_customer_id": "3221449798",
-  "accessible_customers": [
-    "customers/5233371293",
-    "customers/3221449798"
-  ],
+  "accessible_customers": [],
   "totals": {
-    "impressions": 3249,
-    "clicks": 64,
-    "cost_eur": 33.23,
-    "conversions": 3,
-    "conversion_value": 48.9,
-    "roas": 1.4716,
-    "cpc_eur": 0.52
+    "impressions": 0,
+    "clicks": 0,
+    "cost_eur": 0,
+    "conversions": 0,
+    "conversion_value": 0,
+    "roas": null,
+    "cpc_eur": null
   },
-  "campaigns": [
-    {
-      "id": "22500757895",
-      "name": "Beugels",
-      "status": "ENABLED",
-      "impressions": 3249,
-      "clicks": 64,
-      "cost_eur": 33.23,
-      "conversions": 3,
-      "conversion_value": 48.9,
-      "roas": 1.4716
-    },
-    {
-      "id": "22486477620",
-      "name": "Makita",
-      "status": "REMOVED",
-      "impressions": 0,
-      "clicks": 0,
-      "cost_eur": 0,
-      "conversions": 0,
-      "conversion_value": 0,
-      "roas": null
-    },
-    {
-      "id": "22492610300",
-      "name": "Search-1",
-      "status": "REMOVED",
-      "impressions": 0,
-      "clicks": 0,
-      "cost_eur": 0,
-      "conversions": 0,
-      "conversion_value": 0,
-      "roas": null
-    },
-    {
-      "id": "22493457539",
-      "name": "3DTS",
-      "status": "REMOVED",
-      "impressions": 0,
-      "clicks": 0,
-      "cost_eur": 0,
-      "conversions": 0,
-      "conversion_value": 0,
-      "roas": null
-    },
-    {
-      "id": "22644942713",
-      "name": "Unifi",
-      "status": "REMOVED",
-      "impressions": 0,
-      "clicks": 0,
-      "cost_eur": 0,
-      "conversions": 0,
-      "conversion_value": 0,
-      "roas": null
-    },
-    {
-      "id": "22794909796",
-      "name": "Acculader Beugels - Bosch & Shimano",
-      "status": "REMOVED",
-      "impressions": 0,
-      "clicks": 0,
-      "cost_eur": 0,
-      "conversions": 0,
-      "conversion_value": 0,
-      "roas": null
-    },
-    {
-      "id": "23594104552",
-      "name": "Youtube abbo's",
-      "status": "REMOVED",
-      "impressions": 0,
-      "clicks": 0,
-      "cost_eur": 0,
-      "conversions": 0,
-      "conversion_value": 0,
-      "roas": null
-    },
-    {
-      "id": "23749087674",
-      "name": "Brand (Adscale Magic Ads)",
-      "status": "REMOVED",
-      "impressions": 0,
-      "clicks": 0,
-      "cost_eur": 0,
-      "conversions": 0,
-      "conversion_value": 0,
-      "roas": null
-    },
-    {
-      "id": "23749091241",
-      "name": "PMax_NL [[All products]] (Adscale Magic Ads)",
-      "status": "REMOVED",
-      "impressions": 0,
-      "clicks": 0,
-      "cost_eur": 0,
-      "conversions": 0,
-      "conversion_value": 0,
-      "roas": null
-    },
-    {
-      "id": "23753342857",
-      "name": "Makita en hilti max",
-      "status": "REMOVED",
-      "impressions": 0,
-      "clicks": 0,
-      "cost_eur": 0,
-      "conversions": 0,
-      "conversion_value": 0,
-      "roas": null
-    },
-    {
-      "id": "23772939548",
-      "name": "PMax_NL [vb 1] (NL 26 manual)",
-      "status": "REMOVED",
-      "impressions": 0,
-      "clicks": 0,
-      "cost_eur": 0,
-      "conversions": 0,
-      "conversion_value": 0,
-      "roas": null
-    }
-  ]
+  "campaigns": []
 }

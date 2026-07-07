@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T08:05:14.243Z",
+  "generated_at": "2026-07-07T10:08:17.334Z",
   "source": "Shopify Admin GraphQL productVariants.inventoryItem.unitCost",
   "required_scopes": [
     "read_products",
@@ -8,8 +8,8 @@
   "status": "ok",
   "warnings": [],
   "totals": {
-    "variants": 76,
-    "with_unit_cost": 59,
+    "variants": 77,
+    "with_unit_cost": 60,
     "missing_unit_cost": 17
   },
   "variants": [
@@ -1071,7 +1071,7 @@
       "sku": "",
       "barcode": "",
       "ean": "",
-      "product_title": "RVS Hondenpenning Botje",
+      "product_title": "RVS Hondenpenning Botje met Naam en Telefoonnummer",
       "variant_title": "Default Title",
       "verkoopprijs": 10.95,
       "unit_cost_amount": 0,
@@ -1152,6 +1152,21 @@
       "unit_cost_amount": 0,
       "unit_cost_currency_code": null,
       "has_unit_cost": false
+    },
+    {
+      "product_id": "16297005777245",
+      "variant_id": "65159836303709",
+      "product_gid": "gid://shopify/Product/16297005777245",
+      "variant_gid": "gid://shopify/ProductVariant/65159836303709",
+      "sku": "3DTS-METABO-CAS12V-SCHUIF",
+      "barcode": "",
+      "ean": "",
+      "product_title": "Metabo CAS 12V Accu Houder Schuif – Wandhouder voor Accu",
+      "variant_title": "Default Title",
+      "verkoopprijs": 9.25,
+      "unit_cost_amount": 3.87,
+      "unit_cost_currency_code": "EUR",
+      "has_unit_cost": true
     }
   ]
 }

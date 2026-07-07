@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-07-04T08:05:28.295Z",
+  "generated_at": "2026-07-07T10:08:26.113Z",
   "actions": [
     {
-      "type": "campagne pauzeren",
+      "type": "product controleren",
       "priority": "high",
-      "campaign": "Google Ads",
-      "reason": "ROAS laatste 7 dagen is 1.4716; eerst tracking/productmarges controleren voordat budget omhoog gaat."
+      "product_name": "Reciprozaag Wandhouder – Universeel (PETG 3D Geprint)",
+      "sku": "640203879878_00D9",
+      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
     },
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
-      "sku": "Unifimountlite3DTS.shop",
+      "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+      "sku": "dc18rd3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -24,22 +25,8 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
-      "sku": "584061623340_133C",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
-      "sku": "cloudkeygen23DTS.SHOP",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
-      "sku": "dc18rd3dts.shop",
+      "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
+      "sku": "Makita4v3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]

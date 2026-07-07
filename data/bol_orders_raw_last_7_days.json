@@ -1,210 +1,10 @@
 {
-  "generated_at": "2026-07-04T08:05:19.753Z",
+  "generated_at": "2026-07-07T10:08:19.815Z",
   "period": "last_7_days",
-  "date_from": "2026-06-28",
-  "date_to_exclusive": "2026-07-05",
+  "date_from": "2026-07-01",
+  "date_to_exclusive": "2026-07-08",
   "source": "bol.com Retailer API",
   "orders": [
-    {
-      "bol_order_id": "C0007L0XXF",
-      "order_placed_at": "2026-06-28T19:17:01+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 12.36,
-      "total_commission": 0.85,
-      "eans": [
-        "9504822112282"
-      ],
-      "offer_references": [
-        "3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3949249945",
-          "ean": "9504822112282",
-          "product_name": "Plafondbeugel geschikt voor Unifi AC LitenanoHD, AC LR & U6 Lite",
-          "offer_id": "4aad4ef2-a01c-4064-999a-014698d672df",
-          "offer_reference": "3DTS",
-          "sku": "3DTS",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 12.36,
-          "total_price": 12.36,
-          "commission": 0.85,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-06-28T21:08:07+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C0005N8MMK",
-      "order_placed_at": "2026-06-28T17:09:20+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 12.36,
-      "total_commission": 0.85,
-      "eans": [
-        "9504822112282"
-      ],
-      "offer_references": [
-        "3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3949175198",
-          "ean": "9504822112282",
-          "product_name": "Plafondbeugel geschikt voor Unifi AC LitenanoHD, AC LR & U6 Lite",
-          "offer_id": "4aad4ef2-a01c-4064-999a-014698d672df",
-          "offer_reference": "3DTS",
-          "sku": "3DTS",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 12.36,
-          "total_price": 12.36,
-          "commission": 0.85,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-06-28T21:08:00+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C0007L3TX9",
-      "order_placed_at": "2026-06-28T20:35:36+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 12.95,
-      "total_commission": 0.87,
-      "eans": [
-        "8721516390615"
-      ],
-      "offer_references": [
-        "cloudkeygen23DTS.SHOP"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3949305321",
-          "ean": "8721516390615",
-          "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
-          "offer_id": "963adcff-f602-4154-bc70-bf5afef9c1a1",
-          "offer_reference": "cloudkeygen23DTS.SHOP",
-          "sku": "cloudkeygen23DTS.SHOP",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 12.95,
-          "total_price": 12.95,
-          "commission": 0.87,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-06-29T21:48:58+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C00072M6D1",
-      "order_placed_at": "2026-06-28T17:06:36+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 12.75,
-      "total_commission": 0.87,
-      "eans": [
-        "9504237317951"
-      ],
-      "offer_references": [
-        "3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3949173548",
-          "ean": "9504237317951",
-          "product_name": "Plafondbeugel voor acces point - geschikt voor Unifi UAP AC PRO - Vervangende Montage beugel",
-          "offer_id": "54695faf-5d5f-49a6-b90c-b54e515e1fc3",
-          "offer_reference": "3DTS",
-          "sku": "3DTS",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 12.75,
-          "total_price": 12.75,
-          "commission": 0.87,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-06-29T21:39:00+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C0008L0MX1",
-      "order_placed_at": "2026-06-30T20:12:23+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 16.49,
-      "total_commission": 2.95,
-      "eans": [
-        "9504741952723"
-      ],
-      "offer_references": [],
-      "line_items": [
-        {
-          "bol_order_item_id": "3950548976",
-          "ean": "9504741952723",
-          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-          "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
-          "offer_reference": null,
-          "sku": null,
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 16.49,
-          "total_price": 16.49,
-          "commission": 2.95,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-06-30T21:19:27+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C0007N3L06",
-      "order_placed_at": "2026-06-30T09:45:18+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 19.95,
-      "total_commission": 1.08,
-      "eans": [
-        "8721516390660"
-      ],
-      "offer_references": [],
-      "line_items": [
-        {
-          "bol_order_item_id": "3950198143",
-          "ean": "8721516390660",
-          "product_name": "Junction Box / Muurmontage Behuizing voor Ubiquiti UniFi Protect G6 Dome - Weerbestendig",
-          "offer_id": "75037faf-7671-4aa8-bc14-cca8f3e2a01f",
-          "offer_reference": null,
-          "sku": null,
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 19.95,
-          "total_price": 19.95,
-          "commission": 1.08,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-06-30T21:10:13+02:00"
-        }
-      ]
-    },
     {
       "bol_order_id": "C0008LWH9T",
       "order_placed_at": "2026-07-01T13:44:39+02:00",
@@ -236,59 +36,6 @@
           "distribution_party": "RETAILER",
           "cancellation_request": false,
           "latest_changed_at": "2026-07-01T19:21:33+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C0007N2F10",
-      "order_placed_at": "2026-06-30T12:06:54+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 37.47,
-      "total_commission": 2.58,
-      "eans": [
-        "9504822112282",
-        "9504237317951"
-      ],
-      "offer_references": [
-        "3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3950274102",
-          "ean": "9504822112282",
-          "product_name": "Plafondbeugel geschikt voor Unifi AC LitenanoHD, AC LR & U6 Lite",
-          "offer_id": "4aad4ef2-a01c-4064-999a-014698d672df",
-          "offer_reference": "3DTS",
-          "sku": "3DTS",
-          "quantity": 2,
-          "quantity_shipped": 2,
-          "quantity_cancelled": 0,
-          "unit_price": 12.36,
-          "total_price": 24.72,
-          "commission": 1.71,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-07-01T18:41:58+02:00"
-        },
-        {
-          "bol_order_item_id": "3950274103",
-          "ean": "9504237317951",
-          "product_name": "Plafondbeugel voor acces point - geschikt voor Unifi UAP AC PRO - Vervangende Montage beugel",
-          "offer_id": "54695faf-5d5f-49a6-b90c-b54e515e1fc3",
-          "offer_reference": "3DTS",
-          "sku": "3DTS",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 12.75,
-          "total_price": 12.75,
-          "commission": 0.87,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-07-01T18:41:58+02:00"
         }
       ]
     },
@@ -327,40 +74,6 @@
       ]
     },
     {
-      "bol_order_id": "C0008N9048",
-      "order_placed_at": "2026-07-02T12:29:16+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 36.98,
-      "total_commission": 6.51,
-      "eans": [
-        "9503425233318"
-      ],
-      "offer_references": [
-        "Bosch4a-3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3951552822",
-          "ean": "9503425233318",
-          "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel",
-          "offer_id": "7699e825-2bc3-4838-9cdb-74d3b1057833",
-          "offer_reference": "Bosch4a-3DTS",
-          "sku": "Bosch4a-3DTS",
-          "quantity": 2,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 18.49,
-          "total_price": 36.98,
-          "commission": 6.51,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-07-02T12:29:49+02:00"
-        }
-      ]
-    },
-    {
       "bol_order_id": "C0008RFW6R",
       "order_placed_at": "2026-07-03T23:31:32+02:00",
       "customer_country_code": "NL",
@@ -382,7 +95,7 @@
           "offer_reference": "U0-INRG-KJHL",
           "sku": "U0-INRG-KJHL",
           "quantity": 1,
-          "quantity_shipped": 0,
+          "quantity_shipped": 1,
           "quantity_cancelled": 0,
           "unit_price": 17.34,
           "total_price": 17.34,
@@ -390,7 +103,39 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-07-03T23:31:46+02:00"
+          "latest_changed_at": "2026-07-04T15:58:07+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C0008R1FHP",
+      "order_placed_at": "2026-07-03T16:43:48+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 11,
+      "total_commission": 0.81,
+      "eans": [
+        "9502163482132"
+      ],
+      "offer_references": [],
+      "line_items": [
+        {
+          "bol_order_item_id": "3952280505",
+          "ean": "9502163482132",
+          "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
+          "offer_id": "9452ecb2-fb08-40ca-9bac-5ecac48d376c",
+          "offer_reference": null,
+          "sku": null,
+          "quantity": 1,
+          "quantity_shipped": 1,
+          "quantity_cancelled": 0,
+          "unit_price": 11,
+          "total_price": 11,
+          "commission": 0.81,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-07-04T15:53:07+02:00"
         }
       ]
     },
@@ -416,7 +161,7 @@
           "offer_reference": "Bosch4a-3DTS",
           "sku": "Bosch4a-3DTS",
           "quantity": 1,
-          "quantity_shipped": 0,
+          "quantity_shipped": 1,
           "quantity_cancelled": 0,
           "unit_price": 18.49,
           "total_price": 18.49,
@@ -424,39 +169,75 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-07-03T17:46:45+02:00"
+          "latest_changed_at": "2026-07-04T15:53:07+02:00"
         }
       ]
     },
     {
-      "bol_order_id": "C0008R1FHP",
-      "order_placed_at": "2026-07-03T16:43:48+02:00",
+      "bol_order_id": "C0008N9048",
+      "order_placed_at": "2026-07-02T12:29:16+02:00",
       "customer_country_code": "NL",
       "pickup_point": false,
-      "total_order_amount": 11,
-      "total_commission": 0.81,
+      "total_order_amount": 36.98,
+      "total_commission": 6.51,
       "eans": [
-        "9502163482132"
+        "9503425233318"
       ],
-      "offer_references": [],
+      "offer_references": [
+        "Bosch4a-3DTS"
+      ],
       "line_items": [
         {
-          "bol_order_item_id": "3952280505",
-          "ean": "9502163482132",
-          "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
-          "offer_id": "9452ecb2-fb08-40ca-9bac-5ecac48d376c",
-          "offer_reference": null,
-          "sku": null,
-          "quantity": 1,
-          "quantity_shipped": 0,
+          "bol_order_item_id": "3951552822",
+          "ean": "9503425233318",
+          "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel",
+          "offer_id": "7699e825-2bc3-4838-9cdb-74d3b1057833",
+          "offer_reference": "Bosch4a-3DTS",
+          "sku": "Bosch4a-3DTS",
+          "quantity": 2,
+          "quantity_shipped": 2,
           "quantity_cancelled": 0,
-          "unit_price": 11,
-          "total_price": 11,
-          "commission": 0.81,
+          "unit_price": 18.49,
+          "total_price": 36.98,
+          "commission": 6.51,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-07-03T16:44:15+02:00"
+          "latest_changed_at": "2026-07-04T11:23:37+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C00090RJJK",
+      "order_placed_at": "2026-07-07T10:15:37+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 17.34,
+      "total_commission": 3.08,
+      "eans": [
+        "9509658425575"
+      ],
+      "offer_references": [
+        "U0-INRG-KJHL"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3954407627",
+          "ean": "9509658425575",
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+          "offer_reference": "U0-INRG-KJHL",
+          "sku": "U0-INRG-KJHL",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 17.34,
+          "total_price": 17.34,
+          "commission": 3.08,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-07-07T10:15:46+02:00"
         }
       ]
     }
@@ -464,8 +245,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 13,
-    "total_order_amount": 238.43,
-    "total_commission": 27.65
+    "order_count": 7,
+    "total_order_amount": 131.44,
+    "total_commission": 20.68
   }
 }
