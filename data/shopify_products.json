@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T10:08:17.334Z",
+  "generated_at": "2026-07-08T07:41:14.369Z",
   "source": "Shopify Admin GraphQL productVariants.inventoryItem.unitCost",
   "required_scopes": [
     "read_products",
@@ -9,8 +9,8 @@
   "warnings": [],
   "totals": {
     "variants": 77,
-    "with_unit_cost": 60,
-    "missing_unit_cost": 17
+    "with_unit_cost": 61,
+    "missing_unit_cost": 16
   },
   "variants": [
     {
@@ -1068,15 +1068,15 @@
       "variant_id": "64724542357853",
       "product_gid": "gid://shopify/Product/16202591371613",
       "variant_gid": "gid://shopify/ProductVariant/64724542357853",
-      "sku": "",
+      "sku": "3DTS-DOGTAG-BONE",
       "barcode": "",
       "ean": "",
       "product_title": "RVS Hondenpenning Botje met Naam en Telefoonnummer",
       "variant_title": "Default Title",
       "verkoopprijs": 10.95,
-      "unit_cost_amount": 0,
-      "unit_cost_currency_code": null,
-      "has_unit_cost": false
+      "unit_cost_amount": 1.5,
+      "unit_cost_currency_code": "EUR",
+      "has_unit_cost": true
     },
     {
       "product_id": "16202732044637",
