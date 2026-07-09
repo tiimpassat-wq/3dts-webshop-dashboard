@@ -1,53 +1,18 @@
 {
-  "generated_at": "2026-07-08T07:41:14.217Z",
+  "generated_at": "2026-07-09T08:44:14.361Z",
   "period": "last_30_days",
-  "date_from": "2026-06-09",
-  "date_to_exclusive": "2026-07-09",
+  "date_from": "2026-06-10",
+  "date_to_exclusive": "2026-07-10",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 65,
     "item_count": 100,
-    "total_order_amount": 1492.47,
+    "total_order_amount": 1492.67,
     "shipping_paid_by_customer": 93.19,
     "discount": 14.75
   },
   "orders": [
-    {
-      "order_number": "#3dts1620",
-      "date": "2026-06-09T16:55:18Z",
-      "channel_source": "bol",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 12.75,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
-          "variant_id": "58406162334045",
-          "variant_gid": "gid://shopify/ProductVariant/58406162334045",
-          "sku": "584061623340_133C",
-          "barcode": "8721516390196",
-          "ean": "8721516390196",
-          "quantity": 1,
-          "product_sale_price": 12.75,
-          "original_unit_price": 12.75,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1621",
       "date": "2026-06-10T14:16:09Z",
@@ -2226,7 +2191,7 @@
       "total_order_amount": 17.34,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C00090RJJK"
@@ -2262,7 +2227,7 @@
       "total_order_amount": 12.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000910XLP"
@@ -2298,7 +2263,7 @@
       "total_order_amount": 51.5,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009122PT"
@@ -2347,7 +2312,7 @@
       "total_order_amount": 33.83,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C00091W7W3"
@@ -2415,6 +2380,42 @@
           "quantity": 1,
           "product_sale_price": 17.34,
           "original_unit_price": 17.34,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1687",
+      "date": "2026-07-08T12:46:42Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 12.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C00092LW14"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
+          "variant_id": "63992391369053",
+          "variant_gid": "gid://shopify/ProductVariant/63992391369053",
+          "sku": "cloudkeygen23DTS.SHOP",
+          "barcode": "8721516390615",
+          "ean": "8721516390615",
+          "quantity": 1,
+          "product_sale_price": 12.95,
+          "original_unit_price": 12.95,
           "line_discount": 0,
           "currency": "EUR"
         }

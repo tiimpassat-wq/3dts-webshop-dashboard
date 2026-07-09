@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-08T07:41:18.215Z",
+  "generated_at": "2026-07-09T08:44:20.653Z",
   "period": "last_7_days",
-  "date_from": "2026-07-02",
-  "date_to_exclusive": "2026-07-09",
+  "date_from": "2026-07-03",
+  "date_to_exclusive": "2026-07-10",
   "source": "bol.com Retailer API",
   "orders": [
     {
@@ -106,40 +106,6 @@
       ]
     },
     {
-      "bol_order_id": "C0008N9048",
-      "order_placed_at": "2026-07-02T12:29:16+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 36.98,
-      "total_commission": 6.51,
-      "eans": [
-        "9503425233318"
-      ],
-      "offer_references": [
-        "Bosch4a-3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3951552822",
-          "ean": "9503425233318",
-          "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel",
-          "offer_id": "7699e825-2bc3-4838-9cdb-74d3b1057833",
-          "offer_reference": "Bosch4a-3DTS",
-          "sku": "Bosch4a-3DTS",
-          "quantity": 2,
-          "quantity_shipped": 2,
-          "quantity_cancelled": 0,
-          "unit_price": 18.49,
-          "total_price": 36.98,
-          "commission": 6.51,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-07-04T11:23:37+02:00"
-        }
-      ]
-    },
-    {
       "bol_order_id": "C00091W7W3",
       "order_placed_at": "2026-07-07T22:03:13+02:00",
       "customer_country_code": "NL",
@@ -162,7 +128,7 @@
           "offer_reference": null,
           "sku": null,
           "quantity": 1,
-          "quantity_shipped": 0,
+          "quantity_shipped": 1,
           "quantity_cancelled": 0,
           "unit_price": 16.49,
           "total_price": 16.49,
@@ -170,7 +136,7 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-07-07T22:03:45+02:00"
+          "latest_changed_at": "2026-07-08T19:23:00+02:00"
         },
         {
           "bol_order_item_id": "3954872205",
@@ -180,7 +146,7 @@
           "offer_reference": "U0-INRG-KJHL",
           "sku": "U0-INRG-KJHL",
           "quantity": 1,
-          "quantity_shipped": 0,
+          "quantity_shipped": 1,
           "quantity_cancelled": 0,
           "unit_price": 17.34,
           "total_price": 17.34,
@@ -188,7 +154,7 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-07-07T22:03:45+02:00"
+          "latest_changed_at": "2026-07-08T19:23:00+02:00"
         }
       ]
     },
@@ -215,7 +181,7 @@
           "offer_reference": "3DTS",
           "sku": "3DTS",
           "quantity": 1,
-          "quantity_shipped": 0,
+          "quantity_shipped": 1,
           "quantity_cancelled": 0,
           "unit_price": 16.48,
           "total_price": 16.48,
@@ -223,7 +189,7 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-07-07T20:24:46+02:00"
+          "latest_changed_at": "2026-07-08T19:22:59+02:00"
         },
         {
           "bol_order_item_id": "3954783286",
@@ -233,7 +199,7 @@
           "offer_reference": "3DTS",
           "sku": "3DTS",
           "quantity": 2,
-          "quantity_shipped": 0,
+          "quantity_shipped": 2,
           "quantity_cancelled": 0,
           "unit_price": 17.51,
           "total_price": 35.02,
@@ -241,7 +207,7 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-07-07T20:24:46+02:00"
+          "latest_changed_at": "2026-07-08T19:22:52+02:00"
         }
       ]
     },
@@ -267,7 +233,7 @@
           "offer_reference": "cloudkeygen23DTS.SHOP",
           "sku": "cloudkeygen23DTS.SHOP",
           "quantity": 1,
-          "quantity_shipped": 0,
+          "quantity_shipped": 1,
           "quantity_cancelled": 0,
           "unit_price": 12.95,
           "total_price": 12.95,
@@ -275,7 +241,7 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-07-07T12:34:45+02:00"
+          "latest_changed_at": "2026-07-08T19:12:56+02:00"
         }
       ]
     },
@@ -301,7 +267,7 @@
           "offer_reference": "U0-INRG-KJHL",
           "sku": "U0-INRG-KJHL",
           "quantity": 1,
-          "quantity_shipped": 0,
+          "quantity_shipped": 1,
           "quantity_cancelled": 0,
           "unit_price": 17.34,
           "total_price": 17.34,
@@ -309,7 +275,41 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-07-07T10:15:46+02:00"
+          "latest_changed_at": "2026-07-08T19:07:53+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C00092LW14",
+      "order_placed_at": "2026-07-08T14:45:49+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 12.95,
+      "total_commission": 0.87,
+      "eans": [
+        "8721516390615"
+      ],
+      "offer_references": [
+        "cloudkeygen23DTS.SHOP"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3955211942",
+          "ean": "8721516390615",
+          "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
+          "offer_id": "963adcff-f602-4154-bc70-bf5afef9c1a1",
+          "offer_reference": "cloudkeygen23DTS.SHOP",
+          "sku": "cloudkeygen23DTS.SHOP",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 12.95,
+          "total_price": 12.95,
+          "commission": 0.87,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-07-08T14:46:16+02:00"
         }
       ]
     },
@@ -352,7 +352,7 @@
   "credentials_configured": true,
   "totals": {
     "order_count": 9,
-    "total_order_amount": 216.77,
-    "total_commission": 35.87
+    "total_order_amount": 192.74,
+    "total_commission": 30.23
   }
 }

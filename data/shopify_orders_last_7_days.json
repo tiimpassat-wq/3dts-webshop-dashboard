@@ -1,86 +1,18 @@
 {
-  "generated_at": "2026-07-08T07:41:13.510Z",
+  "generated_at": "2026-07-09T08:44:13.515Z",
   "period": "last_7_days",
-  "date_from": "2026-07-02",
-  "date_to_exclusive": "2026-07-09",
+  "date_from": "2026-07-03",
+  "date_to_exclusive": "2026-07-10",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 12,
-    "item_count": 16,
-    "total_order_amount": 263.87,
-    "shipping_paid_by_customer": 16.4,
+    "order_count": 11,
+    "item_count": 14,
+    "total_order_amount": 222.69,
+    "shipping_paid_by_customer": 11.75,
     "discount": 0
   },
   "orders": [
-    {
-      "order_number": "#3dts1675",
-      "date": "2026-07-02T10:31:01Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 36.98,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
-          "variant_id": "58800397255005",
-          "variant_gid": "gid://shopify/ProductVariant/58800397255005",
-          "sku": "Bosch4a-3DTS",
-          "barcode": "9503425233318",
-          "ean": "9503425233318",
-          "quantity": 2,
-          "product_sale_price": 18.49,
-          "original_unit_price": 18.49,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1676",
-      "date": "2026-07-02T13:03:02Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 4.65,
-      "shipping_title": "Nederland",
-      "discount": 0,
-      "total_order_amount": 17.15,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/makita-accu-houder-4v",
-      "referring_site": "https://www.google.com/",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
-          "variant_id": "57872304963933",
-          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
-          "sku": "Makita4v3dts.shop",
-          "barcode": "8721516390097",
-          "ean": "8721516390097",
-          "quantity": 1,
-          "product_sale_price": 12.5,
-          "original_unit_price": 12.5,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1677",
       "date": "2026-07-03T15:48:55Z",
@@ -267,7 +199,7 @@
       "total_order_amount": 17.34,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C00090RJJK"
@@ -303,7 +235,7 @@
       "total_order_amount": 12.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000910XLP"
@@ -339,7 +271,7 @@
       "total_order_amount": 51.5,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009122PT"
@@ -388,7 +320,7 @@
       "total_order_amount": 33.83,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C00091W7W3"
@@ -456,6 +388,42 @@
           "quantity": 1,
           "product_sale_price": 17.34,
           "original_unit_price": 17.34,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1687",
+      "date": "2026-07-08T12:46:42Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 12.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C00092LW14"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
+          "variant_id": "63992391369053",
+          "variant_gid": "gid://shopify/ProductVariant/63992391369053",
+          "sku": "cloudkeygen23DTS.SHOP",
+          "barcode": "8721516390615",
+          "ean": "8721516390615",
+          "quantity": 1,
+          "product_sale_price": 12.95,
+          "original_unit_price": 12.95,
           "line_discount": 0,
           "currency": "EUR"
         }
