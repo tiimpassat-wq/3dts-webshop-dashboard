@@ -1,110 +1,10 @@
 {
-  "generated_at": "2026-07-09T08:44:20.653Z",
+  "generated_at": "2026-07-10T08:40:04.837Z",
   "period": "last_7_days",
-  "date_from": "2026-07-03",
-  "date_to_exclusive": "2026-07-10",
+  "date_from": "2026-07-04",
+  "date_to_exclusive": "2026-07-11",
   "source": "bol.com Retailer API",
   "orders": [
-    {
-      "bol_order_id": "C0008RFW6R",
-      "order_placed_at": "2026-07-03T23:31:32+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 17.34,
-      "total_commission": 3.08,
-      "eans": [
-        "9509658425575"
-      ],
-      "offer_references": [
-        "U0-INRG-KJHL"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3952487445",
-          "ean": "9509658425575",
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-          "offer_reference": "U0-INRG-KJHL",
-          "sku": "U0-INRG-KJHL",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 17.34,
-          "total_price": 17.34,
-          "commission": 3.08,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-07-04T15:58:07+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C0008R1FHP",
-      "order_placed_at": "2026-07-03T16:43:48+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 11,
-      "total_commission": 0.81,
-      "eans": [
-        "9502163482132"
-      ],
-      "offer_references": [],
-      "line_items": [
-        {
-          "bol_order_item_id": "3952280505",
-          "ean": "9502163482132",
-          "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
-          "offer_id": "9452ecb2-fb08-40ca-9bac-5ecac48d376c",
-          "offer_reference": null,
-          "sku": null,
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 11,
-          "total_price": 11,
-          "commission": 0.81,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-07-04T15:53:07+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C0008R38MD",
-      "order_placed_at": "2026-07-03T17:46:18+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 18.49,
-      "total_commission": 3.25,
-      "eans": [
-        "9503425233318"
-      ],
-      "offer_references": [
-        "Bosch4a-3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3952313712",
-          "ean": "9503425233318",
-          "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel",
-          "offer_id": "7699e825-2bc3-4838-9cdb-74d3b1057833",
-          "offer_reference": "Bosch4a-3DTS",
-          "sku": "Bosch4a-3DTS",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 18.49,
-          "total_price": 18.49,
-          "commission": 3.25,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-07-04T15:53:07+02:00"
-        }
-      ]
-    },
     {
       "bol_order_id": "C00091W7W3",
       "order_placed_at": "2026-07-07T22:03:13+02:00",
@@ -301,7 +201,7 @@
           "offer_reference": "cloudkeygen23DTS.SHOP",
           "sku": "cloudkeygen23DTS.SHOP",
           "quantity": 1,
-          "quantity_shipped": 0,
+          "quantity_shipped": 1,
           "quantity_cancelled": 0,
           "unit_price": 12.95,
           "total_price": 12.95,
@@ -309,7 +209,7 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-07-08T14:46:16+02:00"
+          "latest_changed_at": "2026-07-09T19:35:50+02:00"
         }
       ]
     },
@@ -335,7 +235,7 @@
           "offer_reference": "U0-INRG-KJHL",
           "sku": "U0-INRG-KJHL",
           "quantity": 1,
-          "quantity_shipped": 0,
+          "quantity_shipped": 1,
           "quantity_cancelled": 0,
           "unit_price": 17.34,
           "total_price": 17.34,
@@ -343,7 +243,41 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-07-08T07:44:15+02:00"
+          "latest_changed_at": "2026-07-09T19:30:51+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000952MDR",
+      "order_placed_at": "2026-07-10T09:49:29+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 11.86,
+      "total_commission": 1.81,
+      "eans": [
+        "9502488883461"
+      ],
+      "offer_references": [
+        "3DTS"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3956239367",
+          "ean": "9502488883461",
+          "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder",
+          "offer_id": "fa0ac061-34a9-40ab-8fda-31ecb6ab4960",
+          "offer_reference": "3DTS",
+          "sku": "3DTS",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 11.86,
+          "total_price": 11.86,
+          "commission": 1.81,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-07-10T09:50:16+02:00"
         }
       ]
     }
@@ -351,8 +285,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 9,
-    "total_order_amount": 192.74,
-    "total_commission": 30.23
+    "order_count": 7,
+    "total_order_amount": 157.77,
+    "total_commission": 24.9
   }
 }

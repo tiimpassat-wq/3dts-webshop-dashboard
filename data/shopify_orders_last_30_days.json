@@ -1,53 +1,18 @@
 {
-  "generated_at": "2026-07-09T08:44:14.361Z",
+  "generated_at": "2026-07-10T08:40:00.782Z",
   "period": "last_30_days",
-  "date_from": "2026-06-10",
-  "date_to_exclusive": "2026-07-10",
+  "date_from": "2026-06-11",
+  "date_to_exclusive": "2026-07-11",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 65,
     "item_count": 100,
-    "total_order_amount": 1492.67,
+    "total_order_amount": 1478.78,
     "shipping_paid_by_customer": 93.19,
     "discount": 14.75
   },
   "orders": [
-    {
-      "order_number": "#3dts1621",
-      "date": "2026-06-10T14:16:09Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 25.75,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accu Houder Geschikt voor Hilti Nuron",
-          "variant_id": "58706483183965",
-          "variant_gid": "gid://shopify/ProductVariant/58706483183965",
-          "sku": "Hiltinuronaccu3dts.shop",
-          "barcode": "08721516390066",
-          "ean": "08721516390066",
-          "quantity": 1,
-          "product_sale_price": 25.75,
-          "original_unit_price": 25.75,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1622",
       "date": "2026-06-11T11:45:15Z",
@@ -2361,7 +2326,7 @@
       "total_order_amount": 17.34,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C00092455C"
@@ -2397,7 +2362,7 @@
       "total_order_amount": 12.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C00092LW14"
@@ -2416,6 +2381,42 @@
           "quantity": 1,
           "product_sale_price": 12.95,
           "original_unit_price": 12.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1688",
+      "date": "2026-07-10T08:20:52Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 11.86,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000952MDR"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder - 3",
+          "variant_id": "57883475214685",
+          "variant_gid": "gid://shopify/ProductVariant/57883475214685",
+          "sku": "Bosch18Vgroen3DTS.shop",
+          "barcode": "08721516390059",
+          "ean": "08721516390059",
+          "quantity": 1,
+          "product_sale_price": 11.86,
+          "original_unit_price": 11.86,
           "line_discount": 0,
           "currency": "EUR"
         }

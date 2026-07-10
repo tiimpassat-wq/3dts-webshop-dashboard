@@ -1,126 +1,18 @@
 {
-  "generated_at": "2026-07-09T08:44:13.515Z",
+  "generated_at": "2026-07-10T08:39:59.933Z",
   "period": "last_7_days",
-  "date_from": "2026-07-03",
-  "date_to_exclusive": "2026-07-10",
+  "date_from": "2026-07-04",
+  "date_to_exclusive": "2026-07-11",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 11,
-    "item_count": 14,
-    "total_order_amount": 222.69,
+    "order_count": 9,
+    "item_count": 12,
+    "total_order_amount": 187.72,
     "shipping_paid_by_customer": 11.75,
     "discount": 0
   },
   "orders": [
-    {
-      "order_number": "#3dts1677",
-      "date": "2026-07-03T15:48:55Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 18.49,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C0008R38MD"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel - BPC3400",
-          "variant_id": "58800397255005",
-          "variant_gid": "gid://shopify/ProductVariant/58800397255005",
-          "sku": "Bosch4a-3DTS",
-          "barcode": "9503425233318",
-          "ean": "9503425233318",
-          "quantity": 1,
-          "product_sale_price": 18.49,
-          "original_unit_price": 18.49,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1678",
-      "date": "2026-07-03T16:28:42Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 11,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C0008R1FHP"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
-          "variant_id": "62781995286877",
-          "variant_gid": "gid://shopify/ProductVariant/62781995286877",
-          "sku": "627819952868_0CD6",
-          "barcode": "8721516390394",
-          "ean": "8721516390394",
-          "quantity": 1,
-          "product_sale_price": 11,
-          "original_unit_price": 11,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1679",
-      "date": "2026-07-03T21:33:59Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 17.34,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C0008RFW6R"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 1,
-          "product_sale_price": 17.34,
-          "original_unit_price": 17.34,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1680",
       "date": "2026-07-05T10:12:59Z",
@@ -369,7 +261,7 @@
       "total_order_amount": 17.34,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C00092455C"
@@ -405,7 +297,7 @@
       "total_order_amount": 12.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C00092LW14"
@@ -424,6 +316,42 @@
           "quantity": 1,
           "product_sale_price": 12.95,
           "original_unit_price": 12.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1688",
+      "date": "2026-07-10T08:20:52Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 11.86,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000952MDR"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder - 3",
+          "variant_id": "57883475214685",
+          "variant_gid": "gid://shopify/ProductVariant/57883475214685",
+          "sku": "Bosch18Vgroen3DTS.shop",
+          "barcode": "08721516390059",
+          "ean": "08721516390059",
+          "quantity": 1,
+          "product_sale_price": 11.86,
+          "original_unit_price": 11.86,
           "line_discount": 0,
           "currency": "EUR"
         }
