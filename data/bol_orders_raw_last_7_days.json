@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-10T08:40:04.837Z",
+  "generated_at": "2026-07-11T07:19:56.785Z",
   "period": "last_7_days",
-  "date_from": "2026-07-04",
-  "date_to_exclusive": "2026-07-11",
+  "date_from": "2026-07-05",
+  "date_to_exclusive": "2026-07-12",
   "source": "bol.com Retailer API",
   "orders": [
     {
@@ -248,6 +248,59 @@
       ]
     },
     {
+      "bol_order_id": "C00095FCDD",
+      "order_placed_at": "2026-07-10T15:12:00+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 33.83,
+      "total_commission": 6.03,
+      "eans": [
+        "9504741952723",
+        "9509658425575"
+      ],
+      "offer_references": [
+        "U0-INRG-KJHL"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3956407311",
+          "ean": "9504741952723",
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
+          "offer_reference": null,
+          "sku": null,
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 16.49,
+          "total_price": 16.49,
+          "commission": 2.95,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-07-10T15:12:47+02:00"
+        },
+        {
+          "bol_order_item_id": "3956407312",
+          "ean": "9509658425575",
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+          "offer_reference": "U0-INRG-KJHL",
+          "sku": "U0-INRG-KJHL",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 17.34,
+          "total_price": 17.34,
+          "commission": 3.08,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-07-10T15:12:47+02:00"
+        }
+      ]
+    },
+    {
       "bol_order_id": "C000952MDR",
       "order_placed_at": "2026-07-10T09:49:29+02:00",
       "customer_country_code": "NL",
@@ -285,8 +338,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 7,
-    "total_order_amount": 157.77,
-    "total_commission": 24.9
+    "order_count": 8,
+    "total_order_amount": 191.6,
+    "total_commission": 30.93
   }
 }

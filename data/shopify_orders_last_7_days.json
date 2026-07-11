@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-10T08:39:59.933Z",
+  "generated_at": "2026-07-11T07:19:53.130Z",
   "period": "last_7_days",
-  "date_from": "2026-07-04",
-  "date_to_exclusive": "2026-07-11",
+  "date_from": "2026-07-05",
+  "date_to_exclusive": "2026-07-12",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 9,
-    "item_count": 12,
-    "total_order_amount": 187.72,
+    "order_count": 10,
+    "item_count": 14,
+    "total_order_amount": 221.55,
     "shipping_paid_by_customer": 11.75,
     "discount": 0
   },
@@ -352,6 +352,55 @@
           "quantity": 1,
           "product_sale_price": 11.86,
           "original_unit_price": 11.86,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1689",
+      "date": "2026-07-10T13:13:15Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 33.83,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C00095FCDD"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
+          "quantity": 1,
+          "product_sale_price": 16.49,
+          "original_unit_price": 16.49,
+          "line_discount": 0,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
+          "quantity": 1,
+          "product_sale_price": 17.34,
+          "original_unit_price": 17.34,
           "line_discount": 0,
           "currency": "EUR"
         }

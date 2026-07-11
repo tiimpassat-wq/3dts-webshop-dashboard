@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T08:40:13.378Z",
+  "generated_at": "2026-07-11T07:20:04.667Z",
   "actions": [
     {
       "type": "product controleren",
@@ -11,6 +11,13 @@
     {
       "type": "bundel maken",
       "priority": "medium",
+      "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+      "sku": "dc18rd3dts.shop",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
       "product_name": "WandBeugel geschikt voor Bosch Professional 18V – Wandmontage.",
       "sku": "624574041623_93C3",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
@@ -18,8 +25,8 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-      "sku": "dc18rd3dts.shop",
+      "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+      "sku": "dc18rc3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
