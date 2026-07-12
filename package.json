@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "google-ads": "node scripts/google_ads_report.mjs",
+    "google-ads-cpc": "node scripts/google_ads_cpc_autopilot.mjs",
     "shopify-orders": "node scripts/shopify_orders_report.mjs",
     "shopify-products": "node scripts/shopify_products_report.mjs",
     "bol-enrichment": "node scripts/bol_enrichment_report.mjs",
