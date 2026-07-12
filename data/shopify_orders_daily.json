@@ -1,70 +1,34 @@
 {
-  "generated_at": "2026-07-11T07:19:52.836Z",
+  "generated_at": "2026-07-12T07:37:31.525Z",
   "period": "daily",
-  "date_from": "2026-07-10",
-  "date_to_exclusive": "2026-07-11",
+  "date_from": "2026-07-11",
+  "date_to_exclusive": "2026-07-12",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 2,
-    "item_count": 3,
-    "total_order_amount": 45.69,
-    "shipping_paid_by_customer": 0,
+    "item_count": 4,
+    "total_order_amount": 51.54,
+    "shipping_paid_by_customer": 4.65,
     "discount": 0
   },
   "orders": [
     {
-      "order_number": "#3dts1688",
-      "date": "2026-07-10T08:20:52Z",
+      "order_number": "#3dts1690",
+      "date": "2026-07-11T07:38:14Z",
       "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "shipping_paid_by_customer": 0,
       "shipping_title": null,
       "discount": 0,
-      "total_order_amount": 11.86,
+      "total_order_amount": 16.49,
       "currency": "EUR",
       "payment_status": "PAID",
       "fulfillment_status": "UNFULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000952MDR"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder - 3",
-          "variant_id": "57883475214685",
-          "variant_gid": "gid://shopify/ProductVariant/57883475214685",
-          "sku": "Bosch18Vgroen3DTS.shop",
-          "barcode": "08721516390059",
-          "ean": "08721516390059",
-          "quantity": 1,
-          "product_sale_price": 11.86,
-          "original_unit_price": 11.86,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1689",
-      "date": "2026-07-10T13:13:15Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 33.83,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C00095FCDD"
+        "Bol-C000965KM8"
       ],
       "landing_site": null,
       "referring_site": null,
@@ -82,17 +46,50 @@
           "original_unit_price": 16.49,
           "line_discount": 0,
           "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1691",
+      "date": "2026-07-11T12:39:24Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 0,
+      "total_order_amount": 35.05,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Machinehouder Makita 18V LXT - Zwart",
+          "variant_id": "57418014097757",
+          "variant_gid": "gid://shopify/ProductVariant/57418014097757",
+          "sku": "MachineLXT18V3DTS.shop",
+          "barcode": "08721516390035",
+          "ean": "08721516390035",
+          "quantity": 2,
+          "product_sale_price": 8.95,
+          "original_unit_price": 8.95,
+          "line_discount": 0,
+          "currency": "EUR"
         },
         {
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
+          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
+          "variant_id": "57872304963933",
+          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
+          "sku": "Makita4v3dts.shop",
+          "barcode": "8721516390097",
+          "ean": "8721516390097",
           "quantity": 1,
-          "product_sale_price": 17.34,
-          "original_unit_price": 17.34,
+          "product_sale_price": 12.5,
+          "original_unit_price": 12.5,
           "line_discount": 0,
           "currency": "EUR"
         }

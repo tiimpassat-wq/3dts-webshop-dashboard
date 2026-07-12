@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-11T07:19:56.785Z",
+  "generated_at": "2026-07-12T07:37:38.062Z",
   "period": "last_7_days",
-  "date_from": "2026-07-05",
-  "date_to_exclusive": "2026-07-12",
+  "date_from": "2026-07-06",
+  "date_to_exclusive": "2026-07-13",
   "source": "bol.com Retailer API",
   "orders": [
     {
@@ -270,7 +270,7 @@
           "offer_reference": null,
           "sku": null,
           "quantity": 1,
-          "quantity_shipped": 0,
+          "quantity_shipped": 1,
           "quantity_cancelled": 0,
           "unit_price": 16.49,
           "total_price": 16.49,
@@ -278,7 +278,7 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-07-10T15:12:47+02:00"
+          "latest_changed_at": "2026-07-11T15:48:27+02:00"
         },
         {
           "bol_order_item_id": "3956407312",
@@ -288,7 +288,7 @@
           "offer_reference": "U0-INRG-KJHL",
           "sku": "U0-INRG-KJHL",
           "quantity": 1,
-          "quantity_shipped": 0,
+          "quantity_shipped": 1,
           "quantity_cancelled": 0,
           "unit_price": 17.34,
           "total_price": 17.34,
@@ -296,7 +296,7 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-07-10T15:12:47+02:00"
+          "latest_changed_at": "2026-07-11T15:48:27+02:00"
         }
       ]
     },
@@ -322,7 +322,7 @@
           "offer_reference": "3DTS",
           "sku": "3DTS",
           "quantity": 1,
-          "quantity_shipped": 0,
+          "quantity_shipped": 1,
           "quantity_cancelled": 0,
           "unit_price": 11.86,
           "total_price": 11.86,
@@ -330,7 +330,39 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-07-10T09:50:16+02:00"
+          "latest_changed_at": "2026-07-11T15:43:27+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000965KM8",
+      "order_placed_at": "2026-07-11T09:33:40+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 16.49,
+      "total_commission": 2.95,
+      "eans": [
+        "9504741952723"
+      ],
+      "offer_references": [],
+      "line_items": [
+        {
+          "bol_order_item_id": "3956710381",
+          "ean": "9504741952723",
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
+          "offer_reference": null,
+          "sku": null,
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 16.49,
+          "total_price": 16.49,
+          "commission": 2.95,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-07-11T09:34:17+02:00"
         }
       ]
     }
@@ -338,8 +370,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 8,
-    "total_order_amount": 191.6,
-    "total_commission": 30.93
+    "order_count": 9,
+    "total_order_amount": 208.09,
+    "total_commission": 33.88
   }
 }

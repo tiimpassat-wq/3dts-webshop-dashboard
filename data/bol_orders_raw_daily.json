@@ -1,27 +1,24 @@
 {
-  "generated_at": "2026-07-11T07:19:54.839Z",
+  "generated_at": "2026-07-12T07:37:33.429Z",
   "period": "daily",
-  "date_from": "2026-07-10",
-  "date_to_exclusive": "2026-07-11",
+  "date_from": "2026-07-11",
+  "date_to_exclusive": "2026-07-12",
   "source": "bol.com Retailer API",
   "orders": [
     {
-      "bol_order_id": "C00095FCDD",
-      "order_placed_at": "2026-07-10T15:12:00+02:00",
+      "bol_order_id": "C000965KM8",
+      "order_placed_at": "2026-07-11T09:33:40+02:00",
       "customer_country_code": "NL",
       "pickup_point": false,
-      "total_order_amount": 33.83,
-      "total_commission": 6.03,
+      "total_order_amount": 16.49,
+      "total_commission": 2.95,
       "eans": [
-        "9504741952723",
-        "9509658425575"
+        "9504741952723"
       ],
-      "offer_references": [
-        "U0-INRG-KJHL"
-      ],
+      "offer_references": [],
       "line_items": [
         {
-          "bol_order_item_id": "3956407311",
+          "bol_order_item_id": "3956710381",
           "ean": "9504741952723",
           "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
           "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
@@ -36,59 +33,7 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-07-10T15:12:47+02:00"
-        },
-        {
-          "bol_order_item_id": "3956407312",
-          "ean": "9509658425575",
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-          "offer_reference": "U0-INRG-KJHL",
-          "sku": "U0-INRG-KJHL",
-          "quantity": 1,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 17.34,
-          "total_price": 17.34,
-          "commission": 3.08,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-07-10T15:12:47+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000952MDR",
-      "order_placed_at": "2026-07-10T09:49:29+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 11.86,
-      "total_commission": 1.81,
-      "eans": [
-        "9502488883461"
-      ],
-      "offer_references": [
-        "3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3956239367",
-          "ean": "9502488883461",
-          "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder",
-          "offer_id": "fa0ac061-34a9-40ab-8fda-31ecb6ab4960",
-          "offer_reference": "3DTS",
-          "sku": "3DTS",
-          "quantity": 1,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 11.86,
-          "total_price": 11.86,
-          "commission": 1.81,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-07-10T09:50:16+02:00"
+          "latest_changed_at": "2026-07-11T09:34:17+02:00"
         }
       ]
     }
@@ -96,8 +41,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 2,
-    "total_order_amount": 45.69,
-    "total_commission": 7.84
+    "order_count": 1,
+    "total_order_amount": 16.49,
+    "total_commission": 2.95
   }
 }

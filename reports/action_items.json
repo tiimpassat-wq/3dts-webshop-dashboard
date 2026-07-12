@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T07:20:04.667Z",
+  "generated_at": "2026-07-12T07:37:46.125Z",
   "actions": [
     {
       "type": "product controleren",
@@ -34,6 +34,13 @@
       "priority": "medium",
       "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
       "sku": "cloudkeygen23DTS.SHOP",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Machinehouder Makita 18V LXT - Zwart",
+      "sku": "MachineLXT18V3DTS.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]
