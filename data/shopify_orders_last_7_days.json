@@ -1,51 +1,18 @@
 {
-  "generated_at": "2026-07-12T07:37:31.859Z",
+  "generated_at": "2026-07-13T08:27:40.147Z",
   "period": "last_7_days",
-  "date_from": "2026-07-06",
-  "date_to_exclusive": "2026-07-13",
+  "date_from": "2026-07-07",
+  "date_to_exclusive": "2026-07-14",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 11,
-    "item_count": 17,
-    "total_order_amount": 259.19,
-    "shipping_paid_by_customer": 11.75,
+    "order_count": 10,
+    "item_count": 16,
+    "total_order_amount": 243.14,
+    "shipping_paid_by_customer": 4.65,
     "discount": 0
   },
   "orders": [
-    {
-      "order_number": "#3dts1681",
-      "date": "2026-07-06T18:23:40Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
-      "discount": 0,
-      "total_order_amount": 16.05,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Reciprozaag Wandhouder – Universeel (PETG 3D Geprint)",
-          "variant_id": "64020387987805",
-          "variant_gid": "gid://shopify/ProductVariant/64020387987805",
-          "sku": "640203879878_00D9",
-          "barcode": "8721516390646",
-          "ean": "8721516390646",
-          "quantity": 1,
-          "product_sale_price": 8.95,
-          "original_unit_price": 8.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1682",
       "date": "2026-07-07T08:20:37Z",

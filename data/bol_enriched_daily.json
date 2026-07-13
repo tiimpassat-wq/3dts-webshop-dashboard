@@ -1,63 +1,20 @@
 {
-  "generated_at": "2026-07-12T07:37:37.330Z",
+  "generated_at": "2026-07-13T08:27:42.702Z",
   "period": "daily",
-  "date_from": "2026-07-11",
-  "date_to_exclusive": "2026-07-12",
+  "date_from": "2026-07-12",
+  "date_to_exclusive": "2026-07-13",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
     "bol_raw": "bol_orders_raw_daily.json"
   },
   "summary": {
-    "bol_orders": 1,
-    "matched_orders": 1,
+    "bol_orders": 0,
+    "matched_orders": 0,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 16.49,
-    "total_bol_commission": 2.95
+    "total_bol_revenue": 0,
+    "total_bol_commission": 0
   },
   "warnings": [],
-  "matches": [
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1690",
-      "shopify_order_date": "2026-07-11T07:38:14Z",
-      "shopify_total_order_amount": 16.49,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000965KM8",
-        "order_placed_at": "2026-07-11T09:33:40+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 16.49,
-        "total_commission": 2.95,
-        "eans": [
-          "9504741952723"
-        ],
-        "offer_references": [],
-        "line_items": [
-          {
-            "bol_order_item_id": "3956710381",
-            "ean": "9504741952723",
-            "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-            "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
-            "offer_reference": null,
-            "sku": null,
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 16.49,
-            "total_price": 16.49,
-            "commission": 2.95,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-07-11T09:34:17+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    }
-  ],
+  "matches": [],
   "unmatched_bol_orders": []
 }

@@ -1,13 +1,6 @@
 {
-  "generated_at": "2026-07-12T07:37:46.125Z",
+  "generated_at": "2026-07-13T08:27:53.534Z",
   "actions": [
-    {
-      "type": "product controleren",
-      "priority": "high",
-      "product_name": "Reciprozaag Wandhouder – Universeel (PETG 3D Geprint)",
-      "sku": "640203879878_00D9",
-      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
-    },
     {
       "type": "bundel maken",
       "priority": "medium",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T07:37:32.735Z",
+  "generated_at": "2026-07-13T08:27:41.082Z",
   "source": "Shopify Admin GraphQL productVariants.inventoryItem.unitCost",
   "required_scopes": [
     "read_products",
@@ -8,8 +8,8 @@
   "status": "ok",
   "warnings": [],
   "totals": {
-    "variants": 77,
-    "with_unit_cost": 61,
+    "variants": 78,
+    "with_unit_cost": 62,
     "missing_unit_cost": 16
   },
   "variants": [
@@ -1165,6 +1165,21 @@
       "variant_title": "Default Title",
       "verkoopprijs": 9.25,
       "unit_cost_amount": 3.87,
+      "unit_cost_currency_code": "EUR",
+      "has_unit_cost": true
+    },
+    {
+      "product_id": "16311496802653",
+      "variant_id": "65232580510045",
+      "product_gid": "gid://shopify/Product/16311496802653",
+      "variant_gid": "gid://shopify/ProductVariant/65232580510045",
+      "sku": "3DTS-MAK-RADIO",
+      "barcode": "8721516390684",
+      "ean": "8721516390684",
+      "product_title": "Makita Radio Wandhouder",
+      "variant_title": "Default Title",
+      "verkoopprijs": 10.95,
+      "unit_cost_amount": 5.3,
       "unit_cost_currency_code": "EUR",
       "has_unit_cost": true
     }
