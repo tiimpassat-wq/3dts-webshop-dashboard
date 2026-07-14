@@ -1,188 +1,18 @@
 {
-  "generated_at": "2026-07-13T08:27:40.147Z",
+  "generated_at": "2026-07-14T07:20:19.374Z",
   "period": "last_7_days",
-  "date_from": "2026-07-07",
-  "date_to_exclusive": "2026-07-14",
+  "date_from": "2026-07-08",
+  "date_to_exclusive": "2026-07-15",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 10,
-    "item_count": 16,
-    "total_order_amount": 243.14,
+    "order_count": 7,
+    "item_count": 10,
+    "total_order_amount": 139.38,
     "shipping_paid_by_customer": 4.65,
     "discount": 0
   },
   "orders": [
-    {
-      "order_number": "#3dts1682",
-      "date": "2026-07-07T08:20:37Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 17.34,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C00090RJJK"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 1,
-          "product_sale_price": 17.34,
-          "original_unit_price": 17.34,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1683",
-      "date": "2026-07-07T10:35:32Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 12.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000910XLP"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
-          "variant_id": "63992391369053",
-          "variant_gid": "gid://shopify/ProductVariant/63992391369053",
-          "sku": "cloudkeygen23DTS.SHOP",
-          "barcode": "8721516390615",
-          "ean": "8721516390615",
-          "quantity": 1,
-          "product_sale_price": 12.95,
-          "original_unit_price": 12.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1684",
-      "date": "2026-07-07T18:34:31Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 51.5,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C0009122PT"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "WandBeugel geschikt voor Bosch Professional 18V – Wandmontage.",
-          "variant_id": "62457404162397",
-          "variant_gid": "gid://shopify/ProductVariant/62457404162397",
-          "sku": "624574041623_93C3",
-          "barcode": "8721516390288",
-          "ean": "8721516390288",
-          "quantity": 1,
-          "product_sale_price": 16.48,
-          "original_unit_price": 16.48,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "accuhouder - 3-voudig - Geschikt voor Bosch 12V Wandbeugel (PETG)",
-          "variant_id": "62457404162397",
-          "variant_gid": "gid://shopify/ProductVariant/62457404162397",
-          "sku": "624574041623_93C3",
-          "barcode": "8721516390288",
-          "ean": "8721516390288",
-          "quantity": 2,
-          "product_sale_price": 17.51,
-          "original_unit_price": 17.51,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1685",
-      "date": "2026-07-07T20:05:58Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 33.83,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C00091W7W3"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-          "variant_id": "57512098234717",
-          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
-          "sku": "dc18rc3dts.shop",
-          "barcode": "8721516390011",
-          "ean": "8721516390011",
-          "quantity": 1,
-          "product_sale_price": 16.49,
-          "original_unit_price": 16.49,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 1,
-          "product_sale_price": 17.34,
-          "original_unit_price": 17.34,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1686",
       "date": "2026-07-08T05:45:23Z",
@@ -352,7 +182,7 @@
       "total_order_amount": 16.49,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000965KM8"
@@ -388,7 +218,7 @@
       "total_order_amount": 35.05,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": "https://3dts.shop/",
       "referring_site": "https://www.google.com/",
@@ -417,6 +247,42 @@
           "quantity": 1,
           "product_sale_price": 12.5,
           "original_unit_price": 12.5,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1692",
+      "date": "2026-07-13T18:55:16Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 11.86,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C00099N5HM"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder - 3",
+          "variant_id": "57883475214685",
+          "variant_gid": "gid://shopify/ProductVariant/57883475214685",
+          "sku": "Bosch18Vgroen3DTS.shop",
+          "barcode": "08721516390059",
+          "ean": "08721516390059",
+          "quantity": 1,
+          "product_sale_price": 11.86,
+          "original_unit_price": 11.86,
           "line_discount": 0,
           "currency": "EUR"
         }

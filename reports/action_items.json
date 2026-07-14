@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T08:27:53.534Z",
+  "generated_at": "2026-07-14T07:20:31.117Z",
   "actions": [
     {
       "type": "bundel maken",
@@ -11,8 +11,8 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "WandBeugel geschikt voor Bosch Professional 18V – Wandmontage.",
-      "sku": "624574041623_93C3",
+      "product_name": "Machinehouder Makita 18V LXT - Zwart",
+      "sku": "MachineLXT18V3DTS.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -25,15 +25,8 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
-      "sku": "cloudkeygen23DTS.SHOP",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Machinehouder Makita 18V LXT - Zwart",
-      "sku": "MachineLXT18V3DTS.shop",
+      "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder - 3",
+      "sku": "Bosch18Vgroen3DTS.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]

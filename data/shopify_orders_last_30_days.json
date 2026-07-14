@@ -1,51 +1,18 @@
 {
-  "generated_at": "2026-07-13T08:27:40.939Z",
+  "generated_at": "2026-07-14T07:20:20.073Z",
   "period": "last_30_days",
-  "date_from": "2026-06-14",
-  "date_to_exclusive": "2026-07-14",
+  "date_from": "2026-06-15",
+  "date_to_exclusive": "2026-07-15",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 60,
     "item_count": 88,
-    "total_order_amount": 1349.78,
-    "shipping_paid_by_customer": 83.64,
+    "total_order_amount": 1348.04,
+    "shipping_paid_by_customer": 78.99,
     "discount": 6.73
   },
   "orders": [
-    {
-      "order_number": "#3dts1630",
-      "date": "2026-06-14T15:43:07Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 4.65,
-      "shipping_title": "Nederland",
-      "discount": 0,
-      "total_order_amount": 13.6,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/",
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Beugel geschikt voor UniFi AC Lite, nanoHD, AC LR & U6 Lite – 3D Geprint",
-          "variant_id": "57838610743645",
-          "variant_gid": "gid://shopify/ProductVariant/57838610743645",
-          "sku": "Unifimountlite3DTS.shop",
-          "barcode": "08721516390042",
-          "ean": "08721516390042",
-          "quantity": 1,
-          "product_sale_price": 8.95,
-          "original_unit_price": 8.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1631",
       "date": "2026-06-15T13:15:56Z",
@@ -2153,7 +2120,7 @@
       "total_order_amount": 16.49,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000965KM8"
@@ -2189,7 +2156,7 @@
       "total_order_amount": 35.05,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": "https://3dts.shop/",
       "referring_site": "https://www.google.com/",
@@ -2218,6 +2185,42 @@
           "quantity": 1,
           "product_sale_price": 12.5,
           "original_unit_price": 12.5,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1692",
+      "date": "2026-07-13T18:55:16Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 11.86,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C00099N5HM"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder - 3",
+          "variant_id": "57883475214685",
+          "variant_gid": "gid://shopify/ProductVariant/57883475214685",
+          "sku": "Bosch18Vgroen3DTS.shop",
+          "barcode": "08721516390059",
+          "ean": "08721516390059",
+          "quantity": 1,
+          "product_sale_price": 11.86,
+          "original_unit_price": 11.86,
           "line_discount": 0,
           "currency": "EUR"
         }
