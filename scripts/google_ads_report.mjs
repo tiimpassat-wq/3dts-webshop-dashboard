@@ -6,7 +6,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
 const dataDir = path.join(rootDir, "data");
 
-const apiVersion = process.env.GOOGLE_ADS_API_VERSION || "v21";
+const apiVersion = process.env.GOOGLE_ADS_API_VERSION || "v24";
 const developerToken = process.env.GOOGLE_ADS_DEVELOPER_TOKEN;
 const clientId = process.env.GOOGLE_ADS_CLIENT_ID;
 const clientSecret = process.env.GOOGLE_ADS_CLIENT_SECRET;
