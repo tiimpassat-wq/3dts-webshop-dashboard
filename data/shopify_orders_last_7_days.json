@@ -1,90 +1,18 @@
 {
-  "generated_at": "2026-07-14T07:20:19.374Z",
+  "generated_at": "2026-07-15T07:23:48.968Z",
   "period": "last_7_days",
-  "date_from": "2026-07-08",
-  "date_to_exclusive": "2026-07-15",
+  "date_from": "2026-07-09",
+  "date_to_exclusive": "2026-07-16",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 7,
-    "item_count": 10,
-    "total_order_amount": 139.38,
+    "order_count": 6,
+    "item_count": 9,
+    "total_order_amount": 120.09,
     "shipping_paid_by_customer": 4.65,
     "discount": 0
   },
   "orders": [
-    {
-      "order_number": "#3dts1686",
-      "date": "2026-07-08T05:45:23Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 17.34,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C00092455C"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 1,
-          "product_sale_price": 17.34,
-          "original_unit_price": 17.34,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1687",
-      "date": "2026-07-08T12:46:42Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 12.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C00092LW14"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
-          "variant_id": "63992391369053",
-          "variant_gid": "gid://shopify/ProductVariant/63992391369053",
-          "sku": "cloudkeygen23DTS.SHOP",
-          "barcode": "8721516390615",
-          "ean": "8721516390615",
-          "quantity": 1,
-          "product_sale_price": 12.95,
-          "original_unit_price": 12.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1688",
       "date": "2026-07-10T08:20:52Z",
@@ -264,7 +192,7 @@
       "total_order_amount": 11.86,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C00099N5HM"
@@ -283,6 +211,42 @@
           "quantity": 1,
           "product_sale_price": 11.86,
           "original_unit_price": 11.86,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1693",
+      "date": "2026-07-14T19:25:17Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 11,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C0009D5WJ6"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
+          "variant_id": "62781995286877",
+          "variant_gid": "gid://shopify/ProductVariant/62781995286877",
+          "sku": "627819952868_0CD6",
+          "barcode": "8721516390394",
+          "ean": "8721516390394",
+          "quantity": 1,
+          "product_sale_price": 11,
+          "original_unit_price": 11,
           "line_discount": 0,
           "currency": "EUR"
         }
