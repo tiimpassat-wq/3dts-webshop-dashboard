@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-15T07:23:48.968Z",
+  "generated_at": "2026-07-16T07:31:40.896Z",
   "period": "last_7_days",
-  "date_from": "2026-07-09",
-  "date_to_exclusive": "2026-07-16",
+  "date_from": "2026-07-10",
+  "date_to_exclusive": "2026-07-17",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 6,
-    "item_count": 9,
-    "total_order_amount": 120.09,
-    "shipping_paid_by_customer": 4.65,
+    "order_count": 8,
+    "item_count": 16,
+    "total_order_amount": 219.39,
+    "shipping_paid_by_customer": 9.3,
     "discount": 0
   },
   "orders": [
@@ -228,7 +228,7 @@
       "total_order_amount": 11,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009D5WJ6"
@@ -247,6 +247,75 @@
           "quantity": 1,
           "product_sale_price": 11,
           "original_unit_price": 11,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1694",
+      "date": "2026-07-15T10:00:18Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 0,
+      "total_order_amount": 59.4,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Gepersonaliseerde naamplaatjes voor Makita accu’s - 18V",
+          "variant_id": "63074455683421",
+          "variant_gid": "gid://shopify/ProductVariant/63074455683421",
+          "sku": "630744556834_8A4F",
+          "barcode": "8721516390462",
+          "ean": "8721516390462",
+          "quantity": 5,
+          "product_sale_price": 10.95,
+          "original_unit_price": 10.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1695",
+      "date": "2026-07-15T19:50:15Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 39.9,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C0009FL5TN"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
+          "quantity": 2,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
           "line_discount": 0,
           "currency": "EUR"
         }

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-15T07:23:52.118Z",
+  "generated_at": "2026-07-16T07:31:43.784Z",
   "period": "daily",
-  "date_from": "2026-07-14",
-  "date_to_exclusive": "2026-07-15",
+  "date_from": "2026-07-15",
+  "date_to_exclusive": "2026-07-16",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
     "bol_raw": "bol_orders_raw_daily.json"
@@ -11,8 +11,8 @@
     "bol_orders": 1,
     "matched_orders": 1,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 11,
-    "total_bol_commission": 0.81
+    "total_bol_revenue": 39.9,
+    "total_bol_commission": 6.95
   },
   "warnings": [],
   "matches": [
@@ -20,39 +20,39 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1693",
-      "shopify_order_date": "2026-07-14T19:25:17Z",
-      "shopify_total_order_amount": 11,
+      "shopify_order_number": "#3dts1695",
+      "shopify_order_date": "2026-07-15T19:50:15Z",
+      "shopify_total_order_amount": 39.9,
       "channel": "bol.com",
       "bol": {
-        "bol_order_id": "C0009D5WJ6",
-        "order_placed_at": "2026-07-14T21:20:58+02:00",
+        "bol_order_id": "C0009FL5TN",
+        "order_placed_at": "2026-07-15T21:48:06+02:00",
         "customer_country_code": "NL",
         "pickup_point": false,
-        "total_order_amount": 11,
-        "total_commission": 0.81,
+        "total_order_amount": 39.9,
+        "total_commission": 6.95,
         "eans": [
-          "9502163482132"
+          "9504741952723"
         ],
         "offer_references": [],
         "line_items": [
           {
-            "bol_order_item_id": "3958860311",
-            "ean": "9502163482132",
-            "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
-            "offer_id": "9452ecb2-fb08-40ca-9bac-5ecac48d376c",
+            "bol_order_item_id": "3959482983",
+            "ean": "9504741952723",
+            "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+            "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
             "offer_reference": null,
             "sku": null,
-            "quantity": 1,
+            "quantity": 2,
             "quantity_shipped": 0,
             "quantity_cancelled": 0,
-            "unit_price": 11,
-            "total_price": 11,
-            "commission": 0.81,
+            "unit_price": 19.95,
+            "total_price": 39.9,
+            "commission": 6.95,
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-07-14T21:21:49+02:00"
+            "latest_changed_at": "2026-07-15T21:48:18+02:00"
           }
         ]
       },

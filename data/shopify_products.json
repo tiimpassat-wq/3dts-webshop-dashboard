@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T07:23:49.864Z",
+  "generated_at": "2026-07-16T07:31:41.834Z",
   "source": "Shopify Admin GraphQL productVariants.inventoryItem.unitCost",
   "required_scopes": [
     "read_products",
@@ -9,8 +9,8 @@
   "warnings": [],
   "totals": {
     "variants": 78,
-    "with_unit_cost": 62,
-    "missing_unit_cost": 16
+    "with_unit_cost": 67,
+    "missing_unit_cost": 11
   },
   "variants": [
     {
@@ -384,9 +384,9 @@
       "product_title": "Accuhouder Beugel – geschikt voor CAS accu’s (Metabo, Hikoki, Mafell, Würth e.a.)",
       "variant_title": "Default Title",
       "verkoopprijs": 11.95,
-      "unit_cost_amount": 0,
-      "unit_cost_currency_code": null,
-      "has_unit_cost": false
+      "unit_cost_amount": 5.27,
+      "unit_cost_currency_code": "EUR",
+      "has_unit_cost": true
     },
     {
       "product_id": "15545323946333",
@@ -744,9 +744,9 @@
       "product_title": "Milwaukee M18 4Voudige beugel",
       "variant_title": "Default Title",
       "verkoopprijs": 14.95,
-      "unit_cost_amount": 0,
-      "unit_cost_currency_code": null,
-      "has_unit_cost": false
+      "unit_cost_amount": 6.98,
+      "unit_cost_currency_code": "EUR",
+      "has_unit_cost": true
     },
     {
       "product_id": "15366155829597",
@@ -774,9 +774,9 @@
       "product_title": "HBM 20V Accuhouder – 2-voudig (Wandmontage)",
       "variant_title": "Default Title",
       "verkoopprijs": 11.95,
-      "unit_cost_amount": 0,
-      "unit_cost_currency_code": null,
-      "has_unit_cost": false
+      "unit_cost_amount": 4.49,
+      "unit_cost_currency_code": "EUR",
+      "has_unit_cost": true
     },
     {
       "product_id": "15394324676957",
@@ -894,9 +894,9 @@
       "product_title": "Ubiquiti USG Wall Mount – Slimme Wandhouder met Ventilatie",
       "variant_title": "Wit",
       "verkoopprijs": 9.95,
-      "unit_cost_amount": 0,
-      "unit_cost_currency_code": null,
-      "has_unit_cost": false
+      "unit_cost_amount": 3.73,
+      "unit_cost_currency_code": "EUR",
+      "has_unit_cost": true
     },
     {
       "product_id": "15860101906781",
@@ -1089,9 +1089,9 @@
       "product_title": "RVS dogtag sleutelhanger zwart met naam – gegraveerd",
       "variant_title": "Default Title",
       "verkoopprijs": 15.95,
-      "unit_cost_amount": 0,
-      "unit_cost_currency_code": null,
-      "has_unit_cost": false
+      "unit_cost_amount": 3.56,
+      "unit_cost_currency_code": "EUR",
+      "has_unit_cost": true
     },
     {
       "product_id": "16252187148637",

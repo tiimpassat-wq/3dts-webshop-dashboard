@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-15T07:23:57.121Z",
+  "generated_at": "2026-07-16T07:31:49.002Z",
   "actions": [
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Machinehouder Makita 18V LXT - Zwart",
-      "sku": "MachineLXT18V3DTS.shop",
+      "product_name": "Gepersonaliseerde naamplaatjes voor Makita accu’s - 18V",
+      "sku": "630744556834_8A4F",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -13,6 +13,13 @@
       "priority": "medium",
       "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
       "sku": "dc18rc3dts.shop",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Machinehouder Makita 18V LXT - Zwart",
+      "sku": "MachineLXT18V3DTS.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {

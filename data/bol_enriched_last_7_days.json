@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-15T07:23:56.453Z",
+  "generated_at": "2026-07-16T07:31:48.248Z",
   "period": "last_7_days",
-  "date_from": "2026-07-09",
-  "date_to_exclusive": "2026-07-16",
+  "date_from": "2026-07-10",
+  "date_to_exclusive": "2026-07-17",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
   },
   "summary": {
-    "bol_orders": 5,
-    "matched_orders": 5,
+    "bol_orders": 6,
+    "matched_orders": 6,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 85.04,
-    "total_bol_commission": 13.41
+    "total_bol_revenue": 124.94,
+    "total_bol_commission": 20.36
   },
   "warnings": [],
   "matches": [
@@ -169,48 +169,6 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1693",
-      "shopify_order_date": "2026-07-14T19:25:17Z",
-      "shopify_total_order_amount": 11,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C0009D5WJ6",
-        "order_placed_at": "2026-07-14T21:20:58+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 11,
-        "total_commission": 0.81,
-        "eans": [
-          "9502163482132"
-        ],
-        "offer_references": [],
-        "line_items": [
-          {
-            "bol_order_item_id": "3958860311",
-            "ean": "9502163482132",
-            "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
-            "offer_id": "9452ecb2-fb08-40ca-9bac-5ecac48d376c",
-            "offer_reference": null,
-            "sku": null,
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 11,
-            "total_price": 11,
-            "commission": 0.81,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-07-14T21:21:49+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
       "shopify_order_number": "#3dts1692",
       "shopify_order_date": "2026-07-13T18:55:16Z",
       "shopify_total_order_amount": 11.86,
@@ -246,6 +204,90 @@
             "distribution_party": "RETAILER",
             "cancellation_request": false,
             "latest_changed_at": "2026-07-14T19:45:34+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1695",
+      "shopify_order_date": "2026-07-15T19:50:15Z",
+      "shopify_total_order_amount": 39.9,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0009FL5TN",
+        "order_placed_at": "2026-07-15T21:48:06+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 39.9,
+        "total_commission": 6.95,
+        "eans": [
+          "9504741952723"
+        ],
+        "offer_references": [],
+        "line_items": [
+          {
+            "bol_order_item_id": "3959482983",
+            "ean": "9504741952723",
+            "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+            "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
+            "offer_reference": null,
+            "sku": null,
+            "quantity": 2,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 39.9,
+            "commission": 6.95,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-07-15T21:48:18+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1693",
+      "shopify_order_date": "2026-07-14T19:25:17Z",
+      "shopify_total_order_amount": 11,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0009D5WJ6",
+        "order_placed_at": "2026-07-14T21:20:58+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 11,
+        "total_commission": 0.81,
+        "eans": [
+          "9502163482132"
+        ],
+        "offer_references": [],
+        "line_items": [
+          {
+            "bol_order_item_id": "3958860311",
+            "ean": "9502163482132",
+            "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
+            "offer_id": "9452ecb2-fb08-40ca-9bac-5ecac48d376c",
+            "offer_reference": null,
+            "sku": null,
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 11,
+            "total_price": 11,
+            "commission": 0.81,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-07-15T18:30:29+02:00"
           }
         ]
       },
