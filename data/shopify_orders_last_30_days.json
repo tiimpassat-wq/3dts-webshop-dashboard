@@ -1,88 +1,18 @@
 {
-  "generated_at": "2026-07-16T07:31:41.692Z",
+  "generated_at": "2026-07-17T07:28:43.538Z",
   "period": "last_30_days",
-  "date_from": "2026-06-17",
-  "date_to_exclusive": "2026-07-17",
+  "date_from": "2026-06-18",
+  "date_to_exclusive": "2026-07-18",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 57,
-    "item_count": 89,
-    "total_order_amount": 1342.76,
-    "shipping_paid_by_customer": 83.64,
+    "order_count": 58,
+    "item_count": 101,
+    "total_order_amount": 1551.42,
+    "shipping_paid_by_customer": 90.74,
     "discount": 6.73
   },
   "orders": [
-    {
-      "order_number": "#3dts1637",
-      "date": "2026-06-17T13:45:11Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 14.66,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
-          "variant_id": "63739025588573",
-          "variant_gid": "gid://shopify/ProductVariant/63739025588573",
-          "sku": "Unifikant3DTS.shop",
-          "barcode": "8721516390592",
-          "ean": "8721516390592",
-          "quantity": 1,
-          "product_sale_price": 14.66,
-          "original_unit_price": 14.66,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1638",
-      "date": "2026-06-17T15:00:33Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 16.48,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Beugel geschikt voor Bosch Professional 18V – Wandmontage. - 4",
-          "variant_id": "57884320072029",
-          "variant_gid": "gid://shopify/ProductVariant/57884320072029",
-          "sku": null,
-          "barcode": "8721516390585",
-          "ean": "8721516390585",
-          "quantity": 1,
-          "product_sale_price": 16.48,
-          "original_unit_price": 16.48,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1639",
       "date": "2026-06-18T09:55:31Z",
@@ -2097,7 +2027,7 @@
       "total_order_amount": 39.9,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009FL5TN"
@@ -2116,6 +2046,111 @@
           "quantity": 2,
           "product_sale_price": 19.95,
           "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1696",
+      "date": "2026-07-16T08:45:20Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 164.9,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C0009H255D"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder - Compatibel met UniFi U6 & U7 - Wandmontage Access Point",
+          "variant_id": "57440250986845",
+          "variant_gid": "gid://shopify/ProductVariant/57440250986845",
+          "sku": "574402509868_74BE",
+          "barcode": "9509139739962",
+          "ean": "9509139739962",
+          "quantity": 10,
+          "product_sale_price": 16.49,
+          "original_unit_price": 16.49,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1697",
+      "date": "2026-07-16T09:40:15Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 56.85,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C0009H43MT"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
+          "quantity": 3,
+          "product_sale_price": 18.95,
+          "original_unit_price": 18.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1698",
+      "date": "2026-07-16T11:01:58Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7.1,
+      "shipping_title": "Pakket",
+      "discount": 0,
+      "total_order_amount": 18.05,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/unifi-beugel-wandbeugel-u6-u7",
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder UniFi U6 / U7 Access Points",
+          "variant_id": "57440250986845",
+          "variant_gid": "gid://shopify/ProductVariant/57440250986845",
+          "sku": "574402509868_74BE",
+          "barcode": "9509139739962",
+          "ean": "9509139739962",
+          "quantity": 1,
+          "product_sale_price": 10.95,
+          "original_unit_price": 10.95,
           "line_discount": 0,
           "currency": "EUR"
         }
