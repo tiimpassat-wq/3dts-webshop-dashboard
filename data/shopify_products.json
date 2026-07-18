@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T07:28:43.687Z",
+  "generated_at": "2026-07-18T07:07:53.915Z",
   "source": "Shopify Admin GraphQL productVariants.inventoryItem.unitCost",
   "required_scopes": [
     "read_products",
@@ -784,8 +784,8 @@
       "product_gid": "gid://shopify/Product/15394324676957",
       "variant_gid": "gid://shopify/ProductVariant/62962109153629",
       "sku": "629621091536_60CB",
-      "barcode": "8721516390431",
-      "ean": "8721516390431",
+      "barcode": "9509192768565",
+      "ean": "9509192768565",
       "product_title": "Accuhouder Parkside 20V",
       "variant_title": "4-voudig",
       "verkoopprijs": 13.95,
