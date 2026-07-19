@@ -1,62 +1,62 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-07-18T07:08:05.496Z
+Gegenereerd: 2026-07-19T07:35:48.100Z
 
 ## Samenvatting gisteren
 
-- Omzet gisteren: EUR 83.60
-- Betrouwbare nettowinst gisteren: EUR 38.50
+- Omzet gisteren: EUR 76.80
+- Betrouwbare nettowinst gisteren: EUR 23.73
 - Geschatte/onvolledige nettowinst gisteren: EUR 0.00
-- Totale nettowinstindicatie gisteren: EUR 38.50
+- Totale nettowinstindicatie gisteren: EUR 23.73
 - Orders gisteren: 4
 - Orders met betrouwbare kostprijs gisteren: 4
 - Orders met Shopify kostprijs gisteren: 4
 - Orders met fallback kostprijs gisteren: 0
 - Orders met ontbrekende kostprijs gisteren: 0
 - Winststatus gisteren: betrouwbaar
-- Gemiddelde winst per order: EUR 9.63
+- Gemiddelde winst per order: EUR 5.93
 
 ## Top 5 winstgevende producten (indicatief)
 
-- UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint) (Unifidesk3DTS.Shop): EUR 12.49 nettowinst, 57.05% marge
-- UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus (cloudkeygen23DTS.SHOP): EUR 7.55 nettowinst, 45.79% marge
-- Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig (629621091536_60CB): EUR 6.28 nettowinst, 41.05% marge
-- UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite (Unifikant3DTS.shop): EUR 6.25 nettowinst, 57.05% marge
-- Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder - 3 (Bosch18Vgroen3DTS.shop): EUR 1.88 nettowinst, 15.85% marge
+- Makita DC18RC Charger Wall Mount | 18V Workshop Storage Holder (dc18rc3dts.shop): EUR 7.48 nettowinst, 44.13% marge
+- Wandhouder geschikt voor Makita DC18RD Duo oplader (dc18rd3dts.shop): EUR 5.81 nettowinst, 29.12% marge
+- Accu Houder voor Makita 18V – 4-voudige Wandhouder – 3D Geprint - 4-voudig (Makita4v3dts.shop): EUR 5.68 nettowinst, 28.47% marge
+- Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel - BPC3400 (Bosch4a-3DTS): EUR 4.76 nettowinst, 23.86% marge
 
 ## Producten met lage marge (indicatief)
 
-- Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder - 3 (Bosch18Vgroen3DTS.shop): EUR 1.88 nettowinst, 15.85% marge
+- Geen lage-marge producten gevonden in de beschikbare dagdata.
 
 ## Shopify vs Google Ads
 
-- Shopify omzet gisteren: EUR 83.60
-- Shopify direct omzet gisteren: EUR 39.95
+- Shopify omzet gisteren: EUR 76.80
+- Shopify direct omzet gisteren: EUR 0.00
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
-- Laatste 7 dagen omzet: EUR 445.56
+- Laatste 7 dagen omzet: EUR 522.36
 - Laatste 7 dagen Google Ads kosten: EUR 0.00
-- Laatste 7 dagen betrouwbare nettowinst: EUR 244.16
+- Laatste 7 dagen betrouwbare nettowinst: EUR 269.03
 - Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 0.00
 
 ## Bol.com
 
-- Bol omzet gisteren: EUR 43.65
-- Bol winst gisteren: EUR 15.71
-- Bol commissie gisteren: EUR 5.00
-- Bol Ads kosten gisteren: EUR 3.16
-- Winst na Bol Ads gisteren: EUR 15.71
-- Bol omzet laatste 7 dagen: EUR 328.16
-- Bol winst laatste 7 dagen: EUR 170.29
-- Bol commissie laatste 7 dagen: EUR 34.33
-- Bol Ads kosten laatste 7 dagen: EUR 10.24
-- Bol Ads ROAS laatste 7 dagen: 3.2207
-- Bol orders gematcht laatste 7 dagen: 8
+- Bol omzet gisteren: EUR 59.85
+- Bol winst gisteren: EUR 16.25
+- Bol commissie gisteren: EUR 10.41
+- Bol Ads kosten gisteren: EUR 2.30
+- Winst na Bol Ads gisteren: EUR 16.25
+- Bol omzet laatste 7 dagen: EUR 388.01
+- Bol winst laatste 7 dagen: EUR 187.68
+- Bol commissie laatste 7 dagen: EUR 44.74
+- Bol Ads kosten laatste 7 dagen: EUR 11.41
+- Bol Ads ROAS laatste 7 dagen: 0
+- Bol orders gematcht laatste 7 dagen: 11
 - Bol orders niet in Shopify gevonden laatste 7 dagen: 0
 
 ## AI-adviezen
 
 - Verzendkosten liggen hoger dan wat klanten betalen; verhoog gratis-verzending drempel of bundel producten.
+- Bol Sponsored Products kost relatief veel; verlaag biedingen of pauzeer campagnes met lage marge.
 
 ## Datakwaliteit
 
