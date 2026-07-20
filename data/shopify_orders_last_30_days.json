@@ -1,53 +1,18 @@
 {
-  "generated_at": "2026-07-19T07:35:36.371Z",
+  "generated_at": "2026-07-20T08:17:36.121Z",
   "period": "last_30_days",
-  "date_from": "2026-06-20",
-  "date_to_exclusive": "2026-07-20",
+  "date_from": "2026-06-21",
+  "date_to_exclusive": "2026-07-21",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 62,
-    "item_count": 104,
-    "total_order_amount": 1608.33,
+    "item_count": 105,
+    "total_order_amount": 1622.93,
     "shipping_paid_by_customer": 97.84,
     "discount": 6.73
   },
   "orders": [
-    {
-      "order_number": "#3dts1643",
-      "date": "2026-06-20T07:15:48Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 16,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
-          "variant_id": "58800397255005",
-          "variant_gid": "gid://shopify/ProductVariant/58800397255005",
-          "sku": "Bosch4a-3DTS",
-          "barcode": "9503425233318",
-          "ean": "9503425233318",
-          "quantity": 1,
-          "product_sale_price": 16,
-          "original_unit_price": 16,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1644",
       "date": "2026-06-21T12:46:37Z",
@@ -2309,6 +2274,42 @@
           "quantity": 1,
           "product_sale_price": 16.95,
           "original_unit_price": 16.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1707",
+      "date": "2026-07-19T10:59:51Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 30.6,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C0009LFCMH"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig",
+          "variant_id": "62962109153629",
+          "variant_gid": "gid://shopify/ProductVariant/62962109153629",
+          "sku": "629621091536_60CB",
+          "barcode": "9509192768565",
+          "ean": "9509192768565",
+          "quantity": 2,
+          "product_sale_price": 15.3,
+          "original_unit_price": 15.3,
           "line_discount": 0,
           "currency": "EUR"
         }

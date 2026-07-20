@@ -1,54 +1,18 @@
 {
-  "generated_at": "2026-07-19T07:35:35.718Z",
+  "generated_at": "2026-07-20T08:17:35.438Z",
   "period": "last_7_days",
-  "date_from": "2026-07-13",
-  "date_to_exclusive": "2026-07-20",
+  "date_from": "2026-07-14",
+  "date_to_exclusive": "2026-07-21",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 15,
-    "item_count": 33,
-    "total_order_amount": 522.36,
+    "item_count": 34,
+    "total_order_amount": 541.1,
     "shipping_paid_by_customer": 18.85,
     "discount": 0
   },
   "orders": [
-    {
-      "order_number": "#3dts1692",
-      "date": "2026-07-13T18:55:16Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 11.86,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C00099N5HM"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder - 3",
-          "variant_id": "57883475214685",
-          "variant_gid": "gid://shopify/ProductVariant/57883475214685",
-          "sku": "Bosch18Vgroen3DTS.shop",
-          "barcode": "08721516390059",
-          "ean": "08721516390059",
-          "quantity": 1,
-          "product_sale_price": 11.86,
-          "original_unit_price": 11.86,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1693",
       "date": "2026-07-14T19:25:17Z",
@@ -552,6 +516,42 @@
           "quantity": 1,
           "product_sale_price": 16.95,
           "original_unit_price": 16.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1707",
+      "date": "2026-07-19T10:59:51Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 30.6,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C0009LFCMH"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig",
+          "variant_id": "62962109153629",
+          "variant_gid": "gid://shopify/ProductVariant/62962109153629",
+          "sku": "629621091536_60CB",
+          "barcode": "9509192768565",
+          "ean": "9509192768565",
+          "quantity": 2,
+          "product_sale_price": 15.3,
+          "original_unit_price": 15.3,
           "line_discount": 0,
           "currency": "EUR"
         }
