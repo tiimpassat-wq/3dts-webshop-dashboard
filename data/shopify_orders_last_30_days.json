@@ -1,51 +1,18 @@
 {
-  "generated_at": "2026-07-20T08:17:36.121Z",
+  "generated_at": "2026-07-21T07:42:12.890Z",
   "period": "last_30_days",
-  "date_from": "2026-06-21",
-  "date_to_exclusive": "2026-07-21",
+  "date_from": "2026-06-22",
+  "date_to_exclusive": "2026-07-22",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 62,
-    "item_count": 105,
-    "total_order_amount": 1622.93,
-    "shipping_paid_by_customer": 97.84,
+    "item_count": 103,
+    "total_order_amount": 1605.93,
+    "shipping_paid_by_customer": 90.74,
     "discount": 6.73
   },
   "orders": [
-    {
-      "order_number": "#3dts1644",
-      "date": "2026-06-21T12:46:37Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
-      "discount": 0,
-      "total_order_amount": 36.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/wandhouder-tp-link-eap650-eap653-eap723-access-point-petg-hittebestendig",
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder TP-Link EAP650 / EAP653 / EAP723 Access Point – PETG (hittebestendig)",
-          "variant_id": "65028834951517",
-          "variant_gid": "gid://shopify/ProductVariant/65028834951517",
-          "sku": null,
-          "barcode": "8721516390677",
-          "ean": "8721516390677",
-          "quantity": 3,
-          "product_sale_price": 9.95,
-          "original_unit_price": 9.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1645",
       "date": "2026-06-22T11:28:32Z",
@@ -2039,7 +2006,7 @@
       "total_order_amount": 11.86,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009JM61K"
@@ -2075,7 +2042,7 @@
       "total_order_amount": 15.3,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009JT1WW"
@@ -2111,7 +2078,7 @@
       "total_order_amount": 16.49,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009K41LC"
@@ -2147,7 +2114,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009K89K7"
@@ -2183,7 +2150,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009KCH53"
@@ -2219,7 +2186,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009KFKC0"
@@ -2255,7 +2222,7 @@
       "total_order_amount": 16.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Etsy",
         "Etsy-4120488719"
@@ -2291,7 +2258,7 @@
       "total_order_amount": 30.6,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009LFCMH"
@@ -2310,6 +2277,42 @@
           "quantity": 2,
           "product_sale_price": 15.3,
           "original_unit_price": 15.3,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1708",
+      "date": "2026-07-20T15:07:13Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C0009N0NT5"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
           "line_discount": 0,
           "currency": "EUR"
         }

@@ -1,54 +1,18 @@
 {
-  "generated_at": "2026-07-20T08:17:35.438Z",
+  "generated_at": "2026-07-21T07:42:12.222Z",
   "period": "last_7_days",
-  "date_from": "2026-07-14",
-  "date_to_exclusive": "2026-07-21",
+  "date_from": "2026-07-15",
+  "date_to_exclusive": "2026-07-22",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 15,
     "item_count": 34,
-    "total_order_amount": 541.1,
+    "total_order_amount": 550.05,
     "shipping_paid_by_customer": 18.85,
     "discount": 0
   },
   "orders": [
-    {
-      "order_number": "#3dts1693",
-      "date": "2026-07-14T19:25:17Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 11,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C0009D5WJ6"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
-          "variant_id": "62781995286877",
-          "variant_gid": "gid://shopify/ProductVariant/62781995286877",
-          "sku": "627819952868_0CD6",
-          "barcode": "8721516390394",
-          "ean": "8721516390394",
-          "quantity": 1,
-          "product_sale_price": 11,
-          "original_unit_price": 11,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1694",
       "date": "2026-07-15T10:00:18Z",
@@ -281,7 +245,7 @@
       "total_order_amount": 11.86,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009JM61K"
@@ -317,7 +281,7 @@
       "total_order_amount": 15.3,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009JT1WW"
@@ -353,7 +317,7 @@
       "total_order_amount": 16.49,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009K41LC"
@@ -389,7 +353,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009K89K7"
@@ -425,7 +389,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009KCH53"
@@ -461,7 +425,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009KFKC0"
@@ -497,7 +461,7 @@
       "total_order_amount": 16.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Etsy",
         "Etsy-4120488719"
@@ -533,7 +497,7 @@
       "total_order_amount": 30.6,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C0009LFCMH"
@@ -552,6 +516,42 @@
           "quantity": 2,
           "product_sale_price": 15.3,
           "original_unit_price": 15.3,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1708",
+      "date": "2026-07-20T15:07:13Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C0009N0NT5"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
           "line_discount": 0,
           "currency": "EUR"
         }

@@ -1,49 +1,49 @@
 {
-  "generated_at": "2026-07-20T08:17:35.091Z",
+  "generated_at": "2026-07-21T07:42:11.836Z",
   "period": "daily",
-  "date_from": "2026-07-19",
-  "date_to_exclusive": "2026-07-20",
+  "date_from": "2026-07-20",
+  "date_to_exclusive": "2026-07-21",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 1,
-    "item_count": 2,
-    "total_order_amount": 30.6,
+    "item_count": 1,
+    "total_order_amount": 19.95,
     "shipping_paid_by_customer": 0,
     "discount": 0
   },
   "orders": [
     {
-      "order_number": "#3dts1707",
-      "date": "2026-07-19T10:59:51Z",
+      "order_number": "#3dts1708",
+      "date": "2026-07-20T15:07:13Z",
       "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "shipping_paid_by_customer": 0,
       "shipping_title": null,
       "discount": 0,
-      "total_order_amount": 30.6,
+      "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
       "fulfillment_status": "UNFULFILLED",
       "tags": [
         "Bol",
-        "Bol-C0009LFCMH"
+        "Bol-C0009N0NT5"
       ],
       "landing_site": null,
       "referring_site": null,
       "referral_code": null,
       "line_items": [
         {
-          "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig",
-          "variant_id": "62962109153629",
-          "variant_gid": "gid://shopify/ProductVariant/62962109153629",
-          "sku": "629621091536_60CB",
-          "barcode": "9509192768565",
-          "ean": "9509192768565",
-          "quantity": 2,
-          "product_sale_price": 15.3,
-          "original_unit_price": 15.3,
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
           "line_discount": 0,
           "currency": "EUR"
         }

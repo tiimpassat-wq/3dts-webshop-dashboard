@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-20T08:17:46.714Z",
+  "generated_at": "2026-07-21T07:42:24.823Z",
   "period": "last_7_days",
-  "date_from": "2026-07-14",
-  "date_to_exclusive": "2026-07-21",
+  "date_from": "2026-07-15",
+  "date_to_exclusive": "2026-07-22",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
@@ -11,53 +11,11 @@
     "bol_orders": 11,
     "matched_orders": 11,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 406.75,
-    "total_bol_commission": 47.34
+    "total_bol_revenue": 415.7,
+    "total_bol_commission": 50
   },
   "warnings": [],
   "matches": [
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1693",
-      "shopify_order_date": "2026-07-14T19:25:17Z",
-      "shopify_total_order_amount": 11,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C0009D5WJ6",
-        "order_placed_at": "2026-07-14T21:20:58+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 11,
-        "total_commission": 0.81,
-        "eans": [
-          "9502163482132"
-        ],
-        "offer_references": [],
-        "line_items": [
-          {
-            "bol_order_item_id": "3958860311",
-            "ean": "9502163482132",
-            "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
-            "offer_id": "9452ecb2-fb08-40ca-9bac-5ecac48d376c",
-            "offer_reference": null,
-            "sku": null,
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 11,
-            "total_price": 11,
-            "commission": 0.81,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-07-15T18:30:29+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
     {
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
@@ -95,138 +53,6 @@
             "distribution_party": "RETAILER",
             "cancellation_request": false,
             "latest_changed_at": "2026-07-16T18:50:41+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1702",
-      "shopify_order_date": "2026-07-17T21:24:47Z",
-      "shopify_total_order_amount": 16.49,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C0009K41LC",
-        "order_placed_at": "2026-07-17T23:23:11+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 16.49,
-        "total_commission": 0.98,
-        "eans": [
-          "8721516390615"
-        ],
-        "offer_references": [
-          "cloudkeygen23DTS.SHOP"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3960554955",
-            "ean": "8721516390615",
-            "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
-            "offer_id": "963adcff-f602-4154-bc70-bf5afef9c1a1",
-            "offer_reference": "cloudkeygen23DTS.SHOP",
-            "sku": "cloudkeygen23DTS.SHOP",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 16.49,
-            "total_price": 16.49,
-            "commission": 0.98,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-07-17T23:23:45+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1701",
-      "shopify_order_date": "2026-07-17T16:51:34Z",
-      "shopify_total_order_amount": 15.3,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C0009JT1WW",
-        "order_placed_at": "2026-07-17T18:38:25+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 15.3,
-        "total_commission": 2.21,
-        "eans": [
-          "9509192768565"
-        ],
-        "offer_references": [
-          "3DTS"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3960427100",
-            "ean": "9509192768565",
-            "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's)",
-            "offer_id": "5f048402-ef70-4c43-81e0-66b97a46e8db",
-            "offer_reference": "3DTS",
-            "sku": "3DTS",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 15.3,
-            "total_price": 15.3,
-            "commission": 2.21,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-07-17T18:39:17+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1700",
-      "shopify_order_date": "2026-07-17T14:14:51Z",
-      "shopify_total_order_amount": 11.86,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C0009JM61K",
-        "order_placed_at": "2026-07-17T16:11:29+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 11.86,
-        "total_commission": 1.81,
-        "eans": [
-          "9502488883461"
-        ],
-        "offer_references": [
-          "3DTS"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3960359984",
-            "ean": "9502488883461",
-            "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder",
-            "offer_id": "fa0ac061-34a9-40ab-8fda-31ecb6ab4960",
-            "offer_reference": "3DTS",
-            "sku": "3DTS",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 11.86,
-            "total_price": 11.86,
-            "commission": 1.81,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-07-17T16:12:16+02:00"
           }
         ]
       },
@@ -322,13 +148,13 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1705",
-      "shopify_order_date": "2026-07-18T11:14:47Z",
+      "shopify_order_number": "#3dts1708",
+      "shopify_order_date": "2026-07-20T15:07:13Z",
       "shopify_total_order_amount": 19.95,
       "channel": "bol.com",
       "bol": {
-        "bol_order_id": "C0009KFKC0",
-        "order_placed_at": "2026-07-18T13:10:57+02:00",
+        "bol_order_id": "C0009N0NT5",
+        "order_placed_at": "2026-07-20T17:01:48+02:00",
         "customer_country_code": "NL",
         "pickup_point": false,
         "total_order_amount": 19.95,
@@ -341,7 +167,7 @@
         ],
         "line_items": [
           {
-            "bol_order_item_id": "3960709460",
+            "bol_order_item_id": "3961822541",
             "ean": "9509658425575",
             "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
             "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
@@ -356,95 +182,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-07-18T13:11:17+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1704",
-      "shopify_order_date": "2026-07-18T09:54:47Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C0009KCH53",
-        "order_placed_at": "2026-07-18T11:49:23+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.47,
-        "eans": [
-          "9503425233318"
-        ],
-        "offer_references": [
-          "Bosch4a-3DTS"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3960670830",
-            "ean": "9503425233318",
-            "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel",
-            "offer_id": "7699e825-2bc3-4838-9cdb-74d3b1057833",
-            "offer_reference": "Bosch4a-3DTS",
-            "sku": "Bosch4a-3DTS",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.47,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-07-18T11:50:17+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1703",
-      "shopify_order_date": "2026-07-18T08:29:47Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C0009K89K7",
-        "order_placed_at": "2026-07-18T10:25:00+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.47,
-        "eans": [
-          "8721516390097"
-        ],
-        "offer_references": [
-          "Makita4v3dts.shop"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3960632323",
-            "ean": "8721516390097",
-            "product_name": "Accu Houder voor Makita 18V – 4-voudige Wandhouder – 3D Geprint",
-            "offer_id": "8c06699a-750b-4d3a-bdbd-b6e7aa917b9a",
-            "offer_reference": "Makita4v3dts.shop",
-            "sku": "Makita4v3dts.shop",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.47,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-07-18T10:25:45+02:00"
+            "latest_changed_at": "2026-07-20T17:02:45+02:00"
           }
         ]
       },
@@ -480,7 +218,7 @@
             "offer_reference": "3DTS",
             "sku": "3DTS",
             "quantity": 2,
-            "quantity_shipped": 0,
+            "quantity_shipped": 2,
             "quantity_cancelled": 0,
             "unit_price": 15.3,
             "total_price": 30.6,
@@ -488,7 +226,271 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-07-19T12:58:15+02:00"
+            "latest_changed_at": "2026-07-20T11:15:00+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1705",
+      "shopify_order_date": "2026-07-18T11:14:47Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0009KFKC0",
+        "order_placed_at": "2026-07-18T13:10:57+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.47,
+        "eans": [
+          "9509658425575"
+        ],
+        "offer_references": [
+          "U0-INRG-KJHL"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3960709460",
+            "ean": "9509658425575",
+            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+            "offer_reference": "U0-INRG-KJHL",
+            "sku": "U0-INRG-KJHL",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.47,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-07-20T11:05:00+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1704",
+      "shopify_order_date": "2026-07-18T09:54:47Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0009KCH53",
+        "order_placed_at": "2026-07-18T11:49:23+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.47,
+        "eans": [
+          "9503425233318"
+        ],
+        "offer_references": [
+          "Bosch4a-3DTS"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3960670830",
+            "ean": "9503425233318",
+            "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel",
+            "offer_id": "7699e825-2bc3-4838-9cdb-74d3b1057833",
+            "offer_reference": "Bosch4a-3DTS",
+            "sku": "Bosch4a-3DTS",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.47,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-07-20T11:00:00+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1703",
+      "shopify_order_date": "2026-07-18T08:29:47Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0009K89K7",
+        "order_placed_at": "2026-07-18T10:25:00+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.47,
+        "eans": [
+          "8721516390097"
+        ],
+        "offer_references": [
+          "Makita4v3dts.shop"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3960632323",
+            "ean": "8721516390097",
+            "product_name": "Accu Houder voor Makita 18V – 4-voudige Wandhouder – 3D Geprint",
+            "offer_id": "8c06699a-750b-4d3a-bdbd-b6e7aa917b9a",
+            "offer_reference": "Makita4v3dts.shop",
+            "sku": "Makita4v3dts.shop",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.47,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-07-20T10:54:58+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1702",
+      "shopify_order_date": "2026-07-17T21:24:47Z",
+      "shopify_total_order_amount": 16.49,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0009K41LC",
+        "order_placed_at": "2026-07-17T23:23:11+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 16.49,
+        "total_commission": 0.98,
+        "eans": [
+          "8721516390615"
+        ],
+        "offer_references": [
+          "cloudkeygen23DTS.SHOP"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3960554955",
+            "ean": "8721516390615",
+            "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
+            "offer_id": "963adcff-f602-4154-bc70-bf5afef9c1a1",
+            "offer_reference": "cloudkeygen23DTS.SHOP",
+            "sku": "cloudkeygen23DTS.SHOP",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 16.49,
+            "total_price": 16.49,
+            "commission": 0.98,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-07-20T10:50:01+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1701",
+      "shopify_order_date": "2026-07-17T16:51:34Z",
+      "shopify_total_order_amount": 15.3,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0009JT1WW",
+        "order_placed_at": "2026-07-17T18:38:25+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 15.3,
+        "total_commission": 2.21,
+        "eans": [
+          "9509192768565"
+        ],
+        "offer_references": [
+          "3DTS"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3960427100",
+            "ean": "9509192768565",
+            "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's)",
+            "offer_id": "5f048402-ef70-4c43-81e0-66b97a46e8db",
+            "offer_reference": "3DTS",
+            "sku": "3DTS",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 15.3,
+            "total_price": 15.3,
+            "commission": 2.21,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-07-20T10:44:56+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1700",
+      "shopify_order_date": "2026-07-17T14:14:51Z",
+      "shopify_total_order_amount": 11.86,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0009JM61K",
+        "order_placed_at": "2026-07-17T16:11:29+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 11.86,
+        "total_commission": 1.81,
+        "eans": [
+          "9502488883461"
+        ],
+        "offer_references": [
+          "3DTS"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3960359984",
+            "ean": "9502488883461",
+            "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder",
+            "offer_id": "fa0ac061-34a9-40ab-8fda-31ecb6ab4960",
+            "offer_reference": "3DTS",
+            "sku": "3DTS",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 11.86,
+            "total_price": 11.86,
+            "commission": 1.81,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-07-20T10:39:56+02:00"
           }
         ]
       },
