@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-07-22T07:42:22.880Z",
+  "generated_at": "2026-07-23T07:44:00.164Z",
   "period": "daily",
-  "date_from": "2026-07-21",
-  "date_to": "2026-07-21",
+  "date_from": "2026-07-22",
+  "date_to": "2026-07-22",
   "source": "bol.com Advertising API Sponsored Products advertiser performance",
   "supported": true,
   "totals": {
-    "impressions": 696,
-    "clicks": 19,
+    "impressions": 615,
+    "clicks": 12,
     "conversions": 0,
     "direct_conversions": 0,
     "indirect_conversions": 0,
     "sales": 0,
-    "cost": 2.73,
-    "average_cpc": 0.14,
+    "cost": 2.04,
+    "average_cpc": 0.17,
     "acos": null,
     "roas": 0,
-    "ctr": 0.0273
+    "ctr": 0.0195
   },
   "raw": {
-    "impressions": 696,
-    "clicks": 19,
-    "ctr": 0.0273,
+    "impressions": 615,
+    "clicks": 12,
+    "ctr": 0.0195,
     "conversions14d": 0,
     "directConversions14d": 0,
     "indirectConversions14d": 0,
     "conversionRate14d": 0,
-    "averageCpc": 0.14,
+    "averageCpc": 0.17,
     "sales14d": 0,
-    "cost": 2.73,
+    "cost": 2.04,
     "roas14d": 0,
-    "averageWinningBid": 0.65
+    "averageWinningBid": 0.73
   },
   "warnings": []
 }

@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-22T07:42:30.439Z",
+  "generated_at": "2026-07-23T07:44:11.393Z",
   "actions": [
     {
       "type": "campagne pauzeren",
       "priority": "high",
       "campaign": "Bol Sponsored Products",
-      "reason": "Bol Ads ROAS laatste 7 dagen is 0; controleer zoektermen en biedingen voordat budget omhoog gaat."
+      "reason": "Bol Ads ROAS laatste 7 dagen is 1.1045; controleer zoektermen en biedingen voordat budget omhoog gaat."
     },
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Wandhouder - Compatibel met UniFi U6 & U7 - Wandmontage Access Point",
-      "sku": "574402509868_74BE",
+      "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig",
+      "sku": "629621091536_60CB",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -19,13 +19,6 @@
       "priority": "medium",
       "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
       "sku": "dc18rd3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig",
-      "sku": "629621091536_60CB",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
