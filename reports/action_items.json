@@ -1,19 +1,6 @@
 {
-  "generated_at": "2026-07-23T07:44:11.393Z",
+  "generated_at": "2026-07-24T07:42:02.186Z",
   "actions": [
-    {
-      "type": "campagne pauzeren",
-      "priority": "high",
-      "campaign": "Bol Sponsored Products",
-      "reason": "Bol Ads ROAS laatste 7 dagen is 1.1045; controleer zoektermen en biedingen voordat budget omhoog gaat."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig",
-      "sku": "629621091536_60CB",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
     {
       "type": "bundel maken",
       "priority": "medium",
@@ -24,15 +11,8 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
-      "sku": "cloudkeygen23DTS.SHOP",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
-      "sku": "Unifidesk3DTS.Shop",
+      "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig",
+      "sku": "629621091536_60CB",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]

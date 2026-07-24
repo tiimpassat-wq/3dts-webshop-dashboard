@@ -1,20 +1,153 @@
 {
-  "generated_at": "2026-07-23T07:44:00.163Z",
+  "generated_at": "2026-07-24T07:41:53.406Z",
   "period": "daily",
-  "date_from": "2026-07-22",
-  "date_to_exclusive": "2026-07-23",
+  "date_from": "2026-07-23",
+  "date_to_exclusive": "2026-07-24",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
     "bol_raw": "bol_orders_raw_daily.json"
   },
   "summary": {
-    "bol_orders": 0,
-    "matched_orders": 0,
+    "bol_orders": 3,
+    "matched_orders": 3,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 0,
-    "total_bol_commission": 0
+    "total_bol_revenue": 55.2,
+    "total_bol_commission": 9.15
   },
   "warnings": [],
-  "matches": [],
+  "matches": [
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1713",
+      "shopify_order_date": "2026-07-23T17:38:25Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0009W3C3M",
+        "order_placed_at": "2026-07-23T19:37:06+02:00",
+        "customer_country_code": "BE",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.47,
+        "eans": [
+          "9509658425575"
+        ],
+        "offer_references": [
+          "U0-INRG-KJHL"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3963634224",
+            "ean": "9509658425575",
+            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+            "offer_reference": "U0-INRG-KJHL",
+            "sku": "U0-INRG-KJHL",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.47,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-07-23T19:37:48+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1712",
+      "shopify_order_date": "2026-07-23T15:24:58Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0009PCNC8",
+        "order_placed_at": "2026-07-23T17:22:34+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.47,
+        "eans": [
+          "9509658425575"
+        ],
+        "offer_references": [
+          "U0-INRG-KJHL"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3963560696",
+            "ean": "9509658425575",
+            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+            "offer_reference": "U0-INRG-KJHL",
+            "sku": "U0-INRG-KJHL",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.47,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-07-23T17:23:16+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1711",
+      "shopify_order_date": "2026-07-23T07:35:37Z",
+      "shopify_total_order_amount": 15.3,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0009T8PDP",
+        "order_placed_at": "2026-07-23T09:34:12+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 15.3,
+        "total_commission": 2.21,
+        "eans": [
+          "9509192768565"
+        ],
+        "offer_references": [
+          "3DTS"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3963297422",
+            "ean": "9509192768565",
+            "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's)",
+            "offer_id": "5f048402-ef70-4c43-81e0-66b97a46e8db",
+            "offer_reference": "3DTS",
+            "sku": "3DTS",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 15.3,
+            "total_price": 15.3,
+            "commission": 2.21,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-07-23T09:35:15+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    }
+  ],
   "unmatched_bol_orders": []
 }

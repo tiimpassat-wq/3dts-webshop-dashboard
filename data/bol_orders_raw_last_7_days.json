@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-23T07:44:00.677Z",
+  "generated_at": "2026-07-24T07:41:54.027Z",
   "period": "last_7_days",
-  "date_from": "2026-07-17",
-  "date_to_exclusive": "2026-07-24",
+  "date_from": "2026-07-18",
+  "date_to_exclusive": "2026-07-25",
   "source": "bol.com Retailer API",
   "orders": [
     {
@@ -142,108 +142,6 @@
       ]
     },
     {
-      "bol_order_id": "C0009K41LC",
-      "order_placed_at": "2026-07-17T23:23:11+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 16.49,
-      "total_commission": 0.98,
-      "eans": [
-        "8721516390615"
-      ],
-      "offer_references": [
-        "cloudkeygen23DTS.SHOP"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3960554955",
-          "ean": "8721516390615",
-          "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
-          "offer_id": "963adcff-f602-4154-bc70-bf5afef9c1a1",
-          "offer_reference": "cloudkeygen23DTS.SHOP",
-          "sku": "cloudkeygen23DTS.SHOP",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 16.49,
-          "total_price": 16.49,
-          "commission": 0.98,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-07-20T10:50:01+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C0009JT1WW",
-      "order_placed_at": "2026-07-17T18:38:25+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 15.3,
-      "total_commission": 2.21,
-      "eans": [
-        "9509192768565"
-      ],
-      "offer_references": [
-        "3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3960427100",
-          "ean": "9509192768565",
-          "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's)",
-          "offer_id": "5f048402-ef70-4c43-81e0-66b97a46e8db",
-          "offer_reference": "3DTS",
-          "sku": "3DTS",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 15.3,
-          "total_price": 15.3,
-          "commission": 2.21,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-07-20T10:44:56+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C0009JM61K",
-      "order_placed_at": "2026-07-17T16:11:29+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 11.86,
-      "total_commission": 1.81,
-      "eans": [
-        "9502488883461"
-      ],
-      "offer_references": [
-        "3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3960359984",
-          "ean": "9502488883461",
-          "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder",
-          "offer_id": "fa0ac061-34a9-40ab-8fda-31ecb6ab4960",
-          "offer_reference": "3DTS",
-          "sku": "3DTS",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 11.86,
-          "total_price": 11.86,
-          "commission": 1.81,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-07-20T10:39:56+02:00"
-        }
-      ]
-    },
-    {
       "bol_order_id": "C0009P71W6",
       "order_placed_at": "2026-07-21T16:32:36+02:00",
       "customer_country_code": "NL",
@@ -346,6 +244,74 @@
       ]
     },
     {
+      "bol_order_id": "C0009W3C3M",
+      "order_placed_at": "2026-07-23T19:37:06+02:00",
+      "customer_country_code": "BE",
+      "pickup_point": false,
+      "total_order_amount": 19.95,
+      "total_commission": 3.47,
+      "eans": [
+        "9509658425575"
+      ],
+      "offer_references": [
+        "U0-INRG-KJHL"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3963634224",
+          "ean": "9509658425575",
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+          "offer_reference": "U0-INRG-KJHL",
+          "sku": "U0-INRG-KJHL",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 19.95,
+          "total_price": 19.95,
+          "commission": 3.47,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-07-23T19:37:48+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C0009PCNC8",
+      "order_placed_at": "2026-07-23T17:22:34+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 19.95,
+      "total_commission": 3.47,
+      "eans": [
+        "9509658425575"
+      ],
+      "offer_references": [
+        "U0-INRG-KJHL"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3963560696",
+          "ean": "9509658425575",
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+          "offer_reference": "U0-INRG-KJHL",
+          "sku": "U0-INRG-KJHL",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 19.95,
+          "total_price": 19.95,
+          "commission": 3.47,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-07-23T17:23:16+02:00"
+        }
+      ]
+    },
+    {
       "bol_order_id": "C0009T8PDP",
       "order_placed_at": "2026-07-23T09:34:12+02:00",
       "customer_country_code": "NL",
@@ -383,8 +349,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 11,
-    "total_order_amount": 205.79,
-    "total_commission": 29.95
+    "order_count": 10,
+    "total_order_amount": 202.04,
+    "total_commission": 31.89
   }
 }

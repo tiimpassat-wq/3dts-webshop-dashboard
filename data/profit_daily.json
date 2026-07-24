@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T07:44:11.385Z",
+  "generated_at": "2026-07-24T07:42:02.180Z",
   "period": "daily",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
@@ -17,42 +17,260 @@
     "note": "Cost order: Shopify Cost per item, config/product_costs.json, then missing."
   },
   "totals": {
-    "orders": 0,
-    "betrouwbare_orders": 0,
+    "orders": 3,
+    "betrouwbare_orders": 3,
     "onvolledige_orders": 0,
-    "orders_met_shopify_kostprijs": 0,
+    "orders_met_shopify_kostprijs": 3,
     "orders_met_fallback_kostprijs": 0,
     "orders_zonder_kostprijs": 0,
-    "omzet": 0,
+    "omzet": 55.2,
     "verzendkosten_betaald_door_klant": 0,
-    "werkelijke_verzendkosten": 0,
-    "productkostprijs": 0,
-    "bruto_winst": 0,
-    "bol_commissie": 0,
+    "werkelijke_verzendkosten": 17.39,
+    "productkostprijs": 10.6,
+    "bruto_winst": 27.21,
+    "bol_commissie": 9.15,
     "advertentiekosten": 0,
-    "bol_advertentiekosten": 0,
-    "nettowinst": 0,
-    "betrouwbare_nettowinst": 0,
+    "bol_advertentiekosten": 2.33,
+    "nettowinst": 15.73,
+    "betrouwbare_nettowinst": 15.73,
     "geschatte_onvolledige_nettowinst": 0,
-    "nettowinst_pct": null,
-    "betrouwbare_nettowinst_pct": null,
-    "betrouwbare_orders_pct": null,
-    "betrouwbare_winst_pct": null,
-    "winst_betrouwbaarheid": "gedeeltelijk betrouwbaar",
-    "gemiddelde_winst_per_order": 0,
+    "nettowinst_pct": 28.5,
+    "betrouwbare_nettowinst_pct": 28.5,
+    "betrouwbare_orders_pct": 100,
+    "betrouwbare_winst_pct": 100,
+    "winst_betrouwbaarheid": "betrouwbaar",
+    "gemiddelde_winst_per_order": 5.24,
     "google_ads_cost_total": 0,
     "google_ads_unallocated": 0,
     "google_ads_roas": null,
-    "bol_ads_cost_total": 2.04,
-    "bol_ads_unallocated": 2.04,
+    "bol_ads_cost_total": 2.33,
+    "bol_ads_unallocated": 0,
     "bol_ads_roas": 0,
     "bol_ads_supported": true
   },
-  "channel_totals": {},
+  "channel_totals": {
+    "Bol via Shopify": {
+      "orders": 3,
+      "omzet": 55.2,
+      "werkelijke_verzendkosten": 17.39,
+      "productkostprijs": 10.6,
+      "bol_commissie": 9.15,
+      "advertentiekosten": 0,
+      "bol_advertentiekosten": 2.33,
+      "nettowinst": 15.73,
+      "betrouwbare_nettowinst": 15.73,
+      "geschatte_onvolledige_nettowinst": 0,
+      "betrouwbare_orders": 3,
+      "onvolledige_orders": 0,
+      "orders_met_shopify_kostprijs": 3,
+      "orders_met_fallback_kostprijs": 0,
+      "orders_zonder_kostprijs": 0,
+      "nettowinst_pct": 28.5
+    }
+  },
   "bol": {
-    "matched_orders": 0,
+    "matched_orders": 3,
     "missing_in_shopify": 0,
     "ads_supported": true
   },
-  "orders": []
+  "orders": [
+    {
+      "order_number": "#3dts1711",
+      "date": "2026-07-23T07:35:37Z",
+      "channel_source": "bol",
+      "channel": "Bol via Shopify",
+      "channel_reason": "matched_bol_retailer_api",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "tags": [
+        "Bol",
+        "Bol-C0009T8PDP"
+      ],
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "landing_site": null,
+      "referring_site": null,
+      "omzet": 15.3,
+      "verzendkosten_betaald_door_klant": 0,
+      "verzendopbrengst_uit_pseudo_producten": 0,
+      "werkelijke_verzendkosten": 3.7,
+      "productkostprijs": 2,
+      "korting": 0,
+      "bruto_winst": 9.6,
+      "bol_commissie": 2.21,
+      "advertentiekosten": 0,
+      "advertentiekosten_methode": "none",
+      "bol_advertentiekosten": 0.65,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 6.74,
+      "betrouwbare_nettowinst": 6.74,
+      "geschatte_onvolledige_nettowinst": 0,
+      "profit_reliability": "reliable",
+      "cost_coverage": "shopify",
+      "nettowinst_pct": 44.05,
+      "bol_order_id": "C0009T8PDP",
+      "bol_match_method": "identifier_or_sku_tag_source",
+      "bol_match_confidence": 0.95,
+      "eans": [
+        "9509192768565"
+      ],
+      "line_items": [
+        {
+          "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig",
+          "variant_id": "62962109153629",
+          "sku": "629621091536_60CB",
+          "ean": "9509192768565",
+          "quantity": 1,
+          "item_type": "product",
+          "product_sale_price": 15.3,
+          "line_revenue": 15.3,
+          "product_cost_unit": 2,
+          "product_cost_total": 2,
+          "gross_profit_before_shipping_ads": 13.3,
+          "margin_before_shipping_ads_pct": 86.93,
+          "cost_source": "shopify_unit_cost",
+          "cost_status": "matched",
+          "cost_match_key": "62962109153629"
+        }
+      ],
+      "cost_sources": [
+        "shopify_unit_cost"
+      ],
+      "warnings": [
+        "bol_ads_allocated_by_bol_revenue_share"
+      ]
+    },
+    {
+      "order_number": "#3dts1712",
+      "date": "2026-07-23T15:24:58Z",
+      "channel_source": "bol",
+      "channel": "Bol via Shopify",
+      "channel_reason": "matched_bol_retailer_api",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "tags": [
+        "Bol",
+        "Bol-C0009PCNC8"
+      ],
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "landing_site": null,
+      "referring_site": null,
+      "omzet": 19.95,
+      "verzendkosten_betaald_door_klant": 0,
+      "verzendopbrengst_uit_pseudo_producten": 0,
+      "werkelijke_verzendkosten": 5.6,
+      "productkostprijs": 4.3,
+      "korting": 0,
+      "bruto_winst": 10.05,
+      "bol_commissie": 3.47,
+      "advertentiekosten": 0,
+      "advertentiekosten_methode": "none",
+      "bol_advertentiekosten": 0.84,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 5.74,
+      "betrouwbare_nettowinst": 5.74,
+      "geschatte_onvolledige_nettowinst": 0,
+      "profit_reliability": "reliable",
+      "cost_coverage": "shopify",
+      "nettowinst_pct": 28.77,
+      "bol_order_id": "C0009PCNC8",
+      "bol_match_method": "identifier_or_sku_tag_source",
+      "bol_match_confidence": 0.95,
+      "eans": [
+        "9509658425575"
+      ],
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "variant_id": "58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "ean": "8721516390004",
+          "quantity": 1,
+          "item_type": "product",
+          "product_sale_price": 19.95,
+          "line_revenue": 19.95,
+          "product_cost_unit": 4.3,
+          "product_cost_total": 4.3,
+          "gross_profit_before_shipping_ads": 15.65,
+          "margin_before_shipping_ads_pct": 78.45,
+          "cost_source": "shopify_unit_cost",
+          "cost_status": "matched",
+          "cost_match_key": "58085095440733"
+        }
+      ],
+      "cost_sources": [
+        "shopify_unit_cost"
+      ],
+      "warnings": [
+        "bol_ads_allocated_by_bol_revenue_share"
+      ]
+    },
+    {
+      "order_number": "#3dts1713",
+      "date": "2026-07-23T17:38:25Z",
+      "channel_source": "bol",
+      "channel": "Bol via Shopify",
+      "channel_reason": "matched_bol_retailer_api",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "tags": [
+        "Bol",
+        "Bol-C0009W3C3M"
+      ],
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "landing_site": null,
+      "referring_site": null,
+      "omzet": 19.95,
+      "verzendkosten_betaald_door_klant": 0,
+      "verzendopbrengst_uit_pseudo_producten": 0,
+      "werkelijke_verzendkosten": 8.09,
+      "productkostprijs": 4.3,
+      "korting": 0,
+      "bruto_winst": 7.56,
+      "bol_commissie": 3.47,
+      "advertentiekosten": 0,
+      "advertentiekosten_methode": "none",
+      "bol_advertentiekosten": 0.84,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 3.25,
+      "betrouwbare_nettowinst": 3.25,
+      "geschatte_onvolledige_nettowinst": 0,
+      "profit_reliability": "reliable",
+      "cost_coverage": "shopify",
+      "nettowinst_pct": 16.29,
+      "bol_order_id": "C0009W3C3M",
+      "bol_match_method": "identifier_or_sku_tag_source",
+      "bol_match_confidence": 0.95,
+      "eans": [
+        "9509658425575"
+      ],
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "variant_id": "58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "ean": "8721516390004",
+          "quantity": 1,
+          "item_type": "product",
+          "product_sale_price": 19.95,
+          "line_revenue": 19.95,
+          "product_cost_unit": 4.3,
+          "product_cost_total": 4.3,
+          "gross_profit_before_shipping_ads": 15.65,
+          "margin_before_shipping_ads_pct": 78.45,
+          "cost_source": "shopify_unit_cost",
+          "cost_status": "matched",
+          "cost_match_key": "58085095440733"
+        }
+      ],
+      "cost_sources": [
+        "shopify_unit_cost"
+      ],
+      "warnings": [
+        "bol_ads_allocated_by_bol_revenue_share"
+      ]
+    }
+  ]
 }
