@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T07:42:02.186Z",
+  "generated_at": "2026-07-25T07:28:37.738Z",
   "actions": [
     {
       "type": "bundel maken",
@@ -13,6 +13,13 @@
       "priority": "medium",
       "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig",
       "sku": "629621091536_60CB",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+      "sku": "Unifidesk3DTS.Shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]

@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-24T07:42:01.086Z",
+  "generated_at": "2026-07-25T07:28:36.992Z",
   "period": "last_7_days",
-  "date_from": "2026-07-18",
-  "date_to_exclusive": "2026-07-25",
+  "date_from": "2026-07-19",
+  "date_to_exclusive": "2026-07-26",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
   },
   "summary": {
-    "bol_orders": 10,
-    "matched_orders": 10,
+    "bol_orders": 8,
+    "matched_orders": 8,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 202.04,
-    "total_bol_commission": 31.89
+    "total_bol_revenue": 174.09,
+    "total_bol_commission": 23.4
   },
   "warnings": [],
   "matches": [
@@ -55,138 +55,6 @@
             "distribution_party": "RETAILER",
             "cancellation_request": false,
             "latest_changed_at": "2026-07-20T11:15:00+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1705",
-      "shopify_order_date": "2026-07-18T11:14:47Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C0009KFKC0",
-        "order_placed_at": "2026-07-18T13:10:57+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.47,
-        "eans": [
-          "9509658425575"
-        ],
-        "offer_references": [
-          "U0-INRG-KJHL"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3960709460",
-            "ean": "9509658425575",
-            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-            "offer_reference": "U0-INRG-KJHL",
-            "sku": "U0-INRG-KJHL",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.47,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-07-20T11:05:00+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1704",
-      "shopify_order_date": "2026-07-18T09:54:47Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C0009KCH53",
-        "order_placed_at": "2026-07-18T11:49:23+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.47,
-        "eans": [
-          "9503425233318"
-        ],
-        "offer_references": [
-          "Bosch4a-3DTS"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3960670830",
-            "ean": "9503425233318",
-            "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel",
-            "offer_id": "7699e825-2bc3-4838-9cdb-74d3b1057833",
-            "offer_reference": "Bosch4a-3DTS",
-            "sku": "Bosch4a-3DTS",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.47,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-07-20T11:00:00+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1703",
-      "shopify_order_date": "2026-07-18T08:29:47Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C0009K89K7",
-        "order_placed_at": "2026-07-18T10:25:00+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.47,
-        "eans": [
-          "8721516390097"
-        ],
-        "offer_references": [
-          "Makita4v3dts.shop"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3960632323",
-            "ean": "8721516390097",
-            "product_name": "Accu Houder voor Makita 18V – 4-voudige Wandhouder – 3D Geprint",
-            "offer_id": "8c06699a-750b-4d3a-bdbd-b6e7aa917b9a",
-            "offer_reference": "Makita4v3dts.shop",
-            "sku": "Makita4v3dts.shop",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.47,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-07-20T10:54:58+02:00"
           }
         ]
       },
@@ -328,6 +196,50 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
+      "shopify_order_number": "#3dts1714",
+      "shopify_order_date": "2026-07-24T07:54:15Z",
+      "shopify_total_order_amount": 31.9,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0009WKNM0",
+        "order_placed_at": "2026-07-24T09:53:21+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 31.9,
+        "total_commission": 1.92,
+        "eans": [
+          "8721516390073"
+        ],
+        "offer_references": [
+          "Unifidesk3DTS.Shop"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3963864514",
+            "ean": "8721516390073",
+            "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+            "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
+            "offer_reference": "Unifidesk3DTS.Shop",
+            "sku": "Unifidesk3DTS.Shop",
+            "quantity": 2,
+            "quantity_shipped": 2,
+            "quantity_cancelled": 0,
+            "unit_price": 15.95,
+            "total_price": 31.9,
+            "commission": 1.92,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-07-24T13:19:34+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
       "shopify_order_number": "#3dts1713",
       "shopify_order_date": "2026-07-23T17:38:25Z",
       "shopify_total_order_amount": 19.95,
@@ -354,7 +266,7 @@
             "offer_reference": "U0-INRG-KJHL",
             "sku": "U0-INRG-KJHL",
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
             "unit_price": 19.95,
             "total_price": 19.95,
@@ -362,7 +274,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-07-23T19:37:48+02:00"
+            "latest_changed_at": "2026-07-24T11:39:48+02:00"
           }
         ]
       },
@@ -398,7 +310,7 @@
             "offer_reference": "U0-INRG-KJHL",
             "sku": "U0-INRG-KJHL",
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
             "unit_price": 19.95,
             "total_price": 19.95,
@@ -406,7 +318,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-07-23T17:23:16+02:00"
+            "latest_changed_at": "2026-07-24T11:29:44+02:00"
           }
         ]
       },
@@ -442,7 +354,7 @@
             "offer_reference": "3DTS",
             "sku": "3DTS",
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
             "unit_price": 15.3,
             "total_price": 15.3,
@@ -450,7 +362,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-07-23T09:35:15+02:00"
+            "latest_changed_at": "2026-07-24T11:29:44+02:00"
           }
         ]
       },
