@@ -1,54 +1,18 @@
 {
-  "generated_at": "2026-07-25T07:28:26.263Z",
+  "generated_at": "2026-07-26T07:45:29.594Z",
   "period": "last_7_days",
-  "date_from": "2026-07-19",
-  "date_to_exclusive": "2026-07-26",
+  "date_from": "2026-07-20",
+  "date_to_exclusive": "2026-07-27",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 9,
-    "item_count": 11,
-    "total_order_amount": 191.09,
+    "order_count": 8,
+    "item_count": 9,
+    "total_order_amount": 160.49,
     "shipping_paid_by_customer": 0,
     "discount": 0
   },
   "orders": [
-    {
-      "order_number": "#3dts1707",
-      "date": "2026-07-19T10:59:51Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 30.6,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C0009LFCMH"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig",
-          "variant_id": "62962109153629",
-          "variant_gid": "gid://shopify/ProductVariant/62962109153629",
-          "sku": "629621091536_60CB",
-          "barcode": "9509192768565",
-          "ean": "9509192768565",
-          "quantity": 2,
-          "product_sale_price": 15.3,
-          "original_unit_price": 15.3,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1708",
       "date": "2026-07-20T15:07:13Z",
