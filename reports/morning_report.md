@@ -1,6 +1,6 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-07-26T07:45:42.149Z
+Gegenereerd: 2026-07-27T08:47:15.795Z
 
 ## Samenvatting gisteren
 
@@ -30,9 +30,9 @@ Gegenereerd: 2026-07-26T07:45:42.149Z
 - Shopify direct omzet gisteren: EUR 0.00
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
-- Laatste 7 dagen omzet: EUR 160.49
+- Laatste 7 dagen omzet: EUR 169.54
 - Laatste 7 dagen Google Ads kosten: EUR 0.00
-- Laatste 7 dagen betrouwbare nettowinst: EUR 53.87
+- Laatste 7 dagen betrouwbare nettowinst: EUR 64.38
 - Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 0.00
 
 ## Bol.com
@@ -42,12 +42,12 @@ Gegenereerd: 2026-07-26T07:45:42.149Z
 - Bol commissie gisteren: EUR 0.00
 - Bol Ads kosten gisteren: EUR 0.00
 - Winst na Bol Ads gisteren: EUR 0.00
-- Bol omzet laatste 7 dagen: EUR 143.49
-- Bol winst laatste 7 dagen: EUR 49.26
-- Bol commissie laatste 7 dagen: EUR 18.99
-- Bol Ads kosten laatste 7 dagen: EUR 9.73
-- Bol Ads ROAS laatste 7 dagen: 3.3895
-- Bol orders gematcht laatste 7 dagen: 7
+- Bol omzet laatste 7 dagen: EUR 123.54
+- Bol winst laatste 7 dagen: EUR 44.97
+- Bol commissie laatste 7 dagen: EUR 15.52
+- Bol Ads kosten laatste 7 dagen: EUR 7.43
+- Bol Ads ROAS laatste 7 dagen: 4.4388
+- Bol orders gematcht laatste 7 dagen: 6
 - Bol orders niet in Shopify gevonden laatste 7 dagen: 0
 
 ## AI-adviezen

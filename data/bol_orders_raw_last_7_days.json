@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-26T07:45:32.808Z",
+  "generated_at": "2026-07-27T08:47:08.841Z",
   "period": "last_7_days",
-  "date_from": "2026-07-20",
-  "date_to_exclusive": "2026-07-27",
+  "date_from": "2026-07-21",
+  "date_to_exclusive": "2026-07-28",
   "source": "bol.com Retailer API",
   "orders": [
     {
@@ -70,40 +70,6 @@
           "distribution_party": "RETAILER",
           "cancellation_request": false,
           "latest_changed_at": "2026-07-22T10:35:29+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C0009N0NT5",
-      "order_placed_at": "2026-07-20T17:01:48+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 19.95,
-      "total_commission": 3.47,
-      "eans": [
-        "9509658425575"
-      ],
-      "offer_references": [
-        "U0-INRG-KJHL"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3961822541",
-          "ean": "9509658425575",
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-          "offer_reference": "U0-INRG-KJHL",
-          "sku": "U0-INRG-KJHL",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 19.95,
-          "total_price": 19.95,
-          "commission": 3.47,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-07-22T10:30:31+02:00"
         }
       ]
     },
@@ -247,8 +213,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 7,
-    "total_order_amount": 143.49,
-    "total_commission": 18.99
+    "order_count": 6,
+    "total_order_amount": 123.54,
+    "total_commission": 15.52
   }
 }

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-26T07:45:32.162Z",
+  "generated_at": "2026-07-27T08:47:08.413Z",
   "period": "daily",
-  "date_from": "2026-07-25",
-  "date_to": "2026-07-25",
+  "date_from": "2026-07-26",
+  "date_to": "2026-07-26",
   "source": "bol.com Advertising API Sponsored Products advertiser performance",
   "supported": true,
   "totals": {
