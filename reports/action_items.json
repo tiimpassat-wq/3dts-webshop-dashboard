@@ -1,6 +1,12 @@
 {
-  "generated_at": "2026-07-28T07:47:05.135Z",
+  "generated_at": "2026-07-29T07:59:37.846Z",
   "actions": [
+    {
+      "type": "campagne pauzeren",
+      "priority": "high",
+      "campaign": "Bol Sponsored Products",
+      "reason": "Bol Ads ROAS laatste 7 dagen is 0; controleer zoektermen en biedingen voordat budget omhoog gaat."
+    },
     {
       "type": "bundel maken",
       "priority": "medium",
