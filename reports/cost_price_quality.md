@@ -1,6 +1,6 @@
 # Kostprijs Kwaliteit
 
-Gegenereerd: 2026-07-29T07:59:37.848Z
+Gegenereerd: 2026-07-30T07:42:41.642Z
 
 ## Samenvatting
 
@@ -15,7 +15,7 @@ Gegenereerd: 2026-07-29T07:59:37.848Z
 
 | Bron | SKU | EAN | Product | Kostprijs | Aantal verkocht |
 | --- | --- | --- | --- | ---: | ---: |
-| shopify_unit_cost | dc18rd3dts.shop | 8721516390004 | Wandhouder geschikt voor Makita DC18RD Duo oplader | EUR 4.30 | 3 |
+| shopify_unit_cost | Hiltinuronaccu3dts.shop | 08721516390066 | Accu Houder Geschikt voor Hilti Nuron | EUR 11.51 | 4 |
 | shopify_unit_cost | Unifidesk3DTS.Shop | 8721516390073 | UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder | EUR 3.63 | 2 |
 | shopify_unit_cost | Unifikant3DTS.shop | 8721516390592 | UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite | EUR 4.30 | 2 |
-| shopify_unit_cost | 629621091536_60CB | 9509192768565 | Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig | EUR 2.00 | 1 |
+| shopify_unit_cost | dc18rd3dts.shop | 8721516390004 | Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation | EUR 4.30 | 1 |

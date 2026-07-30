@@ -1,136 +1,18 @@
 {
-  "generated_at": "2026-07-29T07:59:31.227Z",
+  "generated_at": "2026-07-30T07:42:35.870Z",
   "period": "last_30_days",
-  "date_from": "2026-06-30",
-  "date_to_exclusive": "2026-07-30",
+  "date_from": "2026-07-01",
+  "date_to_exclusive": "2026-07-31",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 48,
-    "item_count": 79,
-    "total_order_amount": 1252.25,
-    "shipping_paid_by_customer": 54.1,
+    "order_count": 46,
+    "item_count": 76,
+    "total_order_amount": 1223.34,
+    "shipping_paid_by_customer": 61.2,
     "discount": 0
   },
   "orders": [
-    {
-      "order_number": "#3dts1669",
-      "date": "2026-06-30T07:55:59Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 19.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Junction Box / Muurmontage Behuizing voor Ubiquiti UniFi Protect G6 Dome — Weerbestendig",
-          "variant_id": "64936038498653",
-          "variant_gid": "gid://shopify/ProductVariant/64936038498653",
-          "sku": null,
-          "barcode": "8721516390660",
-          "ean": "8721516390660",
-          "quantity": 1,
-          "product_sale_price": 19.95,
-          "original_unit_price": 19.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1670",
-      "date": "2026-06-30T10:15:59Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 37.47,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
-          "variant_id": "57838610743645",
-          "variant_gid": "gid://shopify/ProductVariant/57838610743645",
-          "sku": "Unifimountlite3DTS.shop",
-          "barcode": "08721516390042",
-          "ean": "08721516390042",
-          "quantity": 2,
-          "product_sale_price": 12.36,
-          "original_unit_price": 12.36,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
-          "variant_id": "58406162334045",
-          "variant_gid": "gid://shopify/ProductVariant/58406162334045",
-          "sku": "584061623340_133C",
-          "barcode": "8721516390196",
-          "ean": "8721516390196",
-          "quantity": 1,
-          "product_sale_price": 12.75,
-          "original_unit_price": 12.75,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1671",
-      "date": "2026-06-30T18:15:55Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Standard",
-      "discount": 0,
-      "total_order_amount": 16.49,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "bol.com"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder Makita DC18RC Oplader",
-          "variant_id": "57512098234717",
-          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
-          "sku": "dc18rc3dts.shop",
-          "barcode": "8721516390011",
-          "ean": "8721516390011",
-          "quantity": 1,
-          "product_sale_price": 16.49,
-          "original_unit_price": 16.49,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1672",
       "date": "2026-07-01T11:55:57Z",
@@ -1791,6 +1673,39 @@
           "quantity": 2,
           "product_sale_price": 10.95,
           "original_unit_price": 10.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1717",
+      "date": "2026-07-29T14:24:59Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7.1,
+      "shipping_title": "Pakket",
+      "discount": 0,
+      "total_order_amount": 45,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/accu-houder-geschikt-voor-hilti-nuron",
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accu Houder Geschikt voor Hilti Nuron",
+          "variant_id": "58706483183965",
+          "variant_gid": "gid://shopify/ProductVariant/58706483183965",
+          "sku": "Hiltinuronaccu3dts.shop",
+          "barcode": "08721516390066",
+          "ean": "08721516390066",
+          "quantity": 2,
+          "product_sale_price": 18.95,
+          "original_unit_price": 18.95,
           "line_discount": 0,
           "currency": "EUR"
         }
