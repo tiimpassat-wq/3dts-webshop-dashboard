@@ -1,19 +1,6 @@
 {
-  "generated_at": "2026-07-30T07:42:41.641Z",
+  "generated_at": "2026-07-31T08:09:39.001Z",
   "actions": [
-    {
-      "type": "campagne pauzeren",
-      "priority": "high",
-      "campaign": "Bol Sponsored Products",
-      "reason": "Bol Ads ROAS laatste 7 dagen is 0; controleer zoektermen en biedingen voordat budget omhoog gaat."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-      "sku": "Unifidesk3DTS.Shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
     {
       "type": "bundel maken",
       "priority": "medium",

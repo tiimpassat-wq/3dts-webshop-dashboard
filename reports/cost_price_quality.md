@@ -1,11 +1,11 @@
 # Kostprijs Kwaliteit
 
-Gegenereerd: 2026-07-30T07:42:41.642Z
+Gegenereerd: 2026-07-31T08:09:39.003Z
 
 ## Samenvatting
 
-- Verkochte unieke producten: 4
-- Verkochte producten met Shopify Cost per item: 4
+- Verkochte unieke producten: 2
+- Verkochte producten met Shopify Cost per item: 2
 - Verkochte producten met product_costs.json fallback: 0
 - Verkochte producten zonder kostprijs: 0
 - Shopify varianten met Cost per item in volledige productimport: 67
@@ -15,7 +15,5 @@ Gegenereerd: 2026-07-30T07:42:41.642Z
 
 | Bron | SKU | EAN | Product | Kostprijs | Aantal verkocht |
 | --- | --- | --- | --- | ---: | ---: |
-| shopify_unit_cost | Hiltinuronaccu3dts.shop | 08721516390066 | Accu Houder Geschikt voor Hilti Nuron | EUR 11.51 | 4 |
-| shopify_unit_cost | Unifidesk3DTS.Shop | 8721516390073 | UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder | EUR 3.63 | 2 |
 | shopify_unit_cost | Unifikant3DTS.shop | 8721516390592 | UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite | EUR 4.30 | 2 |
-| shopify_unit_cost | dc18rd3dts.shop | 8721516390004 | Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation | EUR 4.30 | 1 |
+| shopify_unit_cost | Hiltinuronaccu3dts.shop | 08721516390066 | Accu Houder Geschikt voor Hilti Nuron | EUR 11.51 | 2 |

@@ -1,65 +1,20 @@
 {
-  "generated_at": "2026-07-30T07:42:40.954Z",
+  "generated_at": "2026-07-31T08:09:37.790Z",
   "period": "last_7_days",
-  "date_from": "2026-07-24",
-  "date_to_exclusive": "2026-07-31",
+  "date_from": "2026-07-25",
+  "date_to_exclusive": "2026-08-01",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
   },
   "summary": {
-    "bol_orders": 1,
-    "matched_orders": 1,
+    "bol_orders": 0,
+    "matched_orders": 0,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 31.9,
-    "total_bol_commission": 1.92
+    "total_bol_revenue": 0,
+    "total_bol_commission": 0
   },
   "warnings": [],
-  "matches": [
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1714",
-      "shopify_order_date": "2026-07-24T07:54:15Z",
-      "shopify_total_order_amount": 31.9,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C0009WKNM0",
-        "order_placed_at": "2026-07-24T09:53:21+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 31.9,
-        "total_commission": 1.92,
-        "eans": [
-          "8721516390073"
-        ],
-        "offer_references": [
-          "Unifidesk3DTS.Shop"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3963864514",
-            "ean": "8721516390073",
-            "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-            "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
-            "offer_reference": "Unifidesk3DTS.Shop",
-            "sku": "Unifidesk3DTS.Shop",
-            "quantity": 2,
-            "quantity_shipped": 2,
-            "quantity_cancelled": 0,
-            "unit_price": 15.95,
-            "total_price": 31.9,
-            "commission": 1.92,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-07-24T13:19:34+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    }
-  ],
+  "matches": [],
   "unmatched_bol_orders": []
 }

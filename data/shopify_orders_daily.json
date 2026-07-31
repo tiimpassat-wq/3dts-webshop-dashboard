@@ -1,50 +1,16 @@
 {
-  "generated_at": "2026-07-30T07:42:34.688Z",
+  "generated_at": "2026-07-31T08:09:31.304Z",
   "period": "daily",
-  "date_from": "2026-07-29",
-  "date_to_exclusive": "2026-07-30",
+  "date_from": "2026-07-30",
+  "date_to_exclusive": "2026-07-31",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 1,
-    "item_count": 2,
-    "total_order_amount": 45,
-    "shipping_paid_by_customer": 7.1,
+    "order_count": 0,
+    "item_count": 0,
+    "total_order_amount": 0,
+    "shipping_paid_by_customer": 0,
     "discount": 0
   },
-  "orders": [
-    {
-      "order_number": "#3dts1717",
-      "date": "2026-07-29T14:24:59Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
-      "discount": 0,
-      "total_order_amount": 45,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/accu-houder-geschikt-voor-hilti-nuron",
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accu Houder Geschikt voor Hilti Nuron",
-          "variant_id": "58706483183965",
-          "variant_gid": "gid://shopify/ProductVariant/58706483183965",
-          "sku": "Hiltinuronaccu3dts.shop",
-          "barcode": "08721516390066",
-          "ean": "08721516390066",
-          "quantity": 2,
-          "product_sale_price": 18.95,
-          "original_unit_price": 18.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    }
-  ]
+  "orders": []
 }
