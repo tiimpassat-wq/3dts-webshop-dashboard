@@ -1,11 +1,18 @@
 {
-  "generated_at": "2026-08-01T07:37:44.945Z",
+  "generated_at": "2026-08-02T07:40:40.372Z",
   "actions": [
     {
       "type": "bundel maken",
       "priority": "medium",
       "product_name": "Accu Houder Geschikt voor Hilti Nuron",
       "sku": "Hiltinuronaccu3dts.shop",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Wandhouder UniFi U6 / U7 Access Points",
+      "sku": "574402509868_74BE",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {

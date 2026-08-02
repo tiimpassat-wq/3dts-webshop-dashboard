@@ -1,16 +1,63 @@
 {
-  "generated_at": "2026-08-01T07:37:39.793Z",
+  "generated_at": "2026-08-02T07:40:34.624Z",
   "period": "daily",
-  "date_from": "2026-07-31",
-  "date_to_exclusive": "2026-08-01",
+  "date_from": "2026-08-01",
+  "date_to_exclusive": "2026-08-02",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 0,
-    "item_count": 0,
-    "total_order_amount": 0,
-    "shipping_paid_by_customer": 0,
-    "discount": 0
+    "order_count": 1,
+    "item_count": 3,
+    "total_order_amount": 39.41,
+    "shipping_paid_by_customer": 7.1,
+    "discount": 0.54
   },
-  "orders": []
+  "orders": [
+    {
+      "order_number": "#3dts1718",
+      "date": "2026-08-01T11:57:18Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7.1,
+      "shipping_title": "Pakket",
+      "discount": 0.54,
+      "total_order_amount": 39.41,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder UniFi U6 / U7 Access Points",
+          "variant_id": "57440250986845",
+          "variant_gid": "gid://shopify/ProductVariant/57440250986845",
+          "sku": "574402509868_74BE",
+          "barcode": "9509139739962",
+          "ean": "9509139739962",
+          "quantity": 2,
+          "product_sale_price": 10.95,
+          "original_unit_price": 10.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
+          "variant_id": "63433470476637",
+          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
+          "sku": "Unifidesk3DTS.Shop",
+          "barcode": "8721516390073",
+          "ean": "8721516390073",
+          "quantity": 1,
+          "product_sale_price": 10.41,
+          "original_unit_price": 10.95,
+          "line_discount": 0.54,
+          "currency": "EUR"
+        }
+      ]
+    }
+  ]
 }
