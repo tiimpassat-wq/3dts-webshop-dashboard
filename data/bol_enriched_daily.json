@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-02T07:40:37.262Z",
+  "generated_at": "2026-08-03T08:42:15.949Z",
   "period": "daily",
-  "date_from": "2026-08-01",
-  "date_to_exclusive": "2026-08-02",
+  "date_from": "2026-08-02",
+  "date_to_exclusive": "2026-08-03",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
     "bol_raw": "bol_orders_raw_daily.json"

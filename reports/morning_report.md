@@ -1,25 +1,24 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-08-02T07:40:40.372Z
+Gegenereerd: 2026-08-03T08:42:19.315Z
 
 ## Samenvatting gisteren
 
-- Omzet gisteren: EUR 39.41
-- Betrouwbare nettowinst gisteren: EUR 21.24
+- Omzet gisteren: EUR 18.55
+- Betrouwbare nettowinst gisteren: EUR 9.85
 - Geschatte/onvolledige nettowinst gisteren: EUR 0.00
-- Totale nettowinstindicatie gisteren: EUR 21.24
+- Totale nettowinstindicatie gisteren: EUR 9.85
 - Orders gisteren: 1
 - Orders met betrouwbare kostprijs gisteren: 1
 - Orders met Shopify kostprijs gisteren: 1
 - Orders met fallback kostprijs gisteren: 0
 - Orders met ontbrekende kostprijs gisteren: 0
 - Winststatus gisteren: betrouwbaar
-- Gemiddelde winst per order: EUR 21.24
+- Gemiddelde winst per order: EUR 9.85
 
 ## Top 5 winstgevende producten (indicatief)
 
-- Wandhouder UniFi U6 / U7 Access Points (574402509868_74BE): EUR 11.80 nettowinst, 53.89% marge
-- UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint) (Unifidesk3DTS.Shop): EUR 5.61 nettowinst, 53.89% marge
+- 3D geprinte accu houder passend voor Einhell (585133239504_A32C): EUR 7.38 nettowinst, 53.1% marge
 
 ## Producten met lage marge (indicatief)
 
@@ -27,13 +26,13 @@ Gegenereerd: 2026-08-02T07:40:40.372Z
 
 ## Shopify vs Google Ads
 
-- Shopify omzet gisteren: EUR 39.41
-- Shopify direct omzet gisteren: EUR 39.41
+- Shopify omzet gisteren: EUR 18.55
+- Shopify direct omzet gisteren: EUR 18.55
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
-- Laatste 7 dagen omzet: EUR 131.96
+- Laatste 7 dagen omzet: EUR 102.96
 - Laatste 7 dagen Google Ads kosten: EUR 0.00
-- Laatste 7 dagen betrouwbare nettowinst: EUR 62.27
+- Laatste 7 dagen betrouwbare nettowinst: EUR 47.47
 - Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 0.00
 
 ## Bol.com

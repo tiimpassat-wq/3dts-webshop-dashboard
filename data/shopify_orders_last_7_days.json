@@ -1,51 +1,18 @@
 {
-  "generated_at": "2026-08-02T07:40:34.985Z",
+  "generated_at": "2026-08-03T08:42:13.390Z",
   "period": "last_7_days",
-  "date_from": "2026-07-27",
-  "date_to_exclusive": "2026-08-03",
+  "date_from": "2026-07-28",
+  "date_to_exclusive": "2026-08-04",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 4,
-    "item_count": 8,
-    "total_order_amount": 131.96,
-    "shipping_paid_by_customer": 25.95,
+    "order_count": 3,
+    "item_count": 6,
+    "total_order_amount": 102.96,
+    "shipping_paid_by_customer": 18.85,
     "discount": 0.54
   },
   "orders": [
-    {
-      "order_number": "#3dts1716",
-      "date": "2026-07-26T22:12:12Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
-      "discount": 0,
-      "total_order_amount": 29,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/unifi-access-point-wandbeugel-verstelbare-kantelbare-mount-geschikt-voor-uap-ac-lr-u6-lr-u6-lite-u7-lite",
-      "referring_site": "https://www.google.com/",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
-          "variant_id": "63739025588573",
-          "variant_gid": "gid://shopify/ProductVariant/63739025588573",
-          "sku": "Unifikant3DTS.shop",
-          "barcode": "8721516390592",
-          "ean": "8721516390592",
-          "quantity": 2,
-          "product_sale_price": 10.95,
-          "original_unit_price": 10.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1717",
       "date": "2026-07-29T14:24:59Z",
