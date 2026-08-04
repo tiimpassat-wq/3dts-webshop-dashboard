@@ -1,50 +1,16 @@
 {
-  "generated_at": "2026-08-03T08:42:13.083Z",
+  "generated_at": "2026-08-04T07:47:38.775Z",
   "period": "daily",
-  "date_from": "2026-08-02",
-  "date_to_exclusive": "2026-08-03",
+  "date_from": "2026-08-03",
+  "date_to_exclusive": "2026-08-04",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 1,
-    "item_count": 1,
-    "total_order_amount": 18.55,
-    "shipping_paid_by_customer": 4.65,
+    "order_count": 0,
+    "item_count": 0,
+    "total_order_amount": 0,
+    "shipping_paid_by_customer": 0,
     "discount": 0
   },
-  "orders": [
-    {
-      "order_number": "#3dts1719",
-      "date": "2026-08-01T23:41:08Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 4.65,
-      "shipping_title": "Nederland",
-      "discount": 0,
-      "total_order_amount": 18.55,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/3d-geprinte-accu-houder-passend-voor-einhell",
-      "referring_site": "https://syndicatedsearch.goog/",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "3D geprinte accu houder passend voor Einhell",
-          "variant_id": "58513323950429",
-          "variant_gid": "gid://shopify/ProductVariant/58513323950429",
-          "sku": "585133239504_A32C",
-          "barcode": "8721516390219",
-          "ean": "8721516390219",
-          "quantity": 1,
-          "product_sale_price": 13.9,
-          "original_unit_price": 13.9,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    }
-  ]
+  "orders": []
 }

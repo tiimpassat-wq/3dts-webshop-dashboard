@@ -1,51 +1,18 @@
 {
-  "generated_at": "2026-08-03T08:42:13.931Z",
+  "generated_at": "2026-08-04T07:47:39.864Z",
   "period": "last_30_days",
-  "date_from": "2026-07-05",
-  "date_to_exclusive": "2026-08-04",
+  "date_from": "2026-07-06",
+  "date_to_exclusive": "2026-08-05",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 40,
-    "item_count": 70,
-    "total_order_amount": 1118.5,
-    "shipping_paid_by_customer": 61.2,
-    "discount": 0.54
+    "item_count": 73,
+    "total_order_amount": 1152.31,
+    "shipping_paid_by_customer": 63.65,
+    "discount": 1.13
   },
   "orders": [
-    {
-      "order_number": "#3dts1680",
-      "date": "2026-07-05T10:12:59Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 4.65,
-      "shipping_title": "Nederland",
-      "discount": 0,
-      "total_order_amount": 13.9,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/cas-metabo-12v-accu-houder-schuif",
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Metabo CAS 12V Accu Houder Schuif – Wandhouder voor Accu",
-          "variant_id": "65159836303709",
-          "variant_gid": "gid://shopify/ProductVariant/65159836303709",
-          "sku": "3DTS-METABO-CAS12V-SCHUIF",
-          "barcode": null,
-          "ean": null,
-          "quantity": 1,
-          "product_sale_price": 9.25,
-          "original_unit_price": 9.25,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1681",
       "date": "2026-07-06T18:23:40Z",
@@ -1494,6 +1461,52 @@
           "product_sale_price": 13.9,
           "original_unit_price": 13.9,
           "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1720",
+      "date": "2026-08-03T22:22:00Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7.1,
+      "shipping_title": "Pakket",
+      "discount": 0.59,
+      "total_order_amount": 47.71,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/makita-accu-houder-4v",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder Makita 18V – Wandmontage - 3-voudig",
+          "variant_id": "57871575253341",
+          "variant_gid": "gid://shopify/ProductVariant/57871575253341",
+          "sku": "Makita4v3dts.shop3CB02",
+          "barcode": "9501663417347",
+          "ean": "9501663417347",
+          "quantity": 3,
+          "product_sale_price": 9.75,
+          "original_unit_price": 9.75,
+          "line_discount": 0,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
+          "quantity": 1,
+          "product_sale_price": 11.36,
+          "original_unit_price": 11.95,
+          "line_discount": 0.59,
           "currency": "EUR"
         }
       ]

@@ -1,24 +1,24 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-08-03T08:42:19.315Z
+Gegenereerd: 2026-08-04T07:47:45.171Z
 
 ## Samenvatting gisteren
 
-- Omzet gisteren: EUR 18.55
-- Betrouwbare nettowinst gisteren: EUR 9.85
+- Omzet gisteren: EUR 0.00
+- Betrouwbare nettowinst gisteren: EUR 0.00
 - Geschatte/onvolledige nettowinst gisteren: EUR 0.00
-- Totale nettowinstindicatie gisteren: EUR 9.85
-- Orders gisteren: 1
-- Orders met betrouwbare kostprijs gisteren: 1
-- Orders met Shopify kostprijs gisteren: 1
+- Totale nettowinstindicatie gisteren: EUR 0.00
+- Orders gisteren: 0
+- Orders met betrouwbare kostprijs gisteren: 0
+- Orders met Shopify kostprijs gisteren: 0
 - Orders met fallback kostprijs gisteren: 0
 - Orders met ontbrekende kostprijs gisteren: 0
-- Winststatus gisteren: betrouwbaar
-- Gemiddelde winst per order: EUR 9.85
+- Winststatus gisteren: gedeeltelijk betrouwbaar
+- Gemiddelde winst per order: EUR 0.00
 
 ## Top 5 winstgevende producten (indicatief)
 
-- 3D geprinte accu houder passend voor Einhell (585133239504_A32C): EUR 7.38 nettowinst, 53.1% marge
+- Geen winstgevende producten gevonden in de beschikbare dagdata.
 
 ## Producten met lage marge (indicatief)
 
@@ -26,13 +26,13 @@ Gegenereerd: 2026-08-03T08:42:19.315Z
 
 ## Shopify vs Google Ads
 
-- Shopify omzet gisteren: EUR 18.55
-- Shopify direct omzet gisteren: EUR 18.55
+- Shopify omzet gisteren: EUR 0.00
+- Shopify direct omzet gisteren: EUR 0.00
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
-- Laatste 7 dagen omzet: EUR 102.96
+- Laatste 7 dagen omzet: EUR 150.67
 - Laatste 7 dagen Google Ads kosten: EUR 0.00
-- Laatste 7 dagen betrouwbare nettowinst: EUR 47.47
+- Laatste 7 dagen betrouwbare nettowinst: EUR 73.04
 - Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 0.00
 
 ## Bol.com
@@ -52,15 +52,15 @@ Gegenereerd: 2026-08-03T08:42:19.315Z
 
 ## AI-adviezen
 
-- Data ziet er gezond uit; focus op producten met hoogste nettowinst en test bundels.
+- Shopify dagdata ontbreekt nog; vul SHOPIFY secrets in en draai de workflow opnieuw.
 
 ## Datakwaliteit
 
 - Shopify producten met Cost per item: 67
 - Shopify producten zonder Cost per item: 11
-- Percentage betrouwbare orders gisteren: 100%
-- Percentage betrouwbare winst gisteren: 100%
-- Winststatus gisteren: betrouwbaar
+- Percentage betrouwbare orders gisteren: onbekend%
+- Percentage betrouwbare winst gisteren: onbekend%
+- Winststatus gisteren: gedeeltelijk betrouwbaar
 - Percentage betrouwbare orders laatste 7 dagen: 100%
 - Percentage betrouwbare winst laatste 7 dagen: 100%
 - Winststatus laatste 7 dagen: betrouwbaar
