@@ -1,51 +1,18 @@
 {
-  "generated_at": "2026-08-04T07:47:39.190Z",
+  "generated_at": "2026-08-05T07:48:40.498Z",
   "period": "last_7_days",
-  "date_from": "2026-07-29",
-  "date_to_exclusive": "2026-08-05",
+  "date_from": "2026-07-30",
+  "date_to_exclusive": "2026-08-06",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 4,
-    "item_count": 10,
-    "total_order_amount": 150.67,
-    "shipping_paid_by_customer": 25.95,
+    "item_count": 9,
+    "total_order_amount": 120.27,
+    "shipping_paid_by_customer": 23.5,
     "discount": 1.13
   },
   "orders": [
-    {
-      "order_number": "#3dts1717",
-      "date": "2026-07-29T14:24:59Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
-      "discount": 0,
-      "total_order_amount": 45,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/accu-houder-geschikt-voor-hilti-nuron",
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accu Houder Geschikt voor Hilti Nuron",
-          "variant_id": "58706483183965",
-          "variant_gid": "gid://shopify/ProductVariant/58706483183965",
-          "sku": "Hiltinuronaccu3dts.shop",
-          "barcode": "08721516390066",
-          "ean": "08721516390066",
-          "quantity": 2,
-          "product_sale_price": 18.95,
-          "original_unit_price": 18.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1718",
       "date": "2026-08-01T11:57:18Z",
@@ -167,6 +134,39 @@
           "product_sale_price": 11.36,
           "original_unit_price": 11.95,
           "line_discount": 0.59,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1721",
+      "date": "2026-08-04T09:22:12Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 0,
+      "total_order_amount": 14.6,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
+          "variant_id": "63992391369053",
+          "variant_gid": "gid://shopify/ProductVariant/63992391369053",
+          "sku": "cloudkeygen23DTS.SHOP",
+          "barcode": "8721516390615",
+          "ean": "8721516390615",
+          "quantity": 1,
+          "product_sale_price": 9.95,
+          "original_unit_price": 9.95,
+          "line_discount": 0,
           "currency": "EUR"
         }
       ]

@@ -1,16 +1,96 @@
 {
-  "generated_at": "2026-08-04T07:47:38.775Z",
+  "generated_at": "2026-08-05T07:48:40.160Z",
   "period": "daily",
-  "date_from": "2026-08-03",
-  "date_to_exclusive": "2026-08-04",
+  "date_from": "2026-08-04",
+  "date_to_exclusive": "2026-08-05",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 0,
-    "item_count": 0,
-    "total_order_amount": 0,
-    "shipping_paid_by_customer": 0,
-    "discount": 0
+    "order_count": 2,
+    "item_count": 5,
+    "total_order_amount": 62.31,
+    "shipping_paid_by_customer": 11.75,
+    "discount": 0.59
   },
-  "orders": []
+  "orders": [
+    {
+      "order_number": "#3dts1720",
+      "date": "2026-08-03T22:22:00Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7.1,
+      "shipping_title": "Pakket",
+      "discount": 0.59,
+      "total_order_amount": 47.71,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/makita-accu-houder-4v",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder Makita 18V – Wandmontage - 3-voudig",
+          "variant_id": "57871575253341",
+          "variant_gid": "gid://shopify/ProductVariant/57871575253341",
+          "sku": "Makita4v3dts.shop3CB02",
+          "barcode": "9501663417347",
+          "ean": "9501663417347",
+          "quantity": 3,
+          "product_sale_price": 9.75,
+          "original_unit_price": 9.75,
+          "line_discount": 0,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
+          "quantity": 1,
+          "product_sale_price": 11.36,
+          "original_unit_price": 11.95,
+          "line_discount": 0.59,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1721",
+      "date": "2026-08-04T09:22:12Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 0,
+      "total_order_amount": 14.6,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
+          "variant_id": "63992391369053",
+          "variant_gid": "gid://shopify/ProductVariant/63992391369053",
+          "sku": "cloudkeygen23DTS.SHOP",
+          "barcode": "8721516390615",
+          "ean": "8721516390615",
+          "quantity": 1,
+          "product_sale_price": 9.95,
+          "original_unit_price": 9.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    }
+  ]
 }

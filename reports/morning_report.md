@@ -1,24 +1,26 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-08-04T07:47:45.171Z
+Gegenereerd: 2026-08-05T07:48:48.900Z
 
 ## Samenvatting gisteren
 
-- Omzet gisteren: EUR 0.00
-- Betrouwbare nettowinst gisteren: EUR 0.00
+- Omzet gisteren: EUR 62.31
+- Betrouwbare nettowinst gisteren: EUR 33.40
 - Geschatte/onvolledige nettowinst gisteren: EUR 0.00
-- Totale nettowinstindicatie gisteren: EUR 0.00
-- Orders gisteren: 0
-- Orders met betrouwbare kostprijs gisteren: 0
-- Orders met Shopify kostprijs gisteren: 0
+- Totale nettowinstindicatie gisteren: EUR 33.40
+- Orders gisteren: 2
+- Orders met betrouwbare kostprijs gisteren: 2
+- Orders met Shopify kostprijs gisteren: 2
 - Orders met fallback kostprijs gisteren: 0
 - Orders met ontbrekende kostprijs gisteren: 0
-- Winststatus gisteren: gedeeltelijk betrouwbaar
-- Gemiddelde winst per order: EUR 0.00
+- Winststatus gisteren: betrouwbaar
+- Gemiddelde winst per order: EUR 16.70
 
 ## Top 5 winstgevende producten (indicatief)
 
-- Geen winstgevende producten gevonden in de beschikbare dagdata.
+- Accuhouder Makita 18V – Wandmontage - 3-voudig (Makita4v3dts.shop3CB02): EUR 15.68 nettowinst, 53.59% marge
+- Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation (dc18rd3dts.shop): EUR 6.09 nettowinst, 53.59% marge
+- UniFi Cloud Key Gen2 Plus Verhoogde Wallmount (cloudkeygen23DTS.SHOP): EUR 5.34 nettowinst, 53.63% marge
 
 ## Producten met lage marge (indicatief)
 
@@ -26,13 +28,13 @@ Gegenereerd: 2026-08-04T07:47:45.171Z
 
 ## Shopify vs Google Ads
 
-- Shopify omzet gisteren: EUR 0.00
-- Shopify direct omzet gisteren: EUR 0.00
+- Shopify omzet gisteren: EUR 62.31
+- Shopify direct omzet gisteren: EUR 62.31
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
-- Laatste 7 dagen omzet: EUR 150.67
+- Laatste 7 dagen omzet: EUR 120.27
 - Laatste 7 dagen Google Ads kosten: EUR 0.00
-- Laatste 7 dagen betrouwbare nettowinst: EUR 73.04
+- Laatste 7 dagen betrouwbare nettowinst: EUR 64.49
 - Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 0.00
 
 ## Bol.com
@@ -52,15 +54,15 @@ Gegenereerd: 2026-08-04T07:47:45.171Z
 
 ## AI-adviezen
 
-- Shopify dagdata ontbreekt nog; vul SHOPIFY secrets in en draai de workflow opnieuw.
+- Data ziet er gezond uit; focus op producten met hoogste nettowinst en test bundels.
 
 ## Datakwaliteit
 
 - Shopify producten met Cost per item: 67
 - Shopify producten zonder Cost per item: 11
-- Percentage betrouwbare orders gisteren: onbekend%
-- Percentage betrouwbare winst gisteren: onbekend%
-- Winststatus gisteren: gedeeltelijk betrouwbaar
+- Percentage betrouwbare orders gisteren: 100%
+- Percentage betrouwbare winst gisteren: 100%
+- Winststatus gisteren: betrouwbaar
 - Percentage betrouwbare orders laatste 7 dagen: 100%
 - Percentage betrouwbare winst laatste 7 dagen: 100%
 - Winststatus laatste 7 dagen: betrouwbaar
