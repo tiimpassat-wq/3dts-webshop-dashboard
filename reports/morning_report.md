@@ -1,26 +1,25 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-08-05T07:48:48.900Z
+Gegenereerd: 2026-08-06T07:48:32.097Z
 
 ## Samenvatting gisteren
 
-- Omzet gisteren: EUR 62.31
-- Betrouwbare nettowinst gisteren: EUR 33.40
+- Omzet gisteren: EUR 35.91
+- Betrouwbare nettowinst gisteren: EUR 19.68
 - Geschatte/onvolledige nettowinst gisteren: EUR 0.00
-- Totale nettowinstindicatie gisteren: EUR 33.40
-- Orders gisteren: 2
-- Orders met betrouwbare kostprijs gisteren: 2
-- Orders met Shopify kostprijs gisteren: 2
+- Totale nettowinstindicatie gisteren: EUR 19.68
+- Orders gisteren: 1
+- Orders met betrouwbare kostprijs gisteren: 1
+- Orders met Shopify kostprijs gisteren: 1
 - Orders met fallback kostprijs gisteren: 0
 - Orders met ontbrekende kostprijs gisteren: 0
 - Winststatus gisteren: betrouwbaar
-- Gemiddelde winst per order: EUR 16.70
+- Gemiddelde winst per order: EUR 19.68
 
 ## Top 5 winstgevende producten (indicatief)
 
-- Accuhouder Makita 18V – Wandmontage - 3-voudig (Makita4v3dts.shop3CB02): EUR 15.68 nettowinst, 53.59% marge
-- Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation (dc18rd3dts.shop): EUR 6.09 nettowinst, 53.59% marge
-- UniFi Cloud Key Gen2 Plus Verhoogde Wallmount (cloudkeygen23DTS.SHOP): EUR 5.34 nettowinst, 53.63% marge
+- Accuhouder Makita 18V – Wandmontage - 4-voudig (Makita4v3dts.shop): EUR 9.56 nettowinst, 54.8% marge
+- Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation (dc18rd3dts.shop): EUR 6.23 nettowinst, 54.8% marge
 
 ## Producten met lage marge (indicatief)
 
@@ -28,13 +27,13 @@ Gegenereerd: 2026-08-05T07:48:48.900Z
 
 ## Shopify vs Google Ads
 
-- Shopify omzet gisteren: EUR 62.31
-- Shopify direct omzet gisteren: EUR 62.31
+- Shopify omzet gisteren: EUR 35.91
+- Shopify direct omzet gisteren: EUR 35.91
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
-- Laatste 7 dagen omzet: EUR 120.27
+- Laatste 7 dagen omzet: EUR 156.18
 - Laatste 7 dagen Google Ads kosten: EUR 0.00
-- Laatste 7 dagen betrouwbare nettowinst: EUR 64.49
+- Laatste 7 dagen betrouwbare nettowinst: EUR 84.17
 - Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 0.00
 
 ## Bol.com

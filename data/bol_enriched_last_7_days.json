@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-05T07:48:47.608Z",
+  "generated_at": "2026-08-06T07:48:31.356Z",
   "period": "last_7_days",
-  "date_from": "2026-07-30",
-  "date_to_exclusive": "2026-08-06",
+  "date_from": "2026-07-31",
+  "date_to_exclusive": "2026-08-07",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"

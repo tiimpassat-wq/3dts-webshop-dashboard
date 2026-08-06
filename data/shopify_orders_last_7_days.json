@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-05T07:48:40.498Z",
+  "generated_at": "2026-08-06T07:48:25.870Z",
   "period": "last_7_days",
-  "date_from": "2026-07-30",
-  "date_to_exclusive": "2026-08-06",
+  "date_from": "2026-07-31",
+  "date_to_exclusive": "2026-08-07",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 4,
-    "item_count": 9,
-    "total_order_amount": 120.27,
-    "shipping_paid_by_customer": 23.5,
-    "discount": 1.13
+    "order_count": 5,
+    "item_count": 11,
+    "total_order_amount": 156.18,
+    "shipping_paid_by_customer": 30.6,
+    "discount": 1.72
   },
   "orders": [
     {
@@ -167,6 +167,52 @@
           "product_sale_price": 9.95,
           "original_unit_price": 9.95,
           "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1722",
+      "date": "2026-08-05T14:56:49Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7.1,
+      "shipping_title": "Pakket",
+      "discount": 0.59,
+      "total_order_amount": 35.91,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/makita-accu-houder-4v",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
+          "variant_id": "57872304963933",
+          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
+          "sku": "Makita4v3dts.shop",
+          "barcode": "8721516390097",
+          "ean": "8721516390097",
+          "quantity": 1,
+          "product_sale_price": 17.45,
+          "original_unit_price": 17.45,
+          "line_discount": 0,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
+          "quantity": 1,
+          "product_sale_price": 11.36,
+          "original_unit_price": 11.95,
+          "line_discount": 0.59,
           "currency": "EUR"
         }
       ]
