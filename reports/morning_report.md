@@ -1,25 +1,24 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-08-06T07:48:32.097Z
+Gegenereerd: 2026-08-07T06:18:23.544Z
 
 ## Samenvatting gisteren
 
-- Omzet gisteren: EUR 35.91
-- Betrouwbare nettowinst gisteren: EUR 19.68
+- Omzet gisteren: EUR 0.00
+- Betrouwbare nettowinst gisteren: EUR 0.00
 - Geschatte/onvolledige nettowinst gisteren: EUR 0.00
-- Totale nettowinstindicatie gisteren: EUR 19.68
-- Orders gisteren: 1
-- Orders met betrouwbare kostprijs gisteren: 1
-- Orders met Shopify kostprijs gisteren: 1
+- Totale nettowinstindicatie gisteren: EUR 0.00
+- Orders gisteren: 0
+- Orders met betrouwbare kostprijs gisteren: 0
+- Orders met Shopify kostprijs gisteren: 0
 - Orders met fallback kostprijs gisteren: 0
 - Orders met ontbrekende kostprijs gisteren: 0
-- Winststatus gisteren: betrouwbaar
-- Gemiddelde winst per order: EUR 19.68
+- Winststatus gisteren: gedeeltelijk betrouwbaar
+- Gemiddelde winst per order: EUR 0.00
 
 ## Top 5 winstgevende producten (indicatief)
 
-- Accuhouder Makita 18V – Wandmontage - 4-voudig (Makita4v3dts.shop): EUR 9.56 nettowinst, 54.8% marge
-- Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation (dc18rd3dts.shop): EUR 6.23 nettowinst, 54.8% marge
+- Geen winstgevende producten gevonden in de beschikbare dagdata.
 
 ## Producten met lage marge (indicatief)
 
@@ -27,8 +26,8 @@ Gegenereerd: 2026-08-06T07:48:32.097Z
 
 ## Shopify vs Google Ads
 
-- Shopify omzet gisteren: EUR 35.91
-- Shopify direct omzet gisteren: EUR 35.91
+- Shopify omzet gisteren: EUR 0.00
+- Shopify direct omzet gisteren: EUR 0.00
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
 - Laatste 7 dagen omzet: EUR 156.18
@@ -53,15 +52,15 @@ Gegenereerd: 2026-08-06T07:48:32.097Z
 
 ## AI-adviezen
 
-- Data ziet er gezond uit; focus op producten met hoogste nettowinst en test bundels.
+- Shopify dagdata ontbreekt nog; vul SHOPIFY secrets in en draai de workflow opnieuw.
 
 ## Datakwaliteit
 
 - Shopify producten met Cost per item: 67
 - Shopify producten zonder Cost per item: 11
-- Percentage betrouwbare orders gisteren: 100%
-- Percentage betrouwbare winst gisteren: 100%
-- Winststatus gisteren: betrouwbaar
+- Percentage betrouwbare orders gisteren: onbekend%
+- Percentage betrouwbare winst gisteren: onbekend%
+- Winststatus gisteren: gedeeltelijk betrouwbaar
 - Percentage betrouwbare orders laatste 7 dagen: 100%
 - Percentage betrouwbare winst laatste 7 dagen: 100%
 - Winststatus laatste 7 dagen: betrouwbaar
