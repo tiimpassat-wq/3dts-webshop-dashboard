@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T06:18:23.539Z",
+  "generated_at": "2026-08-08T05:55:52.547Z",
   "period": "daily",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
@@ -43,9 +43,9 @@
     "google_ads_cost_total": 0,
     "google_ads_unallocated": 0,
     "google_ads_roas": null,
-    "bol_ads_cost_total": 0,
-    "bol_ads_unallocated": 0,
-    "bol_ads_roas": null,
+    "bol_ads_cost_total": 0.21,
+    "bol_ads_unallocated": 0.21,
+    "bol_ads_roas": 0,
     "bol_ads_supported": true
   },
   "channel_totals": {},

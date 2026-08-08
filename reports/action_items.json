@@ -1,6 +1,12 @@
 {
-  "generated_at": "2026-08-07T06:18:23.544Z",
+  "generated_at": "2026-08-08T05:55:52.553Z",
   "actions": [
+    {
+      "type": "campagne pauzeren",
+      "priority": "high",
+      "campaign": "Bol Sponsored Products",
+      "reason": "Bol Ads ROAS laatste 7 dagen is 0; controleer zoektermen en biedingen voordat budget omhoog gaat."
+    },
     {
       "type": "bundel maken",
       "priority": "medium",
@@ -13,13 +19,6 @@
       "priority": "medium",
       "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
       "sku": "dc18rd3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Wandhouder UniFi U6 / U7 Access Points",
-      "sku": "574402509868_74BE",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]

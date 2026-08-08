@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-07T06:18:18.601Z",
+  "generated_at": "2026-08-08T05:55:44.901Z",
   "period": "daily",
-  "date_from": "2026-08-06",
-  "date_to_exclusive": "2026-08-07",
+  "date_from": "2026-08-07",
+  "date_to_exclusive": "2026-08-08",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-07T06:18:20.072Z",
+  "generated_at": "2026-08-08T05:55:46.525Z",
   "period": "daily",
-  "date_from": "2026-08-06",
-  "date_to_exclusive": "2026-08-07",
+  "date_from": "2026-08-07",
+  "date_to_exclusive": "2026-08-08",
   "source": "bol.com Retailer API",
   "orders": [],
   "warnings": [],
