@@ -1,16 +1,53 @@
 {
-  "generated_at": "2026-08-08T05:55:44.901Z",
+  "generated_at": "2026-08-09T05:57:06.243Z",
   "period": "daily",
-  "date_from": "2026-08-07",
-  "date_to_exclusive": "2026-08-08",
+  "date_from": "2026-08-08",
+  "date_to_exclusive": "2026-08-09",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 0,
-    "item_count": 0,
-    "total_order_amount": 0,
+    "order_count": 1,
+    "item_count": 1,
+    "total_order_amount": 16.95,
     "shipping_paid_by_customer": 0,
     "discount": 0
   },
-  "orders": []
+  "orders": [
+    {
+      "order_number": "#3dts1723",
+      "date": "2026-08-08T12:07:39Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 16.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000CLMR83"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+          "variant_id": "63433470476637",
+          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
+          "sku": "Unifidesk3DTS.Shop",
+          "barcode": "8721516390073",
+          "ean": "8721516390073",
+          "quantity": 1,
+          "product_sale_price": 16.95,
+          "original_unit_price": 16.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    }
+  ]
 }

@@ -1,51 +1,18 @@
 {
-  "generated_at": "2026-08-08T05:55:45.325Z",
+  "generated_at": "2026-08-09T05:57:06.600Z",
   "period": "last_7_days",
-  "date_from": "2026-08-02",
-  "date_to_exclusive": "2026-08-09",
+  "date_from": "2026-08-03",
+  "date_to_exclusive": "2026-08-10",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 4,
     "item_count": 8,
-    "total_order_amount": 116.77,
-    "shipping_paid_by_customer": 23.5,
+    "total_order_amount": 115.17,
+    "shipping_paid_by_customer": 18.85,
     "discount": 1.18
   },
   "orders": [
-    {
-      "order_number": "#3dts1719",
-      "date": "2026-08-01T23:41:08Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 4.65,
-      "shipping_title": "Nederland",
-      "discount": 0,
-      "total_order_amount": 18.55,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/3d-geprinte-accu-houder-passend-voor-einhell",
-      "referring_site": "https://syndicatedsearch.goog/",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "3D geprinte accu houder passend voor Einhell",
-          "variant_id": "58513323950429",
-          "variant_gid": "gid://shopify/ProductVariant/58513323950429",
-          "sku": "585133239504_A32C",
-          "barcode": "8721516390219",
-          "ean": "8721516390219",
-          "quantity": 1,
-          "product_sale_price": 13.9,
-          "original_unit_price": 13.9,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1720",
       "date": "2026-08-03T22:22:00Z",
@@ -167,6 +134,42 @@
           "product_sale_price": 11.36,
           "original_unit_price": 11.95,
           "line_discount": 0.59,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1723",
+      "date": "2026-08-08T12:07:39Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 16.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000CLMR83"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+          "variant_id": "63433470476637",
+          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
+          "sku": "Unifidesk3DTS.Shop",
+          "barcode": "8721516390073",
+          "ean": "8721516390073",
+          "quantity": 1,
+          "product_sale_price": 16.95,
+          "original_unit_price": 16.95,
+          "line_discount": 0,
           "currency": "EUR"
         }
       ]
