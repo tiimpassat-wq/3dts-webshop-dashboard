@@ -1,21 +1,107 @@
 {
-  "generated_at": "2026-08-09T05:57:11.942Z",
+  "generated_at": "2026-08-10T06:40:58.845Z",
   "period": "last_7_days",
-  "date_from": "2026-08-03",
-  "date_to_exclusive": "2026-08-10",
+  "date_from": "2026-08-04",
+  "date_to_exclusive": "2026-08-11",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
   },
   "summary": {
-    "bol_orders": 1,
-    "matched_orders": 1,
+    "bol_orders": 3,
+    "matched_orders": 3,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 16.95,
-    "total_bol_commission": 0.99
+    "total_bol_revenue": 56.85,
+    "total_bol_commission": 7.93
   },
   "warnings": [],
   "matches": [
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1725",
+      "shopify_order_date": "2026-08-09T11:27:38Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000CMK7FN",
+        "order_placed_at": "2026-08-09T13:24:52+02:00",
+        "customer_country_code": "BE",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.47,
+        "eans": [
+          "9509658425575"
+        ],
+        "offer_references": [
+          "U0-INRG-KJHL"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3972036931",
+            "ean": "9509658425575",
+            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+            "offer_reference": "U0-INRG-KJHL",
+            "sku": "U0-INRG-KJHL",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.47,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-08-09T13:25:16+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1724",
+      "shopify_order_date": "2026-08-09T06:17:39Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000CM7K72",
+        "order_placed_at": "2026-08-09T08:16:33+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.47,
+        "eans": [
+          "9504741952723"
+        ],
+        "offer_references": [],
+        "line_items": [
+          {
+            "bol_order_item_id": "3971900153",
+            "ean": "9504741952723",
+            "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+            "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
+            "offer_reference": null,
+            "sku": null,
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.47,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-08-09T12:07:53+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
     {
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
@@ -46,7 +132,7 @@
             "offer_reference": "Unifidesk3DTS.Shop",
             "sku": "Unifidesk3DTS.Shop",
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
             "unit_price": 16.95,
             "total_price": 16.95,
@@ -54,7 +140,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-08-08T14:05:16+02:00"
+            "latest_changed_at": "2026-08-09T12:07:52+02:00"
           }
         ]
       },
