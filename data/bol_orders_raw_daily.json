@@ -1,73 +1,41 @@
 {
-  "generated_at": "2026-08-10T06:40:53.098Z",
+  "generated_at": "2026-08-11T06:03:06.756Z",
   "period": "daily",
-  "date_from": "2026-08-09",
-  "date_to_exclusive": "2026-08-10",
+  "date_from": "2026-08-10",
+  "date_to_exclusive": "2026-08-11",
   "source": "bol.com Retailer API",
   "orders": [
     {
-      "bol_order_id": "C000CMK7FN",
-      "order_placed_at": "2026-08-09T13:24:52+02:00",
-      "customer_country_code": "BE",
+      "bol_order_id": "C000CP73CX",
+      "order_placed_at": "2026-08-10T19:23:40+02:00",
+      "customer_country_code": "NL",
       "pickup_point": false,
-      "total_order_amount": 19.95,
-      "total_commission": 3.47,
+      "total_order_amount": 15.3,
+      "total_commission": 2.21,
       "eans": [
-        "9509658425575"
+        "9509192768565"
       ],
       "offer_references": [
-        "U0-INRG-KJHL"
+        "3DTS"
       ],
       "line_items": [
         {
-          "bol_order_item_id": "3972036931",
-          "ean": "9509658425575",
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-          "offer_reference": "U0-INRG-KJHL",
-          "sku": "U0-INRG-KJHL",
+          "bol_order_item_id": "3972744337",
+          "ean": "9509192768565",
+          "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's)",
+          "offer_id": "5f048402-ef70-4c43-81e0-66b97a46e8db",
+          "offer_reference": "3DTS",
+          "sku": "3DTS",
           "quantity": 1,
           "quantity_shipped": 0,
           "quantity_cancelled": 0,
-          "unit_price": 19.95,
-          "total_price": 19.95,
-          "commission": 3.47,
+          "unit_price": 15.3,
+          "total_price": 15.3,
+          "commission": 2.21,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-08-09T13:25:16+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000CM7K72",
-      "order_placed_at": "2026-08-09T08:16:33+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 19.95,
-      "total_commission": 3.47,
-      "eans": [
-        "9504741952723"
-      ],
-      "offer_references": [],
-      "line_items": [
-        {
-          "bol_order_item_id": "3971900153",
-          "ean": "9504741952723",
-          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-          "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
-          "offer_reference": null,
-          "sku": null,
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 19.95,
-          "total_price": 19.95,
-          "commission": 3.47,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-08-09T12:07:53+02:00"
+          "latest_changed_at": "2026-08-10T19:24:18+02:00"
         }
       ]
     }
@@ -75,8 +43,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 2,
-    "total_order_amount": 39.9,
-    "total_commission": 6.94
+    "order_count": 1,
+    "total_order_amount": 15.3,
+    "total_commission": 2.21
   }
 }

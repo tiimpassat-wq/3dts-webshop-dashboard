@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-10T06:40:52.267Z",
+  "generated_at": "2026-08-11T06:03:05.930Z",
   "period": "last_30_days",
-  "date_from": "2026-07-12",
-  "date_to_exclusive": "2026-08-11",
+  "date_from": "2026-07-13",
+  "date_to_exclusive": "2026-08-12",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 34,
-    "item_count": 62,
-    "total_order_amount": 1000.48,
-    "shipping_paid_by_customer": 63.65,
-    "discount": 1.72
+    "order_count": 36,
+    "item_count": 65,
+    "total_order_amount": 1046.73,
+    "shipping_paid_by_customer": 76.6,
+    "discount": 3.72
   },
   "orders": [
     {
@@ -1232,7 +1232,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000CMK7FN"
@@ -1251,6 +1251,88 @@
           "quantity": 1,
           "product_sale_price": 19.95,
           "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1726",
+      "date": "2026-08-10T11:50:14Z",
+      "channel_source": "web",
+      "customer_country_code": "FR",
+      "customer_country": "France",
+      "shipping_paid_by_customer": 12.95,
+      "shipping_title": "Post NL EU",
+      "discount": 2,
+      "total_order_amount": 30.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/wandhouder-schuin-voor-makita-dc18rd-duo-oplader-3d-geprint-compatibel-met-18v-laadstation",
+      "referring_site": "https://3dts.shop/fr",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Universele Machinehouder – Makita, Bosch, DeWalt & Festool",
+          "variant_id": "57528429379933",
+          "variant_gid": "gid://shopify/ProductVariant/57528429379933",
+          "sku": null,
+          "barcode": "9505583956719",
+          "ean": "9505583956719",
+          "quantity": 1,
+          "product_sale_price": 7.5,
+          "original_unit_price": 7.5,
+          "line_discount": 0,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
+          "variant_id": "57872304963933",
+          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
+          "sku": "Makita4v3dts.shop",
+          "barcode": "8721516390097",
+          "ean": "8721516390097",
+          "quantity": 1,
+          "product_sale_price": 12.5,
+          "original_unit_price": 12.5,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1727",
+      "date": "2026-08-10T17:25:02Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 15.3,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000CP73CX"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig",
+          "variant_id": "62962109153629",
+          "variant_gid": "gid://shopify/ProductVariant/62962109153629",
+          "sku": "629621091536_60CB",
+          "barcode": "9509192768565",
+          "ean": "9509192768565",
+          "quantity": 1,
+          "product_sale_price": 15.3,
+          "original_unit_price": 15.3,
           "line_discount": 0,
           "currency": "EUR"
         }

@@ -1,17 +1,11 @@
 {
-  "generated_at": "2026-08-10T06:40:59.503Z",
+  "generated_at": "2026-08-11T06:03:11.266Z",
   "actions": [
-    {
-      "type": "campagne pauzeren",
-      "priority": "high",
-      "campaign": "Bol Sponsored Products",
-      "reason": "Bol Ads ROAS laatste 7 dagen is 0; controleer zoektermen en biedingen voordat budget omhoog gaat."
-    },
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Accuhouder Makita 18V – Wandmontage - 3-voudig",
-      "sku": "Makita4v3dts.shop3CB02",
+      "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
+      "sku": "Makita4v3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
