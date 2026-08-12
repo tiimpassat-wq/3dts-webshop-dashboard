@@ -1,18 +1,11 @@
 {
-  "generated_at": "2026-08-11T06:03:11.266Z",
+  "generated_at": "2026-08-12T06:41:21.458Z",
   "actions": [
     {
       "type": "bundel maken",
       "priority": "medium",
       "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
       "sku": "Makita4v3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
-      "sku": "dc18rd3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]
