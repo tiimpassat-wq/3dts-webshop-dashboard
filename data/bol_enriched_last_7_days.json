@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-12T06:41:20.728Z",
+  "generated_at": "2026-08-13T06:44:03.958Z",
   "period": "last_7_days",
-  "date_from": "2026-08-06",
-  "date_to_exclusive": "2026-08-13",
+  "date_from": "2026-08-07",
+  "date_to_exclusive": "2026-08-14",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
   },
   "summary": {
-    "bol_orders": 5,
-    "matched_orders": 5,
+    "bol_orders": 8,
+    "matched_orders": 8,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 89.64,
-    "total_bol_commission": 11.15
+    "total_bol_revenue": 142.57,
+    "total_bol_commission": 16.58
   },
   "warnings": [],
   "matches": [
@@ -227,6 +227,138 @@
             "distribution_party": "RETAILER",
             "cancellation_request": false,
             "latest_changed_at": "2026-08-11T11:02:31+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1732",
+      "shopify_order_date": "2026-08-12T16:33:42Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000CTLMKC",
+        "order_placed_at": "2026-08-12T18:32:14+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.47,
+        "eans": [
+          "9509658425575"
+        ],
+        "offer_references": [
+          "U0-INRG-KJHL"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3973799219",
+            "ean": "9509658425575",
+            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+            "offer_reference": "U0-INRG-KJHL",
+            "sku": "U0-INRG-KJHL",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.47,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-08-12T18:32:45+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1730",
+      "shopify_order_date": "2026-08-12T11:25:03Z",
+      "shopify_total_order_amount": 16.49,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000CTF65R",
+        "order_placed_at": "2026-08-12T16:00:24+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 16.49,
+        "total_commission": 0.98,
+        "eans": [
+          "8721516390615"
+        ],
+        "offer_references": [
+          "cloudkeygen23DTS.SHOP"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3973721997",
+            "ean": "8721516390615",
+            "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
+            "offer_id": "963adcff-f602-4154-bc70-bf5afef9c1a1",
+            "offer_reference": "cloudkeygen23DTS.SHOP",
+            "sku": "cloudkeygen23DTS.SHOP",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 16.49,
+            "total_price": 16.49,
+            "commission": 0.98,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-08-12T16:22:50+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1731",
+      "shopify_order_date": "2026-08-12T14:23:42Z",
+      "shopify_total_order_amount": 16.49,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000CT7C15",
+        "order_placed_at": "2026-08-12T13:24:00+02:00",
+        "customer_country_code": "BE",
+        "pickup_point": false,
+        "total_order_amount": 16.49,
+        "total_commission": 0.98,
+        "eans": [
+          "8721516390615"
+        ],
+        "offer_references": [
+          "cloudkeygen23DTS.SHOP"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3973636055",
+            "ean": "8721516390615",
+            "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
+            "offer_id": "963adcff-f602-4154-bc70-bf5afef9c1a1",
+            "offer_reference": "cloudkeygen23DTS.SHOP",
+            "sku": "cloudkeygen23DTS.SHOP",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 16.49,
+            "total_price": 16.49,
+            "commission": 0.98,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-08-12T13:52:23+02:00"
           }
         ]
       },

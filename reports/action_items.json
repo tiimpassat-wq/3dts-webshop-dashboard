@@ -1,11 +1,25 @@
 {
-  "generated_at": "2026-08-12T06:41:21.458Z",
+  "generated_at": "2026-08-13T06:44:04.710Z",
   "actions": [
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
+      "sku": "cloudkeygen23DTS.SHOP",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
     {
       "type": "bundel maken",
       "priority": "medium",
       "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
       "sku": "Makita4v3dts.shop",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+      "sku": "dc18rd3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]
