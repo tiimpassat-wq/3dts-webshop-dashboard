@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T06:41:28.275Z",
+  "generated_at": "2026-08-15T05:39:46.603Z",
   "period": "last_7_days",
-  "date_from": "2026-08-08",
-  "date_to_exclusive": "2026-08-15",
+  "date_from": "2026-08-09",
+  "date_to_exclusive": "2026-08-16",
   "source": "bol.com Retailer API",
   "orders": [
     {
@@ -34,40 +34,6 @@
           "distribution_party": "RETAILER",
           "cancellation_request": false,
           "latest_changed_at": "2026-08-09T12:07:53+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000CLMR83",
-      "order_placed_at": "2026-08-08T14:04:33+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 16.95,
-      "total_commission": 0.99,
-      "eans": [
-        "8721516390073"
-      ],
-      "offer_references": [
-        "Unifidesk3DTS.Shop"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3971658624",
-          "ean": "8721516390073",
-          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-          "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
-          "offer_reference": "Unifidesk3DTS.Shop",
-          "sku": "Unifidesk3DTS.Shop",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 16.95,
-          "total_price": 16.95,
-          "commission": 0.99,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-08-09T12:07:52+02:00"
         }
       ]
     },
@@ -174,40 +140,6 @@
       ]
     },
     {
-      "bol_order_id": "C000CWM5L1",
-      "order_placed_at": "2026-08-13T17:08:48+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 11.86,
-      "total_commission": 1.81,
-      "eans": [
-        "9502488883461"
-      ],
-      "offer_references": [
-        "3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3974233585",
-          "ean": "9502488883461",
-          "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder",
-          "offer_id": "fa0ac061-34a9-40ab-8fda-31ecb6ab4960",
-          "offer_reference": "3DTS",
-          "sku": "3DTS",
-          "quantity": 1,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 11.86,
-          "total_price": 11.86,
-          "commission": 1.81,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-08-13T17:09:17+02:00"
-        }
-      ]
-    },
-    {
       "bol_order_id": "C000CTLMKC",
       "order_placed_at": "2026-08-12T18:32:14+02:00",
       "customer_country_code": "NL",
@@ -306,13 +238,79 @@
           "latest_changed_at": "2026-08-13T11:13:53+02:00"
         }
       ]
+    },
+    {
+      "bol_order_id": "C000CXJDJN",
+      "order_placed_at": "2026-08-14T13:57:53+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 37.9,
+      "total_commission": 6.65,
+      "eans": [
+        "9504741952723"
+      ],
+      "offer_references": [],
+      "line_items": [
+        {
+          "bol_order_item_id": "3974613054",
+          "ean": "9504741952723",
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
+          "offer_reference": null,
+          "sku": null,
+          "quantity": 2,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 18.95,
+          "total_price": 37.9,
+          "commission": 6.65,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-08-14T13:58:16+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000CWM5L1",
+      "order_placed_at": "2026-08-13T17:08:48+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 11.86,
+      "total_commission": 1.81,
+      "eans": [
+        "9502488883461"
+      ],
+      "offer_references": [
+        "3DTS"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3974233585",
+          "ean": "9502488883461",
+          "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder",
+          "offer_id": "fa0ac061-34a9-40ab-8fda-31ecb6ab4960",
+          "offer_reference": "3DTS",
+          "sku": "3DTS",
+          "quantity": 1,
+          "quantity_shipped": 1,
+          "quantity_cancelled": 0,
+          "unit_price": 11.86,
+          "total_price": 11.86,
+          "commission": 1.81,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-08-14T10:46:35+02:00"
+        }
+      ]
     }
   ],
   "warnings": [],
   "credentials_configured": true,
   "totals": {
     "order_count": 9,
-    "total_order_amount": 154.43,
-    "total_commission": 18.39
+    "total_order_amount": 175.38,
+    "total_commission": 24.05
   }
 }

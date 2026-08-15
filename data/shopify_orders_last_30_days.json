@@ -1,123 +1,18 @@
 {
-  "generated_at": "2026-08-14T06:41:24.334Z",
+  "generated_at": "2026-08-15T05:39:43.355Z",
   "period": "last_30_days",
-  "date_from": "2026-07-16",
-  "date_to_exclusive": "2026-08-15",
+  "date_from": "2026-07-17",
+  "date_to_exclusive": "2026-08-16",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 38,
-    "item_count": 62,
-    "total_order_amount": 1024,
-    "shipping_paid_by_customer": 76.6,
+    "order_count": 36,
+    "item_count": 50,
+    "total_order_amount": 822.1,
+    "shipping_paid_by_customer": 69.5,
     "discount": 3.72
   },
   "orders": [
-    {
-      "order_number": "#3dts1696",
-      "date": "2026-07-16T08:45:20Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 164.9,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C0009H255D"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder - Compatibel met UniFi U6 & U7 - Wandmontage Access Point",
-          "variant_id": "57440250986845",
-          "variant_gid": "gid://shopify/ProductVariant/57440250986845",
-          "sku": "574402509868_74BE",
-          "barcode": "9509139739962",
-          "ean": "9509139739962",
-          "quantity": 10,
-          "product_sale_price": 16.49,
-          "original_unit_price": 16.49,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1697",
-      "date": "2026-07-16T09:40:15Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 56.85,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C0009H43MT"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 3,
-          "product_sale_price": 18.95,
-          "original_unit_price": 18.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1698",
-      "date": "2026-07-16T11:01:58Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
-      "discount": 0,
-      "total_order_amount": 18.05,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/unifi-beugel-wandbeugel-u6-u7",
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder UniFi U6 / U7 Access Points",
-          "variant_id": "57440250986845",
-          "variant_gid": "gid://shopify/ProductVariant/57440250986845",
-          "sku": "574402509868_74BE",
-          "barcode": "9509139739962",
-          "ean": "9509139739962",
-          "quantity": 1,
-          "product_sale_price": 10.95,
-          "original_unit_price": 10.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1699",
       "date": "2026-07-17T10:00:19Z",
@@ -1386,7 +1281,7 @@
       "total_order_amount": 11.86,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000CWM5L1"
@@ -1405,6 +1300,42 @@
           "quantity": 1,
           "product_sale_price": 11.86,
           "original_unit_price": 11.86,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1734",
+      "date": "2026-08-14T11:58:23Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 37.9,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000CXJDJN"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
+          "quantity": 2,
+          "product_sale_price": 18.95,
+          "original_unit_price": 18.95,
           "line_discount": 0,
           "currency": "EUR"
         }

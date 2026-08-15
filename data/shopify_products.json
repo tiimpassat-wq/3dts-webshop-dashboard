@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T06:41:24.471Z",
+  "generated_at": "2026-08-15T05:39:43.500Z",
   "source": "Shopify Admin GraphQL productVariants.inventoryItem.unitCost",
   "required_scopes": [
     "read_products",
@@ -8,9 +8,9 @@
   "status": "ok",
   "warnings": [],
   "totals": {
-    "variants": 78,
+    "variants": 79,
     "with_unit_cost": 67,
-    "missing_unit_cost": 11
+    "missing_unit_cost": 12
   },
   "variants": [
     {
@@ -1182,6 +1182,21 @@
       "unit_cost_amount": 5.3,
       "unit_cost_currency_code": "EUR",
       "has_unit_cost": true
+    },
+    {
+      "product_id": "16416759447901",
+      "variant_id": "65578269507933",
+      "product_gid": "gid://shopify/Product/16416759447901",
+      "variant_gid": "gid://shopify/ProductVariant/65578269507933",
+      "sku": "KRT-PERS-ZW",
+      "barcode": "",
+      "ean": "",
+      "product_title": "Gepersonaliseerde metalen kaarthouder met geldclip – eigen naam, logo of tekst",
+      "variant_title": "Standaard",
+      "verkoopprijs": 24.95,
+      "unit_cost_amount": 0,
+      "unit_cost_currency_code": null,
+      "has_unit_cost": false
     }
   ]
 }

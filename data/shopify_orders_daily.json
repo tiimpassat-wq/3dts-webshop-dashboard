@@ -1,49 +1,49 @@
 {
-  "generated_at": "2026-08-14T06:41:23.021Z",
+  "generated_at": "2026-08-15T05:39:42.448Z",
   "period": "daily",
-  "date_from": "2026-08-13",
-  "date_to_exclusive": "2026-08-14",
+  "date_from": "2026-08-14",
+  "date_to_exclusive": "2026-08-15",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 1,
-    "item_count": 1,
-    "total_order_amount": 11.86,
+    "item_count": 2,
+    "total_order_amount": 37.9,
     "shipping_paid_by_customer": 0,
     "discount": 0
   },
   "orders": [
     {
-      "order_number": "#3dts1733",
-      "date": "2026-08-13T15:10:03Z",
+      "order_number": "#3dts1734",
+      "date": "2026-08-14T11:58:23Z",
       "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "shipping_paid_by_customer": 0,
       "shipping_title": null,
       "discount": 0,
-      "total_order_amount": 11.86,
+      "total_order_amount": 37.9,
       "currency": "EUR",
       "payment_status": "PAID",
       "fulfillment_status": "UNFULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000CWM5L1"
+        "Bol-C000CXJDJN"
       ],
       "landing_site": null,
       "referring_site": null,
       "referral_code": null,
       "line_items": [
         {
-          "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder - 3",
-          "variant_id": "57883475214685",
-          "variant_gid": "gid://shopify/ProductVariant/57883475214685",
-          "sku": "Bosch18Vgroen3DTS.shop",
-          "barcode": "08721516390059",
-          "ean": "08721516390059",
-          "quantity": 1,
-          "product_sale_price": 11.86,
-          "original_unit_price": 11.86,
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
+          "quantity": 2,
+          "product_sale_price": 18.95,
+          "original_unit_price": 18.95,
           "line_discount": 0,
           "currency": "EUR"
         }
