@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T05:39:54.949Z",
+  "generated_at": "2026-08-16T05:42:01.738Z",
   "actions": [
     {
       "type": "bundel maken",
@@ -18,15 +18,15 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
-      "sku": "Makita4v3dts.shop",
+      "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+      "sku": "dc18rd3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-      "sku": "dc18rd3dts.shop",
+      "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
+      "sku": "Makita4v3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]
