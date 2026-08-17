@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-16T05:41:50.365Z",
+  "generated_at": "2026-08-17T05:49:31.931Z",
   "period": "daily",
-  "date_from": "2026-08-15",
-  "date_to_exclusive": "2026-08-16",
+  "date_from": "2026-08-16",
+  "date_to_exclusive": "2026-08-17",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 3,
-    "item_count": 3,
-    "total_order_amount": 54.95,
-    "shipping_paid_by_customer": 7.1,
+    "order_count": 2,
+    "item_count": 2,
+    "total_order_amount": 39.9,
+    "shipping_paid_by_customer": 0,
     "discount": 0
   },
   "orders": [
     {
-      "order_number": "#3dts1735",
-      "date": "2026-08-15T11:23:23Z",
+      "order_number": "#3dts1738",
+      "date": "2026-08-16T15:00:03Z",
       "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
@@ -28,7 +28,43 @@
       "fulfillment_status": "UNFULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000D0F4K0"
+        "Bol-C000D1MF53"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1739",
+      "date": "2026-08-16T15:18:14Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000D1MXDR"
       ],
       "landing_site": null,
       "referring_site": null,
@@ -44,75 +80,6 @@
           "quantity": 1,
           "product_sale_price": 19.95,
           "original_unit_price": 19.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1736",
-      "date": "2026-08-15T14:28:10Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
-      "discount": 0,
-      "total_order_amount": 18.05,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/wandhouder-passend-voor-shimano-ec-e6002-lader",
-      "referring_site": "https://www.google.com/",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder Passend voor Shimano EC-E6002 lader",
-          "variant_id": "58006667723101",
-          "variant_gid": "gid://shopify/ProductVariant/58006667723101",
-          "sku": "3DTS-ECE6002",
-          "barcode": "8721516390158",
-          "ean": "8721516390158",
-          "quantity": 1,
-          "product_sale_price": 10.95,
-          "original_unit_price": 10.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1737",
-      "date": "2026-08-15T15:30:03Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 16.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000D0NH75"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-          "variant_id": "63433470476637",
-          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
-          "sku": "Unifidesk3DTS.Shop",
-          "barcode": "8721516390073",
-          "ean": "8721516390073",
-          "quantity": 1,
-          "product_sale_price": 16.95,
-          "original_unit_price": 16.95,
           "line_discount": 0,
           "currency": "EUR"
         }

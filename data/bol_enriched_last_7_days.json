@@ -1,65 +1,21 @@
 {
-  "generated_at": "2026-08-16T05:42:00.954Z",
+  "generated_at": "2026-08-17T05:49:39.989Z",
   "period": "last_7_days",
-  "date_from": "2026-08-10",
-  "date_to_exclusive": "2026-08-17",
+  "date_from": "2026-08-11",
+  "date_to_exclusive": "2026-08-18",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
   },
   "summary": {
-    "bol_orders": 9,
-    "matched_orders": 9,
+    "bol_orders": 10,
+    "matched_orders": 10,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 172.38,
-    "total_bol_commission": 21.57
+    "total_bol_revenue": 196.98,
+    "total_bol_commission": 26.3
   },
   "warnings": [],
   "matches": [
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1727",
-      "shopify_order_date": "2026-08-10T17:25:02Z",
-      "shopify_total_order_amount": 15.3,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000CP73CX",
-        "order_placed_at": "2026-08-10T19:23:40+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 15.3,
-        "total_commission": 2.21,
-        "eans": [
-          "9509192768565"
-        ],
-        "offer_references": [
-          "3DTS"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3972744337",
-            "ean": "9509192768565",
-            "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's)",
-            "offer_id": "5f048402-ef70-4c43-81e0-66b97a46e8db",
-            "offer_reference": "3DTS",
-            "sku": "3DTS",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 15.3,
-            "total_price": 15.3,
-            "commission": 2.21,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-08-11T11:02:31+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
     {
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
@@ -282,50 +238,6 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1737",
-      "shopify_order_date": "2026-08-15T15:30:03Z",
-      "shopify_total_order_amount": 16.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000D0NH75",
-        "order_placed_at": "2026-08-15T17:28:33+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 16.95,
-        "total_commission": 0.99,
-        "eans": [
-          "8721516390073"
-        ],
-        "offer_references": [
-          "Unifidesk3DTS.Shop"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3975121388",
-            "ean": "8721516390073",
-            "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-            "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
-            "offer_reference": "Unifidesk3DTS.Shop",
-            "sku": "Unifidesk3DTS.Shop",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 16.95,
-            "total_price": 16.95,
-            "commission": 0.99,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-08-15T17:28:45+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
       "shopify_order_number": "#3dts1734",
       "shopify_order_date": "2026-08-14T11:58:23Z",
       "shopify_total_order_amount": 37.9,
@@ -368,6 +280,136 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
+      "shopify_order_number": "#3dts1739",
+      "shopify_order_date": "2026-08-16T15:18:14Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000D1MXDR",
+        "order_placed_at": "2026-08-16T17:15:18+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.47,
+        "eans": [
+          "9509658425575"
+        ],
+        "offer_references": [
+          "U0-INRG-KJHL"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3975539229",
+            "ean": "9509658425575",
+            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+            "offer_reference": "U0-INRG-KJHL",
+            "sku": "U0-INRG-KJHL",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.47,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-08-16T17:15:47+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1738",
+      "shopify_order_date": "2026-08-16T15:00:03Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000D1MF53",
+        "order_placed_at": "2026-08-16T16:58:59+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.47,
+        "eans": [
+          "9504741952723"
+        ],
+        "offer_references": [],
+        "line_items": [
+          {
+            "bol_order_item_id": "3975531070",
+            "ean": "9504741952723",
+            "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+            "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
+            "offer_reference": null,
+            "sku": null,
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.47,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-08-16T16:59:47+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1737",
+      "shopify_order_date": "2026-08-15T15:30:03Z",
+      "shopify_total_order_amount": 16.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000D0NH75",
+        "order_placed_at": "2026-08-15T17:28:33+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 16.95,
+        "total_commission": 0.99,
+        "eans": [
+          "8721516390073"
+        ],
+        "offer_references": [
+          "Unifidesk3DTS.Shop"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3975121388",
+            "ean": "8721516390073",
+            "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+            "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
+            "offer_reference": "Unifidesk3DTS.Shop",
+            "sku": "Unifidesk3DTS.Shop",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 16.95,
+            "total_price": 16.95,
+            "commission": 0.99,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-08-16T13:43:37+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
       "shopify_order_number": "#3dts1735",
       "shopify_order_date": "2026-08-15T11:23:23Z",
       "shopify_total_order_amount": 19.95,
@@ -394,7 +436,7 @@
             "offer_reference": "U0-INRG-KJHL",
             "sku": "U0-INRG-KJHL",
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
             "unit_price": 19.95,
             "total_price": 19.95,
@@ -402,7 +444,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-08-15T13:22:15+02:00"
+            "latest_changed_at": "2026-08-16T13:38:36+02:00"
           }
         ]
       },
