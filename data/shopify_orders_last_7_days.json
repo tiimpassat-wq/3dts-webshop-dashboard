@@ -1,54 +1,18 @@
 {
-  "generated_at": "2026-08-19T05:45:27.796Z",
+  "generated_at": "2026-08-20T05:45:04.134Z",
   "period": "last_7_days",
-  "date_from": "2026-08-13",
-  "date_to_exclusive": "2026-08-20",
+  "date_from": "2026-08-14",
+  "date_to_exclusive": "2026-08-21",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 9,
     "item_count": 11,
-    "total_order_amount": 195.49,
-    "shipping_paid_by_customer": 14.2,
+    "total_order_amount": 197.53,
+    "shipping_paid_by_customer": 18.85,
     "discount": 0.62
   },
   "orders": [
-    {
-      "order_number": "#3dts1733",
-      "date": "2026-08-13T15:10:03Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 11.86,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000CWM5L1"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder - 3",
-          "variant_id": "57883475214685",
-          "variant_gid": "gid://shopify/ProductVariant/57883475214685",
-          "sku": "Bosch18Vgroen3DTS.shop",
-          "barcode": "08721516390059",
-          "ean": "08721516390059",
-          "quantity": 1,
-          "product_sale_price": 11.86,
-          "original_unit_price": 11.86,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1734",
       "date": "2026-08-14T11:58:23Z",
@@ -310,7 +274,7 @@
       "total_order_amount": 30.93,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": "https://3dts.shop/products/wandhouder-schuin-voor-makita-dc18rd-duo-oplader-3d-geprint-compatibel-met-18v-laadstation",
       "referring_site": "https://www.google.com/",
@@ -340,6 +304,39 @@
           "product_sale_price": 11.88,
           "original_unit_price": 12.5,
           "line_discount": 0.62,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1742",
+      "date": "2026-08-19T18:13:19Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 0,
+      "total_order_amount": 13.9,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/",
+      "referring_site": "https://l.wl.co/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Metabo CAS 12V Accu Houder Schuif – Wandhouder voor Accu",
+          "variant_id": "65159836303709",
+          "variant_gid": "gid://shopify/ProductVariant/65159836303709",
+          "sku": "3DTS-METABO-CAS12V-SCHUIF",
+          "barcode": null,
+          "ean": null,
+          "quantity": 1,
+          "product_sale_price": 9.25,
+          "original_unit_price": 9.25,
+          "line_discount": 0,
           "currency": "EUR"
         }
       ]
