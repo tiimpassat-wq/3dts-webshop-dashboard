@@ -1,12 +1,11 @@
 {
-  "generated_at": "2026-08-20T05:45:12.715Z",
+  "generated_at": "2026-08-21T05:47:26.032Z",
   "actions": [
     {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-      "sku": "dc18rc3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+      "type": "campagne pauzeren",
+      "priority": "high",
+      "campaign": "Bol Sponsored Products",
+      "reason": "Bol Ads ROAS laatste 7 dagen is 1.3673; controleer zoektermen en biedingen voordat budget omhoog gaat."
     },
     {
       "type": "bundel maken",

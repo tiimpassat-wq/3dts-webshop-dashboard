@@ -1,54 +1,18 @@
 {
-  "generated_at": "2026-08-20T05:45:04.134Z",
+  "generated_at": "2026-08-21T05:47:18.732Z",
   "period": "last_7_days",
-  "date_from": "2026-08-14",
-  "date_to_exclusive": "2026-08-21",
+  "date_from": "2026-08-15",
+  "date_to_exclusive": "2026-08-22",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 9,
-    "item_count": 11,
-    "total_order_amount": 197.53,
+    "order_count": 8,
+    "item_count": 9,
+    "total_order_amount": 159.63,
     "shipping_paid_by_customer": 18.85,
     "discount": 0.62
   },
   "orders": [
-    {
-      "order_number": "#3dts1734",
-      "date": "2026-08-14T11:58:23Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 37.9,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000CXJDJN"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-          "variant_id": "57512098234717",
-          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
-          "sku": "dc18rc3dts.shop",
-          "barcode": "8721516390011",
-          "ean": "8721516390011",
-          "quantity": 2,
-          "product_sale_price": 18.95,
-          "original_unit_price": 18.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1735",
       "date": "2026-08-15T11:23:23Z",
