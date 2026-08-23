@@ -1,107 +1,41 @@
 {
-  "generated_at": "2026-08-22T05:41:32.244Z",
+  "generated_at": "2026-08-23T05:44:02.089Z",
   "period": "daily",
-  "date_from": "2026-08-21",
-  "date_to_exclusive": "2026-08-22",
+  "date_from": "2026-08-22",
+  "date_to_exclusive": "2026-08-23",
   "source": "bol.com Retailer API",
   "orders": [
     {
-      "bol_order_id": "C000D8K9FK",
-      "order_placed_at": "2026-08-21T23:29:49+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 19.95,
-      "total_commission": 3.47,
-      "eans": [
-        "9504741952723"
-      ],
-      "offer_references": [],
-      "line_items": [
-        {
-          "bol_order_item_id": "3978443064",
-          "ean": "9504741952723",
-          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-          "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
-          "offer_reference": null,
-          "sku": null,
-          "quantity": 1,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 19.95,
-          "total_price": 19.95,
-          "commission": 3.47,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-08-21T23:30:46+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000CFJ2X4",
-      "order_placed_at": "2026-08-21T13:51:59+02:00",
+      "bol_order_id": "C000D9509P",
+      "order_placed_at": "2026-08-22T16:02:17+02:00",
       "customer_country_code": "BE",
       "pickup_point": false,
-      "total_order_amount": 19.95,
-      "total_commission": 3.47,
+      "total_order_amount": 17.95,
+      "total_commission": 1.56,
       "eans": [
-        "9509658425575"
+        "9502665975248"
       ],
       "offer_references": [
-        "U0-INRG-KJHL"
+        "3DTS"
       ],
       "line_items": [
         {
-          "bol_order_item_id": "3978164886",
-          "ean": "9509658425575",
-          "product_name": "Support mural incliné pour chargeur Duo Makita DC18RD",
-          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-          "offer_reference": "U0-INRG-KJHL",
-          "sku": "U0-INRG-KJHL",
+          "bol_order_item_id": "3978686857",
+          "ean": "9502665975248",
+          "product_name": "Wandbeugel voor UniFi Turret Camera - Geschikt voor Unifi",
+          "offer_id": "35e59bfb-7ccd-4edd-87d4-b6618fd4603a",
+          "offer_reference": "3DTS",
+          "sku": "3DTS",
           "quantity": 1,
           "quantity_shipped": 0,
           "quantity_cancelled": 0,
-          "unit_price": 19.95,
-          "total_price": 19.95,
-          "commission": 3.47,
+          "unit_price": 17.95,
+          "total_price": 17.95,
+          "commission": 1.56,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-08-21T13:52:47+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000D7WMPD",
-      "order_placed_at": "2026-08-21T13:18:03+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 37.9,
-      "total_commission": 6.65,
-      "eans": [
-        "9509658425575"
-      ],
-      "offer_references": [
-        "U0-INRG-KJHL"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3978145916",
-          "ean": "9509658425575",
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-          "offer_reference": "U0-INRG-KJHL",
-          "sku": "U0-INRG-KJHL",
-          "quantity": 2,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 18.95,
-          "total_price": 37.9,
-          "commission": 6.65,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-08-21T13:18:47+02:00"
+          "latest_changed_at": "2026-08-22T16:02:48+02:00"
         }
       ]
     }
@@ -109,8 +43,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 3,
-    "total_order_amount": 77.8,
-    "total_commission": 13.59
+    "order_count": 1,
+    "total_order_amount": 17.95,
+    "total_commission": 1.56
   }
 }
