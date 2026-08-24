@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-23T05:44:04.518Z",
+  "generated_at": "2026-08-24T05:52:23.603Z",
   "period": "daily",
-  "date_from": "2026-08-22",
-  "date_to_exclusive": "2026-08-23",
+  "date_from": "2026-08-23",
+  "date_to_exclusive": "2026-08-24",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
     "bol_raw": "bol_orders_raw_daily.json"
@@ -11,8 +11,8 @@
     "bol_orders": 1,
     "matched_orders": 1,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 17.95,
-    "total_bol_commission": 1.56
+    "total_bol_revenue": 19.95,
+    "total_bol_commission": 3.47
   },
   "warnings": [],
   "matches": [
@@ -20,41 +20,41 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1746",
-      "shopify_order_date": "2026-08-22T19:29:43Z",
-      "shopify_total_order_amount": 17.95,
+      "shopify_order_number": "#3dts1748",
+      "shopify_order_date": "2026-08-23T11:00:02Z",
+      "shopify_total_order_amount": 19.95,
       "channel": "bol.com",
       "bol": {
-        "bol_order_id": "C000D9509P",
-        "order_placed_at": "2026-08-22T16:02:17+02:00",
-        "customer_country_code": "BE",
+        "bol_order_id": "C000D9XRT4",
+        "order_placed_at": "2026-08-23T12:59:26+02:00",
+        "customer_country_code": "NL",
         "pickup_point": false,
-        "total_order_amount": 17.95,
-        "total_commission": 1.56,
+        "total_order_amount": 19.95,
+        "total_commission": 3.47,
         "eans": [
-          "9502665975248"
+          "9509658425575"
         ],
         "offer_references": [
-          "3DTS"
+          "U0-INRG-KJHL"
         ],
         "line_items": [
           {
-            "bol_order_item_id": "3978686857",
-            "ean": "9502665975248",
-            "product_name": "Wandbeugel voor UniFi Turret Camera - Geschikt voor Unifi",
-            "offer_id": "35e59bfb-7ccd-4edd-87d4-b6618fd4603a",
-            "offer_reference": "3DTS",
-            "sku": "3DTS",
+            "bol_order_item_id": "3979033191",
+            "ean": "9509658425575",
+            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+            "offer_reference": "U0-INRG-KJHL",
+            "sku": "U0-INRG-KJHL",
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
-            "unit_price": 17.95,
-            "total_price": 17.95,
-            "commission": 1.56,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.47,
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-08-22T16:02:48+02:00"
+            "latest_changed_at": "2026-08-23T18:46:37+02:00"
           }
         ]
       },
