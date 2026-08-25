@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T05:52:23.891Z",
+  "generated_at": "2026-08-25T05:46:45.413Z",
   "period": "last_7_days",
-  "date_from": "2026-08-18",
-  "date_to_exclusive": "2026-08-25",
+  "date_from": "2026-08-19",
+  "date_to_exclusive": "2026-08-26",
   "source": "bol.com Retailer API",
   "orders": [
     {
@@ -172,13 +172,79 @@
           "latest_changed_at": "2026-08-23T18:46:37+02:00"
         }
       ]
+    },
+    {
+      "bol_order_id": "C000DDXPK9",
+      "order_placed_at": "2026-08-24T21:25:50+02:00",
+      "customer_country_code": "BE",
+      "pickup_point": false,
+      "total_order_amount": 19.95,
+      "total_commission": 3.47,
+      "eans": [
+        "9504741952723"
+      ],
+      "offer_references": [],
+      "line_items": [
+        {
+          "bol_order_item_id": "3979934980",
+          "ean": "9504741952723",
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
+          "offer_reference": null,
+          "sku": null,
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 19.95,
+          "total_price": 19.95,
+          "commission": 3.47,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-08-24T21:26:15+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000DDKPMW",
+      "order_placed_at": "2026-08-24T17:56:14+02:00",
+      "customer_country_code": "BE",
+      "pickup_point": false,
+      "total_order_amount": 17.49,
+      "total_commission": 1.01,
+      "eans": [
+        "8721516390592"
+      ],
+      "offer_references": [
+        "Unifikant3DTS.shop"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3979788040",
+          "ean": "8721516390592",
+          "product_name": "Support mural UniFi Access Point – Inclinable / Mount ajustable – Compatible avec UAP-AC-LR, U6-LR, U6-Lite et U7-Lite – Wit",
+          "offer_id": "3c22c742-be8a-44fe-b296-01c8a787c2b9",
+          "offer_reference": "Unifikant3DTS.shop",
+          "sku": "Unifikant3DTS.shop",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 17.49,
+          "total_price": 17.49,
+          "commission": 1.01,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-08-24T17:56:46+02:00"
+        }
+      ]
     }
   ],
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 5,
-    "total_order_amount": 115.7,
-    "total_commission": 18.62
+    "order_count": 7,
+    "total_order_amount": 153.14,
+    "total_commission": 23.1
   }
 }

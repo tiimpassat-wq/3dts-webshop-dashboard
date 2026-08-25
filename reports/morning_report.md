@@ -1,25 +1,28 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-08-24T05:52:27.821Z
+Gegenereerd: 2026-08-25T05:46:50.760Z
 
 ## Samenvatting gisteren
 
-- Omzet gisteren: EUR 49.60
-- Betrouwbare nettowinst gisteren: EUR 17.76
+- Omzet gisteren: EUR 276.22
+- Betrouwbare nettowinst gisteren: EUR 138.31
 - Geschatte/onvolledige nettowinst gisteren: EUR 0.00
-- Totale nettowinstindicatie gisteren: EUR 17.76
-- Orders gisteren: 2
-- Orders met betrouwbare kostprijs gisteren: 2
-- Orders met Shopify kostprijs gisteren: 2
+- Totale nettowinstindicatie gisteren: EUR 138.31
+- Orders gisteren: 4
+- Orders met betrouwbare kostprijs gisteren: 4
+- Orders met Shopify kostprijs gisteren: 4
 - Orders met fallback kostprijs gisteren: 0
 - Orders met ontbrekende kostprijs gisteren: 0
 - Winststatus gisteren: betrouwbaar
-- Gemiddelde winst per order: EUR 8.88
+- Gemiddelde winst per order: EUR 34.58
 
 ## Top 5 winstgevende producten (indicatief)
 
-- Accuhouder Makita 18V – Wandmontage - 4-voudig (Makita4v3dts.shop): EUR 11.21 nettowinst, 44.82% marge
-- Wandhouder geschikt voor Makita DC18RD Duo oplader (dc18rd3dts.shop): EUR 4.47 nettowinst, 22.41% marge
+- Machinehouder Makita 18V LXT - Zwart (MachineLXT18V3DTS.shop): EUR 74.29 nettowinst, 55.34% marge
+- UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite (Unifikant3DTS.shop): EUR 20.75 nettowinst, 41.22% marge
+- Wandhouder geschikt voor Makita DC18RC oplader (dc18rc3dts.shop): EUR 14.53 nettowinst, 37.38% marge
+- Accuhouder Makita 18V – Wandmontage - 4-voudig (Makita4v3dts.shop): EUR 13.15 nettowinst, 55.34% marge
+- Makita Radio Wandhouder (3DTS-MAK-RADIO): EUR 12.12 nettowinst, 55.34% marge
 
 ## Producten met lage marge (indicatief)
 
@@ -27,33 +30,34 @@ Gegenereerd: 2026-08-24T05:52:27.821Z
 
 ## Shopify vs Google Ads
 
-- Shopify omzet gisteren: EUR 49.60
-- Shopify direct omzet gisteren: EUR 29.65
+- Shopify omzet gisteren: EUR 276.22
+- Shopify direct omzet gisteren: EUR 198.83
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
-- Laatste 7 dagen omzet: EUR 190.18
+- Laatste 7 dagen omzet: EUR 435.47
 - Laatste 7 dagen Google Ads kosten: EUR 0.00
-- Laatste 7 dagen betrouwbare nettowinst: EUR 60.54
+- Laatste 7 dagen betrouwbare nettowinst: EUR 186.67
 - Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 0.00
 
 ## Bol.com
 
-- Bol omzet gisteren: EUR 19.95
-- Bol winst gisteren: EUR 4.47
-- Bol commissie gisteren: EUR 3.47
-- Bol Ads kosten gisteren: EUR 2.11
-- Winst na Bol Ads gisteren: EUR 4.47
-- Bol omzet laatste 7 dagen: EUR 115.70
-- Bol winst laatste 7 dagen: EUR 26.22
-- Bol commissie laatste 7 dagen: EUR 18.62
-- Bol Ads kosten laatste 7 dagen: EUR 12.80
-- Bol Ads ROAS laatste 7 dagen: 2.4469
-- Bol orders gematcht laatste 7 dagen: 5
+- Bol omzet gisteren: EUR 77.39
+- Bol winst gisteren: EUR 28.28
+- Bol commissie gisteren: EUR 4.48
+- Bol Ads kosten gisteren: EUR 1.78
+- Winst na Bol Ads gisteren: EUR 28.28
+- Bol omzet laatste 7 dagen: EUR 193.09
+- Bol winst laatste 7 dagen: EUR 57.02
+- Bol commissie laatste 7 dagen: EUR 23.10
+- Bol Ads kosten laatste 7 dagen: EUR 12.05
+- Bol Ads ROAS laatste 7 dagen: 3.9676
+- Bol orders gematcht laatste 7 dagen: 7
 - Bol orders niet in Shopify gevonden laatste 7 dagen: 0
 
 ## AI-adviezen
 
 - Verzendkosten liggen hoger dan wat klanten betalen; verhoog gratis-verzending drempel of bundel producten.
+- Voor sommige bol-orders ontbreekt commissie; voeg EAN/referentie goed toe of controleer bol Retailer API toegang.
 
 ## Datakwaliteit
 
