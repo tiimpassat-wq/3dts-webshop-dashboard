@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-25T05:46:50.003Z",
+  "generated_at": "2026-08-26T05:49:39.648Z",
   "period": "last_7_days",
-  "date_from": "2026-08-19",
-  "date_to_exclusive": "2026-08-26",
+  "date_from": "2026-08-20",
+  "date_to_exclusive": "2026-08-27",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
   },
   "summary": {
-    "bol_orders": 7,
-    "matched_orders": 7,
+    "bol_orders": 10,
+    "matched_orders": 10,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 153.14,
-    "total_bol_commission": 23.1
+    "total_bol_revenue": 226.48,
+    "total_bol_commission": 34.17
   },
   "warnings": [],
   "matches": [
@@ -238,6 +238,92 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
+      "shopify_order_number": "#3dts1756",
+      "shopify_order_date": "2026-08-25T17:30:02Z",
+      "shopify_total_order_amount": 37.9,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C0009WCXW8",
+        "order_placed_at": "2026-08-25T19:28:09+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 37.9,
+        "total_commission": 6.65,
+        "eans": [
+          "9509192768565"
+        ],
+        "offer_references": [
+          "3DTS"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3980469165",
+            "ean": "9509192768565",
+            "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's)",
+            "offer_id": "5f048402-ef70-4c43-81e0-66b97a46e8db",
+            "offer_reference": "3DTS",
+            "sku": "3DTS",
+            "quantity": 2,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 18.95,
+            "total_price": 37.9,
+            "commission": 6.65,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-08-25T19:28:46+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1753",
+      "shopify_order_date": "2026-08-25T10:00:02Z",
+      "shopify_total_order_amount": 15.49,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000DFFNXJ",
+        "order_placed_at": "2026-08-25T11:57:43+02:00",
+        "customer_country_code": "BE",
+        "pickup_point": false,
+        "total_order_amount": 15.49,
+        "total_commission": 0.95,
+        "eans": [
+          "9502163482132"
+        ],
+        "offer_references": [],
+        "line_items": [
+          {
+            "bol_order_item_id": "3980196291",
+            "ean": "9502163482132",
+            "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
+            "offer_id": "9452ecb2-fb08-40ca-9bac-5ecac48d376c",
+            "offer_reference": null,
+            "sku": null,
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 15.49,
+            "total_price": 15.49,
+            "commission": 0.95,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-08-25T18:31:02+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
       "shopify_order_number": "#3dts1751",
       "shopify_order_date": "2026-08-24T19:26:56Z",
       "shopify_total_order_amount": 19.95,
@@ -262,7 +348,7 @@
             "offer_reference": null,
             "sku": null,
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
             "unit_price": 19.95,
             "total_price": 19.95,
@@ -270,7 +356,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-08-24T21:26:15+02:00"
+            "latest_changed_at": "2026-08-25T18:29:00+02:00"
           }
         ]
       },
@@ -306,7 +392,7 @@
             "offer_reference": "Unifikant3DTS.shop",
             "sku": "Unifikant3DTS.shop",
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
             "unit_price": 17.49,
             "total_price": 17.49,
@@ -314,7 +400,49 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-08-24T17:56:46+02:00"
+            "latest_changed_at": "2026-08-25T18:25:43+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1754",
+      "shopify_order_date": "2026-08-25T14:25:02Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000DFT9FJ",
+        "order_placed_at": "2026-08-25T16:23:14+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.47,
+        "eans": [
+          "9504741952723"
+        ],
+        "offer_references": [],
+        "line_items": [
+          {
+            "bol_order_item_id": "3980358205",
+            "ean": "9504741952723",
+            "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+            "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
+            "offer_reference": null,
+            "sku": null,
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.47,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-08-25T16:23:45+02:00"
           }
         ]
       },

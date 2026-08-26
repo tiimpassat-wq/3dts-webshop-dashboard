@@ -1,51 +1,18 @@
 {
-  "generated_at": "2026-08-25T05:46:41.850Z",
+  "generated_at": "2026-08-26T05:49:31.081Z",
   "period": "last_7_days",
-  "date_from": "2026-08-19",
-  "date_to_exclusive": "2026-08-26",
+  "date_from": "2026-08-20",
+  "date_to_exclusive": "2026-08-27",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 11,
-    "item_count": 35,
-    "total_order_amount": 435.47,
-    "shipping_paid_by_customer": 16.4,
+    "order_count": 15,
+    "item_count": 41,
+    "total_order_amount": 531.51,
+    "shipping_paid_by_customer": 23.4,
     "discount": 2.22
   },
   "orders": [
-    {
-      "order_number": "#3dts1742",
-      "date": "2026-08-19T18:13:19Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 4.65,
-      "shipping_title": "Nederland",
-      "discount": 0,
-      "total_order_amount": 13.9,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/",
-      "referring_site": "https://l.wl.co/",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Metabo CAS 12V Accu Houder Schuif – Wandhouder voor Accu",
-          "variant_id": "65159836303709",
-          "variant_gid": "gid://shopify/ProductVariant/65159836303709",
-          "sku": "3DTS-METABO-CAS12V-SCHUIF",
-          "barcode": null,
-          "ean": null,
-          "quantity": 1,
-          "product_sale_price": 9.25,
-          "original_unit_price": 9.25,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1743",
       "date": "2026-08-21T11:23:14Z",
@@ -271,7 +238,7 @@
       "total_order_amount": 39.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": "https://3dts.shop/products/unifi-access-point-wandbeugel-verstelbare-kantelbare-mount-geschikt-voor-uap-ac-lr-u6-lr-u6-lite-u7-lite",
       "referring_site": "https://www.google.com/",
@@ -304,7 +271,7 @@
       "total_order_amount": 17.49,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000DDKPMW"
@@ -340,7 +307,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000DDXPK9"
@@ -432,6 +399,186 @@
           "product_sale_price": 11.88,
           "original_unit_price": 12.5,
           "line_discount": 1.24,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1753",
+      "date": "2026-08-25T10:00:02Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 15.49,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000DFFNXJ"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
+          "variant_id": "62781995286877",
+          "variant_gid": "gid://shopify/ProductVariant/62781995286877",
+          "sku": "627819952868_0CD6",
+          "barcode": "8721516390394",
+          "ean": "8721516390394",
+          "quantity": 1,
+          "product_sale_price": 15.49,
+          "original_unit_price": 15.49,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1754",
+      "date": "2026-08-25T14:25:02Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000DFT9FJ"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1755",
+      "date": "2026-08-25T16:58:20Z",
+      "channel_source": "eBay",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7,
+      "shipping_title": "eBay Pakketpost",
+      "discount": 0,
+      "total_order_amount": 16.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "05-15088-43647",
+        "3dts.shop",
+        "eBay",
+        "eBay NL",
+        "eBay-05-15088-43647"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder Makita DC18RC Oplader",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
+          "quantity": 1,
+          "product_sale_price": 9.95,
+          "original_unit_price": 9.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1756",
+      "date": "2026-08-25T17:30:02Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 37.9,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C0009WCXW8"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig",
+          "variant_id": "62962109153629",
+          "variant_gid": "gid://shopify/ProductVariant/62962109153629",
+          "sku": "629621091536_60CB",
+          "barcode": "9509192768565",
+          "ean": "9509192768565",
+          "quantity": 2,
+          "product_sale_price": 18.95,
+          "original_unit_price": 18.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1757",
+      "date": "2026-08-25T20:15:50Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 0,
+      "total_order_amount": 19.65,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/hikoki-hitachi-accu-houder",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder Hikoki / Hitachi / Metabo 18V - Zwart / 3 voudig",
+          "variant_id": "62826209804637",
+          "variant_gid": "gid://shopify/ProductVariant/62826209804637",
+          "sku": "57425463443805_Zwart3voudig5B086",
+          "barcode": "8721516390417",
+          "ean": "8721516390417",
+          "quantity": 2,
+          "product_sale_price": 7.5,
+          "original_unit_price": 7.5,
+          "line_discount": 0,
           "currency": "EUR"
         }
       ]
