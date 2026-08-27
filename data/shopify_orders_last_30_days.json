@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-26T05:49:31.620Z",
+  "generated_at": "2026-08-27T16:30:00.798Z",
   "period": "last_30_days",
-  "date_from": "2026-07-28",
-  "date_to_exclusive": "2026-08-27",
+  "date_from": "2026-07-29",
+  "date_to_exclusive": "2026-08-28",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 41,
-    "item_count": 77,
-    "total_order_amount": 1132.75,
+    "order_count": 42,
+    "item_count": 81,
+    "total_order_amount": 1198.71,
     "shipping_paid_by_customer": 97.55,
     "discount": 6.56
   },
@@ -1311,7 +1311,7 @@
       "total_order_amount": 198.83,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": null,
       "referring_site": null,
@@ -1419,7 +1419,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000DFT9FJ"
@@ -1455,7 +1455,7 @@
       "total_order_amount": 16.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "05-15088-43647",
         "3dts.shop",
@@ -1546,6 +1546,42 @@
           "quantity": 2,
           "product_sale_price": 7.5,
           "original_unit_price": 7.5,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1758",
+      "date": "2026-08-26T09:05:02Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 65.96,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000DHRCFR"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder - Compatibel met UniFi U6 & U7 - Wandmontage Access Point",
+          "variant_id": "57440250986845",
+          "variant_gid": "gid://shopify/ProductVariant/57440250986845",
+          "sku": "574402509868_74BE",
+          "barcode": "9509139739962",
+          "ean": "9509139739962",
+          "quantity": 4,
+          "product_sale_price": 16.49,
+          "original_unit_price": 16.49,
           "line_discount": 0,
           "currency": "EUR"
         }

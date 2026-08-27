@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-26T05:49:39.648Z",
+  "generated_at": "2026-08-27T16:30:11.809Z",
   "period": "last_7_days",
-  "date_from": "2026-08-20",
-  "date_to_exclusive": "2026-08-27",
+  "date_from": "2026-08-21",
+  "date_to_exclusive": "2026-08-28",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
   },
   "summary": {
-    "bol_orders": 10,
-    "matched_orders": 10,
+    "bol_orders": 11,
+    "matched_orders": 11,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 226.48,
-    "total_bol_commission": 34.17
+    "total_bol_revenue": 292.44,
+    "total_bol_commission": 38.09
   },
   "warnings": [],
   "matches": [
@@ -434,7 +434,7 @@
             "offer_reference": null,
             "sku": null,
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
             "unit_price": 19.95,
             "total_price": 19.95,
@@ -442,7 +442,49 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-08-25T16:23:45+02:00"
+            "latest_changed_at": "2026-08-26T18:07:11+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1758",
+      "shopify_order_date": "2026-08-26T09:05:02Z",
+      "shopify_total_order_amount": 65.96,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000DHRCFR",
+        "order_placed_at": "2026-08-26T11:03:47+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 65.96,
+        "total_commission": 3.92,
+        "eans": [
+          "9509139739962"
+        ],
+        "offer_references": [],
+        "line_items": [
+          {
+            "bol_order_item_id": "3980779404",
+            "ean": "9509139739962",
+            "product_name": "Wandhouder - Compatibel met UniFi U6 & U7 - Wandmontage Access Point",
+            "offer_id": "9702100d-d796-4b61-b975-cfedcc85088a",
+            "offer_reference": null,
+            "sku": null,
+            "quantity": 4,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 16.49,
+            "total_price": 65.96,
+            "commission": 3.92,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-08-26T11:04:49+02:00"
           }
         ]
       },

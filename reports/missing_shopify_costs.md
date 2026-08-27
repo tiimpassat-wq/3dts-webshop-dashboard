@@ -1,6 +1,6 @@
 # Ontbrekende Shopify Cost per item
 
-Gegenereerd: 2026-08-26T05:49:40.464Z
+Gegenereerd: 2026-08-27T16:30:12.752Z
 
 Alleen echte verkoopproducten staan hier. Pseudo-producten zoals verzendregels worden genegeerd.
 

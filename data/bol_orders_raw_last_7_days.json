@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-26T05:49:35.220Z",
+  "generated_at": "2026-08-27T16:30:04.864Z",
   "period": "last_7_days",
-  "date_from": "2026-08-20",
-  "date_to_exclusive": "2026-08-27",
+  "date_from": "2026-08-21",
+  "date_to_exclusive": "2026-08-28",
   "source": "bol.com Retailer API",
   "orders": [
     {
@@ -325,7 +325,7 @@
           "offer_reference": null,
           "sku": null,
           "quantity": 1,
-          "quantity_shipped": 0,
+          "quantity_shipped": 1,
           "quantity_cancelled": 0,
           "unit_price": 19.95,
           "total_price": 19.95,
@@ -333,7 +333,39 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-08-25T16:23:45+02:00"
+          "latest_changed_at": "2026-08-26T18:07:11+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000DHRCFR",
+      "order_placed_at": "2026-08-26T11:03:47+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 65.96,
+      "total_commission": 3.92,
+      "eans": [
+        "9509139739962"
+      ],
+      "offer_references": [],
+      "line_items": [
+        {
+          "bol_order_item_id": "3980779404",
+          "ean": "9509139739962",
+          "product_name": "Wandhouder - Compatibel met UniFi U6 & U7 - Wandmontage Access Point",
+          "offer_id": "9702100d-d796-4b61-b975-cfedcc85088a",
+          "offer_reference": null,
+          "sku": null,
+          "quantity": 4,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 16.49,
+          "total_price": 65.96,
+          "commission": 3.92,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-08-26T11:04:49+02:00"
         }
       ]
     }
@@ -341,8 +373,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 10,
-    "total_order_amount": 226.48,
-    "total_commission": 34.17
+    "order_count": 11,
+    "total_order_amount": 292.44,
+    "total_commission": 38.09
   }
 }

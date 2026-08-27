@@ -1,105 +1,39 @@
 {
-  "generated_at": "2026-08-26T05:49:32.509Z",
+  "generated_at": "2026-08-27T16:30:01.699Z",
   "period": "daily",
-  "date_from": "2026-08-25",
-  "date_to_exclusive": "2026-08-26",
+  "date_from": "2026-08-26",
+  "date_to_exclusive": "2026-08-27",
   "source": "bol.com Retailer API",
   "orders": [
     {
-      "bol_order_id": "C0009WCXW8",
-      "order_placed_at": "2026-08-25T19:28:09+02:00",
+      "bol_order_id": "C000DHRCFR",
+      "order_placed_at": "2026-08-26T11:03:47+02:00",
       "customer_country_code": "NL",
       "pickup_point": false,
-      "total_order_amount": 37.9,
-      "total_commission": 6.65,
+      "total_order_amount": 65.96,
+      "total_commission": 3.92,
       "eans": [
-        "9509192768565"
-      ],
-      "offer_references": [
-        "3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "3980469165",
-          "ean": "9509192768565",
-          "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's)",
-          "offer_id": "5f048402-ef70-4c43-81e0-66b97a46e8db",
-          "offer_reference": "3DTS",
-          "sku": "3DTS",
-          "quantity": 2,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 18.95,
-          "total_price": 37.9,
-          "commission": 6.65,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-08-25T19:28:46+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000DFFNXJ",
-      "order_placed_at": "2026-08-25T11:57:43+02:00",
-      "customer_country_code": "BE",
-      "pickup_point": false,
-      "total_order_amount": 15.49,
-      "total_commission": 0.95,
-      "eans": [
-        "9502163482132"
+        "9509139739962"
       ],
       "offer_references": [],
       "line_items": [
         {
-          "bol_order_item_id": "3980196291",
-          "ean": "9502163482132",
-          "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
-          "offer_id": "9452ecb2-fb08-40ca-9bac-5ecac48d376c",
+          "bol_order_item_id": "3980779404",
+          "ean": "9509139739962",
+          "product_name": "Wandhouder - Compatibel met UniFi U6 & U7 - Wandmontage Access Point",
+          "offer_id": "9702100d-d796-4b61-b975-cfedcc85088a",
           "offer_reference": null,
           "sku": null,
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 15.49,
-          "total_price": 15.49,
-          "commission": 0.95,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-08-25T18:31:02+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000DFT9FJ",
-      "order_placed_at": "2026-08-25T16:23:14+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 19.95,
-      "total_commission": 3.47,
-      "eans": [
-        "9504741952723"
-      ],
-      "offer_references": [],
-      "line_items": [
-        {
-          "bol_order_item_id": "3980358205",
-          "ean": "9504741952723",
-          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-          "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
-          "offer_reference": null,
-          "sku": null,
-          "quantity": 1,
+          "quantity": 4,
           "quantity_shipped": 0,
           "quantity_cancelled": 0,
-          "unit_price": 19.95,
-          "total_price": 19.95,
-          "commission": 3.47,
+          "unit_price": 16.49,
+          "total_price": 65.96,
+          "commission": 3.92,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-08-25T16:23:45+02:00"
+          "latest_changed_at": "2026-08-26T11:04:49+02:00"
         }
       ]
     }
@@ -107,8 +41,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 3,
-    "total_order_amount": 73.34,
-    "total_commission": 11.07
+    "order_count": 1,
+    "total_order_amount": 65.96,
+    "total_commission": 3.92
   }
 }
