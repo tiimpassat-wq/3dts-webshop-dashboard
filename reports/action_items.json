@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T16:30:12.751Z",
+  "generated_at": "2026-08-28T17:26:21.695Z",
   "actions": [
     {
       "type": "product controleren",
@@ -18,13 +18,6 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Wandhouder - Compatibel met UniFi U6 & U7 - Wandmontage Access Point",
-      "sku": "574402509868_74BE",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
       "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
       "sku": "dc18rc3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
@@ -32,8 +25,8 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-      "sku": "dc18rd3dts.shop",
+      "product_name": "Wandhouder - Compatibel met UniFi U6 & U7 - Wandmontage Access Point",
+      "sku": "574402509868_74BE",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -41,6 +34,13 @@
       "priority": "medium",
       "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
       "sku": "Makita4v3dts.shop",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig",
+      "sku": "629621091536_60CB",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]
