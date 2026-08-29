@@ -1,48 +1,15 @@
 {
-  "generated_at": "2026-08-28T17:26:08.280Z",
+  "generated_at": "2026-08-29T11:39:22.049Z",
   "period": "daily",
-  "date_from": "2026-08-27",
-  "date_to_exclusive": "2026-08-28",
+  "date_from": "2026-08-28",
+  "date_to_exclusive": "2026-08-29",
   "source": "bol.com Retailer API",
-  "orders": [
-    {
-      "bol_order_id": "C000DKTJRJ",
-      "order_placed_at": "2026-08-27T19:29:19+02:00",
-      "customer_country_code": "BE",
-      "pickup_point": false,
-      "total_order_amount": 37.9,
-      "total_commission": 6.65,
-      "eans": [
-        "9504741952723"
-      ],
-      "offer_references": [],
-      "line_items": [
-        {
-          "bol_order_item_id": "3981669691",
-          "ean": "9504741952723",
-          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-          "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
-          "offer_reference": null,
-          "sku": null,
-          "quantity": 2,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 18.95,
-          "total_price": 37.9,
-          "commission": 6.65,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-08-27T19:29:45+02:00"
-        }
-      ]
-    }
-  ],
+  "orders": [],
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 1,
-    "total_order_amount": 37.9,
-    "total_commission": 6.65
+    "order_count": 0,
+    "total_order_amount": 0,
+    "total_commission": 0
   }
 }

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-28T17:26:07.296Z",
+  "generated_at": "2026-08-29T11:39:21.191Z",
   "period": "last_30_days",
-  "date_from": "2026-07-30",
-  "date_to_exclusive": "2026-08-29",
+  "date_from": "2026-07-31",
+  "date_to_exclusive": "2026-08-30",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 43,
-    "item_count": 82,
-    "total_order_amount": 1209.66,
+    "order_count": 44,
+    "item_count": 83,
+    "total_order_amount": 1229.61,
     "shipping_paid_by_customer": 97.55,
     "discount": 6.56
   },
@@ -1530,7 +1530,7 @@
       "total_order_amount": 65.96,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000DHRCFR"
@@ -1566,7 +1566,7 @@
       "total_order_amount": 37.9,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000DKTJRJ"
@@ -1618,6 +1618,42 @@
           "quantity": 1,
           "product_sale_price": 10.95,
           "original_unit_price": 10.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1761",
+      "date": "2026-08-29T08:36:56Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000DMLLTF"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel - BPC3400",
+          "variant_id": "58800397255005",
+          "variant_gid": "gid://shopify/ProductVariant/58800397255005",
+          "sku": "Bosch4a-3DTS",
+          "barcode": "9503425233318",
+          "ean": "9503425233318",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
           "line_discount": 0,
           "currency": "EUR"
         }

@@ -1,54 +1,18 @@
 {
-  "generated_at": "2026-08-28T17:26:06.630Z",
+  "generated_at": "2026-08-29T11:39:20.604Z",
   "period": "last_7_days",
-  "date_from": "2026-08-22",
-  "date_to_exclusive": "2026-08-29",
+  "date_from": "2026-08-23",
+  "date_to_exclusive": "2026-08-30",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 15,
     "item_count": 44,
-    "total_order_amount": 575.62,
+    "total_order_amount": 577.62,
     "shipping_paid_by_customer": 30.5,
     "discount": 2.22
   },
   "orders": [
-    {
-      "order_number": "#3dts1746",
-      "date": "2026-08-22T19:29:43Z",
-      "channel_source": "bol",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 17.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000D9509P"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandbeugel voor UniFi Turret Camera - Geschikt voor Unifi - Wit",
-          "variant_id": "57729943273821",
-          "variant_gid": "gid://shopify/ProductVariant/57729943273821",
-          "sku": "577299432738_2769",
-          "barcode": "8721516390547",
-          "ean": "8721516390547",
-          "quantity": 1,
-          "product_sale_price": 17.95,
-          "original_unit_price": 17.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1747",
       "date": "2026-08-23T06:04:58Z",
@@ -487,7 +451,7 @@
       "total_order_amount": 65.96,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000DHRCFR"
@@ -523,7 +487,7 @@
       "total_order_amount": 37.9,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000DKTJRJ"
@@ -575,6 +539,42 @@
           "quantity": 1,
           "product_sale_price": 10.95,
           "original_unit_price": 10.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1761",
+      "date": "2026-08-29T08:36:56Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000DMLLTF"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel - BPC3400",
+          "variant_id": "58800397255005",
+          "variant_gid": "gid://shopify/ProductVariant/58800397255005",
+          "sku": "Bosch4a-3DTS",
+          "barcode": "9503425233318",
+          "ean": "9503425233318",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
           "line_discount": 0,
           "currency": "EUR"
         }
