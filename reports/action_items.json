@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-29T11:39:30.751Z",
+  "generated_at": "2026-08-30T10:28:40.013Z",
   "actions": [
     {
       "type": "product controleren",
       "priority": "high",
-      "product_name": "Support mural UniFi Access Point – Inclinable / Mount ajustable – Compatible avec UAP-AC-LR, U6-LR, U6-Lite et U7-Lite – Wit",
+      "product_name": "UniFi Access Point Wandbeugel – Kantelbaar / Verstelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite en U7-Lite – Wit",
       "sku": "Unifikant3DTS.shop",
-      "reason": "Bol commissie ontbreekt voor order #3dts1750; winst kan te hoog lijken."
+      "reason": "Bol commissie ontbreekt voor order #3dts1762; winst kan te hoog lijken."
     },
     {
       "type": "bundel maken",
@@ -32,8 +32,8 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
-      "sku": "Makita4v3dts.shop",
+      "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
+      "sku": "Unifikant3DTS.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
