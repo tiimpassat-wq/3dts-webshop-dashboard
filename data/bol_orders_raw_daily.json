@@ -1,17 +1,85 @@
 {
-  "generated_at": "2026-08-31T11:35:21.960Z",
+  "generated_at": "2026-09-01T10:05:05.789Z",
   "period": "daily",
-  "date_from": "2026-08-30",
-  "date_to_exclusive": "2026-08-31",
+  "date_from": "2026-08-31",
+  "date_to_exclusive": "2026-09-01",
   "source": "bol.com Retailer API",
   "orders": [
     {
-      "bol_order_id": "C000D0PHHN",
-      "order_placed_at": "2026-08-30T10:22:32+02:00",
-      "customer_country_code": "BE",
+      "bol_order_id": "C000DPX6TX",
+      "order_placed_at": "2026-08-31T08:44:36+02:00",
+      "customer_country_code": "NL",
       "pickup_point": false,
-      "total_order_amount": 16.95,
-      "total_commission": 0.99,
+      "total_order_amount": 19.95,
+      "total_commission": 3.47,
+      "eans": [
+        "9509658425575"
+      ],
+      "offer_references": [
+        "U0-INRG-KJHL"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3983412811",
+          "ean": "9509658425575",
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+          "offer_reference": "U0-INRG-KJHL",
+          "sku": "U0-INRG-KJHL",
+          "quantity": 1,
+          "quantity_shipped": 1,
+          "quantity_cancelled": 0,
+          "unit_price": 19.95,
+          "total_price": 19.95,
+          "commission": 3.47,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-08-31T20:37:33+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000DR3H77",
+      "order_placed_at": "2026-08-31T11:11:15+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 17.49,
+      "total_commission": 1.01,
+      "eans": [
+        "8721516390592"
+      ],
+      "offer_references": [
+        "Unifikant3DTS.shop"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3983490205",
+          "ean": "8721516390592",
+          "product_name": "UniFi Access Point Wandbeugel – Kantelbaar / Verstelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite en U7-Lite – Wit",
+          "offer_id": "3c22c742-be8a-44fe-b296-01c8a787c2b9",
+          "offer_reference": "Unifikant3DTS.shop",
+          "sku": "Unifikant3DTS.shop",
+          "quantity": 1,
+          "quantity_shipped": 1,
+          "quantity_cancelled": 0,
+          "unit_price": 17.49,
+          "total_price": 17.49,
+          "commission": 1.01,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-08-31T20:37:17+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000DRNM2K",
+      "order_placed_at": "2026-08-31T18:17:18+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 31.9,
+      "total_commission": 1.92,
       "eans": [
         "8721516390073"
       ],
@@ -20,22 +88,22 @@
       ],
       "line_items": [
         {
-          "bol_order_item_id": "3982867103",
+          "bol_order_item_id": "3983759775",
           "ean": "8721516390073",
           "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
           "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
           "offer_reference": "Unifidesk3DTS.Shop",
           "sku": "Unifidesk3DTS.Shop",
-          "quantity": 1,
+          "quantity": 2,
           "quantity_shipped": 0,
           "quantity_cancelled": 0,
-          "unit_price": 16.95,
-          "total_price": 16.95,
-          "commission": 0.99,
+          "unit_price": 15.95,
+          "total_price": 31.9,
+          "commission": 1.92,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-08-30T10:23:20+02:00"
+          "latest_changed_at": "2026-08-31T18:17:45+02:00"
         }
       ]
     }
@@ -43,8 +111,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 1,
-    "total_order_amount": 16.95,
-    "total_commission": 0.99
+    "order_count": 3,
+    "total_order_amount": 69.34,
+    "total_commission": 6.4
   }
 }

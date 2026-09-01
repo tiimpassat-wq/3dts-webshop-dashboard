@@ -1,54 +1,55 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-08-31T11:35:34.839Z
+Gegenereerd: 2026-09-01T10:05:18.296Z
 
 ## Samenvatting gisteren
 
-- Omzet gisteren: EUR 39.05
-- Betrouwbare nettowinst gisteren: EUR 13.95
+- Omzet gisteren: EUR 69.34
+- Betrouwbare nettowinst gisteren: EUR 31.03
 - Geschatte/onvolledige nettowinst gisteren: EUR 0.00
-- Totale nettowinstindicatie gisteren: EUR 13.95
-- Orders gisteren: 2
-- Orders met betrouwbare kostprijs gisteren: 2
-- Orders met Shopify kostprijs gisteren: 2
+- Totale nettowinstindicatie gisteren: EUR 31.03
+- Orders gisteren: 3
+- Orders met betrouwbare kostprijs gisteren: 3
+- Orders met Shopify kostprijs gisteren: 3
 - Orders met fallback kostprijs gisteren: 0
 - Orders met ontbrekende kostprijs gisteren: 0
 - Winststatus gisteren: betrouwbaar
-- Gemiddelde winst per order: EUR 6.98
+- Gemiddelde winst per order: EUR 10.34
 
 ## Top 5 winstgevende producten (indicatief)
 
-- Accuhouder Makita 18V – Wandmontage - 4-voudig (Makita4v3dts.shop): EUR 9.53 nettowinst, 54.62% marge
-- UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder (Unifidesk3DTS.Shop): EUR 1.88 nettowinst, 11.09% marge
+- UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder (Unifidesk3DTS.Shop): EUR 18.49 nettowinst, 57.96% marge
+- UniFi Access Point Wandbeugel – Kantelbaar / Verstelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite en U7-Lite – Wit (Unifikant3DTS.shop): EUR 6.29 nettowinst, 35.96% marge
+- Wandhouder geschikt voor Makita DC18RD Duo oplader (dc18rd3dts.shop): EUR 6.25 nettowinst, 31.33% marge
 
 ## Producten met lage marge (indicatief)
 
-- UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder (Unifidesk3DTS.Shop): EUR 1.88 nettowinst, 11.09% marge
+- Geen lage-marge producten gevonden in de beschikbare dagdata.
 
 ## Shopify vs Google Ads
 
-- Shopify omzet gisteren: EUR 39.05
-- Shopify direct omzet gisteren: EUR 22.10
+- Shopify omzet gisteren: EUR 69.34
+- Shopify direct omzet gisteren: EUR 0.00
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
-- Laatste 7 dagen omzet: EUR 403.63
+- Laatste 7 dagen omzet: EUR 343.08
 - Laatste 7 dagen Google Ads kosten: EUR 0.00
-- Laatste 7 dagen betrouwbare nettowinst: EUR 172.92
+- Laatste 7 dagen betrouwbare nettowinst: EUR 145.33
 - Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 0.00
 
 ## Bol.com
 
-- Bol omzet gisteren: EUR 16.95
-- Bol winst gisteren: EUR 1.88
-- Bol commissie gisteren: EUR 0.99
-- Bol Ads kosten gisteren: EUR 2.36
-- Winst na Bol Ads gisteren: EUR 1.88
-- Bol omzet laatste 7 dagen: EUR 326.88
-- Bol winst laatste 7 dagen: EUR 130.57
-- Bol commissie laatste 7 dagen: EUR 41.71
-- Bol Ads kosten laatste 7 dagen: EUR 14.03
-- Bol Ads ROAS laatste 7 dagen: 3.4077
-- Bol orders gematcht laatste 7 dagen: 12
+- Bol omzet gisteren: EUR 69.34
+- Bol winst gisteren: EUR 31.03
+- Bol commissie gisteren: EUR 6.40
+- Bol Ads kosten gisteren: EUR 1.15
+- Winst na Bol Ads gisteren: EUR 31.03
+- Bol omzet laatste 7 dagen: EUR 302.93
+- Bol winst laatste 7 dagen: EUR 124.41
+- Bol commissie laatste 7 dagen: EUR 33.57
+- Bol Ads kosten laatste 7 dagen: EUR 12.82
+- Bol Ads ROAS laatste 7 dagen: 5.7855
+- Bol orders gematcht laatste 7 dagen: 11
 - Bol orders niet in Shopify gevonden laatste 7 dagen: 0
 
 ## AI-adviezen

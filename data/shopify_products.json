@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T11:35:21.042Z",
+  "generated_at": "2026-09-01T10:05:04.445Z",
   "source": "Shopify Admin GraphQL productVariants.inventoryItem.unitCost",
   "required_scopes": [
     "read_products",
@@ -366,7 +366,7 @@
       "sku": "dc18rd3dts.shop",
       "barcode": "8721516390004",
       "ean": "8721516390004",
-      "product_title": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
+      "product_title": "Makita DC18RD Duo Oplader Wandhouder – PETG",
       "variant_title": "Default Title",
       "verkoopprijs": 11.95,
       "unit_cost_amount": 4.3,
