@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T10:05:09.649Z",
+  "generated_at": "2026-09-02T09:36:36.972Z",
   "period": "last_7_days",
-  "date_from": "2026-08-26",
-  "date_to_exclusive": "2026-09-02",
+  "date_from": "2026-08-27",
+  "date_to_exclusive": "2026-09-03",
   "source": "bol.com Retailer API",
   "orders": [
     {
@@ -34,38 +34,6 @@
           "distribution_party": "RETAILER",
           "cancellation_request": false,
           "latest_changed_at": "2026-08-29T10:50:11+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000DHRCFR",
-      "order_placed_at": "2026-08-26T11:03:47+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 65.96,
-      "total_commission": 3.92,
-      "eans": [
-        "9509139739962"
-      ],
-      "offer_references": [],
-      "line_items": [
-        {
-          "bol_order_item_id": "3980779404",
-          "ean": "9509139739962",
-          "product_name": "Wandhouder - Compatibel met UniFi U6 & U7 - Wandmontage Access Point",
-          "offer_id": "9702100d-d796-4b61-b975-cfedcc85088a",
-          "offer_reference": null,
-          "sku": null,
-          "quantity": 4,
-          "quantity_shipped": 4,
-          "quantity_cancelled": 0,
-          "unit_price": 16.49,
-          "total_price": 65.96,
-          "commission": 3.92,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-08-29T10:47:12+02:00"
         }
       ]
     },
@@ -306,12 +274,12 @@
       ]
     },
     {
-      "bol_order_id": "C000DRNM2K",
-      "order_placed_at": "2026-08-31T18:17:18+02:00",
+      "bol_order_id": "C000DW10C8",
+      "order_placed_at": "2026-09-01T17:37:25+02:00",
       "customer_country_code": "NL",
       "pickup_point": false,
-      "total_order_amount": 31.9,
-      "total_commission": 1.92,
+      "total_order_amount": 16.95,
+      "total_commission": 0.99,
       "eans": [
         "8721516390073"
       ],
@@ -320,22 +288,56 @@
       ],
       "line_items": [
         {
-          "bol_order_item_id": "3983759775",
+          "bol_order_item_id": "3984309798",
           "ean": "8721516390073",
           "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
           "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
           "offer_reference": "Unifidesk3DTS.Shop",
           "sku": "Unifidesk3DTS.Shop",
-          "quantity": 2,
+          "quantity": 1,
           "quantity_shipped": 0,
           "quantity_cancelled": 0,
-          "unit_price": 15.95,
-          "total_price": 31.9,
-          "commission": 1.92,
+          "unit_price": 16.95,
+          "total_price": 16.95,
+          "commission": 0.99,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-08-31T18:17:45+02:00"
+          "latest_changed_at": "2026-09-01T17:37:45+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000DTK1WW",
+      "order_placed_at": "2026-09-01T12:10:43+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 19.95,
+      "total_commission": 3.47,
+      "eans": [
+        "9502488883461"
+      ],
+      "offer_references": [
+        "3DTS"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3984135457",
+          "ean": "9502488883461",
+          "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder",
+          "offer_id": "fa0ac061-34a9-40ab-8fda-31ecb6ab4960",
+          "offer_reference": "3DTS",
+          "sku": "3DTS",
+          "quantity": 1,
+          "quantity_shipped": 1,
+          "quantity_cancelled": 0,
+          "unit_price": 19.95,
+          "total_price": 19.95,
+          "commission": 3.47,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-09-01T17:25:11+02:00"
         }
       ]
     },
@@ -359,7 +361,7 @@
           "offer_reference": null,
           "sku": null,
           "quantity": 1,
-          "quantity_shipped": 0,
+          "quantity_shipped": 1,
           "quantity_cancelled": 0,
           "unit_price": 17.49,
           "total_price": 17.49,
@@ -367,7 +369,41 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-09-01T11:06:46+02:00"
+          "latest_changed_at": "2026-09-01T17:22:12+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000DRNM2K",
+      "order_placed_at": "2026-08-31T18:17:18+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 31.9,
+      "total_commission": 1.92,
+      "eans": [
+        "8721516390073"
+      ],
+      "offer_references": [
+        "Unifidesk3DTS.Shop"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3983759775",
+          "ean": "8721516390073",
+          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+          "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
+          "offer_reference": "Unifidesk3DTS.Shop",
+          "sku": "Unifidesk3DTS.Shop",
+          "quantity": 2,
+          "quantity_shipped": 2,
+          "quantity_cancelled": 0,
+          "unit_price": 15.95,
+          "total_price": 31.9,
+          "commission": 1.92,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-09-01T17:17:18+02:00"
         }
       ]
     }
@@ -375,8 +411,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 11,
-    "total_order_amount": 302.93,
-    "total_commission": 33.57
+    "order_count": 12,
+    "total_order_amount": 273.87,
+    "total_commission": 34.11
   }
 }
