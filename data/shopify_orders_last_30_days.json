@@ -1,97 +1,18 @@
 {
-  "generated_at": "2026-09-02T09:36:33.617Z",
+  "generated_at": "2026-09-03T09:48:22.387Z",
   "period": "last_30_days",
-  "date_from": "2026-08-04",
-  "date_to_exclusive": "2026-09-03",
+  "date_from": "2026-08-05",
+  "date_to_exclusive": "2026-09-04",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 55,
-    "item_count": 96,
-    "total_order_amount": 1469.32,
-    "shipping_paid_by_customer": 95.1,
-    "discount": 6.02
+    "item_count": 94,
+    "total_order_amount": 1464.86,
+    "shipping_paid_by_customer": 83.35,
+    "discount": 5.43
   },
   "orders": [
-    {
-      "order_number": "#3dts1720",
-      "date": "2026-08-03T22:22:00Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
-      "discount": 0.59,
-      "total_order_amount": 47.71,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/makita-accu-houder-4v",
-      "referring_site": "https://www.google.com/",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accuhouder Makita 18V – Wandmontage - 3-voudig",
-          "variant_id": "57871575253341",
-          "variant_gid": "gid://shopify/ProductVariant/57871575253341",
-          "sku": "Makita4v3dts.shop3CB02",
-          "barcode": "9501663417347",
-          "ean": "9501663417347",
-          "quantity": 3,
-          "product_sale_price": 9.75,
-          "original_unit_price": 9.75,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 1,
-          "product_sale_price": 11.36,
-          "original_unit_price": 11.95,
-          "line_discount": 0.59,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1721",
-      "date": "2026-08-04T09:22:12Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 4.65,
-      "shipping_title": "Nederland",
-      "discount": 0,
-      "total_order_amount": 14.6,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Cloud Key Gen2 Plus Verhoogde Wallmount",
-          "variant_id": "63992391369053",
-          "variant_gid": "gid://shopify/ProductVariant/63992391369053",
-          "sku": "cloudkeygen23DTS.SHOP",
-          "barcode": "8721516390615",
-          "ean": "8721516390615",
-          "quantity": 1,
-          "product_sale_price": 9.95,
-          "original_unit_price": 9.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1722",
       "date": "2026-08-05T14:56:49Z",
@@ -1949,7 +1870,7 @@
       "total_order_amount": 16.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000DW10C8"
@@ -1985,7 +1906,7 @@
       "total_order_amount": 29.9,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "A1S25ADMT138N3",
         "Amazon",
@@ -2039,6 +1960,78 @@
           "quantity": 2,
           "product_sale_price": 12.5,
           "original_unit_price": 12.5,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1775",
+      "date": "2026-09-03T07:40:03Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 37.9,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000F02R1T"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
+          "quantity": 2,
+          "product_sale_price": 18.95,
+          "original_unit_price": 18.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1776",
+      "date": "2026-09-03T08:00:03Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000F039PF"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
           "line_discount": 0,
           "currency": "EUR"
         }

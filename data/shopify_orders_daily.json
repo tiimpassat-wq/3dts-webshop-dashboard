@@ -1,159 +1,46 @@
 {
-  "generated_at": "2026-09-02T09:36:32.707Z",
+  "generated_at": "2026-09-03T09:48:21.078Z",
   "period": "daily",
-  "date_from": "2026-09-01",
-  "date_to_exclusive": "2026-09-02",
+  "date_from": "2026-09-02",
+  "date_to_exclusive": "2026-09-03",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 4,
-    "item_count": 5,
-    "total_order_amount": 84.29,
-    "shipping_paid_by_customer": 0,
+    "order_count": 1,
+    "item_count": 2,
+    "total_order_amount": 29.65,
+    "shipping_paid_by_customer": 4.65,
     "discount": 0
   },
   "orders": [
     {
-      "order_number": "#3dts1770",
-      "date": "2026-09-01T09:06:56Z",
-      "channel_source": "bol",
+      "order_number": "#3dts1774",
+      "date": "2026-09-02T04:34:09Z",
+      "channel_source": "web",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
       "discount": 0,
-      "total_order_amount": 17.49,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000DTH3P0"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder - Compatibel met UniFi U6 & U7 - Wandmontage Access Point",
-          "variant_id": "57440250986845",
-          "variant_gid": "gid://shopify/ProductVariant/57440250986845",
-          "sku": "574402509868_74BE",
-          "barcode": "9509139739962",
-          "ean": "9509139739962",
-          "quantity": 1,
-          "product_sale_price": 17.49,
-          "original_unit_price": 17.49,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1771",
-      "date": "2026-09-01T10:11:58Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 19.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000DTK1WW"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder - 3",
-          "variant_id": "57883475214685",
-          "variant_gid": "gid://shopify/ProductVariant/57883475214685",
-          "sku": "Bosch18Vgroen3DTS.shop",
-          "barcode": "08721516390059",
-          "ean": "08721516390059",
-          "quantity": 1,
-          "product_sale_price": 19.95,
-          "original_unit_price": 19.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1772",
-      "date": "2026-09-01T15:40:03Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 16.95,
+      "total_order_amount": 29.65,
       "currency": "EUR",
       "payment_status": "PAID",
       "fulfillment_status": "UNFULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000DW10C8"
-      ],
-      "landing_site": null,
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/makita-accu-houder-4v",
       "referring_site": null,
       "referral_code": null,
       "line_items": [
         {
-          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-          "variant_id": "63433470476637",
-          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
-          "sku": "Unifidesk3DTS.Shop",
-          "barcode": "8721516390073",
-          "ean": "8721516390073",
-          "quantity": 1,
-          "product_sale_price": 16.95,
-          "original_unit_price": 16.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1773",
-      "date": "2026-09-01T18:45:11Z",
-      "channel_source": "amazon",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Amazon Standard",
-      "discount": 0,
-      "total_order_amount": 29.9,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [
-        "A1S25ADMT138N3",
-        "Amazon",
-        "Amazon-NL",
-        "FBM"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Verstelbare wandbeugel geschikt voor UniFi UAP-AC-LR, U6-LR, U6-Lite en U7-Lite ? 3D-geprint",
-          "variant_id": null,
-          "variant_gid": null,
-          "sku": "3DTS-UNIFI-VERS",
-          "barcode": null,
-          "ean": null,
+          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
+          "variant_id": "57872304963933",
+          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
+          "sku": "Makita4v3dts.shop",
+          "barcode": "8721516390097",
+          "ean": "8721516390097",
           "quantity": 2,
-          "product_sale_price": 14.95,
-          "original_unit_price": 14.95,
+          "product_sale_price": 12.5,
+          "original_unit_price": 12.5,
           "line_discount": 0,
           "currency": "EUR"
         }
