@@ -1,24 +1,25 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-09-03T09:48:34.094Z
+Gegenereerd: 2026-09-04T09:42:02.453Z
 
 ## Samenvatting gisteren
 
-- Omzet gisteren: EUR 29.65
-- Betrouwbare nettowinst gisteren: EUR 13.29
+- Omzet gisteren: EUR 57.85
+- Betrouwbare nettowinst gisteren: EUR 22.68
 - Geschatte/onvolledige nettowinst gisteren: EUR 0.00
-- Totale nettowinstindicatie gisteren: EUR 13.29
-- Orders gisteren: 1
-- Orders met betrouwbare kostprijs gisteren: 1
-- Orders met Shopify kostprijs gisteren: 1
+- Totale nettowinstindicatie gisteren: EUR 22.68
+- Orders gisteren: 2
+- Orders met betrouwbare kostprijs gisteren: 2
+- Orders met Shopify kostprijs gisteren: 2
 - Orders met fallback kostprijs gisteren: 0
 - Orders met ontbrekende kostprijs gisteren: 0
 - Winststatus gisteren: betrouwbaar
-- Gemiddelde winst per order: EUR 13.29
+- Gemiddelde winst per order: EUR 11.34
 
 ## Top 5 winstgevende producten (indicatief)
 
-- Accuhouder Makita 18V – Wandmontage - 4-voudig (Makita4v3dts.shop): EUR 11.21 nettowinst, 44.82% marge
+- Wandhouder geschikt voor Makita DC18RC oplader (dc18rc3dts.shop): EUR 16.72 nettowinst, 44.12% marge
+- Wandhouder geschikt voor Makita DC18RD Duo oplader (dc18rd3dts.shop): EUR 5.96 nettowinst, 29.87% marge
 
 ## Producten met lage marge (indicatief)
 
@@ -26,28 +27,28 @@ Gegenereerd: 2026-09-03T09:48:34.094Z
 
 ## Shopify vs Google Ads
 
-- Shopify omzet gisteren: EUR 29.65
-- Shopify direct omzet gisteren: EUR 29.65
+- Shopify omzet gisteren: EUR 57.85
+- Shopify direct omzet gisteren: EUR 0.00
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
-- Laatste 7 dagen omzet: EUR 393.52
+- Laatste 7 dagen omzet: EUR 395.42
 - Laatste 7 dagen Google Ads kosten: EUR 0.00
-- Laatste 7 dagen betrouwbare nettowinst: EUR 144.72
+- Laatste 7 dagen betrouwbare nettowinst: EUR 142.56
 - Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 24.30
 
 ## Bol.com
 
-- Bol omzet gisteren: EUR 0.00
-- Bol winst gisteren: EUR 0.00
-- Bol commissie gisteren: EUR 0.00
-- Bol Ads kosten gisteren: EUR 1.80
-- Winst na Bol Ads gisteren: EUR 0.00
-- Bol omzet laatste 7 dagen: EUR 293.82
-- Bol winst laatste 7 dagen: EUR 110.51
-- Bol commissie laatste 7 dagen: EUR 37.58
-- Bol Ads kosten laatste 7 dagen: EUR 13.10
-- Bol Ads ROAS laatste 7 dagen: 6.7649
-- Bol orders gematcht laatste 7 dagen: 13
+- Bol omzet gisteren: EUR 57.85
+- Bol winst gisteren: EUR 22.68
+- Bol commissie gisteren: EUR 10.12
+- Bol Ads kosten gisteren: EUR 1.81
+- Winst na Bol Ads gisteren: EUR 22.68
+- Bol omzet laatste 7 dagen: EUR 313.77
+- Bol winst laatste 7 dagen: EUR 117.20
+- Bol commissie laatste 7 dagen: EUR 41.05
+- Bol Ads kosten laatste 7 dagen: EUR 13.00
+- Bol Ads ROAS laatste 7 dagen: 9.2262
+- Bol orders gematcht laatste 7 dagen: 14
 - Bol orders niet in Shopify gevonden laatste 7 dagen: 0
 
 ## AI-adviezen
@@ -63,6 +64,6 @@ Gegenereerd: 2026-09-03T09:48:34.094Z
 - Percentage betrouwbare winst gisteren: 100%
 - Winststatus gisteren: betrouwbaar
 - Percentage betrouwbare orders laatste 7 dagen: 94.12%
-- Percentage betrouwbare winst laatste 7 dagen: 85.62%
+- Percentage betrouwbare winst laatste 7 dagen: 85.44%
 - Winststatus laatste 7 dagen: gedeeltelijk betrouwbaar
 - Shopify Cost per item ontbreekt voor 1 orders; zie reports/missing_shopify_costs.md.

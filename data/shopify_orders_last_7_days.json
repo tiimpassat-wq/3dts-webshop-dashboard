@@ -1,51 +1,18 @@
 {
-  "generated_at": "2026-09-03T09:48:21.540Z",
+  "generated_at": "2026-09-04T09:41:51.154Z",
   "period": "last_7_days",
-  "date_from": "2026-08-28",
-  "date_to_exclusive": "2026-09-04",
+  "date_from": "2026-08-29",
+  "date_to_exclusive": "2026-09-05",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 17,
     "item_count": 22,
-    "total_order_amount": 393.52,
-    "shipping_paid_by_customer": 16.4,
+    "total_order_amount": 395.42,
+    "shipping_paid_by_customer": 9.3,
     "discount": 0
   },
   "orders": [
-    {
-      "order_number": "#3dts1760",
-      "date": "2026-08-28T10:32:14Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
-      "discount": 0,
-      "total_order_amount": 18.05,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/wandhouder-passend-voor-shimano-ec-e6002-lader",
-      "referring_site": "https://www.google.com/",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder Passend voor Shimano EC-E6002 lader",
-          "variant_id": "58006667723101",
-          "variant_gid": "gid://shopify/ProductVariant/58006667723101",
-          "sku": "3DTS-ECE6002",
-          "barcode": "8721516390158",
-          "ean": "8721516390158",
-          "quantity": 1,
-          "product_sale_price": 10.95,
-          "original_unit_price": 10.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1761",
       "date": "2026-08-29T08:36:56Z",
@@ -525,7 +492,7 @@
       "total_order_amount": 29.65,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": "https://3dts.shop/products/makita-accu-houder-4v",
       "referring_site": null,
@@ -558,7 +525,7 @@
       "total_order_amount": 37.9,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000F02R1T"
@@ -598,6 +565,42 @@
       "tags": [
         "Bol",
         "Bol-C000F039PF"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1777",
+      "date": "2026-09-04T08:56:56Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000F1CT69"
       ],
       "landing_site": null,
       "referring_site": null,

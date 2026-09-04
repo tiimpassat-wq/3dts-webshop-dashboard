@@ -1,64 +1,18 @@
 {
-  "generated_at": "2026-09-03T09:48:22.387Z",
+  "generated_at": "2026-09-04T09:41:51.922Z",
   "period": "last_30_days",
-  "date_from": "2026-08-05",
-  "date_to_exclusive": "2026-09-04",
+  "date_from": "2026-08-06",
+  "date_to_exclusive": "2026-09-05",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 55,
-    "item_count": 94,
-    "total_order_amount": 1464.86,
-    "shipping_paid_by_customer": 83.35,
-    "discount": 5.43
+    "item_count": 93,
+    "total_order_amount": 1448.9,
+    "shipping_paid_by_customer": 76.25,
+    "discount": 4.84
   },
   "orders": [
-    {
-      "order_number": "#3dts1722",
-      "date": "2026-08-05T14:56:49Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
-      "discount": 0.59,
-      "total_order_amount": 35.91,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/makita-accu-houder-4v",
-      "referring_site": "https://www.google.com/",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
-          "variant_id": "57872304963933",
-          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
-          "sku": "Makita4v3dts.shop",
-          "barcode": "8721516390097",
-          "ean": "8721516390097",
-          "quantity": 1,
-          "product_sale_price": 17.45,
-          "original_unit_price": 17.45,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 1,
-          "product_sale_price": 11.36,
-          "original_unit_price": 11.95,
-          "line_discount": 0.59,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1723",
       "date": "2026-08-08T12:07:39Z",
@@ -1944,7 +1898,7 @@
       "total_order_amount": 29.65,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": "https://3dts.shop/products/makita-accu-houder-4v",
       "referring_site": null,
@@ -1977,7 +1931,7 @@
       "total_order_amount": 37.9,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000F02R1T"
@@ -2017,6 +1971,42 @@
       "tags": [
         "Bol",
         "Bol-C000F039PF"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1777",
+      "date": "2026-09-04T08:56:56Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000F1CT69"
       ],
       "landing_site": null,
       "referring_site": null,
