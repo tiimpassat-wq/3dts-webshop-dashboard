@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-04T09:41:54.198Z",
+  "generated_at": "2026-09-05T09:03:54.627Z",
   "period": "daily",
-  "date_from": "2026-09-03",
-  "date_to_exclusive": "2026-09-04",
+  "date_from": "2026-09-04",
+  "date_to_exclusive": "2026-09-05",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
     "bol_raw": "bol_orders_raw_daily.json"
@@ -11,8 +11,8 @@
     "bol_orders": 2,
     "matched_orders": 2,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 57.85,
-    "total_bol_commission": 10.12
+    "total_bol_revenue": 39.9,
+    "total_bol_commission": 6.94
   },
   "warnings": [],
   "matches": [
@@ -20,39 +20,41 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1775",
-      "shopify_order_date": "2026-09-03T07:40:03Z",
-      "shopify_total_order_amount": 37.9,
+      "shopify_order_number": "#3dts1778",
+      "shopify_order_date": "2026-09-04T19:45:03Z",
+      "shopify_total_order_amount": 19.95,
       "channel": "bol.com",
       "bol": {
-        "bol_order_id": "C000F02R1T",
-        "order_placed_at": "2026-09-03T09:38:45+02:00",
-        "customer_country_code": "NL",
+        "bol_order_id": "C000F25HC6",
+        "order_placed_at": "2026-09-04T21:43:39+02:00",
+        "customer_country_code": "BE",
         "pickup_point": false,
-        "total_order_amount": 37.9,
-        "total_commission": 6.65,
+        "total_order_amount": 19.95,
+        "total_commission": 3.47,
         "eans": [
-          "9504741952723"
+          "9501537169884"
         ],
-        "offer_references": [],
+        "offer_references": [
+          "3DTS"
+        ],
         "line_items": [
           {
-            "bol_order_item_id": "3985191190",
-            "ean": "9504741952723",
-            "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-            "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
-            "offer_reference": null,
-            "sku": null,
-            "quantity": 2,
-            "quantity_shipped": 2,
+            "bol_order_item_id": "3986084599",
+            "ean": "9501537169884",
+            "product_name": "WandBeugel geschikt voor Bosch Professional 18V – Wandmontage.",
+            "offer_id": "9893575b-c8e4-4f32-b2e8-e26c4a8c2b86",
+            "offer_reference": "3DTS",
+            "sku": "3DTS",
+            "quantity": 1,
+            "quantity_shipped": 0,
             "quantity_cancelled": 0,
-            "unit_price": 18.95,
-            "total_price": 37.9,
-            "commission": 6.65,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.47,
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-09-03T17:11:11+02:00"
+            "latest_changed_at": "2026-09-04T21:44:16+02:00"
           }
         ]
       },
@@ -62,13 +64,13 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1776",
-      "shopify_order_date": "2026-09-03T08:00:03Z",
+      "shopify_order_number": "#3dts1777",
+      "shopify_order_date": "2026-09-04T08:56:56Z",
       "shopify_total_order_amount": 19.95,
       "channel": "bol.com",
       "bol": {
-        "bol_order_id": "C000F039PF",
-        "order_placed_at": "2026-09-03T09:58:04+02:00",
+        "bol_order_id": "C000F1CT69",
+        "order_placed_at": "2026-09-04T10:56:02+02:00",
         "customer_country_code": "NL",
         "pickup_point": false,
         "total_order_amount": 19.95,
@@ -81,7 +83,7 @@
         ],
         "line_items": [
           {
-            "bol_order_item_id": "3985200667",
+            "bol_order_item_id": "3985754918",
             "ean": "9509658425575",
             "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
             "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
@@ -96,7 +98,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-09-03T09:58:45+02:00"
+            "latest_changed_at": "2026-09-04T10:56:45+02:00"
           }
         ]
       },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T09:42:02.446Z",
+  "generated_at": "2026-09-05T09:04:07.509Z",
   "period": "daily",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
@@ -23,49 +23,49 @@
     "orders_met_shopify_kostprijs": 2,
     "orders_met_fallback_kostprijs": 0,
     "orders_zonder_kostprijs": 0,
-    "omzet": 57.85,
+    "omzet": 39.9,
     "verzendkosten_betaald_door_klant": 0,
-    "werkelijke_verzendkosten": 11.2,
-    "productkostprijs": 12.04,
-    "bruto_winst": 34.61,
-    "bol_commissie": 10.12,
+    "werkelijke_verzendkosten": 13.69,
+    "productkostprijs": 9.3,
+    "bruto_winst": 16.91,
+    "bol_commissie": 6.94,
     "advertentiekosten": 0,
-    "bol_advertentiekosten": 1.81,
-    "nettowinst": 22.68,
-    "betrouwbare_nettowinst": 22.68,
+    "bol_advertentiekosten": 2.22,
+    "nettowinst": 7.75,
+    "betrouwbare_nettowinst": 7.75,
     "geschatte_onvolledige_nettowinst": 0,
-    "nettowinst_pct": 39.2,
-    "betrouwbare_nettowinst_pct": 39.2,
+    "nettowinst_pct": 19.42,
+    "betrouwbare_nettowinst_pct": 19.42,
     "betrouwbare_orders_pct": 100,
     "betrouwbare_winst_pct": 100,
     "winst_betrouwbaarheid": "betrouwbaar",
-    "gemiddelde_winst_per_order": 11.34,
+    "gemiddelde_winst_per_order": 3.88,
     "google_ads_cost_total": 0,
     "google_ads_unallocated": 0,
     "google_ads_roas": null,
-    "bol_ads_cost_total": 1.81,
+    "bol_ads_cost_total": 2.21,
     "bol_ads_unallocated": 0,
-    "bol_ads_roas": 0,
+    "bol_ads_roas": 7.4615,
     "bol_ads_supported": true
   },
   "channel_totals": {
     "Bol via Shopify": {
       "orders": 2,
-      "omzet": 57.85,
-      "werkelijke_verzendkosten": 11.2,
-      "productkostprijs": 12.04,
-      "bol_commissie": 10.12,
+      "omzet": 39.9,
+      "werkelijke_verzendkosten": 13.69,
+      "productkostprijs": 9.3,
+      "bol_commissie": 6.94,
       "advertentiekosten": 0,
-      "bol_advertentiekosten": 1.81,
-      "nettowinst": 22.68,
-      "betrouwbare_nettowinst": 22.68,
+      "bol_advertentiekosten": 2.22,
+      "nettowinst": 7.75,
+      "betrouwbare_nettowinst": 7.75,
       "geschatte_onvolledige_nettowinst": 0,
       "betrouwbare_orders": 2,
       "onvolledige_orders": 0,
       "orders_met_shopify_kostprijs": 2,
       "orders_met_fallback_kostprijs": 0,
       "orders_zonder_kostprijs": 0,
-      "nettowinst_pct": 39.2
+      "nettowinst_pct": 19.42
     }
   },
   "bol": {
@@ -75,8 +75,8 @@
   },
   "orders": [
     {
-      "order_number": "#3dts1775",
-      "date": "2026-09-03T07:40:03Z",
+      "order_number": "#3dts1777",
+      "date": "2026-09-04T08:56:56Z",
       "channel_source": "bol",
       "channel": "Bol via Shopify",
       "channel_reason": "matched_bol_retailer_api",
@@ -84,73 +84,7 @@
       "customer_country": "Netherlands",
       "tags": [
         "Bol",
-        "Bol-C000F02R1T"
-      ],
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "landing_site": null,
-      "referring_site": null,
-      "omzet": 37.9,
-      "verzendkosten_betaald_door_klant": 0,
-      "verzendopbrengst_uit_pseudo_producten": 0,
-      "werkelijke_verzendkosten": 5.6,
-      "productkostprijs": 7.74,
-      "korting": 0,
-      "bruto_winst": 24.56,
-      "bol_commissie": 6.65,
-      "advertentiekosten": 0,
-      "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 1.19,
-      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
-      "nettowinst": 16.72,
-      "betrouwbare_nettowinst": 16.72,
-      "geschatte_onvolledige_nettowinst": 0,
-      "profit_reliability": "reliable",
-      "cost_coverage": "shopify",
-      "nettowinst_pct": 44.12,
-      "bol_order_id": "C000F02R1T",
-      "bol_match_method": "identifier_or_sku_tag_source",
-      "bol_match_confidence": 0.95,
-      "eans": [
-        "9504741952723"
-      ],
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-          "variant_id": "57512098234717",
-          "sku": "dc18rc3dts.shop",
-          "ean": "8721516390011",
-          "quantity": 2,
-          "item_type": "product",
-          "product_sale_price": 18.95,
-          "line_revenue": 37.9,
-          "product_cost_unit": 3.87,
-          "product_cost_total": 7.74,
-          "gross_profit_before_shipping_ads": 30.16,
-          "margin_before_shipping_ads_pct": 79.58,
-          "cost_source": "shopify_unit_cost",
-          "cost_status": "matched",
-          "cost_match_key": "57512098234717"
-        }
-      ],
-      "cost_sources": [
-        "shopify_unit_cost"
-      ],
-      "warnings": [
-        "bol_ads_allocated_by_bol_revenue_share"
-      ]
-    },
-    {
-      "order_number": "#3dts1776",
-      "date": "2026-09-03T08:00:03Z",
-      "channel_source": "bol",
-      "channel": "Bol via Shopify",
-      "channel_reason": "matched_bol_retailer_api",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "tags": [
-        "Bol",
-        "Bol-C000F039PF"
+        "Bol-C000F1CT69"
       ],
       "payment_status": "PAID",
       "fulfillment_status": "UNFULFILLED",
@@ -166,15 +100,15 @@
       "bol_commissie": 3.47,
       "advertentiekosten": 0,
       "advertentiekosten_methode": "none",
-      "bol_advertentiekosten": 0.62,
+      "bol_advertentiekosten": 1.11,
       "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
-      "nettowinst": 5.96,
-      "betrouwbare_nettowinst": 5.96,
+      "nettowinst": 5.47,
+      "betrouwbare_nettowinst": 5.47,
       "geschatte_onvolledige_nettowinst": 0,
       "profit_reliability": "reliable",
       "cost_coverage": "shopify",
-      "nettowinst_pct": 29.87,
-      "bol_order_id": "C000F039PF",
+      "nettowinst_pct": 27.42,
+      "bol_order_id": "C000F1CT69",
       "bol_match_method": "identifier_or_sku_tag_source",
       "bol_match_confidence": 0.95,
       "eans": [
@@ -197,6 +131,72 @@
           "cost_source": "shopify_unit_cost",
           "cost_status": "matched",
           "cost_match_key": "58085095440733"
+        }
+      ],
+      "cost_sources": [
+        "shopify_unit_cost"
+      ],
+      "warnings": [
+        "bol_ads_allocated_by_bol_revenue_share"
+      ]
+    },
+    {
+      "order_number": "#3dts1778",
+      "date": "2026-09-04T19:45:03Z",
+      "channel_source": "bol",
+      "channel": "Bol via Shopify",
+      "channel_reason": "matched_bol_retailer_api",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "tags": [
+        "Bol",
+        "Bol-C000F25HC6"
+      ],
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "landing_site": null,
+      "referring_site": null,
+      "omzet": 19.95,
+      "verzendkosten_betaald_door_klant": 0,
+      "verzendopbrengst_uit_pseudo_producten": 0,
+      "werkelijke_verzendkosten": 8.09,
+      "productkostprijs": 5,
+      "korting": 0,
+      "bruto_winst": 6.86,
+      "bol_commissie": 3.47,
+      "advertentiekosten": 0,
+      "advertentiekosten_methode": "none",
+      "bol_advertentiekosten": 1.11,
+      "bol_advertentiekosten_methode": "allocated_by_bol_order_revenue_share",
+      "nettowinst": 2.28,
+      "betrouwbare_nettowinst": 2.28,
+      "geschatte_onvolledige_nettowinst": 0,
+      "profit_reliability": "reliable",
+      "cost_coverage": "shopify",
+      "nettowinst_pct": 11.43,
+      "bol_order_id": "C000F25HC6",
+      "bol_match_method": "identifier_or_sku_tag_source",
+      "bol_match_confidence": 0.95,
+      "eans": [
+        "9501537169884"
+      ],
+      "line_items": [
+        {
+          "product_name": "WandBeugel geschikt voor Bosch Professional 18V – Wandmontage. - 4-voudig",
+          "variant_id": "57884320072029",
+          "sku": "3DTS-BP18V-4",
+          "ean": "8721516390585",
+          "quantity": 1,
+          "item_type": "product",
+          "product_sale_price": 19.95,
+          "line_revenue": 19.95,
+          "product_cost_unit": 5,
+          "product_cost_total": 5,
+          "gross_profit_before_shipping_ads": 14.95,
+          "margin_before_shipping_ads_pct": 74.94,
+          "cost_source": "shopify_unit_cost",
+          "cost_status": "matched",
+          "cost_match_key": "57884320072029"
         }
       ],
       "cost_sources": [
