@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-05T09:04:06.686Z",
+  "generated_at": "2026-09-06T09:25:58.527Z",
   "period": "last_7_days",
-  "date_from": "2026-08-30",
-  "date_to_exclusive": "2026-09-06",
+  "date_from": "2026-08-31",
+  "date_to_exclusive": "2026-09-07",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
   },
   "summary": {
-    "bol_orders": 11,
-    "matched_orders": 11,
+    "bol_orders": 12,
+    "matched_orders": 12,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 238.43,
-    "total_bol_commission": 29.92
+    "total_bol_revenue": 299.28,
+    "total_bol_commission": 42.52
   },
   "warnings": [],
   "matches": [
@@ -99,50 +99,6 @@
             "distribution_party": "RETAILER",
             "cancellation_request": false,
             "latest_changed_at": "2026-08-31T20:37:17+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1765",
-      "shopify_order_date": "2026-08-30T08:25:03Z",
-      "shopify_total_order_amount": 16.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000D0PHHN",
-        "order_placed_at": "2026-08-30T10:22:32+02:00",
-        "customer_country_code": "BE",
-        "pickup_point": false,
-        "total_order_amount": 16.95,
-        "total_commission": 0.99,
-        "eans": [
-          "8721516390073"
-        ],
-        "offer_references": [
-          "Unifidesk3DTS.Shop"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3982867103",
-            "ean": "8721516390073",
-            "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-            "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
-            "offer_reference": "Unifidesk3DTS.Shop",
-            "sku": "Unifidesk3DTS.Shop",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 16.95,
-            "total_price": 16.95,
-            "commission": 0.99,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-08-31T20:32:18+02:00"
           }
         ]
       },
@@ -491,6 +447,113 @@
             "distribution_party": "RETAILER",
             "cancellation_request": false,
             "latest_changed_at": "2026-09-04T10:56:45+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1779",
+      "shopify_order_date": "2026-09-05T15:25:03Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000F2WWCL",
+        "order_placed_at": "2026-09-05T17:23:09+02:00",
+        "customer_country_code": "BE",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.47,
+        "eans": [
+          "9501537169884"
+        ],
+        "offer_references": [
+          "3DTS"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3986390359",
+            "ean": "9501537169884",
+            "product_name": "WandBeugel geschikt voor Bosch Professional 18V – Wandmontage.",
+            "offer_id": "9893575b-c8e4-4f32-b2e8-e26c4a8c2b86",
+            "offer_reference": "3DTS",
+            "sku": "3DTS",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.47,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-09-05T17:23:45+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1781",
+      "shopify_order_date": "2026-09-06T09:00:02Z",
+      "shopify_total_order_amount": 57.85,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000F3D9WM",
+        "order_placed_at": "2026-09-06T10:56:17+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 57.85,
+        "total_commission": 10.12,
+        "eans": [
+          "9509658425575",
+          "9504741952723"
+        ],
+        "offer_references": [
+          "U0-INRG-KJHL"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3986613678",
+            "ean": "9509658425575",
+            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+            "offer_reference": "U0-INRG-KJHL",
+            "sku": "U0-INRG-KJHL",
+            "quantity": 2,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 18.95,
+            "total_price": 37.9,
+            "commission": 6.65,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-09-06T10:56:47+02:00"
+          },
+          {
+            "bol_order_item_id": "3986613677",
+            "ean": "9504741952723",
+            "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+            "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
+            "offer_reference": null,
+            "sku": null,
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.47,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-09-06T10:56:47+02:00"
           }
         ]
       },

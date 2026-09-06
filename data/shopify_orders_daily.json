@@ -1,57 +1,21 @@
 {
-  "generated_at": "2026-09-05T09:03:50.157Z",
+  "generated_at": "2026-09-06T09:25:48.225Z",
   "period": "daily",
-  "date_from": "2026-09-04",
-  "date_to_exclusive": "2026-09-05",
+  "date_from": "2026-09-05",
+  "date_to_exclusive": "2026-09-06",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 2,
     "item_count": 2,
-    "total_order_amount": 39.9,
-    "shipping_paid_by_customer": 0,
+    "total_order_amount": 37.1,
+    "shipping_paid_by_customer": 4.65,
     "discount": 0
   },
   "orders": [
     {
-      "order_number": "#3dts1777",
-      "date": "2026-09-04T08:56:56Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 19.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000F1CT69"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 1,
-          "product_sale_price": 19.95,
-          "original_unit_price": 19.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1778",
-      "date": "2026-09-04T19:45:03Z",
+      "order_number": "#3dts1779",
+      "date": "2026-09-05T15:25:03Z",
       "channel_source": "bol",
       "customer_country_code": "BE",
       "customer_country": "Belgium",
@@ -64,7 +28,7 @@
       "fulfillment_status": "UNFULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000F25HC6"
+        "Bol-C000F2WWCL"
       ],
       "landing_site": null,
       "referring_site": null,
@@ -80,6 +44,39 @@
           "quantity": 1,
           "product_sale_price": 19.95,
           "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1780",
+      "date": "2026-09-05T15:42:46Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 0,
+      "total_order_amount": 17.15,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/makita-accu-houder-4v",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
+          "variant_id": "57872304963933",
+          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
+          "sku": "Makita4v3dts.shop",
+          "barcode": "8721516390097",
+          "ean": "8721516390097",
+          "quantity": 1,
+          "product_sale_price": 12.5,
+          "original_unit_price": 12.5,
           "line_discount": 0,
           "currency": "EUR"
         }
