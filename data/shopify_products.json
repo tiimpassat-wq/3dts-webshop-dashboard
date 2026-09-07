@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:25:49.535Z",
+  "generated_at": "2026-09-07T10:16:29.173Z",
   "source": "Shopify Admin GraphQL productVariants.inventoryItem.unitCost",
   "required_scopes": [
     "read_products",
@@ -8,8 +8,8 @@
   "status": "ok",
   "warnings": [],
   "totals": {
-    "variants": 79,
-    "with_unit_cost": 67,
+    "variants": 80,
+    "with_unit_cost": 68,
     "missing_unit_cost": 12
   },
   "variants": [
@@ -1197,6 +1197,21 @@
       "unit_cost_amount": 0,
       "unit_cost_currency_code": null,
       "has_unit_cost": false
+    },
+    {
+      "product_id": "15392855753053",
+      "variant_id": "65833350267229",
+      "product_gid": "gid://shopify/Product/15392855753053",
+      "variant_gid": "gid://shopify/ProductVariant/65833350267229",
+      "sku": "",
+      "barcode": "",
+      "ean": "",
+      "product_title": "Accuhouder Bosch Professional 18V",
+      "variant_title": "2-voudig",
+      "verkoopprijs": 8.95,
+      "unit_cost_amount": 3.48,
+      "unit_cost_currency_code": "EUR",
+      "has_unit_cost": true
     }
   ]
 }

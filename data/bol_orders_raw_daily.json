@@ -1,31 +1,118 @@
 {
-  "generated_at": "2026-09-06T09:25:50.204Z",
+  "generated_at": "2026-09-07T10:16:30.601Z",
   "period": "daily",
-  "date_from": "2026-09-05",
-  "date_to_exclusive": "2026-09-06",
+  "date_from": "2026-09-06",
+  "date_to_exclusive": "2026-09-07",
   "source": "bol.com Retailer API",
   "orders": [
     {
-      "bol_order_id": "C000F2WWCL",
-      "order_placed_at": "2026-09-05T17:23:09+02:00",
-      "customer_country_code": "BE",
+      "bol_order_id": "C000F3R8D4",
+      "order_placed_at": "2026-09-06T16:05:07+02:00",
+      "customer_country_code": "NL",
       "pickup_point": false,
-      "total_order_amount": 19.95,
-      "total_commission": 3.47,
+      "total_order_amount": 15.95,
+      "total_commission": 0.96,
       "eans": [
-        "9501537169884"
+        "9504822112282"
       ],
       "offer_references": [
         "3DTS"
       ],
       "line_items": [
         {
-          "bol_order_item_id": "3986390359",
-          "ean": "9501537169884",
-          "product_name": "WandBeugel geschikt voor Bosch Professional 18V – Wandmontage.",
-          "offer_id": "9893575b-c8e4-4f32-b2e8-e26c4a8c2b86",
+          "bol_order_item_id": "3986775081",
+          "ean": "9504822112282",
+          "product_name": "Plafondbeugel geschikt voor Unifi AC LitenanoHD, AC LR & U6 Lite",
+          "offer_id": "4aad4ef2-a01c-4064-999a-014698d672df",
           "offer_reference": "3DTS",
           "sku": "3DTS",
+          "quantity": 1,
+          "quantity_shipped": 1,
+          "quantity_cancelled": 0,
+          "unit_price": 15.95,
+          "total_price": 15.95,
+          "commission": 0.96,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-09-06T18:33:20+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000F3XDK1",
+      "order_placed_at": "2026-09-06T18:00:55+02:00",
+      "customer_country_code": "BE",
+      "pickup_point": false,
+      "total_order_amount": 16.95,
+      "total_commission": 0.99,
+      "eans": [
+        "8721516390073"
+      ],
+      "offer_references": [
+        "Unifidesk3DTS.Shop"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3986832002",
+          "ean": "8721516390073",
+          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+          "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
+          "offer_reference": "Unifidesk3DTS.Shop",
+          "sku": "Unifidesk3DTS.Shop",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 16.95,
+          "total_price": 16.95,
+          "commission": 0.99,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-09-06T18:01:16+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000F3D9WM",
+      "order_placed_at": "2026-09-06T10:56:17+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 57.85,
+      "total_commission": 10.12,
+      "eans": [
+        "9509658425575",
+        "9504741952723"
+      ],
+      "offer_references": [
+        "U0-INRG-KJHL"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3986613678",
+          "ean": "9509658425575",
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+          "offer_reference": "U0-INRG-KJHL",
+          "sku": "U0-INRG-KJHL",
+          "quantity": 2,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 18.95,
+          "total_price": 37.9,
+          "commission": 6.65,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-09-06T10:56:47+02:00"
+        },
+        {
+          "bol_order_item_id": "3986613677",
+          "ean": "9504741952723",
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
+          "offer_reference": null,
+          "sku": null,
           "quantity": 1,
           "quantity_shipped": 0,
           "quantity_cancelled": 0,
@@ -35,7 +122,7 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-09-05T17:23:45+02:00"
+          "latest_changed_at": "2026-09-06T10:56:47+02:00"
         }
       ]
     }
@@ -43,8 +130,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 1,
-    "total_order_amount": 19.95,
-    "total_commission": 3.47
+    "order_count": 3,
+    "total_order_amount": 90.75,
+    "total_commission": 12.07
   }
 }
