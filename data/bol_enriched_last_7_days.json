@@ -1,151 +1,21 @@
 {
-  "generated_at": "2026-09-07T10:16:41.179Z",
+  "generated_at": "2026-09-08T09:40:11.477Z",
   "period": "last_7_days",
-  "date_from": "2026-09-01",
-  "date_to_exclusive": "2026-09-08",
+  "date_from": "2026-09-02",
+  "date_to_exclusive": "2026-09-09",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
   },
   "summary": {
-    "bol_orders": 11,
-    "matched_orders": 11,
-    "missing_in_shopify": 0,
-    "total_bol_revenue": 262.84,
-    "total_bol_commission": 38.07
+    "bol_orders": 10,
+    "matched_orders": 9,
+    "missing_in_shopify": 1,
+    "total_bol_revenue": 291.36,
+    "total_bol_commission": 37.51
   },
   "warnings": [],
   "matches": [
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1771",
-      "shopify_order_date": "2026-09-01T10:11:58Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000DTK1WW",
-        "order_placed_at": "2026-09-01T12:10:43+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.47,
-        "eans": [
-          "9502488883461"
-        ],
-        "offer_references": [
-          "3DTS"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3984135457",
-            "ean": "9502488883461",
-            "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder",
-            "offer_id": "fa0ac061-34a9-40ab-8fda-31ecb6ab4960",
-            "offer_reference": "3DTS",
-            "sku": "3DTS",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.47,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-09-01T17:25:11+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1770",
-      "shopify_order_date": "2026-09-01T09:06:56Z",
-      "shopify_total_order_amount": 17.49,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000DTH3P0",
-        "order_placed_at": "2026-09-01T11:06:26+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 17.49,
-        "total_commission": 1.01,
-        "eans": [
-          "9509139739962"
-        ],
-        "offer_references": [],
-        "line_items": [
-          {
-            "bol_order_item_id": "3984100986",
-            "ean": "9509139739962",
-            "product_name": "Wandhouder - Compatibel met UniFi U6 & U7 - Wandmontage Access Point",
-            "offer_id": "9702100d-d796-4b61-b975-cfedcc85088a",
-            "offer_reference": null,
-            "sku": null,
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 17.49,
-            "total_price": 17.49,
-            "commission": 1.01,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-09-01T17:22:12+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1772",
-      "shopify_order_date": "2026-09-01T15:40:03Z",
-      "shopify_total_order_amount": 16.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000DW10C8",
-        "order_placed_at": "2026-09-01T17:37:25+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 16.95,
-        "total_commission": 0.99,
-        "eans": [
-          "8721516390073"
-        ],
-        "offer_references": [
-          "Unifidesk3DTS.Shop"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3984309798",
-            "ean": "8721516390073",
-            "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-            "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
-            "offer_reference": "Unifidesk3DTS.Shop",
-            "sku": "Unifidesk3DTS.Shop",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 16.95,
-            "total_price": 16.95,
-            "commission": 0.99,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-09-02T17:14:27+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
     {
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
@@ -412,50 +282,6 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1783",
-      "shopify_order_date": "2026-09-06T16:01:33Z",
-      "shopify_total_order_amount": 16.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000F3XDK1",
-        "order_placed_at": "2026-09-06T18:00:55+02:00",
-        "customer_country_code": "BE",
-        "pickup_point": false,
-        "total_order_amount": 16.95,
-        "total_commission": 0.99,
-        "eans": [
-          "8721516390073"
-        ],
-        "offer_references": [
-          "Unifidesk3DTS.Shop"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3986832002",
-            "ean": "8721516390073",
-            "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-            "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
-            "offer_reference": "Unifidesk3DTS.Shop",
-            "sku": "Unifidesk3DTS.Shop",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 16.95,
-            "total_price": 16.95,
-            "commission": 0.99,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-09-06T18:01:16+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
       "shopify_order_number": "#3dts1781",
       "shopify_order_date": "2026-09-06T09:00:02Z",
       "shopify_total_order_amount": 57.85,
@@ -483,7 +309,7 @@
             "offer_reference": "U0-INRG-KJHL",
             "sku": "U0-INRG-KJHL",
             "quantity": 2,
-            "quantity_shipped": 0,
+            "quantity_shipped": 2,
             "quantity_cancelled": 0,
             "unit_price": 18.95,
             "total_price": 37.9,
@@ -491,7 +317,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-09-06T10:56:47+02:00"
+            "latest_changed_at": "2026-09-07T18:57:06+02:00"
           },
           {
             "bol_order_item_id": "3986613677",
@@ -501,7 +327,7 @@
             "offer_reference": null,
             "sku": null,
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
             "unit_price": 19.95,
             "total_price": 19.95,
@@ -509,12 +335,140 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-09-06T10:56:47+02:00"
+            "latest_changed_at": "2026-09-07T18:57:16+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1783",
+      "shopify_order_date": "2026-09-06T16:01:33Z",
+      "shopify_total_order_amount": 16.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000F3XDK1",
+        "order_placed_at": "2026-09-06T18:00:55+02:00",
+        "customer_country_code": "BE",
+        "pickup_point": false,
+        "total_order_amount": 16.95,
+        "total_commission": 0.99,
+        "eans": [
+          "8721516390073"
+        ],
+        "offer_references": [
+          "Unifidesk3DTS.Shop"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3986832002",
+            "ean": "8721516390073",
+            "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+            "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
+            "offer_reference": "Unifidesk3DTS.Shop",
+            "sku": "Unifidesk3DTS.Shop",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 16.95,
+            "total_price": 16.95,
+            "commission": 0.99,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-09-07T18:56:59+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "date_amount_country_product_fallback",
+      "confidence": 0.8,
+      "shopify_order_number": "#3dts1786",
+      "shopify_order_date": "2026-09-08T06:20:03Z",
+      "shopify_total_order_amount": 16.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000F5WR3H",
+        "order_placed_at": "2026-09-08T11:36:13+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 65.96,
+        "total_commission": 3.92,
+        "eans": [
+          "9509139739962"
+        ],
+        "offer_references": [],
+        "line_items": [
+          {
+            "bol_order_item_id": "3987695914",
+            "ean": "9509139739962",
+            "product_name": "Wandhouder - Compatibel met UniFi U6 & U7 - Wandmontage Access Point",
+            "offer_id": "9702100d-d796-4b61-b975-cfedcc85088a",
+            "offer_reference": null,
+            "sku": null,
+            "quantity": 4,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 16.49,
+            "total_price": 65.96,
+            "commission": 3.92,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-09-08T11:36:49+02:00"
           }
         ]
       },
       "warnings": []
     }
   ],
-  "unmatched_bol_orders": []
+  "unmatched_bol_orders": [
+    {
+      "match_status": "bol_order_missing_in_shopify",
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000F5MMPJ",
+        "order_placed_at": "2026-09-08T08:16:41+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 16.95,
+        "total_commission": 0.99,
+        "eans": [
+          "8721516390073"
+        ],
+        "offer_references": [
+          "Unifidesk3DTS.Shop"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3987606157",
+            "ean": "8721516390073",
+            "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+            "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
+            "offer_reference": "Unifidesk3DTS.Shop",
+            "sku": "Unifidesk3DTS.Shop",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 16.95,
+            "total_price": 16.95,
+            "commission": 0.99,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-09-08T08:17:15+02:00"
+          }
+        ]
+      },
+      "warnings": [
+        "bol_order_missing_in_shopify"
+      ]
+    }
+  ]
 }

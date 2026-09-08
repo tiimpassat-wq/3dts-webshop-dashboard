@@ -1,20 +1,6 @@
 {
-  "generated_at": "2026-09-07T10:16:42.404Z",
+  "generated_at": "2026-09-08T09:40:12.157Z",
   "actions": [
-    {
-      "type": "product controleren",
-      "priority": "high",
-      "product_name": "Verstelbare wandbeugel geschikt voor UniFi UAP-AC-LR, U6-LR, U6-Lite en U7-Lite ? 3D-geprint",
-      "sku": "3DTS-UNIFI-VERS",
-      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-      "sku": "dc18rd3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
     {
       "type": "bundel maken",
       "priority": "medium",
@@ -25,8 +11,8 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Verstelbare wandbeugel geschikt voor UniFi UAP-AC-LR, U6-LR, U6-Lite en U7-Lite ? 3D-geprint",
-      "sku": "3DTS-UNIFI-VERS",
+      "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+      "sku": "dc18rd3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -41,6 +27,13 @@
       "priority": "medium",
       "product_name": "Accuhouder Bosch Professional 18V - 2-voudig",
       "sku": null,
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+      "sku": "Unifidesk3DTS.Shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]
