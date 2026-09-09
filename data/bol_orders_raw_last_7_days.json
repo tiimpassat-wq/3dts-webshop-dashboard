@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-08T09:40:07.302Z",
+  "generated_at": "2026-09-09T09:44:33.759Z",
   "period": "last_7_days",
-  "date_from": "2026-09-02",
-  "date_to_exclusive": "2026-09-09",
+  "date_from": "2026-09-03",
+  "date_to_exclusive": "2026-09-10",
   "source": "bol.com Retailer API",
   "orders": [
     {
@@ -11,7 +11,7 @@
       "customer_country_code": "NL",
       "pickup_point": false,
       "total_order_amount": 37.9,
-      "total_commission": 6.65,
+      "total_commission": 6.77,
       "eans": [
         "9504741952723"
       ],
@@ -29,7 +29,7 @@
           "quantity_cancelled": 0,
           "unit_price": 18.95,
           "total_price": 37.9,
-          "commission": 6.65,
+          "commission": 6.77,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
@@ -43,7 +43,7 @@
       "customer_country_code": "NL",
       "pickup_point": false,
       "total_order_amount": 15.95,
-      "total_commission": 0.96,
+      "total_commission": 1.02,
       "eans": [
         "9504822112282"
       ],
@@ -63,7 +63,7 @@
           "quantity_cancelled": 0,
           "unit_price": 15.95,
           "total_price": 15.95,
-          "commission": 0.96,
+          "commission": 1.02,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
@@ -77,7 +77,7 @@
       "customer_country_code": "BE",
       "pickup_point": false,
       "total_order_amount": 19.95,
-      "total_commission": 3.47,
+      "total_commission": 3.53,
       "eans": [
         "9501537169884"
       ],
@@ -97,7 +97,7 @@
           "quantity_cancelled": 0,
           "unit_price": 19.95,
           "total_price": 19.95,
-          "commission": 3.47,
+          "commission": 3.53,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
@@ -111,7 +111,7 @@
       "customer_country_code": "BE",
       "pickup_point": false,
       "total_order_amount": 19.95,
-      "total_commission": 3.47,
+      "total_commission": 3.53,
       "eans": [
         "9501537169884"
       ],
@@ -131,7 +131,7 @@
           "quantity_cancelled": 0,
           "unit_price": 19.95,
           "total_price": 19.95,
-          "commission": 3.47,
+          "commission": 3.53,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
@@ -145,7 +145,7 @@
       "customer_country_code": "NL",
       "pickup_point": false,
       "total_order_amount": 19.95,
-      "total_commission": 3.47,
+      "total_commission": 3.53,
       "eans": [
         "9509658425575"
       ],
@@ -165,7 +165,7 @@
           "quantity_cancelled": 0,
           "unit_price": 19.95,
           "total_price": 19.95,
-          "commission": 3.47,
+          "commission": 3.53,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
@@ -179,7 +179,7 @@
       "customer_country_code": "NL",
       "pickup_point": false,
       "total_order_amount": 19.95,
-      "total_commission": 3.47,
+      "total_commission": 3.53,
       "eans": [
         "9509658425575"
       ],
@@ -199,7 +199,7 @@
           "quantity_cancelled": 0,
           "unit_price": 19.95,
           "total_price": 19.95,
-          "commission": 3.47,
+          "commission": 3.53,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
@@ -213,7 +213,7 @@
       "customer_country_code": "NL",
       "pickup_point": false,
       "total_order_amount": 57.85,
-      "total_commission": 10.12,
+      "total_commission": 10.3,
       "eans": [
         "9509658425575",
         "9504741952723"
@@ -234,7 +234,7 @@
           "quantity_cancelled": 0,
           "unit_price": 18.95,
           "total_price": 37.9,
-          "commission": 6.65,
+          "commission": 6.77,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
@@ -252,7 +252,7 @@
           "quantity_cancelled": 0,
           "unit_price": 19.95,
           "total_price": 19.95,
-          "commission": 3.47,
+          "commission": 3.53,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
@@ -266,7 +266,7 @@
       "customer_country_code": "BE",
       "pickup_point": false,
       "total_order_amount": 16.95,
-      "total_commission": 0.99,
+      "total_commission": 1.05,
       "eans": [
         "8721516390073"
       ],
@@ -286,11 +286,113 @@
           "quantity_cancelled": 0,
           "unit_price": 16.95,
           "total_price": 16.95,
-          "commission": 0.99,
+          "commission": 1.05,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
           "latest_changed_at": "2026-09-07T18:56:59+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000F6NNRL",
+      "order_placed_at": "2026-09-08T21:40:59+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 19.95,
+      "total_commission": 3.53,
+      "eans": [
+        "9509658425575"
+      ],
+      "offer_references": [
+        "U0-INRG-KJHL"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3988051431",
+          "ean": "9509658425575",
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+          "offer_reference": "U0-INRG-KJHL",
+          "sku": "U0-INRG-KJHL",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 19.95,
+          "total_price": 19.95,
+          "commission": 3.53,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-09-08T21:41:49+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000F5MMPJ",
+      "order_placed_at": "2026-09-08T08:16:41+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 16.95,
+      "total_commission": 1.05,
+      "eans": [
+        "8721516390073"
+      ],
+      "offer_references": [
+        "Unifidesk3DTS.Shop"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3987606157",
+          "ean": "8721516390073",
+          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+          "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
+          "offer_reference": "Unifidesk3DTS.Shop",
+          "sku": "Unifidesk3DTS.Shop",
+          "quantity": 1,
+          "quantity_shipped": 1,
+          "quantity_cancelled": 0,
+          "unit_price": 16.95,
+          "total_price": 16.95,
+          "commission": 1.05,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-09-08T17:07:03+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000F50FM1",
+      "order_placed_at": "2026-09-08T13:30:38+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 16.95,
+      "total_commission": 1.05,
+      "eans": [
+        "8721516390073"
+      ],
+      "offer_references": [
+        "Unifidesk3DTS.Shop"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "3987755056",
+          "ean": "8721516390073",
+          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+          "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
+          "offer_reference": "Unifidesk3DTS.Shop",
+          "sku": "Unifidesk3DTS.Shop",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 16.95,
+          "total_price": 16.95,
+          "commission": 1.05,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-09-08T13:30:46+02:00"
         }
       ]
     },
@@ -300,7 +402,7 @@
       "customer_country_code": "NL",
       "pickup_point": false,
       "total_order_amount": 65.96,
-      "total_commission": 3.92,
+      "total_commission": 4.16,
       "eans": [
         "9509139739962"
       ],
@@ -318,7 +420,7 @@
           "quantity_cancelled": 0,
           "unit_price": 16.49,
           "total_price": 65.96,
-          "commission": 3.92,
+          "commission": 4.16,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
@@ -327,12 +429,12 @@
       ]
     },
     {
-      "bol_order_id": "C000F5MMPJ",
-      "order_placed_at": "2026-09-08T08:16:41+02:00",
-      "customer_country_code": "NL",
+      "bol_order_id": "C000F70WNK",
+      "order_placed_at": "2026-09-09T08:26:47+02:00",
+      "customer_country_code": "BE",
       "pickup_point": false,
-      "total_order_amount": 16.95,
-      "total_commission": 0.99,
+      "total_order_amount": 31.9,
+      "total_commission": 2.04,
       "eans": [
         "8721516390073"
       ],
@@ -341,22 +443,22 @@
       ],
       "line_items": [
         {
-          "bol_order_item_id": "3987606157",
+          "bol_order_item_id": "3988161841",
           "ean": "8721516390073",
           "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
           "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
           "offer_reference": "Unifidesk3DTS.Shop",
           "sku": "Unifidesk3DTS.Shop",
-          "quantity": 1,
+          "quantity": 2,
           "quantity_shipped": 0,
           "quantity_cancelled": 0,
-          "unit_price": 16.95,
-          "total_price": 16.95,
-          "commission": 0.99,
+          "unit_price": 15.95,
+          "total_price": 31.9,
+          "commission": 2.04,
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-09-08T08:17:15+02:00"
+          "latest_changed_at": "2026-09-09T08:27:15+02:00"
         }
       ]
     }
@@ -364,8 +466,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 10,
-    "total_order_amount": 291.36,
-    "total_commission": 37.51
+    "order_count": 13,
+    "total_order_amount": 360.16,
+    "total_commission": 45.09
   }
 }

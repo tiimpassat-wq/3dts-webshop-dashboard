@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-09-08T09:40:12.157Z",
+  "generated_at": "2026-09-09T09:44:40.885Z",
   "actions": [
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Wandhouder - Compatibel met UniFi U6 & U7 - Wandmontage Access Point",
+      "sku": "574402509868_74BE",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
     {
       "type": "bundel maken",
       "priority": "medium",
@@ -18,8 +25,8 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
-      "sku": "Makita4v3dts.shop",
+      "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+      "sku": "Unifidesk3DTS.Shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -27,13 +34,6 @@
       "priority": "medium",
       "product_name": "Accuhouder Bosch Professional 18V - 2-voudig",
       "sku": null,
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-      "sku": "Unifidesk3DTS.Shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]

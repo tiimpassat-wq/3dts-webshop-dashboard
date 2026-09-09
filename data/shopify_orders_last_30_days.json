@@ -1,100 +1,18 @@
 {
-  "generated_at": "2026-09-08T09:40:03.923Z",
+  "generated_at": "2026-09-09T09:44:29.759Z",
   "period": "last_30_days",
-  "date_from": "2026-08-10",
-  "date_to_exclusive": "2026-09-09",
+  "date_from": "2026-08-11",
+  "date_to_exclusive": "2026-09-10",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 61,
-    "item_count": 104,
-    "total_order_amount": 1612.62,
-    "shipping_paid_by_customer": 92.65,
-    "discount": 7.52
+    "order_count": 64,
+    "item_count": 110,
+    "total_order_amount": 1717.33,
+    "shipping_paid_by_customer": 89.7,
+    "discount": 8.27
   },
   "orders": [
-    {
-      "order_number": "#3dts1726",
-      "date": "2026-08-10T11:50:14Z",
-      "channel_source": "web",
-      "customer_country_code": "FR",
-      "customer_country": "France",
-      "shipping_paid_by_customer": 12.95,
-      "shipping_title": "Post NL EU",
-      "discount": 2,
-      "total_order_amount": 30.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/wandhouder-schuin-voor-makita-dc18rd-duo-oplader-3d-geprint-compatibel-met-18v-laadstation",
-      "referring_site": "https://3dts.shop/fr",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Universele Machinehouder – Makita, Bosch, DeWalt & Festool",
-          "variant_id": "57528429379933",
-          "variant_gid": "gid://shopify/ProductVariant/57528429379933",
-          "sku": null,
-          "barcode": "9505583956719",
-          "ean": "9505583956719",
-          "quantity": 1,
-          "product_sale_price": 7.5,
-          "original_unit_price": 7.5,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
-          "variant_id": "57872304963933",
-          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
-          "sku": "Makita4v3dts.shop",
-          "barcode": "8721516390097",
-          "ean": "8721516390097",
-          "quantity": 1,
-          "product_sale_price": 12.5,
-          "original_unit_price": 12.5,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1727",
-      "date": "2026-08-10T17:25:02Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 15.3,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000CP73CX"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig",
-          "variant_id": "62962109153629",
-          "variant_gid": "gid://shopify/ProductVariant/62962109153629",
-          "sku": "629621091536_60CB",
-          "barcode": "9509192768565",
-          "ean": "9509192768565",
-          "quantity": 1,
-          "product_sale_price": 15.3,
-          "original_unit_price": 15.3,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1728",
       "date": "2026-08-11T14:15:02Z",
@@ -2157,7 +2075,7 @@
       "total_order_amount": 28.82,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": "https://3dts.shop/",
       "referring_site": null,
@@ -2223,7 +2141,7 @@
       "total_order_amount": 16.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000F5MMPJ"
@@ -2243,6 +2161,185 @@
           "product_sale_price": 16.95,
           "original_unit_price": 16.95,
           "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1787",
+      "date": "2026-09-08T09:40:03Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 65.96,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000F5WR3H"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder - Compatibel met UniFi U6 & U7 - Wandmontage Access Point",
+          "variant_id": "57440250986845",
+          "variant_gid": "gid://shopify/ProductVariant/57440250986845",
+          "sku": "574402509868_74BE",
+          "barcode": "9509139739962",
+          "ean": "9509139739962",
+          "quantity": 4,
+          "product_sale_price": 16.49,
+          "original_unit_price": 16.49,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1788",
+      "date": "2026-09-08T11:31:33Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 16.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000F50FM1"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+          "variant_id": "63433470476637",
+          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
+          "sku": "Unifidesk3DTS.Shop",
+          "barcode": "8721516390073",
+          "ean": "8721516390073",
+          "quantity": 1,
+          "product_sale_price": 16.95,
+          "original_unit_price": 16.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1789",
+      "date": "2026-09-08T19:45:03Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000F6NNRL"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1790",
+      "date": "2026-09-09T06:30:03Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 31.9,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000F70WNK"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+          "variant_id": "63433470476637",
+          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
+          "sku": "Unifidesk3DTS.Shop",
+          "barcode": "8721516390073",
+          "ean": "8721516390073",
+          "quantity": 2,
+          "product_sale_price": 15.95,
+          "original_unit_price": 15.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1791",
+      "date": "2026-09-09T09:20:02Z",
+      "channel_source": "shopify_draft_order",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 10,
+      "shipping_title": "Amazon Standard",
+      "discount": 2.75,
+      "total_order_amount": 16.2,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Amazon-404-2227370-3492351"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+          "variant_id": "57838610743645",
+          "variant_gid": "gid://shopify/ProductVariant/57838610743645",
+          "sku": "Unifimountlite3DTS.shop",
+          "barcode": "08721516390042",
+          "ean": "08721516390042",
+          "quantity": 1,
+          "product_sale_price": 6.2,
+          "original_unit_price": 8.95,
+          "line_discount": 2.75,
           "currency": "EUR"
         }
       ]
