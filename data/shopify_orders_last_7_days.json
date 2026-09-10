@@ -1,90 +1,18 @@
 {
-  "generated_at": "2026-09-09T09:44:28.891Z",
+  "generated_at": "2026-09-10T09:42:51.680Z",
   "period": "last_7_days",
-  "date_from": "2026-09-03",
-  "date_to_exclusive": "2026-09-10",
+  "date_from": "2026-09-04",
+  "date_to_exclusive": "2026-09-11",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 17,
-    "item_count": 27,
-    "total_order_amount": 449.33,
+    "item_count": 26,
+    "total_order_amount": 428.38,
     "shipping_paid_by_customer": 26.4,
     "discount": 5.43
   },
   "orders": [
-    {
-      "order_number": "#3dts1775",
-      "date": "2026-09-03T07:40:03Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 37.9,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000F02R1T"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-          "variant_id": "57512098234717",
-          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
-          "sku": "dc18rc3dts.shop",
-          "barcode": "8721516390011",
-          "ean": "8721516390011",
-          "quantity": 2,
-          "product_sale_price": 18.95,
-          "original_unit_price": 18.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1776",
-      "date": "2026-09-03T08:00:03Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 19.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000F039PF"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 1,
-          "product_sale_price": 19.95,
-          "original_unit_price": 19.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1777",
       "date": "2026-09-04T08:56:56Z",
@@ -461,7 +389,7 @@
       "total_order_amount": 65.96,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000F5WR3H"
@@ -497,7 +425,7 @@
       "total_order_amount": 16.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000F50FM1"
@@ -533,7 +461,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000F6NNRL"
@@ -569,7 +497,7 @@
       "total_order_amount": 31.9,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000F70WNK"
@@ -605,7 +533,7 @@
       "total_order_amount": 16.2,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Amazon-404-2227370-3492351"
       ],
@@ -624,6 +552,78 @@
           "product_sale_price": 6.2,
           "original_unit_price": 8.95,
           "line_discount": 2.75,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1792",
+      "date": "2026-09-09T14:40:03Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 16.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000F7L8N9"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+          "variant_id": "63433470476637",
+          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
+          "sku": "Unifidesk3DTS.Shop",
+          "barcode": "8721516390073",
+          "ean": "8721516390073",
+          "quantity": 1,
+          "product_sale_price": 16.95,
+          "original_unit_price": 16.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1793",
+      "date": "2026-09-09T14:56:33Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000F7LTC7"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
+          "line_discount": 0,
           "currency": "EUR"
         }
       ]

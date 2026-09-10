@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-09-09T09:44:28.471Z",
+  "generated_at": "2026-09-10T09:42:51.291Z",
   "period": "daily",
-  "date_from": "2026-09-08",
-  "date_to_exclusive": "2026-09-09",
+  "date_from": "2026-09-09",
+  "date_to_exclusive": "2026-09-10",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 4,
-    "item_count": 7,
-    "total_order_amount": 119.81,
-    "shipping_paid_by_customer": 0,
-    "discount": 0
+    "item_count": 5,
+    "total_order_amount": 85,
+    "shipping_paid_by_customer": 10,
+    "discount": 2.75
   },
   "orders": [
     {
-      "order_number": "#3dts1786",
-      "date": "2026-09-08T06:20:03Z",
+      "order_number": "#3dts1790",
+      "date": "2026-09-09T06:30:03Z",
       "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
       "shipping_paid_by_customer": 0,
       "shipping_title": null,
       "discount": 0,
-      "total_order_amount": 16.95,
+      "total_order_amount": 31.9,
       "currency": "EUR",
       "payment_status": "PAID",
       "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000F5MMPJ"
+        "Bol-C000F70WNK"
       ],
       "landing_site": null,
       "referring_site": null,
@@ -41,53 +41,52 @@
           "sku": "Unifidesk3DTS.Shop",
           "barcode": "8721516390073",
           "ean": "8721516390073",
-          "quantity": 1,
-          "product_sale_price": 16.95,
-          "original_unit_price": 16.95,
+          "quantity": 2,
+          "product_sale_price": 15.95,
+          "original_unit_price": 15.95,
           "line_discount": 0,
           "currency": "EUR"
         }
       ]
     },
     {
-      "order_number": "#3dts1787",
-      "date": "2026-09-08T09:40:03Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 65.96,
+      "order_number": "#3dts1791",
+      "date": "2026-09-09T09:20:02Z",
+      "channel_source": "shopify_draft_order",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 10,
+      "shipping_title": "Amazon Standard",
+      "discount": 2.75,
+      "total_order_amount": 16.2,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
-        "Bol",
-        "Bol-C000F5WR3H"
+        "Amazon-404-2227370-3492351"
       ],
       "landing_site": null,
       "referring_site": null,
       "referral_code": null,
       "line_items": [
         {
-          "product_name": "Wandhouder - Compatibel met UniFi U6 & U7 - Wandmontage Access Point",
-          "variant_id": "57440250986845",
-          "variant_gid": "gid://shopify/ProductVariant/57440250986845",
-          "sku": "574402509868_74BE",
-          "barcode": "9509139739962",
-          "ean": "9509139739962",
-          "quantity": 4,
-          "product_sale_price": 16.49,
-          "original_unit_price": 16.49,
-          "line_discount": 0,
+          "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
+          "variant_id": "57838610743645",
+          "variant_gid": "gid://shopify/ProductVariant/57838610743645",
+          "sku": "Unifimountlite3DTS.shop",
+          "barcode": "08721516390042",
+          "ean": "08721516390042",
+          "quantity": 1,
+          "product_sale_price": 6.2,
+          "original_unit_price": 8.95,
+          "line_discount": 2.75,
           "currency": "EUR"
         }
       ]
     },
     {
-      "order_number": "#3dts1788",
-      "date": "2026-09-08T11:31:33Z",
+      "order_number": "#3dts1792",
+      "date": "2026-09-09T14:40:03Z",
       "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
@@ -100,7 +99,7 @@
       "fulfillment_status": "UNFULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000F50FM1"
+        "Bol-C000F7L8N9"
       ],
       "landing_site": null,
       "referring_site": null,
@@ -122,8 +121,8 @@
       ]
     },
     {
-      "order_number": "#3dts1789",
-      "date": "2026-09-08T19:45:03Z",
+      "order_number": "#3dts1793",
+      "date": "2026-09-09T14:56:33Z",
       "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
@@ -136,19 +135,19 @@
       "fulfillment_status": "UNFULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000F6NNRL"
+        "Bol-C000F7LTC7"
       ],
       "landing_site": null,
       "referring_site": null,
       "referral_code": null,
       "line_items": [
         {
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
           "quantity": 1,
           "product_sale_price": 19.95,
           "original_unit_price": 19.95,
