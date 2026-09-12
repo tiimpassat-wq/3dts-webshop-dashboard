@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-11T09:41:07.157Z",
+  "generated_at": "2026-09-12T09:20:54.469Z",
   "period": "last_7_days",
-  "date_from": "2026-09-05",
-  "date_to_exclusive": "2026-09-12",
+  "date_from": "2026-09-06",
+  "date_to_exclusive": "2026-09-13",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
   },
   "summary": {
-    "bol_orders": 14,
-    "matched_orders": 14,
+    "bol_orders": 13,
+    "matched_orders": 13,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 391.6,
-    "total_bol_commission": 44.73
+    "total_bol_revenue": 371.65,
+    "total_bol_commission": 41.2
   },
   "warnings": [],
   "matches": [
@@ -55,50 +55,6 @@
             "distribution_party": "RETAILER",
             "cancellation_request": false,
             "latest_changed_at": "2026-09-06T18:33:20+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1779",
-      "shopify_order_date": "2026-09-05T15:25:03Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000F2WWCL",
-        "order_placed_at": "2026-09-05T17:23:09+02:00",
-        "customer_country_code": "BE",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.53,
-        "eans": [
-          "9501537169884"
-        ],
-        "offer_references": [
-          "3DTS"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3986390359",
-            "ean": "9501537169884",
-            "product_name": "WandBeugel geschikt voor Bosch Professional 18V – Wandmontage.",
-            "offer_id": "9893575b-c8e4-4f32-b2e8-e26c4a8c2b86",
-            "offer_reference": "3DTS",
-            "sku": "3DTS",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.53,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-09-06T18:22:14+02:00"
           }
         ]
       },
@@ -433,94 +389,6 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1795",
-      "shopify_order_date": "2026-09-10T20:05:03Z",
-      "shopify_total_order_amount": 37.9,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000F98427",
-        "order_placed_at": "2026-09-10T22:03:35+02:00",
-        "customer_country_code": "BE",
-        "pickup_point": false,
-        "total_order_amount": 37.9,
-        "total_commission": 6.77,
-        "eans": [
-          "9509658425575"
-        ],
-        "offer_references": [
-          "U0-INRG-KJHL"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3989130915",
-            "ean": "9509658425575",
-            "product_name": "Support mural incliné pour chargeur Duo Makita DC18RD",
-            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-            "offer_reference": "U0-INRG-KJHL",
-            "sku": "U0-INRG-KJHL",
-            "quantity": 2,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 18.95,
-            "total_price": 37.9,
-            "commission": 6.77,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-09-10T22:03:48+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1794",
-      "shopify_order_date": "2026-09-10T19:26:33Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000F96WX0",
-        "order_placed_at": "2026-09-10T21:25:46+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.53,
-        "eans": [
-          "9503425233318"
-        ],
-        "offer_references": [
-          "Bosch4a-3DTS"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3989109268",
-            "ean": "9503425233318",
-            "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel",
-            "offer_id": "7699e825-2bc3-4838-9cdb-74d3b1057833",
-            "offer_reference": "Bosch4a-3DTS",
-            "sku": "Bosch4a-3DTS",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.53,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-09-10T21:26:15+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
       "shopify_order_number": "#3dts1792",
       "shopify_order_date": "2026-09-09T14:40:03Z",
       "shopify_total_order_amount": 16.95,
@@ -635,7 +503,7 @@
             "offer_reference": "Unifidesk3DTS.Shop",
             "sku": "Unifidesk3DTS.Shop",
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
             "unit_price": 16.95,
             "total_price": 16.95,
@@ -643,7 +511,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-09-11T07:09:15+02:00"
+            "latest_changed_at": "2026-09-12T10:00:55+02:00"
           },
           {
             "bol_order_item_id": "3989194426",
@@ -653,7 +521,7 @@
             "offer_reference": "Unifikant3DTS.shop",
             "sku": "Unifikant3DTS.shop",
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
             "unit_price": 17.49,
             "total_price": 17.49,
@@ -661,7 +529,95 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-09-11T07:09:15+02:00"
+            "latest_changed_at": "2026-09-12T10:00:55+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1795",
+      "shopify_order_date": "2026-09-10T20:05:03Z",
+      "shopify_total_order_amount": 37.9,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000F98427",
+        "order_placed_at": "2026-09-10T22:03:35+02:00",
+        "customer_country_code": "BE",
+        "pickup_point": false,
+        "total_order_amount": 37.9,
+        "total_commission": 6.77,
+        "eans": [
+          "9509658425575"
+        ],
+        "offer_references": [
+          "U0-INRG-KJHL"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3989130915",
+            "ean": "9509658425575",
+            "product_name": "Support mural incliné pour chargeur Duo Makita DC18RD",
+            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+            "offer_reference": "U0-INRG-KJHL",
+            "sku": "U0-INRG-KJHL",
+            "quantity": 2,
+            "quantity_shipped": 2,
+            "quantity_cancelled": 0,
+            "unit_price": 18.95,
+            "total_price": 37.9,
+            "commission": 6.77,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-09-12T09:58:54+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1794",
+      "shopify_order_date": "2026-09-10T19:26:33Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000F96WX0",
+        "order_placed_at": "2026-09-10T21:25:46+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.53,
+        "eans": [
+          "9503425233318"
+        ],
+        "offer_references": [
+          "Bosch4a-3DTS"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3989109268",
+            "ean": "9503425233318",
+            "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel",
+            "offer_id": "7699e825-2bc3-4838-9cdb-74d3b1057833",
+            "offer_reference": "Bosch4a-3DTS",
+            "sku": "Bosch4a-3DTS",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.53,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-09-12T09:52:00+02:00"
           }
         ]
       },
