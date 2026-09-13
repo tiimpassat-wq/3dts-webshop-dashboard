@@ -1,56 +1,56 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-09-12T09:20:55.146Z
+Gegenereerd: 2026-09-13T10:16:55.647Z
 
 ## Samenvatting gisteren
 
-- Omzet gisteren: EUR 85.46
-- Betrouwbare nettowinst gisteren: EUR 41.36
+- Omzet gisteren: EUR 68.65
+- Betrouwbare nettowinst gisteren: EUR 19.46
 - Geschatte/onvolledige nettowinst gisteren: EUR 0.00
-- Totale nettowinstindicatie gisteren: EUR 41.36
-- Orders gisteren: 2
-- Orders met betrouwbare kostprijs gisteren: 2
-- Orders met Shopify kostprijs gisteren: 2
+- Totale nettowinstindicatie gisteren: EUR 19.46
+- Orders gisteren: 4
+- Orders met betrouwbare kostprijs gisteren: 4
+- Orders met Shopify kostprijs gisteren: 4
 - Orders met fallback kostprijs gisteren: 0
 - Orders met ontbrekende kostprijs gisteren: 0
 - Winststatus gisteren: betrouwbaar
-- Gemiddelde winst per order: EUR 20.68
+- Gemiddelde winst per order: EUR 4.87
 
 ## Top 5 winstgevende producten (indicatief)
 
-- Accuhouder Makita 18V – Wandmontage - 4-voudig (Makita4v3dts.shop): EUR 12.26 nettowinst, 49.04% marge
-- Wandhouder Makita DC18RC Oplader (dc18rc3dts.shop): EUR 9.28 nettowinst, 49.04% marge
-- UniFi Access Point Wandbeugel – Kantelbaar / Verstelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite en U7-Lite – Wit (Unifikant3DTS.shop): EUR 8.30 nettowinst, 47.44% marge
-- UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder (Unifidesk3DTS.Shop): EUR 8.04 nettowinst, 47.44% marge
+- Wandhouder geschikt voor Makita DC18RD Duo oplader (dc18rd3dts.shop): EUR 5.79 nettowinst, 29.02% marge
+- Wandbeugel UniFi AC Pro / U6 Pro - Wit (3DTS-U6PRO): EUR 4.65 nettowinst, 48.9% marge
+- Universele Machinehouder – Makita, Bosch, DeWalt & Festool (geen SKU): EUR 2.31 nettowinst, 30.82% marge
+- Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel - BPC3400 (Bosch4a-3DTS): EUR 2.25 nettowinst, 11.28% marge
 
 ## Producten met lage marge (indicatief)
 
-- Geen lage-marge producten gevonden in de beschikbare dagdata.
+- Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel - BPC3400 (Bosch4a-3DTS): EUR 2.25 nettowinst, 11.28% marge
 
 ## Shopify vs Google Ads
 
-- Shopify omzet gisteren: EUR 85.46
-- Shopify direct omzet gisteren: EUR 51.02
+- Shopify omzet gisteren: EUR 68.65
+- Shopify direct omzet gisteren: EUR 28.75
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
-- Laatste 7 dagen omzet: EUR 494.69
+- Laatste 7 dagen omzet: EUR 523.57
 - Laatste 7 dagen Google Ads kosten: EUR 0.00
-- Laatste 7 dagen betrouwbare nettowinst: EUR 220.40
+- Laatste 7 dagen betrouwbare nettowinst: EUR 207.99
 - Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 0.00
 
 ## Bol.com
 
-- Bol omzet gisteren: EUR 34.44
-- Bol winst gisteren: EUR 16.34
-- Bol commissie gisteren: EUR 0.00
-- Bol Ads kosten gisteren: EUR 2.08
-- Winst na Bol Ads gisteren: EUR 16.34
-- Bol omzet laatste 7 dagen: EUR 371.65
-- Bol winst laatste 7 dagen: EUR 161.53
-- Bol commissie laatste 7 dagen: EUR 41.20
-- Bol Ads kosten laatste 7 dagen: EUR 10.87
-- Bol Ads ROAS laatste 7 dagen: 12.4756
-- Bol orders gematcht laatste 7 dagen: 13
+- Bol omzet gisteren: EUR 39.90
+- Bol winst gisteren: EUR 8.04
+- Bol commissie gisteren: EUR 7.06
+- Bol Ads kosten gisteren: EUR 1.45
+- Winst na Bol Ads gisteren: EUR 8.04
+- Bol omzet laatste 7 dagen: EUR 400.60
+- Bol winst laatste 7 dagen: EUR 152.38
+- Bol commissie laatste 7 dagen: EUR 50.01
+- Bol Ads kosten laatste 7 dagen: EUR 10.45
+- Bol Ads ROAS laatste 7 dagen: 8.4019
+- Bol orders gematcht laatste 7 dagen: 16
 - Bol orders niet in Shopify gevonden laatste 7 dagen: 0
 
 ## AI-adviezen
