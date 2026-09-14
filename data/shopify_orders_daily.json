@@ -1,54 +1,21 @@
 {
-  "generated_at": "2026-09-13T10:16:37.662Z",
+  "generated_at": "2026-09-14T10:37:27.052Z",
   "period": "daily",
-  "date_from": "2026-09-12",
-  "date_to_exclusive": "2026-09-13",
+  "date_from": "2026-09-13",
+  "date_to_exclusive": "2026-09-14",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 4,
-    "item_count": 4,
-    "total_order_amount": 68.65,
-    "shipping_paid_by_customer": 11.75,
+    "order_count": 5,
+    "item_count": 5,
+    "total_order_amount": 99.75,
+    "shipping_paid_by_customer": 0,
     "discount": 0
   },
   "orders": [
     {
-      "order_number": "#3dts1798",
-      "date": "2026-09-12T11:08:39Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 4.65,
-      "shipping_title": "Nederland",
-      "discount": 0,
-      "total_order_amount": 14.15,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandbeugel UniFi AC Pro / U6 Pro - Wit",
-          "variant_id": "57415992607069",
-          "variant_gid": "gid://shopify/ProductVariant/57415992607069",
-          "sku": "3DTS-U6PRO",
-          "barcode": "8721516390127",
-          "ean": "8721516390127",
-          "quantity": 1,
-          "product_sale_price": 9.5,
-          "original_unit_price": 9.5,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1799",
-      "date": "2026-09-12T11:35:03Z",
+      "order_number": "#3dts1802",
+      "date": "2026-09-13T07:30:03Z",
       "channel_source": "bol",
       "customer_country_code": "BE",
       "customer_country": "Belgium",
@@ -58,10 +25,10 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000FCR3TD"
+        "Bol-C000FDD93C"
       ],
       "landing_site": null,
       "referring_site": null,
@@ -83,41 +50,80 @@
       ]
     },
     {
-      "order_number": "#3dts1800",
-      "date": "2026-09-12T14:30:11Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
+      "order_number": "#3dts1803",
+      "date": "2026-09-13T07:30:04Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
       "discount": 0,
-      "total_order_amount": 14.6,
+      "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/universele-machine-houder-makita-bosch-dewalt-festool",
-      "referring_site": "https://www.google.com/",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000FDD7MT"
+      ],
+      "landing_site": null,
+      "referring_site": null,
       "referral_code": null,
       "line_items": [
         {
-          "product_name": "Universele Machinehouder – Makita, Bosch, DeWalt & Festool",
-          "variant_id": "57528429379933",
-          "variant_gid": "gid://shopify/ProductVariant/57528429379933",
-          "sku": null,
-          "barcode": "9505583956719",
-          "ean": "9505583956719",
+          "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel - BPC3400",
+          "variant_id": "58800397255005",
+          "variant_gid": "gid://shopify/ProductVariant/58800397255005",
+          "sku": "Bosch4a-3DTS",
+          "barcode": "9503425233318",
+          "ean": "9503425233318",
           "quantity": 1,
-          "product_sale_price": 7.5,
-          "original_unit_price": 7.5,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
           "line_discount": 0,
           "currency": "EUR"
         }
       ]
     },
     {
-      "order_number": "#3dts1801",
-      "date": "2026-09-12T18:50:04Z",
+      "order_number": "#3dts1804",
+      "date": "2026-09-13T08:31:34Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000FDFTX2"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig",
+          "variant_id": "62962109153629",
+          "variant_gid": "gid://shopify/ProductVariant/62962109153629",
+          "sku": "629621091536_60CB",
+          "barcode": "9509192768565",
+          "ean": "9509192768565",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1805",
+      "date": "2026-09-13T10:10:03Z",
       "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
@@ -130,7 +136,43 @@
       "fulfillment_status": "UNFULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000FD5R01"
+        "Bol-C000FDKX26"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1806",
+      "date": "2026-09-13T18:30:03Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000FD9L0X"
       ],
       "landing_site": null,
       "referring_site": null,
