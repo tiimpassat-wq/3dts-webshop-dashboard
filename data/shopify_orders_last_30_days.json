@@ -1,54 +1,18 @@
 {
-  "generated_at": "2026-09-15T10:03:44.010Z",
+  "generated_at": "2026-09-16T09:56:17.388Z",
   "period": "last_30_days",
-  "date_from": "2026-08-17",
-  "date_to_exclusive": "2026-09-16",
+  "date_from": "2026-08-18",
+  "date_to_exclusive": "2026-09-17",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 71,
-    "item_count": 123,
-    "total_order_amount": 1929.41,
-    "shipping_paid_by_customer": 105.75,
+    "order_count": 72,
+    "item_count": 125,
+    "total_order_amount": 1945.96,
+    "shipping_paid_by_customer": 110.4,
     "discount": 9.25
   },
   "orders": [
-    {
-      "order_number": "#3dts1740",
-      "date": "2026-08-17T11:18:15Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 19.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000D2JN5M"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel - BPC3400",
-          "variant_id": "58800397255005",
-          "variant_gid": "gid://shopify/ProductVariant/58800397255005",
-          "sku": "Bosch4a-3DTS",
-          "barcode": "9503425233318",
-          "ean": "9503425233318",
-          "quantity": 1,
-          "product_sale_price": 19.95,
-          "original_unit_price": 19.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1741",
       "date": "2026-08-18T18:12:30Z",
@@ -2611,6 +2575,75 @@
           "quantity": 3,
           "product_sale_price": 9.95,
           "original_unit_price": 9.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1811",
+      "date": "2026-09-15T13:16:16Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 0,
+      "total_order_amount": 16.55,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/panasonic-machine-houder-18v",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Machinehouder Panasonic 18V",
+          "variant_id": "57789392552285",
+          "variant_gid": "gid://shopify/ProductVariant/57789392552285",
+          "sku": "577893925522_460B",
+          "barcode": "9506957513613",
+          "ean": "9506957513613",
+          "quantity": 2,
+          "product_sale_price": 5.95,
+          "original_unit_price": 5.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1812",
+      "date": "2026-09-16T07:41:32Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000FJXF7H"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel - BPC3400",
+          "variant_id": "58800397255005",
+          "variant_gid": "gid://shopify/ProductVariant/58800397255005",
+          "sku": "Bosch4a-3DTS",
+          "barcode": "9503425233318",
+          "ean": "9503425233318",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
           "line_discount": 0,
           "currency": "EUR"
         }

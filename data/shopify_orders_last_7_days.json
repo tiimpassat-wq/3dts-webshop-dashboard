@@ -1,161 +1,18 @@
 {
-  "generated_at": "2026-09-15T10:03:43.120Z",
+  "generated_at": "2026-09-16T09:56:16.539Z",
   "period": "last_7_days",
-  "date_from": "2026-09-09",
-  "date_to_exclusive": "2026-09-16",
+  "date_from": "2026-09-10",
+  "date_to_exclusive": "2026-09-17",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 21,
-    "item_count": 29,
-    "total_order_amount": 492.36,
-    "shipping_paid_by_customer": 37.8,
-    "discount": 3.73
+    "order_count": 19,
+    "item_count": 27,
+    "total_order_amount": 443.86,
+    "shipping_paid_by_customer": 32.45,
+    "discount": 0.98
   },
   "orders": [
-    {
-      "order_number": "#3dts1790",
-      "date": "2026-09-09T06:30:03Z",
-      "channel_source": "bol",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 31.9,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000F70WNK"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-          "variant_id": "63433470476637",
-          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
-          "sku": "Unifidesk3DTS.Shop",
-          "barcode": "8721516390073",
-          "ean": "8721516390073",
-          "quantity": 2,
-          "product_sale_price": 15.95,
-          "original_unit_price": 15.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1791",
-      "date": "2026-09-09T09:20:02Z",
-      "channel_source": "shopify_draft_order",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
-      "shipping_paid_by_customer": 10,
-      "shipping_title": "Amazon Standard",
-      "discount": 2.75,
-      "total_order_amount": 16.2,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Amazon-404-2227370-3492351"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandbeugel UniFi AC Lite / nanoHD / AC LR / U6 Lite",
-          "variant_id": "57838610743645",
-          "variant_gid": "gid://shopify/ProductVariant/57838610743645",
-          "sku": "Unifimountlite3DTS.shop",
-          "barcode": "08721516390042",
-          "ean": "08721516390042",
-          "quantity": 1,
-          "product_sale_price": 6.2,
-          "original_unit_price": 8.95,
-          "line_discount": 2.75,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1792",
-      "date": "2026-09-09T14:40:03Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 16.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000F7L8N9"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-          "variant_id": "63433470476637",
-          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
-          "sku": "Unifidesk3DTS.Shop",
-          "barcode": "8721516390073",
-          "ean": "8721516390073",
-          "quantity": 1,
-          "product_sale_price": 16.95,
-          "original_unit_price": 16.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1793",
-      "date": "2026-09-09T14:56:33Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 19.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000F7LTC7"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-          "variant_id": "57512098234717",
-          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
-          "sku": "dc18rc3dts.shop",
-          "barcode": "8721516390011",
-          "ean": "8721516390011",
-          "quantity": 1,
-          "product_sale_price": 19.95,
-          "original_unit_price": 19.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1794",
       "date": "2026-09-10T19:26:33Z",
@@ -777,6 +634,75 @@
           "quantity": 3,
           "product_sale_price": 9.95,
           "original_unit_price": 9.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1811",
+      "date": "2026-09-15T13:16:16Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 0,
+      "total_order_amount": 16.55,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/panasonic-machine-houder-18v",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Machinehouder Panasonic 18V",
+          "variant_id": "57789392552285",
+          "variant_gid": "gid://shopify/ProductVariant/57789392552285",
+          "sku": "577893925522_460B",
+          "barcode": "9506957513613",
+          "ean": "9506957513613",
+          "quantity": 2,
+          "product_sale_price": 5.95,
+          "original_unit_price": 5.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1812",
+      "date": "2026-09-16T07:41:32Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000FJXF7H"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel - BPC3400",
+          "variant_id": "58800397255005",
+          "variant_gid": "gid://shopify/ProductVariant/58800397255005",
+          "sku": "Bosch4a-3DTS",
+          "barcode": "9503425233318",
+          "ean": "9503425233318",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
           "line_discount": 0,
           "currency": "EUR"
         }
