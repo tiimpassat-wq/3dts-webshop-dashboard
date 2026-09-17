@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T09:56:30.218Z",
+  "generated_at": "2026-09-17T09:58:55.941Z",
   "period": "last_7_days",
-  "date_from": "2026-09-10",
-  "date_to_exclusive": "2026-09-17",
+  "date_from": "2026-09-11",
+  "date_to_exclusive": "2026-09-18",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
@@ -11,8 +11,8 @@
     "bol_orders": 14,
     "matched_orders": 14,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 308.74,
-    "total_bol_commission": 48.77
+    "total_bol_revenue": 290.79,
+    "total_bol_commission": 45.53
   },
   "warnings": [],
   "matches": [
@@ -75,94 +75,6 @@
             "distribution_party": "RETAILER",
             "cancellation_request": false,
             "latest_changed_at": "2026-09-12T10:00:55+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1795",
-      "shopify_order_date": "2026-09-10T20:05:03Z",
-      "shopify_total_order_amount": 37.9,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000F98427",
-        "order_placed_at": "2026-09-10T22:03:35+02:00",
-        "customer_country_code": "BE",
-        "pickup_point": false,
-        "total_order_amount": 37.9,
-        "total_commission": 6.77,
-        "eans": [
-          "9509658425575"
-        ],
-        "offer_references": [
-          "U0-INRG-KJHL"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3989130915",
-            "ean": "9509658425575",
-            "product_name": "Support mural incliné pour chargeur Duo Makita DC18RD",
-            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-            "offer_reference": "U0-INRG-KJHL",
-            "sku": "U0-INRG-KJHL",
-            "quantity": 2,
-            "quantity_shipped": 2,
-            "quantity_cancelled": 0,
-            "unit_price": 18.95,
-            "total_price": 37.9,
-            "commission": 6.77,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-09-12T09:58:54+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1794",
-      "shopify_order_date": "2026-09-10T19:26:33Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000F96WX0",
-        "order_placed_at": "2026-09-10T21:25:46+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.53,
-        "eans": [
-          "9503425233318"
-        ],
-        "offer_references": [
-          "Bosch4a-3DTS"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3989109268",
-            "ean": "9503425233318",
-            "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel",
-            "offer_id": "7699e825-2bc3-4838-9cdb-74d3b1057833",
-            "offer_reference": "Bosch4a-3DTS",
-            "sku": "Bosch4a-3DTS",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.53,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-09-12T09:52:00+02:00"
           }
         ]
       },
@@ -348,138 +260,6 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1809",
-      "shopify_order_date": "2026-09-14T13:45:03Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000FH41KD",
-        "order_placed_at": "2026-09-14T15:41:31+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.53,
-        "eans": [
-          "9509658425575"
-        ],
-        "offer_references": [
-          "U0-INRG-KJHL"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3990760425",
-            "ean": "9509658425575",
-            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-            "offer_reference": "U0-INRG-KJHL",
-            "sku": "U0-INRG-KJHL",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.53,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-09-14T15:41:46+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1808",
-      "shopify_order_date": "2026-09-14T11:10:04Z",
-      "shopify_total_order_amount": 16.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000FFRJ7T",
-        "order_placed_at": "2026-09-14T13:07:59+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 16.95,
-        "total_commission": 1.05,
-        "eans": [
-          "8721516390073"
-        ],
-        "offer_references": [
-          "Unifidesk3DTS.Shop"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3990680314",
-            "ean": "8721516390073",
-            "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-            "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
-            "offer_reference": "Unifidesk3DTS.Shop",
-            "sku": "Unifidesk3DTS.Shop",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 16.95,
-            "total_price": 16.95,
-            "commission": 1.05,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-09-14T13:08:46+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1807",
-      "shopify_order_date": "2026-09-14T10:00:04Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000F9X5J9",
-        "order_placed_at": "2026-09-14T11:56:47+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.53,
-        "eans": [
-          "9509658425575"
-        ],
-        "offer_references": [
-          "U0-INRG-KJHL"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3990643664",
-            "ean": "9509658425575",
-            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-            "offer_reference": "U0-INRG-KJHL",
-            "sku": "U0-INRG-KJHL",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.53,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-09-14T11:57:49+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
       "shopify_order_number": "#3dts1804",
       "shopify_order_date": "2026-09-13T08:31:34Z",
       "shopify_total_order_amount": 19.95,
@@ -612,8 +392,228 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
+      "shopify_order_number": "#3dts1815",
+      "shopify_order_date": "2026-09-16T12:36:33Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000FKFD6J",
+        "order_placed_at": "2026-09-16T14:34:59+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.53,
+        "eans": [
+          "9502488883461"
+        ],
+        "offer_references": [
+          "3DTS"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3991748701",
+            "ean": "9502488883461",
+            "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder",
+            "offer_id": "fa0ac061-34a9-40ab-8fda-31ecb6ab4960",
+            "offer_reference": "3DTS",
+            "sku": "3DTS",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.53,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-09-16T17:46:18+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1809",
+      "shopify_order_date": "2026-09-14T13:45:03Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000FH41KD",
+        "order_placed_at": "2026-09-14T15:41:31+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.53,
+        "eans": [
+          "9509658425575"
+        ],
+        "offer_references": [
+          "U0-INRG-KJHL"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3990760425",
+            "ean": "9509658425575",
+            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+            "offer_reference": "U0-INRG-KJHL",
+            "sku": "U0-INRG-KJHL",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.53,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-09-16T17:37:15+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1807",
+      "shopify_order_date": "2026-09-14T10:00:04Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000F9X5J9",
+        "order_placed_at": "2026-09-14T11:56:47+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.53,
+        "eans": [
+          "9509658425575"
+        ],
+        "offer_references": [
+          "U0-INRG-KJHL"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3990643664",
+            "ean": "9509658425575",
+            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+            "offer_reference": "U0-INRG-KJHL",
+            "sku": "U0-INRG-KJHL",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.53,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-09-16T17:34:17+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1808",
+      "shopify_order_date": "2026-09-14T11:10:04Z",
+      "shopify_total_order_amount": 16.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000FFRJ7T",
+        "order_placed_at": "2026-09-14T13:07:59+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 16.95,
+        "total_commission": 1.05,
+        "eans": [
+          "8721516390073"
+        ],
+        "offer_references": [
+          "Unifidesk3DTS.Shop"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3990680314",
+            "ean": "8721516390073",
+            "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+            "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
+            "offer_reference": "Unifidesk3DTS.Shop",
+            "sku": "Unifidesk3DTS.Shop",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 16.95,
+            "total_price": 16.95,
+            "commission": 1.05,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-09-16T17:34:16+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
       "shopify_order_number": "#3dts1812",
       "shopify_order_date": "2026-09-16T07:41:32Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000FKDK60",
+        "order_placed_at": "2026-09-16T14:08:03+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.53,
+        "eans": [
+          "9503425233318"
+        ],
+        "offer_references": [
+          "Bosch4a-3DTS"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3991733197",
+            "ean": "9503425233318",
+            "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel",
+            "offer_id": "7699e825-2bc3-4838-9cdb-74d3b1057833",
+            "offer_reference": "Bosch4a-3DTS",
+            "sku": "Bosch4a-3DTS",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.53,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-09-16T14:08:15+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1814",
+      "shopify_order_date": "2026-09-16T12:10:03Z",
       "shopify_total_order_amount": 19.95,
       "channel": "bol.com",
       "bol": {

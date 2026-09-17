@@ -1,64 +1,18 @@
 {
-  "generated_at": "2026-09-16T09:56:17.388Z",
+  "generated_at": "2026-09-17T09:58:39.916Z",
   "period": "last_30_days",
-  "date_from": "2026-08-18",
-  "date_to_exclusive": "2026-09-17",
+  "date_from": "2026-08-19",
+  "date_to_exclusive": "2026-09-18",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 72,
-    "item_count": 125,
-    "total_order_amount": 1945.96,
-    "shipping_paid_by_customer": 110.4,
-    "discount": 9.25
+    "order_count": 74,
+    "item_count": 126,
+    "total_order_amount": 1972.08,
+    "shipping_paid_by_customer": 107.95,
+    "discount": 8.63
   },
   "orders": [
-    {
-      "order_number": "#3dts1741",
-      "date": "2026-08-18T18:12:30Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
-      "discount": 0.62,
-      "total_order_amount": 30.93,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/wandhouder-schuin-voor-makita-dc18rd-duo-oplader-3d-geprint-compatibel-met-18v-laadstation",
-      "referring_site": "https://www.google.com/",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder voor Makita DC18RD Duo Oplader – 3D Geprint – Compatibel met 18V Laadstation",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 1,
-          "product_sale_price": 11.95,
-          "original_unit_price": 11.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
-          "variant_id": "57872304963933",
-          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
-          "sku": "Makita4v3dts.shop",
-          "barcode": "8721516390097",
-          "ean": "8721516390097",
-          "quantity": 1,
-          "product_sale_price": 11.88,
-          "original_unit_price": 12.5,
-          "line_discount": 0.62,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1742",
       "date": "2026-08-19T18:13:19Z",
@@ -2451,7 +2405,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000F9X5J9"
@@ -2487,7 +2441,7 @@
       "total_order_amount": 16.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000FFRJ7T"
@@ -2523,7 +2477,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000FH41KD"
@@ -2559,7 +2513,7 @@
       "total_order_amount": 38.8,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": null,
       "referring_site": null,
@@ -2592,7 +2546,7 @@
       "total_order_amount": 16.55,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": "https://3dts.shop/products/panasonic-machine-houder-18v",
       "referring_site": "https://www.google.com/",
@@ -2641,6 +2595,111 @@
           "sku": "Bosch4a-3DTS",
           "barcode": "9503425233318",
           "ean": "9503425233318",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1813",
+      "date": "2026-09-16T11:38:42Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 0,
+      "total_order_amount": 17.15,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
+          "variant_id": "57872304963933",
+          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
+          "sku": "Makita4v3dts.shop",
+          "barcode": "8721516390097",
+          "ean": "8721516390097",
+          "quantity": 1,
+          "product_sale_price": 12.5,
+          "original_unit_price": 12.5,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1814",
+      "date": "2026-09-16T12:10:03Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000FKDK60"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel - BPC3400",
+          "variant_id": "58800397255005",
+          "variant_gid": "gid://shopify/ProductVariant/58800397255005",
+          "sku": "Bosch4a-3DTS",
+          "barcode": "9503425233318",
+          "ean": "9503425233318",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1815",
+      "date": "2026-09-16T12:36:33Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000FKFD6J"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder - 3",
+          "variant_id": "57883475214685",
+          "variant_gid": "gid://shopify/ProductVariant/57883475214685",
+          "sku": "Bosch18Vgroen3DTS.shop",
+          "barcode": "08721516390059",
+          "ean": "08721516390059",
           "quantity": 1,
           "product_sale_price": 19.95,
           "original_unit_price": 19.95,
