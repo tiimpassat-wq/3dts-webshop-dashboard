@@ -1,51 +1,18 @@
 {
-  "generated_at": "2026-09-17T09:58:39.916Z",
+  "generated_at": "2026-09-18T09:45:12.173Z",
   "period": "last_30_days",
-  "date_from": "2026-08-19",
-  "date_to_exclusive": "2026-09-18",
+  "date_from": "2026-08-20",
+  "date_to_exclusive": "2026-09-19",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 74,
-    "item_count": 126,
-    "total_order_amount": 1972.08,
-    "shipping_paid_by_customer": 107.95,
+    "order_count": 73,
+    "item_count": 125,
+    "total_order_amount": 1958.18,
+    "shipping_paid_by_customer": 103.3,
     "discount": 8.63
   },
   "orders": [
-    {
-      "order_number": "#3dts1742",
-      "date": "2026-08-19T18:13:19Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 4.65,
-      "shipping_title": "Nederland",
-      "discount": 0,
-      "total_order_amount": 13.9,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/",
-      "referring_site": "https://l.wl.co/",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Metabo CAS 12V Accu Houder Schuif – Wandhouder voor Accu",
-          "variant_id": "65159836303709",
-          "variant_gid": "gid://shopify/ProductVariant/65159836303709",
-          "sku": "3DTS-METABO-CAS12V-SCHUIF",
-          "barcode": null,
-          "ean": null,
-          "quantity": 1,
-          "product_sale_price": 9.25,
-          "original_unit_price": 9.25,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1743",
       "date": "2026-08-21T11:23:14Z",
@@ -2579,7 +2546,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000FJXF7H"
@@ -2615,7 +2582,7 @@
       "total_order_amount": 17.15,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": "https://3dts.shop/",
       "referring_site": "https://www.google.com/",
@@ -2648,7 +2615,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000FKDK60"

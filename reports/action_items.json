@@ -1,18 +1,11 @@
 {
-  "generated_at": "2026-09-17T09:58:56.806Z",
+  "generated_at": "2026-09-18T09:45:26.964Z",
   "actions": [
     {
       "type": "bundel maken",
       "priority": "medium",
       "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
       "sku": "dc18rd3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
-      "sku": "Makita4v3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -32,8 +25,8 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-      "sku": "Unifidesk3DTS.Shop",
+      "product_name": "Machinehouder Panasonic 18V",
+      "sku": "577893925522_460B",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]
