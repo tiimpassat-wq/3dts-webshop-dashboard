@@ -1,54 +1,18 @@
 {
-  "generated_at": "2026-09-20T09:48:19.956Z",
+  "generated_at": "2026-09-21T10:42:20.164Z",
   "period": "last_30_days",
-  "date_from": "2026-08-22",
-  "date_to_exclusive": "2026-09-21",
+  "date_from": "2026-08-23",
+  "date_to_exclusive": "2026-09-22",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 72,
-    "item_count": 125,
-    "total_order_amount": 1947.34,
+    "order_count": 73,
+    "item_count": 127,
+    "total_order_amount": 1984.24,
     "shipping_paid_by_customer": 110.4,
     "discount": 9.12
   },
   "orders": [
-    {
-      "order_number": "#3dts1746",
-      "date": "2026-08-22T19:29:43Z",
-      "channel_source": "bol",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 17.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000D9509P"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandbeugel voor UniFi Turret Camera - Geschikt voor Unifi - Wit",
-          "variant_id": "57729943273821",
-          "variant_gid": "gid://shopify/ProductVariant/57729943273821",
-          "sku": "577299432738_2769",
-          "barcode": "8721516390547",
-          "ean": "8721516390547",
-          "quantity": 1,
-          "product_sale_price": 17.95,
-          "original_unit_price": 17.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1747",
       "date": "2026-08-23T06:04:58Z",
@@ -2625,7 +2589,7 @@
       "total_order_amount": 37.9,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000FNHP5T"
@@ -2641,6 +2605,78 @@
           "sku": "dc18rd3dts.shop",
           "barcode": "8721516390004",
           "ean": "8721516390004",
+          "quantity": 2,
+          "product_sale_price": 18.95,
+          "original_unit_price": 18.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1818",
+      "date": "2026-09-20T12:38:07Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 16.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000FPPC81"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+          "variant_id": "63433470476637",
+          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
+          "sku": "Unifidesk3DTS.Shop",
+          "barcode": "8721516390073",
+          "ean": "8721516390073",
+          "quantity": 1,
+          "product_sale_price": 16.95,
+          "original_unit_price": 16.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1819",
+      "date": "2026-09-20T18:13:07Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 37.9,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000FR553C"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
           "quantity": 2,
           "product_sale_price": 18.95,
           "original_unit_price": 18.95,

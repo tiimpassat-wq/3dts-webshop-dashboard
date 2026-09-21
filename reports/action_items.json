@@ -1,18 +1,24 @@
 {
-  "generated_at": "2026-09-20T09:48:34.905Z",
+  "generated_at": "2026-09-21T10:42:35.119Z",
   "actions": [
+    {
+      "type": "campagne pauzeren",
+      "priority": "high",
+      "campaign": "Bol Sponsored Products",
+      "reason": "Bol Ads ROAS laatste 7 dagen is 1.2948; controleer zoektermen en biedingen voordat budget omhoog gaat."
+    },
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-      "sku": "dc18rd3dts.shop",
+      "product_name": "Wandhouder Makita DC18RC Oplader",
+      "sku": "dc18rc3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Montagebeugel passend voor UniFi UAP AC Pro",
-      "sku": "584061623340_133C",
+      "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+      "sku": "dc18rd3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {

@@ -1,21 +1,57 @@
 {
-  "generated_at": "2026-09-20T09:48:18.578Z",
+  "generated_at": "2026-09-21T10:42:18.973Z",
   "period": "daily",
-  "date_from": "2026-09-19",
-  "date_to_exclusive": "2026-09-20",
+  "date_from": "2026-09-20",
+  "date_to_exclusive": "2026-09-21",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 1,
-    "item_count": 2,
-    "total_order_amount": 37.9,
+    "order_count": 2,
+    "item_count": 3,
+    "total_order_amount": 54.85,
     "shipping_paid_by_customer": 0,
     "discount": 0
   },
   "orders": [
     {
-      "order_number": "#3dts1817",
-      "date": "2026-09-19T07:15:02Z",
+      "order_number": "#3dts1818",
+      "date": "2026-09-20T12:38:07Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 16.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000FPPC81"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+          "variant_id": "63433470476637",
+          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
+          "sku": "Unifidesk3DTS.Shop",
+          "barcode": "8721516390073",
+          "ean": "8721516390073",
+          "quantity": 1,
+          "product_sale_price": 16.95,
+          "original_unit_price": 16.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1819",
+      "date": "2026-09-20T18:13:07Z",
       "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
@@ -28,19 +64,19 @@
       "fulfillment_status": "UNFULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000FNHP5T"
+        "Bol-C000FR553C"
       ],
       "landing_site": null,
       "referring_site": null,
       "referral_code": null,
       "line_items": [
         {
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
           "quantity": 2,
           "product_sale_price": 18.95,
           "original_unit_price": 18.95,
