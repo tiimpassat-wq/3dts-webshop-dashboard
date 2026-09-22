@@ -1,87 +1,18 @@
 {
-  "generated_at": "2026-09-21T10:42:20.164Z",
+  "generated_at": "2026-09-22T09:56:46.194Z",
   "period": "last_30_days",
-  "date_from": "2026-08-23",
-  "date_to_exclusive": "2026-09-22",
+  "date_from": "2026-08-24",
+  "date_to_exclusive": "2026-09-23",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 73,
+    "order_count": 72,
     "item_count": 127,
-    "total_order_amount": 1984.24,
-    "shipping_paid_by_customer": 110.4,
+    "total_order_amount": 1964.24,
+    "shipping_paid_by_customer": 112.85,
     "discount": 9.12
   },
   "orders": [
-    {
-      "order_number": "#3dts1747",
-      "date": "2026-08-23T06:04:58Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 4.65,
-      "shipping_title": "Nederland",
-      "discount": 0,
-      "total_order_amount": 29.65,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/makita-accu-houder-4v",
-      "referring_site": "https://www.google.com/",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
-          "variant_id": "57872304963933",
-          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
-          "sku": "Makita4v3dts.shop",
-          "barcode": "8721516390097",
-          "ean": "8721516390097",
-          "quantity": 2,
-          "product_sale_price": 12.5,
-          "original_unit_price": 12.5,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1748",
-      "date": "2026-08-23T11:00:02Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 19.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000D9XRT4"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 1,
-          "product_sale_price": 19.95,
-          "original_unit_price": 19.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1749",
       "date": "2026-08-24T08:30:44Z",
@@ -2661,7 +2592,7 @@
       "total_order_amount": 37.9,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000FR553C"
@@ -2680,6 +2611,39 @@
           "quantity": 2,
           "product_sale_price": 18.95,
           "original_unit_price": 18.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1820",
+      "date": "2026-09-21T13:00:02Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7.1,
+      "shipping_title": "Pakket",
+      "discount": 0,
+      "total_order_amount": 29.6,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder Hikoki / Hitachi / Metabo 18V - Zwart / 3 voudig",
+          "variant_id": "62826209804637",
+          "variant_gid": "gid://shopify/ProductVariant/62826209804637",
+          "sku": "57425463443805_Zwart3voudig5B086",
+          "barcode": "8721516390417",
+          "ean": "8721516390417",
+          "quantity": 3,
+          "product_sale_price": 7.5,
+          "original_unit_price": 7.5,
           "line_discount": 0,
           "currency": "EUR"
         }

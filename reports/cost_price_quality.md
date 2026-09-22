@@ -1,6 +1,6 @@
 # Kostprijs Kwaliteit
 
-Gegenereerd: 2026-09-21T10:42:35.120Z
+Gegenereerd: 2026-09-22T09:56:58.795Z
 
 ## Samenvatting
 
@@ -15,10 +15,10 @@ Gegenereerd: 2026-09-21T10:42:35.120Z
 
 | Bron | SKU | EAN | Product | Kostprijs | Aantal verkocht |
 | --- | --- | --- | --- | ---: | ---: |
-| shopify_unit_cost | dc18rc3dts.shop | 8721516390011 | Wandhouder geschikt voor Makita DC18RC oplader | EUR 3.87 | 5 |
-| shopify_unit_cost | Unifidesk3DTS.Shop | 8721516390073 | UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder | EUR 3.63 | 2 |
-| shopify_unit_cost | 577893925522_460B | 9506957513613 | Machinehouder Panasonic 18V | EUR 1.00 | 2 |
+| shopify_unit_cost | 57425463443805_Zwart3voudig5B086 | 8721516390417 | Accuhouder Hikoki / Hitachi / Metabo 18V - Zwart / 3 voudig | EUR 1.00 | 6 |
+| shopify_unit_cost | dc18rc3dts.shop | 8721516390011 | Wandhouder Makita DC18RC Oplader | EUR 3.87 | 3 |
 | shopify_unit_cost | Bosch4a-3DTS | 9503425233318 | Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel - BPC3400 | EUR 5.35 | 2 |
 | shopify_unit_cost | Makita4v3dts.shop | 8721516390097 | Accuhouder Makita 18V – Wandmontage - 4-voudig | EUR 6.33 | 2 |
 | shopify_unit_cost | dc18rd3dts.shop | 8721516390004 | Wandhouder geschikt voor Makita DC18RD Duo oplader | EUR 4.30 | 2 |
 | shopify_unit_cost | Bosch18Vgroen3DTS.shop | 08721516390059 | Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder - 3 | EUR 3.61 | 1 |
+| shopify_unit_cost | Unifidesk3DTS.Shop | 8721516390073 | UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder | EUR 3.63 | 1 |

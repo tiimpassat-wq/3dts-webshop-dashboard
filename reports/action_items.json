@@ -1,17 +1,24 @@
 {
-  "generated_at": "2026-09-21T10:42:35.119Z",
+  "generated_at": "2026-09-22T09:56:58.793Z",
   "actions": [
     {
       "type": "campagne pauzeren",
       "priority": "high",
       "campaign": "Bol Sponsored Products",
-      "reason": "Bol Ads ROAS laatste 7 dagen is 1.2948; controleer zoektermen en biedingen voordat budget omhoog gaat."
+      "reason": "Bol Ads ROAS laatste 7 dagen is 1.2865; controleer zoektermen en biedingen voordat budget omhoog gaat."
     },
     {
       "type": "bundel maken",
       "priority": "medium",
       "product_name": "Wandhouder Makita DC18RC Oplader",
       "sku": "dc18rc3dts.shop",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Accuhouder Hikoki / Hitachi / Metabo 18V - Zwart / 3 voudig",
+      "sku": "57425463443805_Zwart3voudig5B086",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -33,13 +40,6 @@
       "priority": "medium",
       "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel - BPC3400",
       "sku": "Bosch4a-3DTS",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Machinehouder Panasonic 18V",
-      "sku": "577893925522_460B",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]
