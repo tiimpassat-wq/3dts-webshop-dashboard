@@ -1,12 +1,6 @@
 {
-  "generated_at": "2026-09-22T09:56:58.793Z",
+  "generated_at": "2026-09-23T09:58:39.121Z",
   "actions": [
-    {
-      "type": "campagne pauzeren",
-      "priority": "high",
-      "campaign": "Bol Sponsored Products",
-      "reason": "Bol Ads ROAS laatste 7 dagen is 1.2865; controleer zoektermen en biedingen voordat budget omhoog gaat."
-    },
     {
       "type": "bundel maken",
       "priority": "medium",
@@ -26,20 +20,6 @@
       "priority": "medium",
       "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
       "sku": "dc18rd3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
-      "sku": "Makita4v3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel - BPC3400",
-      "sku": "Bosch4a-3DTS",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]
