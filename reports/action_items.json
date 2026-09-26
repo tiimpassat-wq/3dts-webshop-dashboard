@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T10:11:26.662Z",
+  "generated_at": "2026-09-26T09:51:45.987Z",
   "actions": [
     {
       "type": "product controleren",
@@ -9,17 +9,24 @@
       "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
     },
     {
-      "type": "bundel maken",
-      "priority": "medium",
+      "type": "product controleren",
+      "priority": "high",
       "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
       "sku": "dc18rd3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+      "reason": "Bol commissie ontbreekt voor order #3dts1826; winst kan te hoog lijken."
     },
     {
       "type": "bundel maken",
       "priority": "medium",
       "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
       "sku": "dc18rc3dts.shop",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+      "sku": "dc18rd3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {

@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-25T10:11:20.959Z",
+  "generated_at": "2026-09-26T09:51:36.173Z",
   "period": "daily",
-  "date_from": "2026-09-24",
-  "date_to_exclusive": "2026-09-25",
+  "date_from": "2026-09-25",
+  "date_to_exclusive": "2026-09-26",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
     "bol_raw": "bol_orders_raw_daily.json"
   },
   "summary": {
-    "bol_orders": 2,
-    "matched_orders": 2,
+    "bol_orders": 1,
+    "matched_orders": 1,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 39.9,
-    "total_bol_commission": 7.06
+    "total_bol_revenue": 19.95,
+    "total_bol_commission": 3.53
   },
   "warnings": [],
   "matches": [
@@ -20,29 +20,31 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1825",
-      "shopify_order_date": "2026-09-24T17:43:07Z",
+      "shopify_order_number": "#3dts1827",
+      "shopify_order_date": "2026-09-25T19:08:07Z",
       "shopify_total_order_amount": 19.95,
       "channel": "bol.com",
       "bol": {
-        "bol_order_id": "C000H1RK7D",
-        "order_placed_at": "2026-09-24T19:42:10+02:00",
-        "customer_country_code": "NL",
+        "bol_order_id": "C000H366JK",
+        "order_placed_at": "2026-09-25T21:06:44+02:00",
+        "customer_country_code": "BE",
         "pickup_point": false,
         "total_order_amount": 19.95,
         "total_commission": 3.53,
         "eans": [
-          "9504741952723"
+          "9509658425575"
         ],
-        "offer_references": [],
+        "offer_references": [
+          "U0-INRG-KJHL"
+        ],
         "line_items": [
           {
-            "bol_order_item_id": "3996138203",
-            "ean": "9504741952723",
-            "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-            "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
-            "offer_reference": null,
-            "sku": null,
+            "bol_order_item_id": "3996759305",
+            "ean": "9509658425575",
+            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+            "offer_reference": "U0-INRG-KJHL",
+            "sku": "U0-INRG-KJHL",
             "quantity": 1,
             "quantity_shipped": 0,
             "quantity_cancelled": 0,
@@ -52,49 +54,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-09-24T19:42:53+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1824",
-      "shopify_order_date": "2026-09-24T09:55:02Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000H152J9",
-        "order_placed_at": "2026-09-24T11:53:05+02:00",
-        "customer_country_code": "BE",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.53,
-        "eans": [
-          "9504741952723"
-        ],
-        "offer_references": [],
-        "line_items": [
-          {
-            "bol_order_item_id": "3995869243",
-            "ean": "9504741952723",
-            "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-            "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
-            "offer_reference": null,
-            "sku": null,
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.53,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-09-24T19:31:37+02:00"
+            "latest_changed_at": "2026-09-25T21:07:15+02:00"
           }
         ]
       },
