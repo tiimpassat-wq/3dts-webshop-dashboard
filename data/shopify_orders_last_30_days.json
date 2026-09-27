@@ -1,51 +1,18 @@
 {
-  "generated_at": "2026-09-26T09:51:33.041Z",
+  "generated_at": "2026-09-27T10:32:59.067Z",
   "period": "last_30_days",
-  "date_from": "2026-08-28",
-  "date_to_exclusive": "2026-09-27",
+  "date_from": "2026-08-29",
+  "date_to_exclusive": "2026-09-28",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 68,
     "item_count": 97,
-    "total_order_amount": 1631.02,
-    "shipping_paid_by_customer": 98.75,
+    "total_order_amount": 1629.92,
+    "shipping_paid_by_customer": 91.65,
     "discount": 6.9
   },
   "orders": [
-    {
-      "order_number": "#3dts1760",
-      "date": "2026-08-28T10:32:14Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
-      "discount": 0,
-      "total_order_amount": 18.05,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/wandhouder-passend-voor-shimano-ec-e6002-lader",
-      "referring_site": "https://www.google.com/",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder Passend voor Shimano EC-E6002 lader",
-          "variant_id": "58006667723101",
-          "variant_gid": "gid://shopify/ProductVariant/58006667723101",
-          "sku": "3DTS-ECE6002",
-          "barcode": "8721516390158",
-          "ean": "8721516390158",
-          "quantity": 1,
-          "product_sale_price": 10.95,
-          "original_unit_price": 10.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1761",
       "date": "2026-08-29T08:36:56Z",
@@ -2466,6 +2433,42 @@
           "quantity": 1,
           "product_sale_price": 19.95,
           "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1828",
+      "date": "2026-09-26T14:38:08Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 16.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000H417H8"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+          "variant_id": "63433470476637",
+          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
+          "sku": "Unifidesk3DTS.Shop",
+          "barcode": "8721516390073",
+          "ean": "8721516390073",
+          "quantity": 1,
+          "product_sale_price": 16.95,
+          "original_unit_price": 16.95,
           "line_discount": 0,
           "currency": "EUR"
         }
