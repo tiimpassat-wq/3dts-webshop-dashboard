@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-28T11:41:09.153Z",
+  "generated_at": "2026-09-29T11:21:32.834Z",
   "actions": [
     {
       "type": "product controleren",
       "priority": "high",
-      "product_name": "Wandbeugel geschikt voor UniFi AC Lite, nanoHD, AC LR en U6 Lite ? PETG ? 3D-geprint",
-      "sku": "HG-63E0-NQ5D",
+      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+      "sku": "3DTS-DSS501-GRA",
       "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
     },
     {
@@ -13,6 +13,13 @@
       "priority": "high",
       "product_name": "Verstelbare wandbeugel geschikt voor UniFi UAP-AC-LR, U6-LR, U6-Lite en U7-Lite ? 3D-geprint",
       "sku": "3DTS-UNIFI-VERS",
+      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
+    },
+    {
+      "type": "product controleren",
+      "priority": "high",
+      "product_name": "Wandbeugel geschikt voor UniFi AC Lite, nanoHD, AC LR en U6 Lite ? PETG ? 3D-geprint",
+      "sku": "HG-63E0-NQ5D",
       "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
     },
     {

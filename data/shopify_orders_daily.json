@@ -1,51 +1,157 @@
 {
-  "generated_at": "2026-09-28T11:40:47.565Z",
+  "generated_at": "2026-09-29T11:21:23.433Z",
   "period": "daily",
-  "date_from": "2026-09-27",
-  "date_to_exclusive": "2026-09-28",
+  "date_from": "2026-09-28",
+  "date_to_exclusive": "2026-09-29",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 1,
-    "item_count": 1,
-    "total_order_amount": 12.95,
+    "order_count": 4,
+    "item_count": 5,
+    "total_order_amount": 95.75,
     "shipping_paid_by_customer": 0,
     "discount": 0
   },
   "orders": [
     {
-      "order_number": "#3dts1829",
-      "date": "2026-09-27T10:34:59Z",
-      "channel_source": "amazon",
+      "order_number": "#3dts1830",
+      "date": "2026-09-27T23:50:02Z",
+      "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "shipping_paid_by_customer": 0,
-      "shipping_title": "Amazon Standard",
+      "shipping_title": null,
       "discount": 0,
-      "total_order_amount": 12.95,
+      "total_order_amount": 37.9,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
-        "A1S25ADMT138N3",
-        "Amazon",
-        "Amazon-NL",
-        "FBM"
+        "Bol",
+        "Bol-C000H5NLP0"
       ],
       "landing_site": null,
       "referring_site": null,
       "referral_code": null,
       "line_items": [
         {
-          "product_name": "Wandbeugel geschikt voor UniFi AC Lite, nanoHD, AC LR en U6 Lite ? PETG ? 3D-geprint",
-          "variant_id": null,
-          "variant_gid": null,
-          "sku": "HG-63E0-NQ5D",
-          "barcode": null,
-          "ean": null,
+          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
+          "quantity": 2,
+          "product_sale_price": 18.95,
+          "original_unit_price": 18.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1831",
+      "date": "2026-09-28T11:10:02Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000H653TT"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "WandBeugel geschikt voor Bosch Professional 18V – Wandmontage. - 4-voudig",
+          "variant_id": "57884320072029",
+          "variant_gid": "gid://shopify/ProductVariant/57884320072029",
+          "sku": "3DTS-BP18V-4",
+          "barcode": "8721516390585",
+          "ean": "8721516390585",
           "quantity": 1,
-          "product_sale_price": 12.95,
-          "original_unit_price": 12.95,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1832",
+      "date": "2026-09-28T12:20:02Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000H67L85"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig",
+          "variant_id": "62962109153629",
+          "variant_gid": "gid://shopify/ProductVariant/62962109153629",
+          "sku": "629621091536_60CB",
+          "barcode": "9509192768565",
+          "ean": "9509192768565",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1833",
+      "date": "2026-09-28T17:30:03Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 17.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000H6P2TP"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "variant_id": "66045779870045",
+          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
+          "sku": "3DTS-DSS501-GRA",
+          "barcode": "8721516390691",
+          "ean": "8721516390691",
+          "quantity": 1,
+          "product_sale_price": 17.95,
+          "original_unit_price": 17.95,
           "line_discount": 0,
           "currency": "EUR"
         }
