@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-29T11:21:28.151Z",
+  "generated_at": "2026-09-30T11:09:41.136Z",
   "period": "daily",
-  "date_from": "2026-09-28",
-  "date_to_exclusive": "2026-09-29",
+  "date_from": "2026-09-29",
+  "date_to_exclusive": "2026-09-30",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
     "bol_raw": "bol_orders_raw_daily.json"
   },
   "summary": {
-    "bol_orders": 4,
-    "matched_orders": 4,
+    "bol_orders": 2,
+    "matched_orders": 2,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 95.75,
-    "total_bol_commission": 17.06
+    "total_bol_revenue": 37.9,
+    "total_bol_commission": 6.76
   },
   "warnings": [],
   "matches": [
@@ -20,13 +20,13 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1833",
-      "shopify_order_date": "2026-09-28T17:30:03Z",
+      "shopify_order_number": "#3dts1835",
+      "shopify_order_date": "2026-09-29T12:55:02Z",
       "shopify_total_order_amount": 17.95,
       "channel": "bol.com",
       "bol": {
-        "bol_order_id": "C000H6P2TP",
-        "order_placed_at": "2026-09-28T19:28:20+02:00",
+        "bol_order_id": "C000H7TRRH",
+        "order_placed_at": "2026-09-29T14:52:49+02:00",
         "customer_country_code": "NL",
         "pickup_point": false,
         "total_order_amount": 17.95,
@@ -39,7 +39,7 @@
         ],
         "line_items": [
           {
-            "bol_order_item_id": "3998338872",
+            "bol_order_item_id": "3998802228",
             "ean": "8721516390691",
             "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
             "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
@@ -54,7 +54,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-09-28T19:29:15+02:00"
+            "latest_changed_at": "2026-09-29T14:53:20+02:00"
           }
         ]
       },
@@ -64,115 +64,29 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1830",
-      "shopify_order_date": "2026-09-27T23:50:02Z",
-      "shopify_total_order_amount": 37.9,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000H5NLP0",
-        "order_placed_at": "2026-09-28T01:46:17+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 37.9,
-        "total_commission": 6.77,
-        "eans": [
-          "9504741952723"
-        ],
-        "offer_references": [],
-        "line_items": [
-          {
-            "bol_order_item_id": "3997881783",
-            "ean": "9504741952723",
-            "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-            "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
-            "offer_reference": null,
-            "sku": null,
-            "quantity": 2,
-            "quantity_shipped": 2,
-            "quantity_cancelled": 0,
-            "unit_price": 18.95,
-            "total_price": 37.9,
-            "commission": 6.77,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-09-28T19:22:53+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1832",
-      "shopify_order_date": "2026-09-28T12:20:02Z",
+      "shopify_order_number": "#3dts1834",
+      "shopify_order_date": "2026-09-29T12:20:02Z",
       "shopify_total_order_amount": 19.95,
       "channel": "bol.com",
       "bol": {
-        "bol_order_id": "C000H67L85",
-        "order_placed_at": "2026-09-28T14:17:12+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.53,
-        "eans": [
-          "9509192768565"
-        ],
-        "offer_references": [
-          "3DTS"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3998127966",
-            "ean": "9509192768565",
-            "product_name": "Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's)",
-            "offer_id": "5f048402-ef70-4c43-81e0-66b97a46e8db",
-            "offer_reference": "3DTS",
-            "sku": "3DTS",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.53,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-09-28T14:17:48+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1831",
-      "shopify_order_date": "2026-09-28T11:10:02Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000H653TT",
-        "order_placed_at": "2026-09-28T13:07:51+02:00",
+        "bol_order_id": "C000H7RNL3",
+        "order_placed_at": "2026-09-29T14:17:02+02:00",
         "customer_country_code": "BE",
         "pickup_point": false,
         "total_order_amount": 19.95,
         "total_commission": 3.53,
         "eans": [
-          "9501537169884"
+          "9502488883461"
         ],
         "offer_references": [
           "3DTS"
         ],
         "line_items": [
           {
-            "bol_order_item_id": "3998082782",
-            "ean": "9501537169884",
-            "product_name": "WandBeugel geschikt voor Bosch Professional 18V – Wandmontage.",
-            "offer_id": "9893575b-c8e4-4f32-b2e8-e26c4a8c2b86",
+            "bol_order_item_id": "3998781795",
+            "ean": "9502488883461",
+            "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder",
+            "offer_id": "fa0ac061-34a9-40ab-8fda-31ecb6ab4960",
             "offer_reference": "3DTS",
             "sku": "3DTS",
             "quantity": 1,
@@ -184,7 +98,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-09-28T13:08:16+02:00"
+            "latest_changed_at": "2026-09-29T14:17:48+02:00"
           }
         ]
       },

@@ -1,56 +1,56 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-09-29T11:21:32.833Z
+Gegenereerd: 2026-09-30T11:09:51.879Z
 
 ## Samenvatting gisteren
 
-- Omzet gisteren: EUR 95.75
-- Betrouwbare nettowinst gisteren: EUR 28.68
-- Geschatte/onvolledige nettowinst gisteren: EUR 8.39
-- Totale nettowinstindicatie gisteren: EUR 37.07
+- Omzet gisteren: EUR 81.62
+- Betrouwbare nettowinst gisteren: EUR 19.93
+- Geschatte/onvolledige nettowinst gisteren: EUR 7.77
+- Totale nettowinstindicatie gisteren: EUR 27.70
 - Orders gisteren: 4
 - Orders met betrouwbare kostprijs gisteren: 3
 - Orders met Shopify kostprijs gisteren: 3
 - Orders met fallback kostprijs gisteren: 0
 - Orders met ontbrekende kostprijs gisteren: 1
 - Winststatus gisteren: gedeeltelijk betrouwbaar
-- Gemiddelde winst per order: EUR 9.27
+- Gemiddelde winst per order: EUR 6.93
 
 ## Top 5 winstgevende producten (indicatief)
 
-- Wandhouder geschikt voor Makita DC18RC oplader (dc18rc3dts.shop): EUR 16.25 nettowinst, 42.88% marge
-- Accuhouder geschikt voor Parkside 20V - Wandmontage (4 Accu's) - 4-voudig (629621091536_60CB): EUR 9.91 nettowinst, 49.67% marge
-- 3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart (3DTS-DSS501-GRA): EUR 8.39 nettowinst, 46.74% marge
-- WandBeugel geschikt voor Bosch Professional 18V – Wandmontage. - 4-voudig (3DTS-BP18V-4): EUR 2.52 nettowinst, 12.63% marge
+- 3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart (3DTS-DSS501-GRA): EUR 7.77 nettowinst, 43.29% marge
+- UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite (Unifikant3DTS.shop): EUR 7.17 nettowinst, 32.73% marge
+- Wandbeugel geschikt voor UniFi AC Lite, nanoHD, AC LR en U6 Lite ? PETG ? 3D-geprint (Unifimountlite3DTS.shop): EUR 6.65 nettowinst, 51.35% marge
+- Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder - 3 (Bosch18Vgroen3DTS.shop): EUR 3.21 nettowinst, 16.09% marge
 
 ## Producten met lage marge (indicatief)
 
-- WandBeugel geschikt voor Bosch Professional 18V – Wandmontage. - 4-voudig (3DTS-BP18V-4): EUR 2.52 nettowinst, 12.63% marge
+- Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder - 3 (Bosch18Vgroen3DTS.shop): EUR 3.21 nettowinst, 16.09% marge
 
 ## Shopify vs Google Ads
 
-- Shopify omzet gisteren: EUR 95.75
-- Shopify direct omzet gisteren: EUR 0.00
+- Shopify omzet gisteren: EUR 81.62
+- Shopify direct omzet gisteren: EUR 30.77
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
-- Laatste 7 dagen omzet: EUR 282.45
+- Laatste 7 dagen omzet: EUR 287.07
 - Laatste 7 dagen Google Ads kosten: EUR 0.00
-- Laatste 7 dagen betrouwbare nettowinst: EUR 75.78
-- Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 26.59
+- Laatste 7 dagen betrouwbare nettowinst: EUR 68.35
+- Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 25.09
 
 ## Bol.com
 
-- Bol omzet gisteren: EUR 95.75
-- Bol winst gisteren: EUR 37.07
-- Bol commissie gisteren: EUR 17.06
-- Bol Ads kosten gisteren: EUR 3.88
-- Winst na Bol Ads gisteren: EUR 37.07
+- Bol omzet gisteren: EUR 37.90
+- Bol winst gisteren: EUR 10.98
+- Bol commissie gisteren: EUR 6.76
+- Bol Ads kosten gisteren: EUR 2.86
+- Winst na Bol Ads gisteren: EUR 10.98
 - Bol omzet laatste 7 dagen: EUR 230.40
-- Bol winst laatste 7 dagen: EUR 71.48
-- Bol commissie laatste 7 dagen: EUR 39.00
-- Bol Ads kosten laatste 7 dagen: EUR 14.47
-- Bol Ads ROAS laatste 7 dagen: 5.5833
-- Bol orders gematcht laatste 7 dagen: 10
+- Bol winst laatste 7 dagen: EUR 67.47
+- Bol commissie laatste 7 dagen: EUR 38.99
+- Bol Ads kosten laatste 7 dagen: EUR 15.39
+- Bol Ads ROAS laatste 7 dagen: 5.2495
+- Bol orders gematcht laatste 7 dagen: 11
 - Bol orders niet in Shopify gevonden laatste 7 dagen: 0
 
 ## AI-adviezen
@@ -63,9 +63,9 @@ Gegenereerd: 2026-09-29T11:21:32.833Z
 - Shopify producten met Cost per item: 68
 - Shopify producten zonder Cost per item: 13
 - Percentage betrouwbare orders gisteren: 75%
-- Percentage betrouwbare winst gisteren: 77.37%
+- Percentage betrouwbare winst gisteren: 71.95%
 - Winststatus gisteren: gedeeltelijk betrouwbaar
-- Percentage betrouwbare orders laatste 7 dagen: 76.92%
-- Percentage betrouwbare winst laatste 7 dagen: 74.03%
+- Percentage betrouwbare orders laatste 7 dagen: 78.57%
+- Percentage betrouwbare winst laatste 7 dagen: 73.15%
 - Winststatus laatste 7 dagen: gedeeltelijk betrouwbaar
 - Shopify Cost per item ontbreekt voor 3 orders; zie reports/missing_shopify_costs.md.
