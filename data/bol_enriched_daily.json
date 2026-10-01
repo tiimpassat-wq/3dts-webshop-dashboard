@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-30T11:09:41.136Z",
+  "generated_at": "2026-10-01T11:36:44.810Z",
   "period": "daily",
-  "date_from": "2026-09-29",
-  "date_to_exclusive": "2026-09-30",
+  "date_from": "2026-09-30",
+  "date_to_exclusive": "2026-10-01",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
     "bol_raw": "bol_orders_raw_daily.json"
   },
   "summary": {
-    "bol_orders": 2,
-    "matched_orders": 2,
+    "bol_orders": 3,
+    "matched_orders": 3,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 37.9,
-    "total_bol_commission": 6.76
+    "total_bol_revenue": 59.85,
+    "total_bol_commission": 10.59
   },
   "warnings": [],
   "matches": [
@@ -20,75 +20,31 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1835",
-      "shopify_order_date": "2026-09-29T12:55:02Z",
-      "shopify_total_order_amount": 17.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000H7TRRH",
-        "order_placed_at": "2026-09-29T14:52:49+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 17.95,
-        "total_commission": 3.23,
-        "eans": [
-          "8721516390691"
-        ],
-        "offer_references": [
-          "3DTS-DSS501-GRA"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3998802228",
-            "ean": "8721516390691",
-            "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-            "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
-            "offer_reference": "3DTS-DSS501-GRA",
-            "sku": "3DTS-DSS501-GRA",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 17.95,
-            "total_price": 17.95,
-            "commission": 3.23,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-09-29T14:53:20+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1834",
-      "shopify_order_date": "2026-09-29T12:20:02Z",
+      "shopify_order_number": "#3dts1840",
+      "shopify_order_date": "2026-09-30T17:15:02Z",
       "shopify_total_order_amount": 19.95,
       "channel": "bol.com",
       "bol": {
-        "bol_order_id": "C000H7RNL3",
-        "order_placed_at": "2026-09-29T14:17:02+02:00",
-        "customer_country_code": "BE",
+        "bol_order_id": "C000H9K8MC",
+        "order_placed_at": "2026-09-30T19:12:01+02:00",
+        "customer_country_code": "NL",
         "pickup_point": false,
         "total_order_amount": 19.95,
         "total_commission": 3.53,
         "eans": [
-          "9502488883461"
+          "9509658425575"
         ],
         "offer_references": [
-          "3DTS"
+          "U0-INRG-KJHL"
         ],
         "line_items": [
           {
-            "bol_order_item_id": "3998781795",
-            "ean": "9502488883461",
-            "product_name": "Accubeugel voor 18V accu -Geschikt voor Bosch Power For All - Wandhouder",
-            "offer_id": "fa0ac061-34a9-40ab-8fda-31ecb6ab4960",
-            "offer_reference": "3DTS",
-            "sku": "3DTS",
+            "bol_order_item_id": "3999604501",
+            "ean": "9509658425575",
+            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+            "offer_reference": "U0-INRG-KJHL",
+            "sku": "U0-INRG-KJHL",
             "quantity": 1,
             "quantity_shipped": 0,
             "quantity_cancelled": 0,
@@ -98,7 +54,95 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-09-29T14:17:48+02:00"
+            "latest_changed_at": "2026-09-30T19:12:47+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1839",
+      "shopify_order_date": "2026-09-30T13:31:36Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000H97T5P",
+        "order_placed_at": "2026-09-30T15:29:46+02:00",
+        "customer_country_code": "BE",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.53,
+        "eans": [
+          "9509658425575"
+        ],
+        "offer_references": [
+          "U0-INRG-KJHL"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3999465534",
+            "ean": "9509658425575",
+            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+            "offer_reference": "U0-INRG-KJHL",
+            "sku": "U0-INRG-KJHL",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 1,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.53,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": true,
+            "latest_changed_at": "2026-09-30T18:26:37+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1838",
+      "shopify_order_date": "2026-09-30T11:20:03Z",
+      "shopify_total_order_amount": 19.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000H93CRN",
+        "order_placed_at": "2026-09-30T13:18:20+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 19.95,
+        "total_commission": 3.53,
+        "eans": [
+          "9509658425575"
+        ],
+        "offer_references": [
+          "U0-INRG-KJHL"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "3999381104",
+            "ean": "9509658425575",
+            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+            "offer_reference": "U0-INRG-KJHL",
+            "sku": "U0-INRG-KJHL",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 19.95,
+            "total_price": 19.95,
+            "commission": 3.53,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-09-30T17:12:20+02:00"
           }
         ]
       },
