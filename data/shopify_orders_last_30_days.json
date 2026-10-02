@@ -1,51 +1,18 @@
 {
-  "generated_at": "2026-10-01T11:36:39.661Z",
+  "generated_at": "2026-10-02T11:05:55.149Z",
   "period": "last_30_days",
-  "date_from": "2026-09-02",
-  "date_to_exclusive": "2026-10-02",
+  "date_from": "2026-09-03",
+  "date_to_exclusive": "2026-10-03",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 70,
-    "item_count": 98,
-    "total_order_amount": 1647.97,
-    "shipping_paid_by_customer": 96.95,
+    "item_count": 97,
+    "total_order_amount": 1636.27,
+    "shipping_paid_by_customer": 92.3,
     "discount": 7.98
   },
   "orders": [
-    {
-      "order_number": "#3dts1774",
-      "date": "2026-09-02T04:34:09Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 4.65,
-      "shipping_title": "Nederland",
-      "discount": 0,
-      "total_order_amount": 29.65,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/makita-accu-houder-4v",
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
-          "variant_id": "57872304963933",
-          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
-          "sku": "Makita4v3dts.shop",
-          "barcode": "8721516390097",
-          "ean": "8721516390097",
-          "quantity": 2,
-          "product_sale_price": 12.5,
-          "original_unit_price": 12.5,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1775",
       "date": "2026-09-03T07:40:03Z",
@@ -2416,7 +2383,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000H9K8MC"
@@ -2452,7 +2419,7 @@
       "total_order_amount": 17.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000HC3088"
@@ -2488,7 +2455,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000HC77DW"
@@ -2528,6 +2495,42 @@
       "tags": [
         "Bol",
         "Bol-C000HC74PW"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "variant_id": "66045779870045",
+          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
+          "sku": "3DTS-DSS501-GRA",
+          "barcode": "8721516390691",
+          "ean": "8721516390691",
+          "quantity": 1,
+          "product_sale_price": 17.95,
+          "original_unit_price": 17.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1844",
+      "date": "2026-10-01T12:55:04Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 17.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000HCJJHM"
       ],
       "landing_site": null,
       "referring_site": null,
