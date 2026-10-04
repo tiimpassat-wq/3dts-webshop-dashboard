@@ -1,24 +1,26 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-10-03T10:24:41.609Z
+Gegenereerd: 2026-10-04T11:06:16.391Z
 
 ## Samenvatting gisteren
 
-- Omzet gisteren: EUR 16.95
-- Betrouwbare nettowinst gisteren: EUR 5.45
-- Geschatte/onvolledige nettowinst gisteren: EUR 0.00
-- Totale nettowinstindicatie gisteren: EUR 5.45
-- Orders gisteren: 1
-- Orders met betrouwbare kostprijs gisteren: 1
-- Orders met Shopify kostprijs gisteren: 1
+- Omzet gisteren: EUR 118.65
+- Betrouwbare nettowinst gisteren: EUR 54.91
+- Geschatte/onvolledige nettowinst gisteren: EUR 8.82
+- Totale nettowinstindicatie gisteren: EUR 63.73
+- Orders gisteren: 4
+- Orders met betrouwbare kostprijs gisteren: 3
+- Orders met Shopify kostprijs gisteren: 3
 - Orders met fallback kostprijs gisteren: 0
-- Orders met ontbrekende kostprijs gisteren: 0
-- Winststatus gisteren: betrouwbaar
-- Gemiddelde winst per order: EUR 5.45
+- Orders met ontbrekende kostprijs gisteren: 1
+- Winststatus gisteren: gedeeltelijk betrouwbaar
+- Gemiddelde winst per order: EUR 15.93
 
 ## Top 5 winstgevende producten (indicatief)
 
-- UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder (Unifidesk3DTS.Shop): EUR 5.45 nettowinst, 32.15% marge
+- UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder (Unifidesk3DTS.Shop): EUR 48.72 nettowinst, 60.33% marge
+- 3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart (3DTS-DSS501-GRA): EUR 8.82 nettowinst, 49.14% marge
+- Wandhouder geschikt voor Makita DC18RD Duo oplader (dc18rd3dts.shop): EUR 6.19 nettowinst, 31.03% marge
 
 ## Producten met lage marge (indicatief)
 
@@ -26,28 +28,28 @@ Gegenereerd: 2026-10-03T10:24:41.609Z
 
 ## Shopify vs Google Ads
 
-- Shopify omzet gisteren: EUR 16.95
+- Shopify omzet gisteren: EUR 118.65
 - Shopify direct omzet gisteren: EUR 0.00
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
-- Laatste 7 dagen omzet: EUR 421.67
+- Laatste 7 dagen omzet: EUR 494.57
 - Laatste 7 dagen Google Ads kosten: EUR 0.00
-- Laatste 7 dagen betrouwbare nettowinst: EUR 118.81
-- Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 47.56
+- Laatste 7 dagen betrouwbare nettowinst: EUR 141.16
+- Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 55.54
 
 ## Bol.com
 
-- Bol omzet gisteren: EUR 16.95
-- Bol winst gisteren: EUR 5.45
-- Bol commissie gisteren: EUR 0.00
-- Bol Ads kosten gisteren: EUR 4.17
-- Winst na Bol Ads gisteren: EUR 5.45
-- Bol omzet laatste 7 dagen: EUR 365.00
-- Bol winst laatste 7 dagen: EUR 140.40
-- Bol commissie laatste 7 dagen: EUR 53.82
-- Bol Ads kosten laatste 7 dagen: EUR 19.42
-- Bol Ads ROAS laatste 7 dagen: 3.311
-- Bol orders gematcht laatste 7 dagen: 16
+- Bol omzet gisteren: EUR 118.65
+- Bol winst gisteren: EUR 63.73
+- Bol commissie gisteren: EUR 11.90
+- Bol Ads kosten gisteren: EUR 1.98
+- Winst na Bol Ads gisteren: EUR 63.73
+- Bol omzet laatste 7 dagen: EUR 420.85
+- Bol winst laatste 7 dagen: EUR 165.18
+- Bol commissie laatste 7 dagen: EUR 63.81
+- Bol Ads kosten laatste 7 dagen: EUR 19.37
+- Bol Ads ROAS laatste 7 dagen: 3.3196
+- Bol orders gematcht laatste 7 dagen: 19
 - Bol orders niet in Shopify gevonden laatste 7 dagen: 0
 
 ## AI-adviezen
@@ -59,10 +61,10 @@ Gegenereerd: 2026-10-03T10:24:41.609Z
 
 - Shopify producten met Cost per item: 68
 - Shopify producten zonder Cost per item: 13
-- Percentage betrouwbare orders gisteren: 100%
-- Percentage betrouwbare winst gisteren: 100%
-- Winststatus gisteren: betrouwbaar
-- Percentage betrouwbare orders laatste 7 dagen: 68.42%
-- Percentage betrouwbare winst laatste 7 dagen: 71.41%
+- Percentage betrouwbare orders gisteren: 75%
+- Percentage betrouwbare winst gisteren: 86.16%
+- Winststatus gisteren: gedeeltelijk betrouwbaar
+- Percentage betrouwbare orders laatste 7 dagen: 68.18%
+- Percentage betrouwbare winst laatste 7 dagen: 71.76%
 - Winststatus laatste 7 dagen: gedeeltelijk betrouwbaar
-- Shopify Cost per item ontbreekt voor 6 orders; zie reports/missing_shopify_costs.md.
+- Shopify Cost per item ontbreekt voor 7 orders; zie reports/missing_shopify_costs.md.
