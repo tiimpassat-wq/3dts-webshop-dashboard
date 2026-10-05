@@ -1,129 +1,21 @@
 {
-  "generated_at": "2026-10-04T11:05:56.581Z",
+  "generated_at": "2026-10-05T12:15:40.517Z",
   "period": "daily",
-  "date_from": "2026-10-03",
-  "date_to_exclusive": "2026-10-04",
+  "date_from": "2026-10-04",
+  "date_to_exclusive": "2026-10-05",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 4,
-    "item_count": 7,
-    "total_order_amount": 118.65,
-    "shipping_paid_by_customer": 0,
+    "order_count": 5,
+    "item_count": 6,
+    "total_order_amount": 100.8,
+    "shipping_paid_by_customer": 7.1,
     "discount": 0
   },
   "orders": [
     {
-      "order_number": "#3dts1846",
-      "date": "2026-10-03T03:55:02Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 63.8,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000HF8K61"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-          "variant_id": "63433470476637",
-          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
-          "sku": "Unifidesk3DTS.Shop",
-          "barcode": "8721516390073",
-          "ean": "8721516390073",
-          "quantity": 4,
-          "product_sale_price": 15.95,
-          "original_unit_price": 15.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1847",
-      "date": "2026-10-03T09:41:36Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 16.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000HFHJH5"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-          "variant_id": "63433470476637",
-          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
-          "sku": "Unifidesk3DTS.Shop",
-          "barcode": "8721516390073",
-          "ean": "8721516390073",
-          "quantity": 1,
-          "product_sale_price": 16.95,
-          "original_unit_price": 16.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1848",
-      "date": "2026-10-03T11:35:02Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 19.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000HFLCWM"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 1,
-          "product_sale_price": 19.95,
-          "original_unit_price": 19.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1849",
-      "date": "2026-10-03T11:35:04Z",
+      "order_number": "#3dts1850",
+      "date": "2026-10-04T09:40:02Z",
       "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
@@ -136,7 +28,7 @@
       "fulfillment_status": "UNFULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000HFLC55"
+        "Bol-C000HHD60N"
       ],
       "landing_site": null,
       "referring_site": null,
@@ -152,6 +44,160 @@
           "quantity": 1,
           "product_sale_price": 17.95,
           "original_unit_price": 17.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1851",
+      "date": "2026-10-04T10:59:59Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7.1,
+      "shipping_title": "Pakket",
+      "discount": 0,
+      "total_order_amount": 30,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/",
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Makita Radio Wandhouder",
+          "variant_id": "65232580510045",
+          "variant_gid": "gid://shopify/ProductVariant/65232580510045",
+          "sku": "3DTS-MAK-RADIO",
+          "barcode": "8721516390684",
+          "ean": "8721516390684",
+          "quantity": 1,
+          "product_sale_price": 10.95,
+          "original_unit_price": 10.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Makita DC18RD Duo Oplader Wandhouder – PETG",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
+          "quantity": 1,
+          "product_sale_price": 11.95,
+          "original_unit_price": 11.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1852",
+      "date": "2026-10-04T11:30:02Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 17.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000HCLFTK"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "variant_id": "66045779870045",
+          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
+          "sku": "3DTS-DSS501-GRA",
+          "barcode": "8721516390691",
+          "ean": "8721516390691",
+          "quantity": 1,
+          "product_sale_price": 17.95,
+          "original_unit_price": 17.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1853",
+      "date": "2026-10-04T12:25:03Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 17.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000HHKX16"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "variant_id": "66045779870045",
+          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
+          "sku": "3DTS-DSS501-GRA",
+          "barcode": "8721516390691",
+          "ean": "8721516390691",
+          "quantity": 1,
+          "product_sale_price": 17.95,
+          "original_unit_price": 17.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1854",
+      "date": "2026-10-04T14:40:03Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 16.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000HHPMTF"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+          "variant_id": "63433470476637",
+          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
+          "sku": "Unifidesk3DTS.Shop",
+          "barcode": "8721516390073",
+          "ean": "8721516390073",
+          "quantity": 1,
+          "product_sale_price": 16.95,
+          "original_unit_price": 16.95,
           "line_discount": 0,
           "currency": "EUR"
         }
