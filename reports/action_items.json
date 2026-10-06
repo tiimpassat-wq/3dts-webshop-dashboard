@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:15:52.625Z",
+  "generated_at": "2026-10-06T12:01:31.525Z",
   "actions": [
     {
       "type": "product controleren",
@@ -7,12 +7,6 @@
       "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
       "sku": "3DTS-DSS501-GRA",
       "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
-    },
-    {
-      "type": "campagne pauzeren",
-      "priority": "high",
-      "campaign": "Bol Sponsored Products",
-      "reason": "Bol Ads ROAS laatste 7 dagen is 0.9316; controleer zoektermen en biedingen voordat budget omhoog gaat."
     },
     {
       "type": "bundel maken",
@@ -45,8 +39,8 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "UniFi Access Point Wandbeugel – Verstelbare / Kantelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite & U7-Lite",
-      "sku": "Unifikant3DTS.shop",
+      "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+      "sku": "dc18rc3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]
