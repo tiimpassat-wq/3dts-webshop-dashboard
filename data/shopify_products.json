@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T12:01:14.070Z",
+  "generated_at": "2026-10-07T11:46:51.187Z",
   "source": "Shopify Admin GraphQL productVariants.inventoryItem.unitCost",
   "required_scopes": [
     "read_products",
@@ -8,8 +8,8 @@
   "status": "ok",
   "warnings": [],
   "totals": {
-    "variants": 81,
-    "with_unit_cost": 68,
+    "variants": 82,
+    "with_unit_cost": 69,
     "missing_unit_cost": 13
   },
   "variants": [
@@ -1227,6 +1227,21 @@
       "unit_cost_amount": 0,
       "unit_cost_currency_code": null,
       "has_unit_cost": false
+    },
+    {
+      "product_id": "16615231783261",
+      "variant_id": "66134996812125",
+      "product_gid": "gid://shopify/Product/16615231783261",
+      "variant_gid": "gid://shopify/ProductVariant/66134996812125",
+      "sku": "3DTS-MIL-M18M12-RC",
+      "barcode": "",
+      "ean": "",
+      "product_title": "Wandhouder voor Milwaukee M18/M12 Rapid Charger – PETG",
+      "variant_title": "Default Title",
+      "verkoopprijs": 8.45,
+      "unit_cost_amount": 3.23,
+      "unit_cost_currency_code": "EUR",
+      "has_unit_cost": true
     }
   ]
 }

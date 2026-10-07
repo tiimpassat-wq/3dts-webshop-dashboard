@@ -1,109 +1,21 @@
 {
-  "generated_at": "2026-10-06T12:01:30.693Z",
+  "generated_at": "2026-10-07T11:47:05.141Z",
   "period": "last_7_days",
-  "date_from": "2026-09-30",
-  "date_to_exclusive": "2026-10-07",
+  "date_from": "2026-10-01",
+  "date_to_exclusive": "2026-10-08",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
   },
   "summary": {
-    "bol_orders": 20,
-    "matched_orders": 20,
+    "bol_orders": 18,
+    "matched_orders": 18,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 415.85,
-    "total_bol_commission": 61.02
+    "total_bol_revenue": 371.49,
+    "total_bol_commission": 51.44
   },
   "warnings": [],
   "matches": [
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1839",
-      "shopify_order_date": "2026-09-30T13:31:36Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000H97T5P",
-        "order_placed_at": "2026-09-30T15:29:46+02:00",
-        "customer_country_code": "BE",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.53,
-        "eans": [
-          "9509658425575"
-        ],
-        "offer_references": [
-          "U0-INRG-KJHL"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3999465534",
-            "ean": "9509658425575",
-            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-            "offer_reference": "U0-INRG-KJHL",
-            "sku": "U0-INRG-KJHL",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 1,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.53,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": true,
-            "latest_changed_at": "2026-09-30T18:26:37+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1838",
-      "shopify_order_date": "2026-09-30T11:20:03Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000H93CRN",
-        "order_placed_at": "2026-09-30T13:18:20+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.53,
-        "eans": [
-          "9509658425575"
-        ],
-        "offer_references": [
-          "U0-INRG-KJHL"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3999381104",
-            "ean": "9509658425575",
-            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-            "offer_reference": "U0-INRG-KJHL",
-            "sku": "U0-INRG-KJHL",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.53,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-09-30T17:12:20+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
     {
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
@@ -185,50 +97,6 @@
             "distribution_party": "RETAILER",
             "cancellation_request": false,
             "latest_changed_at": "2026-10-01T18:42:17+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1840",
-      "shopify_order_date": "2026-09-30T17:15:02Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000H9K8MC",
-        "order_placed_at": "2026-09-30T19:12:01+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.53,
-        "eans": [
-          "9509658425575"
-        ],
-        "offer_references": [
-          "U0-INRG-KJHL"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "3999604501",
-            "ean": "9509658425575",
-            "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-            "offer_reference": "U0-INRG-KJHL",
-            "sku": "U0-INRG-KJHL",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.53,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-10-01T18:37:18+02:00"
           }
         ]
       },
@@ -370,50 +238,6 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1846",
-      "shopify_order_date": "2026-10-03T03:55:02Z",
-      "shopify_total_order_amount": 63.8,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000HHPMTF",
-        "order_placed_at": "2026-10-04T16:38:50+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 16.95,
-        "total_commission": 1.05,
-        "eans": [
-          "8721516390073"
-        ],
-        "offer_references": [
-          "Unifidesk3DTS.Shop"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "4001428468",
-            "ean": "8721516390073",
-            "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-            "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
-            "offer_reference": "Unifidesk3DTS.Shop",
-            "sku": "Unifidesk3DTS.Shop",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 16.95,
-            "total_price": 16.95,
-            "commission": 1.05,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-10-04T16:39:16+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
       "shopify_order_number": "#3dts1849",
       "shopify_order_date": "2026-10-03T11:35:04Z",
       "shopify_total_order_amount": 17.95,
@@ -502,9 +326,9 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1847",
-      "shopify_order_date": "2026-10-03T09:41:36Z",
-      "shopify_total_order_amount": 16.95,
+      "shopify_order_number": "#3dts1846",
+      "shopify_order_date": "2026-10-03T03:55:02Z",
+      "shopify_total_order_amount": 63.8,
       "channel": "bol.com",
       "bol": {
         "bol_order_id": "C000HF8K61",
@@ -546,8 +370,8 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1854",
-      "shopify_order_date": "2026-10-04T14:40:03Z",
+      "shopify_order_number": "#3dts1847",
+      "shopify_order_date": "2026-10-03T09:41:36Z",
       "shopify_total_order_amount": 16.95,
       "channel": "bol.com",
       "bol": {
@@ -771,50 +595,6 @@
       "shopify_total_order_amount": 17.95,
       "channel": "bol.com",
       "bol": {
-        "bol_order_id": "C000HJTF2X",
-        "order_placed_at": "2026-10-05T14:46:17+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 17.95,
-        "total_commission": 3.23,
-        "eans": [
-          "8721516390691"
-        ],
-        "offer_references": [
-          "3DTS-DSS501-GRA"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "4001915907",
-            "ean": "8721516390691",
-            "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-            "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
-            "offer_reference": "3DTS-DSS501-GRA",
-            "sku": "3DTS-DSS501-GRA",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 17.95,
-            "total_price": 17.95,
-            "commission": 3.23,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-10-05T14:46:45+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1861",
-      "shopify_order_date": "2026-10-06T10:35:03Z",
-      "shopify_total_order_amount": 17.95,
-      "channel": "bol.com",
-      "bol": {
         "bol_order_id": "C000HL1D5P",
         "order_placed_at": "2026-10-06T12:30:54+02:00",
         "customer_country_code": "NL",
@@ -836,7 +616,7 @@
             "offer_reference": "3DTS-DSS501-GRA",
             "sku": "3DTS-DSS501-GRA",
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
             "unit_price": 17.95,
             "total_price": 17.95,
@@ -844,7 +624,51 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-10-06T12:31:48+02:00"
+            "latest_changed_at": "2026-10-06T21:02:16+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1861",
+      "shopify_order_date": "2026-10-06T10:35:03Z",
+      "shopify_total_order_amount": 17.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000HJTF2X",
+        "order_placed_at": "2026-10-05T14:46:17+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 17.95,
+        "total_commission": 3.23,
+        "eans": [
+          "8721516390691"
+        ],
+        "offer_references": [
+          "3DTS-DSS501-GRA"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "4001915907",
+            "ean": "8721516390691",
+            "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+            "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
+            "offer_reference": "3DTS-DSS501-GRA",
+            "sku": "3DTS-DSS501-GRA",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 17.95,
+            "total_price": 17.95,
+            "commission": 3.23,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-10-06T21:01:03+02:00"
           }
         ]
       },
@@ -878,7 +702,7 @@
             "offer_reference": null,
             "sku": null,
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
             "unit_price": 19.95,
             "total_price": 19.95,
@@ -886,7 +710,93 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-10-06T02:14:15+02:00"
+            "latest_changed_at": "2026-10-06T20:59:01+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1854",
+      "shopify_order_date": "2026-10-04T14:40:03Z",
+      "shopify_total_order_amount": 16.95,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000HHPMTF",
+        "order_placed_at": "2026-10-04T16:38:50+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 16.95,
+        "total_commission": 1.05,
+        "eans": [
+          "8721516390073"
+        ],
+        "offer_references": [
+          "Unifidesk3DTS.Shop"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "4001428468",
+            "ean": "8721516390073",
+            "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+            "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
+            "offer_reference": "Unifidesk3DTS.Shop",
+            "sku": "Unifidesk3DTS.Shop",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 16.95,
+            "total_price": 16.95,
+            "commission": 1.05,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-10-06T20:54:59+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1863",
+      "shopify_order_date": "2026-10-07T04:56:36Z",
+      "shopify_total_order_amount": 15.49,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000HM0W2H",
+        "order_placed_at": "2026-10-07T06:54:57+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 15.49,
+        "total_commission": 1.01,
+        "eans": [
+          "9502163482132"
+        ],
+        "offer_references": [],
+        "line_items": [
+          {
+            "bol_order_item_id": "4002840046",
+            "ean": "9502163482132",
+            "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
+            "offer_id": "9452ecb2-fb08-40ca-9bac-5ecac48d376c",
+            "offer_reference": null,
+            "sku": null,
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 15.49,
+            "total_price": 15.49,
+            "commission": 1.01,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-10-07T06:55:15+02:00"
           }
         ]
       },
