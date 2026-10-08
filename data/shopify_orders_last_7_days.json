@@ -1,162 +1,18 @@
 {
-  "generated_at": "2026-10-07T11:46:50.296Z",
+  "generated_at": "2026-10-08T12:01:11.891Z",
   "period": "last_7_days",
-  "date_from": "2026-10-01",
-  "date_to_exclusive": "2026-10-08",
+  "date_from": "2026-10-02",
+  "date_to_exclusive": "2026-10-09",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 24,
-    "item_count": 35,
-    "total_order_amount": 541.65,
-    "shipping_paid_by_customer": 7.1,
+    "order_count": 27,
+    "item_count": 51,
+    "total_order_amount": 730.38,
+    "shipping_paid_by_customer": 35.18,
     "discount": 2.29
   },
   "orders": [
-    {
-      "order_number": "#3dts1841",
-      "date": "2026-10-01T05:30:02Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 17.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000HC3088"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-          "variant_id": "66045779870045",
-          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
-          "sku": "3DTS-DSS501-GRA",
-          "barcode": "8721516390691",
-          "ean": "8721516390691",
-          "quantity": 1,
-          "product_sale_price": 17.95,
-          "original_unit_price": 17.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1842",
-      "date": "2026-10-01T08:45:03Z",
-      "channel_source": "bol",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 19.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000HC77DW"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-          "variant_id": "57512098234717",
-          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
-          "sku": "dc18rc3dts.shop",
-          "barcode": "8721516390011",
-          "ean": "8721516390011",
-          "quantity": 1,
-          "product_sale_price": 19.95,
-          "original_unit_price": 19.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1843",
-      "date": "2026-10-01T08:45:04Z",
-      "channel_source": "bol",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 17.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000HC74PW"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-          "variant_id": "66045779870045",
-          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
-          "sku": "3DTS-DSS501-GRA",
-          "barcode": "8721516390691",
-          "ean": "8721516390691",
-          "quantity": 1,
-          "product_sale_price": 17.95,
-          "original_unit_price": 17.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1844",
-      "date": "2026-10-01T12:55:04Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 17.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000HCJJHM"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-          "variant_id": "66045779870045",
-          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
-          "sku": "3DTS-DSS501-GRA",
-          "barcode": "8721516390691",
-          "ean": "8721516390691",
-          "quantity": 1,
-          "product_sale_price": 17.95,
-          "original_unit_price": 17.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1845",
       "date": "2026-10-02T21:00:03Z",
@@ -795,7 +651,7 @@
       "total_order_amount": 73.11,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": "https://3dts.shop/products/wandhouder-voor-milwaukee-m18-m12-rapid-charger-petg",
       "referring_site": null,
@@ -906,7 +762,7 @@
       "total_order_amount": 15.49,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000HM0W2H"
@@ -942,7 +798,7 @@
       "total_order_amount": 12.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "A1S25ADMT138N3",
         "Amazon",
@@ -963,6 +819,317 @@
           "quantity": 1,
           "product_sale_price": 12.95,
           "original_unit_price": 12.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1865",
+      "date": "2026-10-07T13:51:36Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 17.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000HMK6TT"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "variant_id": "66045779870045",
+          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
+          "sku": "3DTS-DSS501-GRA",
+          "barcode": "8721516390691",
+          "ean": "8721516390691",
+          "quantity": 1,
+          "product_sale_price": 17.95,
+          "original_unit_price": 17.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1866",
+      "date": "2026-10-07T18:29:54Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7.1,
+      "shipping_title": "Pakket",
+      "discount": 0,
+      "total_order_amount": 29,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder UniFi U6 / U7 Access Points",
+          "variant_id": "57440250986845",
+          "variant_gid": "gid://shopify/ProductVariant/57440250986845",
+          "sku": "574402509868_74BE",
+          "barcode": "9509139739962",
+          "ean": "9509139739962",
+          "quantity": 2,
+          "product_sale_price": 10.95,
+          "original_unit_price": 10.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1867",
+      "date": "2026-10-07T20:22:19Z",
+      "channel_source": "390185975809",
+      "customer_country_code": "NO",
+      "customer_country": "Norway",
+      "shipping_paid_by_customer": 15,
+      "shipping_title": "Etsy shipping",
+      "discount": 0,
+      "total_order_amount": 31.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Etsy",
+        "Etsy-4097516788"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Makita DC18RC Charger Wall Mount – Makita Charger Holder – 18V Tool Organizer – Garage Storage – PETG 3D Printed",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
+          "quantity": 1,
+          "product_sale_price": 16.95,
+          "original_unit_price": 16.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1868",
+      "date": "2026-10-07T20:22:21Z",
+      "channel_source": "390185975809",
+      "customer_country_code": "DE",
+      "customer_country": "Germany",
+      "shipping_paid_by_customer": 2.99,
+      "shipping_title": "Etsy shipping",
+      "discount": 0,
+      "total_order_amount": 15.49,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Etsy",
+        "Etsy-4073354900"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi AC Lite nanoHD U6 Lite Mount | 3D Printed Wall Ceiling Replacement Bracket for Ubiquiti Access Points",
+          "variant_id": "57838610743645",
+          "variant_gid": "gid://shopify/ProductVariant/57838610743645",
+          "sku": "Unifimountlite3DTS.shop",
+          "barcode": "08721516390042",
+          "ean": "08721516390042",
+          "quantity": 1,
+          "product_sale_price": 12.5,
+          "original_unit_price": 12.5,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1869",
+      "date": "2026-10-07T20:22:22Z",
+      "channel_source": "390185975809",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Etsy shipping",
+      "discount": 0,
+      "total_order_amount": 11,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Etsy",
+        "Etsy-4017525574"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Makita DSP601 Wall Mount | 36V 2x18V Track Saw Holder | Tool Organizer | Workshop Storage | 3D Printed Bracket",
+          "variant_id": "63971669606749",
+          "variant_gid": "gid://shopify/ProductVariant/63971669606749",
+          "sku": "MakitaDSP3DTS.SHOP",
+          "barcode": "8721516390608",
+          "ean": "8721516390608",
+          "quantity": 1,
+          "product_sale_price": 11,
+          "original_unit_price": 11,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1870",
+      "date": "2026-10-07T20:22:23Z",
+      "channel_source": "390185975809",
+      "customer_country_code": "DE",
+      "customer_country": "Germany",
+      "shipping_paid_by_customer": 2.99,
+      "shipping_title": "Etsy shipping",
+      "discount": 0,
+      "total_order_amount": 59.84,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Etsy",
+        "Etsy-4008875362"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Makita DC18RD Wall Mount – Dual Charger Holder – 3D Printed PETG Workshop Organizer",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
+          "quantity": 3,
+          "product_sale_price": 18.95,
+          "original_unit_price": 18.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1871",
+      "date": "2026-10-08T06:51:21Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Gratis Verzending",
+      "discount": 0,
+      "total_order_amount": 97.3,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder Makita DC18RC Oplader",
+          "variant_id": "57512098234717",
+          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
+          "sku": "dc18rc3dts.shop",
+          "barcode": "8721516390011",
+          "ean": "8721516390011",
+          "quantity": 2,
+          "product_sale_price": 9.95,
+          "original_unit_price": 9.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Reciprozaag Wandhouder – Universeel (PETG 3D Geprint)",
+          "variant_id": "64020387987805",
+          "variant_gid": "gid://shopify/ProductVariant/64020387987805",
+          "sku": "640203879878_00D9",
+          "barcode": "8721516390646",
+          "ean": "8721516390646",
+          "quantity": 1,
+          "product_sale_price": 8.95,
+          "original_unit_price": 8.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Accuhouder Makita 18V – Wandmontage - 3-voudig",
+          "variant_id": "57871575253341",
+          "variant_gid": "gid://shopify/ProductVariant/57871575253341",
+          "sku": "Makita4v3dts.shop3CB02",
+          "barcode": "9501663417347",
+          "ean": "9501663417347",
+          "quantity": 2,
+          "product_sale_price": 9.75,
+          "original_unit_price": 9.75,
+          "line_discount": 0,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Universele Machinehouder – Makita, Bosch, DeWalt & Festool",
+          "variant_id": "57528429379933",
+          "variant_gid": "gid://shopify/ProductVariant/57528429379933",
+          "sku": null,
+          "barcode": "9505583956719",
+          "ean": "9505583956719",
+          "quantity": 4,
+          "product_sale_price": 7.5,
+          "original_unit_price": 7.5,
+          "line_discount": 0,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Beugel geschikt voor Makita Multitool - DTM52",
+          "variant_id": "58791176110429",
+          "variant_gid": "gid://shopify/ProductVariant/58791176110429",
+          "sku": "587911761104_FB99",
+          "barcode": "8721516390233",
+          "ean": "8721516390233",
+          "quantity": 1,
+          "product_sale_price": 8,
+          "original_unit_price": 8,
+          "line_discount": 0,
+          "currency": "EUR"
+        },
+        {
+          "product_name": "Makita DHR Wandhouder – 3D Geprint (PETG)",
+          "variant_id": "64012280627549",
+          "variant_gid": "gid://shopify/ProductVariant/64012280627549",
+          "sku": "640122806275_1778",
+          "barcode": "8721516390622",
+          "ean": "8721516390622",
+          "quantity": 1,
+          "product_sale_price": 10.95,
+          "original_unit_price": 10.95,
           "line_discount": 0,
           "currency": "EUR"
         }
