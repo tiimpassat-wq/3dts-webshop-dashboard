@@ -1,13 +1,6 @@
 {
-  "generated_at": "2026-10-08T12:01:23.391Z",
+  "generated_at": "2026-10-09T11:53:34.301Z",
   "actions": [
-    {
-      "type": "product controleren",
-      "priority": "high",
-      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-      "sku": "3DTS-DSS501-GRA",
-      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
-    },
     {
       "type": "product controleren",
       "priority": "high",
@@ -25,16 +18,16 @@
     {
       "type": "product controleren",
       "priority": "high",
-      "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
-      "sku": "627819952868_0CD6",
-      "reason": "Bol commissie ontbreekt voor order #3dts1863; winst kan te hoog lijken."
+      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+      "sku": "3DTS-DSS501-GRA",
+      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
     },
     {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-      "sku": "Unifidesk3DTS.Shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+      "type": "product controleren",
+      "priority": "high",
+      "product_name": "Wandhouder geschikt voor Makita DC18RD duo-oplader - PETG zwart",
+      "sku": "U0-INRG-KJHL",
+      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
     },
     {
       "type": "bundel maken",
@@ -53,15 +46,22 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Makita DC18RC Charger Wall Mount | Battery Charger Holder",
-      "sku": "dc18rc3dts.shop",
+      "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+      "sku": "Unifidesk3DTS.Shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Wandbeugel geschikt voor UniFi AC Lite, nanoHD, AC LR en U6 Lite ? PETG ? 3D-geprint",
-      "sku": "Unifimountlite3DTS.shop",
+      "product_name": "Universele Machinehouder – Makita, Bosch, DeWalt & Festool",
+      "sku": null,
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Makita DC18RC Charger Wall Mount | Battery Charger Holder",
+      "sku": "dc18rc3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]

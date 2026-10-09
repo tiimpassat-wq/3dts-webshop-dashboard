@@ -1,28 +1,28 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-10-08T12:01:23.391Z
+Gegenereerd: 2026-10-09T11:53:34.276Z
 
 ## Samenvatting gisteren
 
-- Omzet gisteren: EUR 193.67
-- Betrouwbare nettowinst gisteren: EUR 86.24
-- Geschatte/onvolledige nettowinst gisteren: EUR 8.19
-- Totale nettowinstindicatie gisteren: EUR 94.43
-- Orders gisteren: 8
-- Orders met betrouwbare kostprijs gisteren: 7
-- Orders met Shopify kostprijs gisteren: 7
+- Omzet gisteren: EUR 214.87
+- Betrouwbare nettowinst gisteren: EUR 26.18
+- Geschatte/onvolledige nettowinst gisteren: EUR 76.41
+- Totale nettowinstindicatie gisteren: EUR 102.59
+- Orders gisteren: 3
+- Orders met betrouwbare kostprijs gisteren: 1
+- Orders met Shopify kostprijs gisteren: 1
 - Orders met fallback kostprijs gisteren: 0
-- Orders met ontbrekende kostprijs gisteren: 1
+- Orders met ontbrekende kostprijs gisteren: 2
 - Winststatus gisteren: gedeeltelijk betrouwbaar
-- Gemiddelde winst per order: EUR 11.80
+- Gemiddelde winst per order: EUR 34.20
 
 ## Top 5 winstgevende producten (indicatief)
 
-- Makita DC18RD Wall Mount – Dual Charger Holder – 3D Printed PETG Workshop Organizer (dc18rd3dts.shop): EUR 33.10 nettowinst, 58.22% marge
-- Wandhouder UniFi U6 / U7 Access Points (574402509868_74BE): EUR 10.92 nettowinst, 49.86% marge
-- Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE (627819952868_0CD6): EUR 8.72 nettowinst, 56.29% marge
-- Makita DC18RC Charger Wall Mount – Makita Charger Holder – 18V Tool Organizer – Garage Storage – PETG 3D Printed (dc18rc3dts.shop): EUR 8.48 nettowinst, 50.02% marge
-- 3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart (3DTS-DSS501-GRA): EUR 8.19 nettowinst, 45.63% marge
+- Universele Machinehouder – Makita, Bosch, DeWalt & Festool (geen SKU): EUR 40.94 nettowinst, 45.49% marge
+- Wandhouder Makita DC18RC Oplader (dc18rc3dts.shop): EUR 15.16 nettowinst, 51.65% marge
+- Accuhouder Makita 18V – Wandmontage - 3-voudig (Makita4v3dts.shop3CB02): EUR 15.08 nettowinst, 51.56% marge
+- Reciprozaag Wandhouder – Universeel (PETG 3D Geprint) (640203879878_00D9): EUR 8.99 nettowinst, 50.21% marge
+- Beugel geschikt voor Makita Multitool - DTM52 (587911761104_FB99): EUR 8.03 nettowinst, 50.21% marge
 
 ## Producten met lage marge (indicatief)
 
@@ -30,27 +30,27 @@ Gegenereerd: 2026-10-08T12:01:23.391Z
 
 ## Shopify vs Google Ads
 
-- Shopify omzet gisteren: EUR 193.67
-- Shopify direct omzet gisteren: EUR 29.00
+- Shopify omzet gisteren: EUR 214.87
+- Shopify direct omzet gisteren: EUR 214.87
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
-- Laatste 7 dagen omzet: EUR 730.38
+- Laatste 7 dagen omzet: EUR 933.08
 - Laatste 7 dagen Google Ads kosten: EUR 0.00
-- Laatste 7 dagen betrouwbare nettowinst: EUR 239.92
-- Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 110.06
+- Laatste 7 dagen betrouwbare nettowinst: EUR 297.07
+- Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 146.54
 
 ## Bol.com
 
-- Bol omzet gisteren: EUR 33.44
-- Bol winst gisteren: EUR 16.91
-- Bol commissie gisteren: EUR 3.23
-- Bol Ads kosten gisteren: EUR 1.73
-- Winst na Bol Ads gisteren: EUR 16.91
-- Bol omzet laatste 7 dagen: EUR 315.64
-- Bol winst laatste 7 dagen: EUR 140.57
-- Bol commissie laatste 7 dagen: EUR 41.45
-- Bol Ads kosten laatste 7 dagen: EUR 16.45
-- Bol Ads ROAS laatste 7 dagen: 2.0049
+- Bol omzet gisteren: EUR 0.00
+- Bol winst gisteren: EUR 0.00
+- Bol commissie gisteren: EUR 0.00
+- Bol Ads kosten gisteren: EUR 2.76
+- Winst na Bol Ads gisteren: EUR 0.00
+- Bol omzet laatste 7 dagen: EUR 349.67
+- Bol winst laatste 7 dagen: EUR 148.51
+- Bol commissie laatste 7 dagen: EUR 50.35
+- Bol Ads kosten laatste 7 dagen: EUR 14.31
+- Bol Ads ROAS laatste 7 dagen: 2.3047
 - Bol orders gematcht laatste 7 dagen: 15
 - Bol orders niet in Shopify gevonden laatste 7 dagen: 0
 
@@ -63,10 +63,10 @@ Gegenereerd: 2026-10-08T12:01:23.391Z
 
 - Shopify producten met Cost per item: 69
 - Shopify producten zonder Cost per item: 13
-- Percentage betrouwbare orders gisteren: 87.5%
-- Percentage betrouwbare winst gisteren: 91.33%
+- Percentage betrouwbare orders gisteren: 33.33%
+- Percentage betrouwbare winst gisteren: 25.52%
 - Winststatus gisteren: gedeeltelijk betrouwbaar
-- Percentage betrouwbare orders laatste 7 dagen: 70.37%
-- Percentage betrouwbare winst laatste 7 dagen: 68.55%
+- Percentage betrouwbare orders laatste 7 dagen: 67.74%
+- Percentage betrouwbare winst laatste 7 dagen: 66.97%
 - Winststatus laatste 7 dagen: gedeeltelijk betrouwbaar
-- Shopify Cost per item ontbreekt voor 8 orders; zie reports/missing_shopify_costs.md.
+- Shopify Cost per item ontbreekt voor 10 orders; zie reports/missing_shopify_costs.md.

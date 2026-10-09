@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-08T12:01:22.732Z",
+  "generated_at": "2026-10-09T11:53:33.450Z",
   "period": "last_7_days",
-  "date_from": "2026-10-02",
-  "date_to_exclusive": "2026-10-09",
+  "date_from": "2026-10-03",
+  "date_to_exclusive": "2026-10-10",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
@@ -11,55 +11,11 @@
     "bol_orders": 15,
     "matched_orders": 15,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 315.64,
-    "total_bol_commission": 41.45
+    "total_bol_revenue": 349.67,
+    "total_bol_commission": 50.35
   },
   "warnings": [],
   "matches": [
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1845",
-      "shopify_order_date": "2026-10-02T21:00:03Z",
-      "shopify_total_order_amount": 16.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000HF73R5",
-        "order_placed_at": "2026-10-02T22:59:30+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 16.95,
-        "total_commission": 1.05,
-        "eans": [
-          "8721516390073"
-        ],
-        "offer_references": [
-          "Unifidesk3DTS.Shop"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "4000763509",
-            "ean": "8721516390073",
-            "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-            "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
-            "offer_reference": "Unifidesk3DTS.Shop",
-            "sku": "Unifidesk3DTS.Shop",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 16.95,
-            "total_price": 16.95,
-            "commission": 1.05,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-10-03T11:07:57+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
     {
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
@@ -616,7 +572,7 @@
             "offer_reference": "3DTS-DSS501-GRA",
             "sku": "3DTS-DSS501-GRA",
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
             "unit_price": 17.95,
             "total_price": 17.95,
@@ -624,7 +580,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-10-07T15:46:47+02:00"
+            "latest_changed_at": "2026-10-08T21:07:24+02:00"
           }
         ]
       },
@@ -667,6 +623,50 @@
             "distribution_party": "RETAILER",
             "cancellation_request": false,
             "latest_changed_at": "2026-10-08T09:08:13+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1876",
+      "shopify_order_date": "2026-10-09T10:31:37Z",
+      "shopify_total_order_amount": 50.98,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000HPTTFN",
+        "order_placed_at": "2026-10-09T12:26:49+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 50.98,
+        "total_commission": 9.95,
+        "eans": [
+          "9503764519746"
+        ],
+        "offer_references": [
+          "Hiltinuronaccu3dts.shop"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "4004093453",
+            "ean": "9503764519746",
+            "product_name": "Accuhouder geschikt voor Hilti Nuron 22V - Wandmontage",
+            "offer_id": "46a9ea81-bcbb-4ab4-82e0-93c3607908ec",
+            "offer_reference": "Hiltinuronaccu3dts.shop",
+            "sku": "Hiltinuronaccu3dts.shop",
+            "quantity": 2,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 25.49,
+            "total_price": 50.98,
+            "commission": 9.95,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-10-09T12:27:16+02:00"
           }
         ]
       },

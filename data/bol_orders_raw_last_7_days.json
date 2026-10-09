@@ -1,44 +1,10 @@
 {
-  "generated_at": "2026-10-08T12:01:15.375Z",
+  "generated_at": "2026-10-09T11:53:22.376Z",
   "period": "last_7_days",
-  "date_from": "2026-10-02",
-  "date_to_exclusive": "2026-10-09",
+  "date_from": "2026-10-03",
+  "date_to_exclusive": "2026-10-10",
   "source": "bol.com Retailer API",
   "orders": [
-    {
-      "bol_order_id": "C000HF73R5",
-      "order_placed_at": "2026-10-02T22:59:30+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 16.95,
-      "total_commission": 1.05,
-      "eans": [
-        "8721516390073"
-      ],
-      "offer_references": [
-        "Unifidesk3DTS.Shop"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4000763509",
-          "ean": "8721516390073",
-          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-          "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
-          "offer_reference": "Unifidesk3DTS.Shop",
-          "sku": "Unifidesk3DTS.Shop",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 16.95,
-          "total_price": 16.95,
-          "commission": 1.05,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-03T11:07:57+02:00"
-        }
-      ]
-    },
     {
       "bol_order_id": "C000HFLC55",
       "order_placed_at": "2026-10-03T13:32:45+02:00",
@@ -467,7 +433,7 @@
           "offer_reference": "3DTS-DSS501-GRA",
           "sku": "3DTS-DSS501-GRA",
           "quantity": 1,
-          "quantity_shipped": 0,
+          "quantity_shipped": 1,
           "quantity_cancelled": 0,
           "unit_price": 17.95,
           "total_price": 17.95,
@@ -475,7 +441,7 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-10-07T15:46:47+02:00"
+          "latest_changed_at": "2026-10-08T21:07:24+02:00"
         }
       ]
     },
@@ -510,13 +476,47 @@
           "latest_changed_at": "2026-10-08T09:08:13+02:00"
         }
       ]
+    },
+    {
+      "bol_order_id": "C000HPTTFN",
+      "order_placed_at": "2026-10-09T12:26:49+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 50.98,
+      "total_commission": 9.95,
+      "eans": [
+        "9503764519746"
+      ],
+      "offer_references": [
+        "Hiltinuronaccu3dts.shop"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4004093453",
+          "ean": "9503764519746",
+          "product_name": "Accuhouder geschikt voor Hilti Nuron 22V - Wandmontage",
+          "offer_id": "46a9ea81-bcbb-4ab4-82e0-93c3607908ec",
+          "offer_reference": "Hiltinuronaccu3dts.shop",
+          "sku": "Hiltinuronaccu3dts.shop",
+          "quantity": 2,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 25.49,
+          "total_price": 50.98,
+          "commission": 9.95,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-10-09T12:27:16+02:00"
+        }
+      ]
     }
   ],
   "warnings": [],
   "credentials_configured": true,
   "totals": {
     "order_count": 15,
-    "total_order_amount": 315.64,
-    "total_commission": 41.45
+    "total_order_amount": 349.67,
+    "total_commission": 50.35
   }
 }
