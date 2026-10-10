@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T11:53:18.371Z",
+  "generated_at": "2026-10-10T11:10:13.319Z",
   "source": "Shopify Admin GraphQL productVariants.inventoryItem.unitCost",
   "required_scopes": [
     "read_products",
@@ -9,8 +9,8 @@
   "warnings": [],
   "totals": {
     "variants": 82,
-    "with_unit_cost": 69,
-    "missing_unit_cost": 13
+    "with_unit_cost": 70,
+    "missing_unit_cost": 12
   },
   "variants": [
     {
@@ -1224,9 +1224,9 @@
       "product_title": "Geleiderailadapter voor Makita DSS501 cirkelzaag",
       "variant_title": "Default Title",
       "verkoopprijs": 10,
-      "unit_cost_amount": 0,
-      "unit_cost_currency_code": null,
-      "has_unit_cost": false
+      "unit_cost_amount": 5.75,
+      "unit_cost_currency_code": "EUR",
+      "has_unit_cost": true
     },
     {
       "product_id": "16615231783261",

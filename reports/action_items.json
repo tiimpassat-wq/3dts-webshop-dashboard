@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-09T11:53:34.301Z",
+  "generated_at": "2026-10-10T11:10:26.195Z",
   "actions": [
+    {
+      "type": "product controleren",
+      "priority": "high",
+      "product_name": "Wandhouder geschikt voor Makita DC18RD duo-oplader - PETG zwart",
+      "sku": "U0-INRG-KJHL",
+      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
+    },
     {
       "type": "product controleren",
       "priority": "high",
@@ -16,38 +23,10 @@
       "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
     },
     {
-      "type": "product controleren",
-      "priority": "high",
-      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-      "sku": "3DTS-DSS501-GRA",
-      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
-    },
-    {
-      "type": "product controleren",
-      "priority": "high",
-      "product_name": "Wandhouder geschikt voor Makita DC18RD duo-oplader - PETG zwart",
-      "sku": "U0-INRG-KJHL",
-      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
-    },
-    {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-      "sku": "3DTS-DSS501-GRA",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+      "product_name": "Makita DC18RD Duo Oplader Wandhouder – PETG",
       "sku": "dc18rd3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-      "sku": "Unifidesk3DTS.Shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -62,6 +41,20 @@
       "priority": "medium",
       "product_name": "Makita DC18RC Charger Wall Mount | Battery Charger Holder",
       "sku": "dc18rc3dts.shop",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Wandbeugel geschikt voor UniFi AC Lite, nanoHD, AC LR en U6 Lite ? PETG ? 3D-geprint",
+      "sku": "Unifimountlite3DTS.shop",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+      "sku": "3DTS-DSS501-GRA",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]

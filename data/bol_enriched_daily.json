@@ -1,20 +1,65 @@
 {
-  "generated_at": "2026-10-09T11:53:21.604Z",
+  "generated_at": "2026-10-10T11:10:15.600Z",
   "period": "daily",
-  "date_from": "2026-10-08",
-  "date_to_exclusive": "2026-10-09",
+  "date_from": "2026-10-09",
+  "date_to_exclusive": "2026-10-10",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
     "bol_raw": "bol_orders_raw_daily.json"
   },
   "summary": {
-    "bol_orders": 0,
-    "matched_orders": 0,
+    "bol_orders": 1,
+    "matched_orders": 1,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 0,
-    "total_bol_commission": 0
+    "total_bol_revenue": 50.98,
+    "total_bol_commission": 9.95
   },
   "warnings": [],
-  "matches": [],
+  "matches": [
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1876",
+      "shopify_order_date": "2026-10-09T10:31:37Z",
+      "shopify_total_order_amount": 50.98,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000HPTTFN",
+        "order_placed_at": "2026-10-09T12:26:49+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 50.98,
+        "total_commission": 9.95,
+        "eans": [
+          "9503764519746"
+        ],
+        "offer_references": [
+          "Hiltinuronaccu3dts.shop"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "4004093453",
+            "ean": "9503764519746",
+            "product_name": "Accuhouder geschikt voor Hilti Nuron 22V - Wandmontage",
+            "offer_id": "46a9ea81-bcbb-4ab4-82e0-93c3607908ec",
+            "offer_reference": "Hiltinuronaccu3dts.shop",
+            "sku": "Hiltinuronaccu3dts.shop",
+            "quantity": 2,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 25.49,
+            "total_price": 50.98,
+            "commission": 9.95,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-10-09T12:27:16+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    }
+  ],
   "unmatched_bol_orders": []
 }

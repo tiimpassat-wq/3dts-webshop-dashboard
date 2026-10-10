@@ -1,90 +1,18 @@
 {
-  "generated_at": "2026-10-09T11:53:18.247Z",
+  "generated_at": "2026-10-10T11:10:13.217Z",
   "period": "last_30_days",
-  "date_from": "2026-09-10",
-  "date_to_exclusive": "2026-10-10",
+  "date_from": "2026-09-11",
+  "date_to_exclusive": "2026-10-11",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 83,
-    "item_count": 140,
-    "total_order_amount": 2100.07,
+    "order_count": 82,
+    "item_count": 138,
+    "total_order_amount": 2060.17,
     "shipping_paid_by_customer": 108.18,
     "discount": 5.82
   },
   "orders": [
-    {
-      "order_number": "#3dts1794",
-      "date": "2026-09-10T19:26:33Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 19.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000F96WX0"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder Geschikt voor Bosch 4A fietsoplader - Oplader Beugel - BPC3400",
-          "variant_id": "58800397255005",
-          "variant_gid": "gid://shopify/ProductVariant/58800397255005",
-          "sku": "Bosch4a-3DTS",
-          "barcode": "9503425233318",
-          "ean": "9503425233318",
-          "quantity": 1,
-          "product_sale_price": 19.95,
-          "original_unit_price": 19.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1795",
-      "date": "2026-09-10T20:05:03Z",
-      "channel_source": "bol",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 37.9,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000F98427"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Support mural incliné pour chargeur Duo Makita DC18RD",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 2,
-          "product_sale_price": 18.95,
-          "original_unit_price": 18.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1796",
       "date": "2026-09-11T05:10:03Z",
@@ -2900,7 +2828,7 @@
       "total_order_amount": 97.3,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": null,
       "referring_site": null,
@@ -3188,7 +3116,7 @@
       "total_order_amount": 17,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "A1S25ADMT138N3",
         "Amazon",
@@ -3245,6 +3173,42 @@
           "quantity": 2,
           "product_sale_price": 25.49,
           "original_unit_price": 25.49,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1877",
+      "date": "2026-10-10T07:11:37Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 17.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000HRNJD6"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "variant_id": "66045779870045",
+          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
+          "sku": "3DTS-DSS501-GRA",
+          "barcode": "8721516390691",
+          "ean": "8721516390691",
+          "quantity": 1,
+          "product_sale_price": 17.95,
+          "original_unit_price": 17.95,
           "line_discount": 0,
           "currency": "EUR"
         }
