@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T11:24:03.210Z",
+  "generated_at": "2026-10-12T13:09:14.157Z",
   "actions": [
     {
       "type": "product controleren",
@@ -25,22 +25,15 @@
     {
       "type": "product controleren",
       "priority": "high",
-      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-      "sku": "3DTS-DSS501-GRA",
-      "reason": "Bol commissie ontbreekt voor order #3dts1880; winst kan te hoog lijken."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
       "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
       "sku": "dc18rd3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+      "reason": "Bol commissie ontbreekt voor order #3dts1887; winst kan te hoog lijken."
     },
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Makita DC18RC Charger Wall Mount | Battery Charger Holder",
-      "sku": "dc18rc3dts.shop",
+      "product_name": "Makita DC18RD Wall Mount – Dual Charger Holder – 3D Printed PETG Workshop Organizer",
+      "sku": "dc18rd3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -53,8 +46,8 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Wandbeugel geschikt voor UniFi AC Lite, nanoHD, AC LR en U6 Lite ? PETG ? 3D-geprint",
-      "sku": "Unifimountlite3DTS.shop",
+      "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+      "sku": "dc18rc3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -62,6 +55,13 @@
       "priority": "medium",
       "product_name": "Wandbeugel geschikt voor Unifi U6 Pro - Wit",
       "sku": "3DTS-U6PRO",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Accuhouder Makita 18V – Wandmontage - 3-voudig",
+      "sku": "Makita4v3dts.shop3CB02",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]

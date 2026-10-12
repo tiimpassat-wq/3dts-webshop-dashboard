@@ -1,70 +1,107 @@
 {
-  "generated_at": "2026-10-11T11:23:47.129Z",
+  "generated_at": "2026-10-12T13:08:58.885Z",
   "period": "daily",
-  "date_from": "2026-10-10",
-  "date_to_exclusive": "2026-10-11",
+  "date_from": "2026-10-11",
+  "date_to_exclusive": "2026-10-12",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 4,
-    "item_count": 5,
-    "total_order_amount": 89.37,
+    "item_count": 4,
+    "total_order_amount": 80.04,
     "shipping_paid_by_customer": 0,
     "discount": 0
   },
   "orders": [
     {
-      "order_number": "#3dts1877",
-      "date": "2026-10-10T07:11:37Z",
+      "order_number": "#3dts1881",
+      "date": "2026-10-11T03:46:36Z",
       "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "shipping_paid_by_customer": 0,
       "shipping_title": null,
       "discount": 0,
-      "total_order_amount": 17.95,
+      "total_order_amount": 16.95,
       "currency": "EUR",
       "payment_status": "PAID",
       "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000HRNJD6"
+        "Bol-C000HTLPN2"
       ],
       "landing_site": null,
       "referring_site": null,
       "referral_code": null,
       "line_items": [
         {
-          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-          "variant_id": "66045779870045",
-          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
-          "sku": "3DTS-DSS501-GRA",
-          "barcode": "8721516390691",
-          "ean": "8721516390691",
+          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+          "variant_id": "63433470476637",
+          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
+          "sku": "Unifidesk3DTS.Shop",
+          "barcode": "8721516390073",
+          "ean": "8721516390073",
           "quantity": 1,
-          "product_sale_price": 17.95,
-          "original_unit_price": 17.95,
+          "product_sale_price": 16.95,
+          "original_unit_price": 16.95,
           "line_discount": 0,
           "currency": "EUR"
         }
       ]
     },
     {
-      "order_number": "#3dts1878",
-      "date": "2026-10-10T12:26:36Z",
+      "order_number": "#3dts1882",
+      "date": "2026-10-11T06:48:04Z",
+      "channel_source": "amazon",
+      "customer_country_code": "FR",
+      "customer_country": "France",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 22.65,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Amazon",
+        "Amazon-405-1900068-4318765",
+        "Amazon-FR"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Support mural réglable compatible avec UniFi UAP-AC-LR, U6-LR, U6-Lite et U7-Lite - Imprimé en 3D",
+          "variant_id": "63739025588573",
+          "variant_gid": "gid://shopify/ProductVariant/63739025588573",
+          "sku": "Unifikant3DTS.shop",
+          "barcode": "8721516390592",
+          "ean": "8721516390592",
+          "quantity": 1,
+          "product_sale_price": 22.65,
+          "original_unit_price": 22.65,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1883",
+      "date": "2026-10-11T14:26:36Z",
       "channel_source": "bol",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
       "shipping_paid_by_customer": 0,
       "shipping_title": null,
       "discount": 0,
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000HT2WL8"
+        "Bol-C000HW7MDN"
       ],
       "landing_site": null,
       "referring_site": null,
@@ -86,47 +123,11 @@
       ]
     },
     {
-      "order_number": "#3dts1879",
-      "date": "2026-10-10T15:30:28Z",
+      "order_number": "#3dts1884",
+      "date": "2026-10-11T16:26:37Z",
       "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 30.98,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000HT7WXC"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandbeugel geschikt voor Unifi U6 Pro - Wit",
-          "variant_id": "57415992607069",
-          "variant_gid": "gid://shopify/ProductVariant/57415992607069",
-          "sku": "3DTS-U6PRO",
-          "barcode": "8721516390127",
-          "ean": "8721516390127",
-          "quantity": 2,
-          "product_sale_price": 15.49,
-          "original_unit_price": 15.49,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1880",
-      "date": "2026-10-10T16:26:37Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
       "shipping_paid_by_customer": 0,
       "shipping_title": null,
       "discount": 0,
@@ -136,7 +137,7 @@
       "fulfillment_status": "UNFULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000HT97WK"
+        "Bol-C000HWDD3N"
       ],
       "landing_site": null,
       "referring_site": null,
