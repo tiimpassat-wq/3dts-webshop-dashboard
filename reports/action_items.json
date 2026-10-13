@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T13:09:14.157Z",
+  "generated_at": "2026-10-13T12:42:06.470Z",
   "actions": [
     {
       "type": "product controleren",
@@ -27,7 +27,7 @@
       "priority": "high",
       "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
       "sku": "dc18rd3dts.shop",
-      "reason": "Bol commissie ontbreekt voor order #3dts1887; winst kan te hoog lijken."
+      "reason": "Bol commissie ontbreekt voor order #3dts1885; winst kan te hoog lijken."
     },
     {
       "type": "bundel maken",
@@ -46,7 +46,7 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+      "product_name": "Makita DC18RC Charger Wall Mount – Makita Charger Holder – 18V Tool Organizer – Garage Storage – PETG 3D Printed",
       "sku": "dc18rc3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },

@@ -1,201 +1,18 @@
 {
-  "generated_at": "2026-10-12T13:08:59.304Z",
+  "generated_at": "2026-10-13T12:41:54.131Z",
   "period": "last_7_days",
-  "date_from": "2026-10-06",
-  "date_to_exclusive": "2026-10-13",
+  "date_from": "2026-10-07",
+  "date_to_exclusive": "2026-10-14",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 28,
-    "item_count": 66,
-    "total_order_amount": 881.89,
-    "shipping_paid_by_customer": 42.28,
-    "discount": 1.57
+    "order_count": 27,
+    "item_count": 59,
+    "total_order_amount": 809.78,
+    "shipping_paid_by_customer": 51.23,
+    "discount": 0.98
   },
   "orders": [
-    {
-      "order_number": "#3dts1860",
-      "date": "2026-10-06T00:15:03Z",
-      "channel_source": "bol",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 19.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000HKKRF9"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-          "variant_id": "57512098234717",
-          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
-          "sku": "dc18rc3dts.shop",
-          "barcode": "8721516390011",
-          "ean": "8721516390011",
-          "quantity": 1,
-          "product_sale_price": 19.95,
-          "original_unit_price": 19.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1861",
-      "date": "2026-10-06T10:35:03Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 17.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000HL1D5P"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-          "variant_id": "66045779870045",
-          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
-          "sku": "3DTS-DSS501-GRA",
-          "barcode": "8721516390691",
-          "ean": "8721516390691",
-          "quantity": 1,
-          "product_sale_price": 17.95,
-          "original_unit_price": 17.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1862",
-      "date": "2026-10-06T19:54:54Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Gratis Verzending",
-      "discount": 0.59,
-      "total_order_amount": 73.11,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/wandhouder-voor-milwaukee-m18-m12-rapid-charger-petg",
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "3D Geprinte accu houder passend voor DeWalt",
-          "variant_id": "58513280270685",
-          "variant_gid": "gid://shopify/ProductVariant/58513280270685",
-          "sku": "585132802706_F172",
-          "barcode": "8721516390202",
-          "ean": "8721516390202",
-          "quantity": 1,
-          "product_sale_price": 11.95,
-          "original_unit_price": 11.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Wandhouder voor Milwaukee M18/M12 Rapid Charger – PETG",
-          "variant_id": "66134996812125",
-          "variant_gid": "gid://shopify/ProductVariant/66134996812125",
-          "sku": "3DTS-MIL-M18M12-RC",
-          "barcode": null,
-          "ean": null,
-          "quantity": 1,
-          "product_sale_price": 8.45,
-          "original_unit_price": 8.45,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Wandhouder Makita DC18RC Oplader",
-          "variant_id": "57512098234717",
-          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
-          "sku": "dc18rc3dts.shop",
-          "barcode": "8721516390011",
-          "ean": "8721516390011",
-          "quantity": 1,
-          "product_sale_price": 9.95,
-          "original_unit_price": 9.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Bosch 12V – 3-voudige accuhouder (PETG)",
-          "variant_id": "62457404162397",
-          "variant_gid": "gid://shopify/ProductVariant/62457404162397",
-          "sku": "624574041623_93C3",
-          "barcode": "8721516390288",
-          "ean": "8721516390288",
-          "quantity": 1,
-          "product_sale_price": 11.36,
-          "original_unit_price": 11.95,
-          "line_discount": 0.59,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Milwaukee M12 Accu Houder – PETG – 3-voudig",
-          "variant_id": "63105660715357",
-          "variant_gid": "gid://shopify/ProductVariant/63105660715357",
-          "sku": "631056607153_292D",
-          "barcode": "8721516390493",
-          "ean": "8721516390493",
-          "quantity": 1,
-          "product_sale_price": 10.95,
-          "original_unit_price": 10.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Accuhouder Milwaukee M18",
-          "variant_id": "57541019697501",
-          "variant_gid": "gid://shopify/ProductVariant/57541019697501",
-          "sku": "575410196975_F0F7",
-          "barcode": "9504277995188",
-          "ean": "9504277995188",
-          "quantity": 1,
-          "product_sale_price": 7.95,
-          "original_unit_price": 7.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
-          "variant_id": "57872304963933",
-          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
-          "sku": "Makita4v3dts.shop",
-          "barcode": "8721516390097",
-          "ean": "8721516390097",
-          "quantity": 1,
-          "product_sale_price": 12.5,
-          "original_unit_price": 12.5,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1863",
       "date": "2026-10-07T04:56:36Z",
@@ -1110,7 +927,7 @@
       "total_order_amount": 20.49,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000HWDD3N"
@@ -1146,7 +963,7 @@
       "total_order_amount": 37.9,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000HWWKCR"
@@ -1219,6 +1036,75 @@
       "tags": [
         "Bol",
         "Bol-C000HX9KF2"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1888",
+      "date": "2026-10-13T05:47:07Z",
+      "channel_source": "web",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 8.95,
+      "shipping_title": "België Post NL",
+      "discount": 0,
+      "total_order_amount": 18.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/fr/pages/contact",
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Geleiderailadapter voor Makita DSS501 cirkelzaag",
+          "variant_id": "66045779870045",
+          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
+          "sku": null,
+          "barcode": "8721516390691",
+          "ean": "8721516390691",
+          "quantity": 1,
+          "product_sale_price": 10,
+          "original_unit_price": 10,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1889",
+      "date": "2026-10-13T09:31:46Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000J0CXPD"
       ],
       "landing_site": null,
       "referring_site": null,
