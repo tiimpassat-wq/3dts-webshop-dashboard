@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T12:42:06.470Z",
+  "generated_at": "2026-10-14T10:11:06.729Z",
   "actions": [
     {
       "type": "product controleren",
@@ -32,13 +32,6 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Makita DC18RD Wall Mount – Dual Charger Holder – 3D Printed PETG Workshop Organizer",
-      "sku": "dc18rd3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
       "product_name": "Universele Machinehouder – Makita, Bosch, DeWalt & Festool",
       "sku": null,
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
@@ -46,8 +39,15 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Makita DC18RC Charger Wall Mount – Makita Charger Holder – 18V Tool Organizer – Garage Storage – PETG 3D Printed",
+      "product_name": "Wandhouder Makita DC18RC Oplader",
       "sku": "dc18rc3dts.shop",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Makita DC18RD Duo Oplader Wandhouder – PETG",
+      "sku": "dc18rd3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
