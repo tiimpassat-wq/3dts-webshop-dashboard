@@ -1,27 +1,6 @@
 {
-  "generated_at": "2026-10-15T09:53:28.605Z",
+  "generated_at": "2026-10-16T09:47:53.122Z",
   "actions": [
-    {
-      "type": "product controleren",
-      "priority": "high",
-      "product_name": "Wandhouder geschikt voor Makita DC18RD duo-oplader - PETG zwart",
-      "sku": "U0-INRG-KJHL",
-      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
-    },
-    {
-      "type": "product controleren",
-      "priority": "high",
-      "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-      "sku": "dc18rd3dts.shop",
-      "reason": "Bol commissie ontbreekt voor order #3dts1885; winst kan te hoog lijken."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-      "sku": "dc18rd3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
     {
       "type": "bundel maken",
       "priority": "medium",
@@ -32,15 +11,22 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
-      "sku": "dc18rc3dts.shop",
+      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+      "sku": "3DTS-DSS501-GRA",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-      "sku": "3DTS-DSS501-GRA",
+      "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+      "sku": "dc18rd3dts.shop",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
+      "sku": "dc18rc3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {

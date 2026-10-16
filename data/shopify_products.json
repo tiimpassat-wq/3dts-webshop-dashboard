@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T09:53:17.993Z",
+  "generated_at": "2026-10-16T09:47:34.221Z",
   "source": "Shopify Admin GraphQL productVariants.inventoryItem.unitCost",
   "required_scopes": [
     "read_products",
@@ -1218,7 +1218,7 @@
       "variant_id": "66045779870045",
       "product_gid": "gid://shopify/Product/16590676001117",
       "variant_gid": "gid://shopify/ProductVariant/66045779870045",
-      "sku": "",
+      "sku": "3DTS-DSS501-GRA",
       "barcode": "8721516390691",
       "ean": "8721516390691",
       "product_title": "Geleiderailadapter voor Makita DSS501 cirkelzaag",
