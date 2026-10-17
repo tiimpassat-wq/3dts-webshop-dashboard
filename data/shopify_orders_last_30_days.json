@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-16T09:47:34.064Z",
+  "generated_at": "2026-10-17T09:19:46.452Z",
   "period": "last_30_days",
-  "date_from": "2026-09-17",
-  "date_to_exclusive": "2026-10-17",
+  "date_from": "2026-09-18",
+  "date_to_exclusive": "2026-10-18",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 86,
-    "item_count": 140,
-    "total_order_amount": 2151.42,
+    "order_count": 88,
+    "item_count": 142,
+    "total_order_amount": 2186.32,
     "shipping_paid_by_customer": 94.23,
     "discount": 4.84
   },
@@ -3210,7 +3210,7 @@
       "total_order_amount": 20.49,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000HFRRTH"
@@ -3246,7 +3246,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000J2RXL9"
@@ -3281,7 +3281,7 @@
       "discount": 0,
       "total_order_amount": 17.95,
       "currency": "EUR",
-      "payment_status": "PAID",
+      "payment_status": "REFUNDED",
       "fulfillment_status": "UNFULFILLED",
       "tags": [
         "Amazon",
@@ -3323,6 +3323,79 @@
       "tags": [
         "Bol",
         "Bol-C000J3T8LJ"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+          "variant_id": "63433470476637",
+          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
+          "sku": "Unifidesk3DTS.Shop",
+          "barcode": "8721516390073",
+          "ean": "8721516390073",
+          "quantity": 1,
+          "product_sale_price": 16.95,
+          "original_unit_price": 16.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1902",
+      "date": "2026-10-16T15:04:49Z",
+      "channel_source": "amazon",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Amazon Standard",
+      "discount": 0,
+      "total_order_amount": 17.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Amazon",
+        "Amazon-BE",
+        "FBM"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Adaptateur de rail pour scie circulaire Makita DSS501 - PETG",
+          "variant_id": null,
+          "variant_gid": null,
+          "sku": "3DTS-DSS501-GRA",
+          "barcode": null,
+          "ean": null,
+          "quantity": 1,
+          "product_sale_price": 17.95,
+          "original_unit_price": 17.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1903",
+      "date": "2026-10-16T15:12:46Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 16.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000J4D6FF"
       ],
       "landing_site": null,
       "referring_site": null,

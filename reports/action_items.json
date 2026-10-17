@@ -1,18 +1,11 @@
 {
-  "generated_at": "2026-10-16T09:47:53.122Z",
+  "generated_at": "2026-10-17T09:20:00.342Z",
   "actions": [
     {
       "type": "bundel maken",
       "priority": "medium",
       "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
       "sku": "Unifidesk3DTS.Shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-      "sku": "3DTS-DSS501-GRA",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -25,6 +18,13 @@
     {
       "type": "bundel maken",
       "priority": "medium",
+      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+      "sku": "3DTS-DSS501-GRA",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
       "product_name": "Wandhouder geschikt voor Makita DC18RC oplader",
       "sku": "dc18rc3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
@@ -32,8 +32,8 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Wandbeugel geschikt voor Unifi U6 Pro - Wit",
-      "sku": "3DTS-U6PRO",
+      "product_name": "3D-geprinte acculaderhouder voor Bosch 4A fietsoplader – wandmontage - BPC3400",
+      "sku": "Bosch4a-3DTS",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]
