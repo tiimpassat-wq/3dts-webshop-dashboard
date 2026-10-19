@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T09:36:29.952Z",
+  "generated_at": "2026-10-19T10:45:34.315Z",
   "source": "Shopify Admin GraphQL productVariants.inventoryItem.unitCost",
   "required_scopes": [
     "read_products",
@@ -9,8 +9,8 @@
   "warnings": [],
   "totals": {
     "variants": 82,
-    "with_unit_cost": 70,
-    "missing_unit_cost": 12
+    "with_unit_cost": 71,
+    "missing_unit_cost": 11
   },
   "variants": [
     {
@@ -1134,9 +1134,9 @@
       "product_title": "Makita DC18RC Laadstation Set - Opladerhouder + 4-voudige Accuhouder",
       "variant_title": "Default Title",
       "verkoopprijs": 21.95,
-      "unit_cost_amount": 0,
-      "unit_cost_currency_code": null,
-      "has_unit_cost": false
+      "unit_cost_amount": 10.2,
+      "unit_cost_currency_code": "EUR",
+      "has_unit_cost": true
     },
     {
       "product_id": "16278002925917",

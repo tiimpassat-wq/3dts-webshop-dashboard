@@ -1,44 +1,10 @@
 {
-  "generated_at": "2026-10-18T09:36:32.869Z",
+  "generated_at": "2026-10-19T10:45:37.712Z",
   "period": "last_7_days",
-  "date_from": "2026-10-12",
-  "date_to_exclusive": "2026-10-19",
+  "date_from": "2026-10-13",
+  "date_to_exclusive": "2026-10-20",
   "source": "bol.com Retailer API",
   "orders": [
-    {
-      "bol_order_id": "C000HWWKCR",
-      "order_placed_at": "2026-10-12T07:41:31+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 37.9,
-      "total_commission": 6.77,
-      "eans": [
-        "9509658425575"
-      ],
-      "offer_references": [
-        "U0-INRG-KJHL"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4005434757",
-          "ean": "9509658425575",
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-          "offer_reference": "U0-INRG-KJHL",
-          "sku": "U0-INRG-KJHL",
-          "quantity": 2,
-          "quantity_shipped": 2,
-          "quantity_cancelled": 0,
-          "unit_price": 18.95,
-          "total_price": 37.9,
-          "commission": 6.77,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-12T18:32:31+02:00"
-        }
-      ]
-    },
     {
       "bol_order_id": "C000J0CXPD",
       "order_placed_at": "2026-10-13T11:26:12+02:00",
@@ -70,40 +36,6 @@
           "distribution_party": "RETAILER",
           "cancellation_request": false,
           "latest_changed_at": "2026-10-13T18:55:46+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000HX9KF2",
-      "order_placed_at": "2026-10-12T14:34:00+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 19.95,
-      "total_commission": 3.53,
-      "eans": [
-        "9509658425575"
-      ],
-      "offer_references": [
-        "U0-INRG-KJHL"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4005635051",
-          "ean": "9509658425575",
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-          "offer_reference": "U0-INRG-KJHL",
-          "sku": "U0-INRG-KJHL",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 19.95,
-          "total_price": 19.95,
-          "commission": 3.53,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-13T18:49:27+02:00"
         }
       ]
     },
@@ -480,6 +412,40 @@
       ]
     },
     {
+      "bol_order_id": "C000J6JW2R",
+      "order_placed_at": "2026-10-18T19:11:15+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 16.49,
+      "total_commission": 1.04,
+      "eans": [
+        "8721516390615"
+      ],
+      "offer_references": [
+        "cloudkeygen23DTS.SHOP"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4008720724",
+          "ean": "8721516390615",
+          "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
+          "offer_id": "963adcff-f602-4154-bc70-bf5afef9c1a1",
+          "offer_reference": "cloudkeygen23DTS.SHOP",
+          "sku": "cloudkeygen23DTS.SHOP",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 16.49,
+          "total_price": 16.49,
+          "commission": 1.04,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-10-18T19:11:47+02:00"
+        }
+      ]
+    },
+    {
       "bol_order_id": "C000J5HJLH",
       "order_placed_at": "2026-10-17T19:07:36+02:00",
       "customer_country_code": "NL",
@@ -551,8 +517,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 16,
-    "total_order_amount": 336.34,
-    "total_commission": 45.27
+    "order_count": 15,
+    "total_order_amount": 294.98,
+    "total_commission": 36.01
   }
 }
