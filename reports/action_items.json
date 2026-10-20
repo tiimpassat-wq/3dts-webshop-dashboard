@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-19T10:45:46.179Z",
+  "generated_at": "2026-10-20T10:03:08.509Z",
   "actions": [
+    {
+      "type": "product controleren",
+      "priority": "high",
+      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+      "sku": "3DTS-DSS501-GRA",
+      "reason": "Bol commissie ontbreekt voor order #3dts1911; winst kan te hoog lijken."
+    },
     {
       "type": "bundel maken",
       "priority": "medium",
       "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
       "sku": "Unifidesk3DTS.Shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-      "sku": "3DTS-DSS501-GRA",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -25,6 +25,13 @@
     {
       "type": "bundel maken",
       "priority": "medium",
+      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+      "sku": "3DTS-DSS501-GRA",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
       "product_name": "Accu Houder Geschikt voor Hilti Nuron",
       "sku": "Hiltinuronaccu3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
@@ -32,8 +39,8 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Wandhouder Makita DC18RC Oplader",
-      "sku": "dc18rc3dts.shop",
+      "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
+      "sku": "cloudkeygen23DTS.SHOP",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]
