@@ -1,61 +1,100 @@
 {
-  "generated_at": "2026-10-20T10:02:50.450Z",
+  "generated_at": "2026-10-21T10:06:59.469Z",
   "period": "daily",
-  "date_from": "2026-10-19",
-  "date_to_exclusive": "2026-10-20",
+  "date_from": "2026-10-20",
+  "date_to_exclusive": "2026-10-21",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 4,
-    "item_count": 12,
-    "total_order_amount": 186.94,
-    "shipping_paid_by_customer": 0,
+    "item_count": 17,
+    "total_order_amount": 419.99,
+    "shipping_paid_by_customer": 4.65,
     "discount": 0
   },
   "orders": [
     {
-      "order_number": "#3dts1909",
-      "date": "2026-10-19T06:00:21Z",
-      "channel_source": "web",
+      "order_number": "#3dts1913",
+      "date": "2026-10-20T10:28:33Z",
+      "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "shipping_paid_by_customer": 0,
-      "shipping_title": "Gratis Verzending",
+      "shipping_title": null,
       "discount": 0,
-      "total_order_amount": 75.8,
+      "total_order_amount": 127.45,
       "currency": "EUR",
       "payment_status": "PAID",
       "fulfillment_status": "UNFULFILLED",
-      "tags": [],
+      "tags": [
+        "Bol",
+        "Bol-C000J8K40X"
+      ],
       "landing_site": null,
       "referring_site": null,
       "referral_code": null,
       "line_items": [
         {
-          "product_name": "Accu Houder Geschikt voor Hilti Nuron",
+          "product_name": "Accuhouder geschikt voor Hilti Nuron 22V - Wandmontage",
           "variant_id": "58706483183965",
           "variant_gid": "gid://shopify/ProductVariant/58706483183965",
           "sku": "Hiltinuronaccu3dts.shop",
           "barcode": "08721516390066",
           "ean": "08721516390066",
-          "quantity": 4,
-          "product_sale_price": 18.95,
-          "original_unit_price": 18.95,
+          "quantity": 5,
+          "product_sale_price": 25.49,
+          "original_unit_price": 25.49,
           "line_discount": 0,
           "currency": "EUR"
         }
       ]
     },
     {
-      "order_number": "#3dts1910",
-      "date": "2026-10-19T09:15:27Z",
-      "channel_source": "web",
+      "order_number": "#3dts1914",
+      "date": "2026-10-20T10:38:33Z",
+      "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "shipping_paid_by_customer": 0,
-      "shipping_title": "Gratis Verzending",
+      "shipping_title": null,
       "discount": 0,
-      "total_order_amount": 70.7,
+      "total_order_amount": 254.9,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000J8KCM4"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder geschikt voor Hilti Nuron 22V - Wandmontage",
+          "variant_id": "58706483183965",
+          "variant_gid": "gid://shopify/ProductVariant/58706483183965",
+          "sku": "Hiltinuronaccu3dts.shop",
+          "barcode": "08721516390066",
+          "ean": "08721516390066",
+          "quantity": 10,
+          "product_sale_price": 25.49,
+          "original_unit_price": 25.49,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1915",
+      "date": "2026-10-20T13:34:00Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 0,
+      "total_order_amount": 17.15,
       "currency": "EUR",
       "payment_status": "PAID",
       "fulfillment_status": "UNFULFILLED",
@@ -65,52 +104,26 @@
       "referral_code": null,
       "line_items": [
         {
-          "product_name": "Machine houder geschikt voor Parkside 20V",
-          "variant_id": "58210152939869",
-          "variant_gid": "gid://shopify/ProductVariant/58210152939869",
-          "sku": "3DTS-PS20V",
-          "barcode": "8721516390172",
-          "ean": "8721516390172",
+          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
+          "variant_id": "57872304963933",
+          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
+          "sku": "Makita4v3dts.shop",
+          "barcode": "8721516390097",
+          "ean": "8721516390097",
           "quantity": 1,
-          "product_sale_price": 8.95,
-          "original_unit_price": 8.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Accuhouder Parkside 20V - 4-voudig",
-          "variant_id": "62962109153629",
-          "variant_gid": "gid://shopify/ProductVariant/62962109153629",
-          "sku": "629621091536_60CB",
-          "barcode": "9509192768565",
-          "ean": "9509192768565",
-          "quantity": 1,
-          "product_sale_price": 13.95,
-          "original_unit_price": 13.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Wandsteun UniFi Turret Camera - Wit",
-          "variant_id": "57729943273821",
-          "variant_gid": "gid://shopify/ProductVariant/57729943273821",
-          "sku": "577299432738_2769",
-          "barcode": "8721516390547",
-          "ean": "8721516390547",
-          "quantity": 4,
-          "product_sale_price": 11.95,
-          "original_unit_price": 11.95,
+          "product_sale_price": 12.5,
+          "original_unit_price": 12.5,
           "line_discount": 0,
           "currency": "EUR"
         }
       ]
     },
     {
-      "order_number": "#3dts1911",
-      "date": "2026-10-19T10:58:57Z",
+      "order_number": "#3dts1916",
+      "date": "2026-10-20T16:47:19Z",
       "channel_source": "bol",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
       "shipping_paid_by_customer": 0,
       "shipping_title": null,
       "discount": 0,
@@ -120,7 +133,7 @@
       "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000J78CT8"
+        "Bol-C000HX36F4"
       ],
       "landing_site": null,
       "referring_site": null,
@@ -136,42 +149,6 @@
           "quantity": 1,
           "product_sale_price": 20.49,
           "original_unit_price": 20.49,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1912",
-      "date": "2026-10-19T17:56:21Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 19.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000J7W5F9"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 1,
-          "product_sale_price": 19.95,
-          "original_unit_price": 19.95,
           "line_discount": 0,
           "currency": "EUR"
         }

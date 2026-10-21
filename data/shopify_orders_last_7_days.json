@@ -1,162 +1,18 @@
 {
-  "generated_at": "2026-10-20T10:02:50.838Z",
+  "generated_at": "2026-10-21T10:06:59.816Z",
   "period": "last_7_days",
-  "date_from": "2026-10-14",
-  "date_to_exclusive": "2026-10-21",
+  "date_from": "2026-10-15",
+  "date_to_exclusive": "2026-10-22",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 21,
-    "item_count": 30,
-    "total_order_amount": 513.28,
-    "shipping_paid_by_customer": 0,
+    "order_count": 22,
+    "item_count": 43,
+    "total_order_amount": 863.93,
+    "shipping_paid_by_customer": 4.65,
     "discount": 0
   },
   "orders": [
-    {
-      "order_number": "#3dts1892",
-      "date": "2026-10-14T11:36:24Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 21.49,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000J1RL4T"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "WandBeugel geschikt voor Bosch Professional 18V – Wandmontage. - 4-voudig",
-          "variant_id": "57884320072029",
-          "variant_gid": "gid://shopify/ProductVariant/57884320072029",
-          "sku": "3DTS-BP18V-4",
-          "barcode": "8721516390585",
-          "ean": "8721516390585",
-          "quantity": 1,
-          "product_sale_price": 21.49,
-          "original_unit_price": 21.49,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1893",
-      "date": "2026-10-14T12:21:24Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 20.49,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000J1TWNP"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-          "variant_id": "66045779870045",
-          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
-          "sku": "3DTS-DSS501-GRA",
-          "barcode": "8721516390691",
-          "ean": "8721516390691",
-          "quantity": 1,
-          "product_sale_price": 20.49,
-          "original_unit_price": 20.49,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1894",
-      "date": "2026-10-14T17:11:24Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 15.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000J26L19"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Plafondbeugel geschikt voor Unifi AC LitenanoHD, AC LR & U6 Lite",
-          "variant_id": "57838610743645",
-          "variant_gid": "gid://shopify/ProductVariant/57838610743645",
-          "sku": "Unifimountlite3DTS.shop",
-          "barcode": "08721516390042",
-          "ean": "08721516390042",
-          "quantity": 1,
-          "product_sale_price": 15.95,
-          "original_unit_price": 15.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1895",
-      "date": "2026-10-14T17:21:24Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 31.9,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000J26WL8"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-          "variant_id": "63433470476637",
-          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
-          "sku": "Unifidesk3DTS.Shop",
-          "barcode": "8721516390073",
-          "ean": "8721516390073",
-          "quantity": 2,
-          "product_sale_price": 15.95,
-          "original_unit_price": 15.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1896",
       "date": "2026-10-15T09:37:57Z",
@@ -642,7 +498,7 @@
       "total_order_amount": 75.8,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": null,
       "referring_site": null,
@@ -770,7 +626,7 @@
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000J7W5F9"
@@ -789,6 +645,183 @@
           "quantity": 1,
           "product_sale_price": 19.95,
           "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1913",
+      "date": "2026-10-20T10:28:33Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 127.45,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000J8K40X"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder geschikt voor Hilti Nuron 22V - Wandmontage",
+          "variant_id": "58706483183965",
+          "variant_gid": "gid://shopify/ProductVariant/58706483183965",
+          "sku": "Hiltinuronaccu3dts.shop",
+          "barcode": "08721516390066",
+          "ean": "08721516390066",
+          "quantity": 5,
+          "product_sale_price": 25.49,
+          "original_unit_price": 25.49,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1914",
+      "date": "2026-10-20T10:38:33Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 254.9,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000J8KCM4"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder geschikt voor Hilti Nuron 22V - Wandmontage",
+          "variant_id": "58706483183965",
+          "variant_gid": "gid://shopify/ProductVariant/58706483183965",
+          "sku": "Hiltinuronaccu3dts.shop",
+          "barcode": "08721516390066",
+          "ean": "08721516390066",
+          "quantity": 10,
+          "product_sale_price": 25.49,
+          "original_unit_price": 25.49,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1915",
+      "date": "2026-10-20T13:34:00Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 0,
+      "total_order_amount": 17.15,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
+          "variant_id": "57872304963933",
+          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
+          "sku": "Makita4v3dts.shop",
+          "barcode": "8721516390097",
+          "ean": "8721516390097",
+          "quantity": 1,
+          "product_sale_price": 12.5,
+          "original_unit_price": 12.5,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1916",
+      "date": "2026-10-20T16:47:19Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 20.49,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000HX36F4"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "variant_id": "66045779870045",
+          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
+          "sku": "3DTS-DSS501-GRA",
+          "barcode": "8721516390691",
+          "ean": "8721516390691",
+          "quantity": 1,
+          "product_sale_price": 20.49,
+          "original_unit_price": 20.49,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1917",
+      "date": "2026-10-21T06:02:20Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 20.49,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000J9LT7L"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "variant_id": "66045779870045",
+          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
+          "sku": "3DTS-DSS501-GRA",
+          "barcode": "8721516390691",
+          "ean": "8721516390691",
+          "quantity": 1,
+          "product_sale_price": 20.49,
+          "original_unit_price": 20.49,
           "line_discount": 0,
           "currency": "EUR"
         }
