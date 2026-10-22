@@ -1,6 +1,12 @@
 {
-  "generated_at": "2026-10-21T10:07:14.954Z",
+  "generated_at": "2026-10-22T10:09:59.370Z",
   "actions": [
+    {
+      "type": "campagne pauzeren",
+      "priority": "high",
+      "campaign": "Bol Sponsored Products",
+      "reason": "Bol Ads ROAS laatste 7 dagen is 1.0647; controleer zoektermen en biedingen voordat budget omhoog gaat."
+    },
     {
       "type": "product controleren",
       "priority": "high",
@@ -25,7 +31,7 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+      "product_name": "Adaptateur de rail pour scie circulaire Makita DSS501 - PETG",
       "sku": "3DTS-DSS501-GRA",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },

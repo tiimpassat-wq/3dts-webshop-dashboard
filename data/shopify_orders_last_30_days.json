@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-21T10:07:00.674Z",
+  "generated_at": "2026-10-22T10:09:43.642Z",
   "period": "last_30_days",
-  "date_from": "2026-09-22",
-  "date_to_exclusive": "2026-10-22",
+  "date_from": "2026-09-23",
+  "date_to_exclusive": "2026-10-23",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 97,
-    "item_count": 167,
-    "total_order_amount": 2748.16,
+    "order_count": 98,
+    "item_count": 168,
+    "total_order_amount": 2768.65,
     "shipping_paid_by_customer": 84.68,
     "discount": 4.35
   },
@@ -3457,7 +3457,7 @@
       "total_order_amount": 70.7,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": null,
       "referring_site": null,
@@ -3624,7 +3624,7 @@
       "total_order_amount": 254.9,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000J8KCM4"
@@ -3660,7 +3660,7 @@
       "total_order_amount": 17.15,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
       "landing_site": null,
       "referring_site": null,
@@ -3733,6 +3733,42 @@
       "tags": [
         "Bol",
         "Bol-C000J9LT7L"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "variant_id": "66045779870045",
+          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
+          "sku": "3DTS-DSS501-GRA",
+          "barcode": "8721516390691",
+          "ean": "8721516390691",
+          "quantity": 1,
+          "product_sale_price": 20.49,
+          "original_unit_price": 20.49,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1918",
+      "date": "2026-10-22T09:52:19Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 20.49,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000JD82D8"
       ],
       "landing_site": null,
       "referring_site": null,

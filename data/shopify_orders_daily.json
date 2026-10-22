@@ -1,126 +1,21 @@
 {
-  "generated_at": "2026-10-21T10:06:59.469Z",
+  "generated_at": "2026-10-22T10:09:42.325Z",
   "period": "daily",
-  "date_from": "2026-10-20",
-  "date_to_exclusive": "2026-10-21",
+  "date_from": "2026-10-21",
+  "date_to_exclusive": "2026-10-22",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 4,
-    "item_count": 17,
-    "total_order_amount": 419.99,
-    "shipping_paid_by_customer": 4.65,
+    "order_count": 1,
+    "item_count": 1,
+    "total_order_amount": 20.49,
+    "shipping_paid_by_customer": 0,
     "discount": 0
   },
   "orders": [
     {
-      "order_number": "#3dts1913",
-      "date": "2026-10-20T10:28:33Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 127.45,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000J8K40X"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accuhouder geschikt voor Hilti Nuron 22V - Wandmontage",
-          "variant_id": "58706483183965",
-          "variant_gid": "gid://shopify/ProductVariant/58706483183965",
-          "sku": "Hiltinuronaccu3dts.shop",
-          "barcode": "08721516390066",
-          "ean": "08721516390066",
-          "quantity": 5,
-          "product_sale_price": 25.49,
-          "original_unit_price": 25.49,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1914",
-      "date": "2026-10-20T10:38:33Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 254.9,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000J8KCM4"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accuhouder geschikt voor Hilti Nuron 22V - Wandmontage",
-          "variant_id": "58706483183965",
-          "variant_gid": "gid://shopify/ProductVariant/58706483183965",
-          "sku": "Hiltinuronaccu3dts.shop",
-          "barcode": "08721516390066",
-          "ean": "08721516390066",
-          "quantity": 10,
-          "product_sale_price": 25.49,
-          "original_unit_price": 25.49,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1915",
-      "date": "2026-10-20T13:34:00Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 4.65,
-      "shipping_title": "Nederland",
-      "discount": 0,
-      "total_order_amount": 17.15,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
-          "variant_id": "57872304963933",
-          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
-          "sku": "Makita4v3dts.shop",
-          "barcode": "8721516390097",
-          "ean": "8721516390097",
-          "quantity": 1,
-          "product_sale_price": 12.5,
-          "original_unit_price": 12.5,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1916",
-      "date": "2026-10-20T16:47:19Z",
+      "order_number": "#3dts1917",
+      "date": "2026-10-21T06:02:20Z",
       "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
@@ -130,10 +25,10 @@
       "total_order_amount": 20.49,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
+      "fulfillment_status": "UNFULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000HX36F4"
+        "Bol-C000J9LT7L"
       ],
       "landing_site": null,
       "referring_site": null,
