@@ -1,18 +1,11 @@
 {
-  "generated_at": "2026-10-22T10:09:59.370Z",
+  "generated_at": "2026-10-23T10:02:37.264Z",
   "actions": [
     {
       "type": "campagne pauzeren",
       "priority": "high",
       "campaign": "Bol Sponsored Products",
-      "reason": "Bol Ads ROAS laatste 7 dagen is 1.0647; controleer zoektermen en biedingen voordat budget omhoog gaat."
-    },
-    {
-      "type": "product controleren",
-      "priority": "high",
-      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-      "sku": "3DTS-DSS501-GRA",
-      "reason": "Bol commissie ontbreekt voor order #3dts1911; winst kan te hoog lijken."
+      "reason": "Bol Ads ROAS laatste 7 dagen is 1.1751; controleer zoektermen en biedingen voordat budget omhoog gaat."
     },
     {
       "type": "product controleren",
@@ -20,6 +13,13 @@
       "product_name": "Accuhouder geschikt voor Hilti Nuron 22V - Wandmontage",
       "sku": "Hiltinuronaccu3dts.shop",
       "reason": "Bol commissie ontbreekt voor order #3dts1914; winst kan te hoog lijken."
+    },
+    {
+      "type": "product controleren",
+      "priority": "high",
+      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+      "sku": "3DTS-DSS501-GRA",
+      "reason": "Bol commissie ontbreekt voor order #3dts1918; winst kan te hoog lijken."
     },
     {
       "type": "bundel maken",
@@ -40,13 +40,6 @@
       "priority": "medium",
       "product_name": "Wandsteun UniFi Turret Camera - Wit",
       "sku": "577299432738_2769",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-      "sku": "Unifidesk3DTS.Shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
