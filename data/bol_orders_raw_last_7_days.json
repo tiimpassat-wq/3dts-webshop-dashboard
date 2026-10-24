@@ -1,78 +1,10 @@
 {
-  "generated_at": "2026-10-23T10:02:27.583Z",
+  "generated_at": "2026-10-24T09:31:16.472Z",
   "period": "last_7_days",
-  "date_from": "2026-10-17",
-  "date_to_exclusive": "2026-10-24",
+  "date_from": "2026-10-18",
+  "date_to_exclusive": "2026-10-25",
   "source": "bol.com Retailer API",
   "orders": [
-    {
-      "bol_order_id": "C000J5HJLH",
-      "order_placed_at": "2026-10-17T19:07:36+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 16.49,
-      "total_commission": 1.04,
-      "eans": [
-        "8721516390615"
-      ],
-      "offer_references": [
-        "cloudkeygen23DTS.SHOP"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4008256093",
-          "ean": "8721516390615",
-          "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
-          "offer_id": "963adcff-f602-4154-bc70-bf5afef9c1a1",
-          "offer_reference": "cloudkeygen23DTS.SHOP",
-          "sku": "cloudkeygen23DTS.SHOP",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 16.49,
-          "total_price": 16.49,
-          "commission": 1.04,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-18T10:53:28+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000J56PTN",
-      "order_placed_at": "2026-10-17T14:37:05+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 16.95,
-      "total_commission": 1.05,
-      "eans": [
-        "8721516390073"
-      ],
-      "offer_references": [
-        "Unifidesk3DTS.Shop"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4008135684",
-          "ean": "8721516390073",
-          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-          "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
-          "offer_reference": "Unifidesk3DTS.Shop",
-          "sku": "Unifidesk3DTS.Shop",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 16.95,
-          "total_price": 16.95,
-          "commission": 1.05,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-18T10:47:27+02:00"
-        }
-      ]
-    },
     {
       "bol_order_id": "C000J6JW2R",
       "order_placed_at": "2026-10-18T19:11:15+02:00",
@@ -312,74 +244,6 @@
       ]
     },
     {
-      "bol_order_id": "C000JDN2MC",
-      "order_placed_at": "2026-10-22T16:48:46+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 20.49,
-      "total_commission": 3.19,
-      "eans": [
-        "8721516390691"
-      ],
-      "offer_references": [
-        "3DTS-DSS501-GRA"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4010963374",
-          "ean": "8721516390691",
-          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-          "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
-          "offer_reference": "3DTS-DSS501-GRA",
-          "sku": "3DTS-DSS501-GRA",
-          "quantity": 1,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 20.49,
-          "total_price": 20.49,
-          "commission": 3.19,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-22T16:49:15+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000JD82D8",
-      "order_placed_at": "2026-10-22T11:49:53+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 20.49,
-      "total_commission": 3.19,
-      "eans": [
-        "8721516390691"
-      ],
-      "offer_references": [
-        "3DTS-DSS501-GRA"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4010785643",
-          "ean": "8721516390691",
-          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-          "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
-          "offer_reference": "3DTS-DSS501-GRA",
-          "sku": "3DTS-DSS501-GRA",
-          "quantity": 1,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 20.49,
-          "total_price": 20.49,
-          "commission": 3.19,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-22T11:50:17+02:00"
-        }
-      ]
-    },
-    {
       "bol_order_id": "C000J8KCM4",
       "order_placed_at": "2026-10-20T12:34:39+02:00",
       "customer_country_code": "NL",
@@ -412,13 +276,115 @@
           "latest_changed_at": "2026-10-22T06:43:28+02:00"
         }
       ]
+    },
+    {
+      "bol_order_id": "C000JH9MP8",
+      "order_placed_at": "2026-10-23T20:12:06+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 19.95,
+      "total_commission": 3.53,
+      "eans": [
+        "9509658425575"
+      ],
+      "offer_references": [
+        "U0-INRG-KJHL"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4011684062",
+          "ean": "9509658425575",
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+          "offer_reference": "U0-INRG-KJHL",
+          "sku": "U0-INRG-KJHL",
+          "quantity": 1,
+          "quantity_shipped": 1,
+          "quantity_cancelled": 0,
+          "unit_price": 19.95,
+          "total_price": 19.95,
+          "commission": 3.53,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-10-24T09:35:28+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000JDN2MC",
+      "order_placed_at": "2026-10-22T16:48:46+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 20.49,
+      "total_commission": 3.19,
+      "eans": [
+        "8721516390691"
+      ],
+      "offer_references": [
+        "3DTS-DSS501-GRA"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4010963374",
+          "ean": "8721516390691",
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
+          "offer_reference": "3DTS-DSS501-GRA",
+          "sku": "3DTS-DSS501-GRA",
+          "quantity": 1,
+          "quantity_shipped": 1,
+          "quantity_cancelled": 0,
+          "unit_price": 20.49,
+          "total_price": 20.49,
+          "commission": 3.19,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-10-24T09:35:28+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000JD82D8",
+      "order_placed_at": "2026-10-22T11:49:53+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 20.49,
+      "total_commission": 3.19,
+      "eans": [
+        "8721516390691"
+      ],
+      "offer_references": [
+        "3DTS-DSS501-GRA"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4010785643",
+          "ean": "8721516390691",
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
+          "offer_reference": "3DTS-DSS501-GRA",
+          "sku": "3DTS-DSS501-GRA",
+          "quantity": 1,
+          "quantity_shipped": 1,
+          "quantity_cancelled": 0,
+          "unit_price": 20.49,
+          "total_price": 20.49,
+          "commission": 3.19,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-10-24T09:29:29+02:00"
+        }
+      ]
     }
   ],
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 12,
-    "total_order_amount": 571.17,
-    "total_commission": 98.26
+    "order_count": 11,
+    "total_order_amount": 557.68,
+    "total_commission": 99.7
   }
 }

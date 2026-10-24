@@ -1,11 +1,18 @@
 {
-  "generated_at": "2026-10-23T10:02:37.264Z",
+  "generated_at": "2026-10-24T09:31:25.632Z",
   "actions": [
     {
       "type": "campagne pauzeren",
       "priority": "high",
       "campaign": "Bol Sponsored Products",
-      "reason": "Bol Ads ROAS laatste 7 dagen is 1.1751; controleer zoektermen en biedingen voordat budget omhoog gaat."
+      "reason": "Bol Ads ROAS laatste 7 dagen is 1.2109; controleer zoektermen en biedingen voordat budget omhoog gaat."
+    },
+    {
+      "type": "product controleren",
+      "priority": "high",
+      "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+      "sku": "dc18rd3dts.shop",
+      "reason": "Bol commissie ontbreekt voor order #3dts1921; winst kan te hoog lijken."
     },
     {
       "type": "product controleren",
@@ -19,20 +26,13 @@
       "priority": "high",
       "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
       "sku": "3DTS-DSS501-GRA",
-      "reason": "Bol commissie ontbreekt voor order #3dts1918; winst kan te hoog lijken."
+      "reason": "Bol commissie ontbreekt voor order #3dts1919; winst kan te hoog lijken."
     },
     {
       "type": "bundel maken",
       "priority": "medium",
       "product_name": "Accu Houder Geschikt voor Hilti Nuron",
       "sku": "Hiltinuronaccu3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Adaptateur de rail pour scie circulaire Makita DSS501 - PETG",
-      "sku": "3DTS-DSS501-GRA",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -45,8 +45,22 @@
     {
       "type": "bundel maken",
       "priority": "medium",
+      "product_name": "Geleiderailadapter geschikt voor Makita DSS501 cirkelzaag - zwart PETG",
+      "sku": "3DTS-DSS501-GRA",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
       "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
       "sku": "cloudkeygen23DTS.SHOP",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+      "sku": "dc18rd3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]
