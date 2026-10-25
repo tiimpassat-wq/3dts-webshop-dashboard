@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-24T09:31:24.311Z",
+  "generated_at": "2026-10-25T09:47:53.521Z",
   "period": "last_7_days",
-  "date_from": "2026-10-18",
-  "date_to_exclusive": "2026-10-25",
+  "date_from": "2026-10-19",
+  "date_to_exclusive": "2026-10-26",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
   },
   "summary": {
-    "bol_orders": 11,
-    "matched_orders": 11,
+    "bol_orders": 13,
+    "matched_orders": 13,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 557.68,
-    "total_bol_commission": 99.7
+    "total_bol_revenue": 602.66,
+    "total_bol_commission": 108.23
   },
   "warnings": [],
   "matches": [
@@ -20,53 +20,9 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1908",
-      "shopify_order_date": "2026-10-18T17:13:01Z",
-      "shopify_total_order_amount": 16.49,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000J6JW2R",
-        "order_placed_at": "2026-10-18T19:11:15+02:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 16.49,
-        "total_commission": 1.04,
-        "eans": [
-          "8721516390615"
-        ],
-        "offer_references": [
-          "cloudkeygen23DTS.SHOP"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "4008720724",
-            "ean": "8721516390615",
-            "product_name": "UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus",
-            "offer_id": "963adcff-f602-4154-bc70-bf5afef9c1a1",
-            "offer_reference": "cloudkeygen23DTS.SHOP",
-            "sku": "cloudkeygen23DTS.SHOP",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 16.49,
-            "total_price": 16.49,
-            "commission": 1.04,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-10-19T16:56:39+02:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1907",
-      "shopify_order_date": "2026-10-18T11:15:28Z",
-      "shopify_total_order_amount": 17.95,
+      "shopify_order_number": "#3dts1911",
+      "shopify_order_date": "2026-10-19T10:58:57Z",
+      "shopify_total_order_amount": 20.49,
       "channel": "bol.com",
       "bol": {
         "bol_order_id": "C000HX36F4",
@@ -196,8 +152,8 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1911",
-      "shopify_order_date": "2026-10-19T10:58:57Z",
+      "shopify_order_number": "#3dts1916",
+      "shopify_order_date": "2026-10-20T16:47:19Z",
       "shopify_total_order_amount": 20.49,
       "channel": "bol.com",
       "bol": {
@@ -240,8 +196,8 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1916",
-      "shopify_order_date": "2026-10-20T16:47:19Z",
+      "shopify_order_number": "#3dts1917",
+      "shopify_order_date": "2026-10-21T06:02:20Z",
       "shopify_total_order_amount": 20.49,
       "channel": "bol.com",
       "bol": {
@@ -372,6 +328,94 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
+      "shopify_order_number": "#3dts1918",
+      "shopify_order_date": "2026-10-22T09:52:19Z",
+      "shopify_total_order_amount": 20.49,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000JJ5F47",
+        "order_placed_at": "2026-10-24T15:18:58+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 20.49,
+        "total_commission": 3.19,
+        "eans": [
+          "8721516390691"
+        ],
+        "offer_references": [
+          "3DTS-DSS501-GRA"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "4012046059",
+            "ean": "8721516390691",
+            "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+            "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
+            "offer_reference": "3DTS-DSS501-GRA",
+            "sku": "3DTS-DSS501-GRA",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 20.49,
+            "total_price": 20.49,
+            "commission": 3.19,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-10-24T15:19:47+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1919",
+      "shopify_order_date": "2026-10-22T14:52:19Z",
+      "shopify_total_order_amount": 20.49,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000JJ07L5",
+        "order_placed_at": "2026-10-24T12:40:56+02:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 20.49,
+        "total_commission": 3.19,
+        "eans": [
+          "8721516390691"
+        ],
+        "offer_references": [
+          "3DTS-DSS501-GRA"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "4011952208",
+            "ean": "8721516390691",
+            "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+            "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
+            "offer_reference": "3DTS-DSS501-GRA",
+            "sku": "3DTS-DSS501-GRA",
+            "quantity": 1,
+            "quantity_shipped": 1,
+            "quantity_cancelled": 0,
+            "unit_price": 20.49,
+            "total_price": 20.49,
+            "commission": 3.19,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-10-24T14:45:47+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
       "shopify_order_number": "#3dts1921",
       "shopify_order_date": "2026-10-23T18:14:20Z",
       "shopify_total_order_amount": 19.95,
@@ -416,8 +460,8 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1917",
-      "shopify_order_date": "2026-10-21T06:02:20Z",
+      "shopify_order_number": "#3dts1922",
+      "shopify_order_date": "2026-10-24T10:44:20Z",
       "shopify_total_order_amount": 20.49,
       "channel": "bol.com",
       "bol": {
@@ -460,8 +504,8 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1918",
-      "shopify_order_date": "2026-10-22T09:52:19Z",
+      "shopify_order_number": "#3dts1923",
+      "shopify_order_date": "2026-10-24T13:24:21Z",
       "shopify_total_order_amount": 20.49,
       "channel": "bol.com",
       "bol": {
@@ -495,6 +539,50 @@
             "distribution_party": "RETAILER",
             "cancellation_request": false,
             "latest_changed_at": "2026-10-24T09:29:29+02:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts1924",
+      "shopify_order_date": "2026-10-25T07:44:20Z",
+      "shopify_total_order_amount": 20.49,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000JJW783",
+        "order_placed_at": "2026-10-25T08:43:28+01:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 20.49,
+        "total_commission": 3.19,
+        "eans": [
+          "8721516390691"
+        ],
+        "offer_references": [
+          "3DTS-DSS501-GRA"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "4012356789",
+            "ean": "8721516390691",
+            "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+            "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
+            "offer_reference": "3DTS-DSS501-GRA",
+            "sku": "3DTS-DSS501-GRA",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 20.49,
+            "total_price": 20.49,
+            "commission": 3.19,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-10-25T08:43:47+01:00"
           }
         ]
       },

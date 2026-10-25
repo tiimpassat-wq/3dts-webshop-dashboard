@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T09:31:14.339Z",
+  "generated_at": "2026-10-25T09:47:43.517Z",
   "source": "Shopify Admin GraphQL productVariants.inventoryItem.unitCost",
   "required_scopes": [
     "read_products",
@@ -8,8 +8,8 @@
   "status": "ok",
   "warnings": [],
   "totals": {
-    "variants": 82,
-    "with_unit_cost": 71,
+    "variants": 84,
+    "with_unit_cost": 73,
     "missing_unit_cost": 11
   },
   "variants": [
@@ -1240,6 +1240,36 @@
       "variant_title": "Default Title",
       "verkoopprijs": 8.45,
       "unit_cost_amount": 3.23,
+      "unit_cost_currency_code": "EUR",
+      "has_unit_cost": true
+    },
+    {
+      "product_id": "16662347252061",
+      "variant_id": "66310964969821",
+      "product_gid": "gid://shopify/Product/16662347252061",
+      "variant_gid": "gid://shopify/ProductVariant/66310964969821",
+      "sku": "3DTS-SET-LXT-DC18RC",
+      "barcode": "",
+      "ean": "",
+      "product_title": "Makita 18V LXT-opbergset DC18RC – 4 houders",
+      "variant_title": "Default Title",
+      "verkoopprijs": 38.33,
+      "unit_cost_amount": 17.16,
+      "unit_cost_currency_code": "EUR",
+      "has_unit_cost": true
+    },
+    {
+      "product_id": "16662347743581",
+      "variant_id": "66310969360733",
+      "product_gid": "gid://shopify/Product/16662347743581",
+      "variant_gid": "gid://shopify/ProductVariant/66310969360733",
+      "sku": "3DTS-SET-LXT-DC18RD",
+      "barcode": "",
+      "ean": "",
+      "product_title": "Makita 18V LXT-opbergset DC18RD – 4 houders",
+      "variant_title": "Default Title",
+      "verkoopprijs": 40.23,
+      "unit_cost_amount": 17.59,
       "unit_cost_currency_code": "EUR",
       "has_unit_cost": true
     }

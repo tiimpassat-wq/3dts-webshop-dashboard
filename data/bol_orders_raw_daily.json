@@ -1,15 +1,84 @@
 {
-  "generated_at": "2026-10-24T09:31:15.054Z",
+  "generated_at": "2026-10-25T09:47:44.476Z",
   "period": "daily",
-  "date_from": "2026-10-23",
-  "date_to_exclusive": "2026-10-24",
+  "date_from": "2026-10-24",
+  "date_to_exclusive": "2026-10-25",
   "source": "bol.com Retailer API",
-  "orders": [],
+  "orders": [
+    {
+      "bol_order_id": "C000JJ5F47",
+      "order_placed_at": "2026-10-24T15:18:58+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 20.49,
+      "total_commission": 3.19,
+      "eans": [
+        "8721516390691"
+      ],
+      "offer_references": [
+        "3DTS-DSS501-GRA"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4012046059",
+          "ean": "8721516390691",
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
+          "offer_reference": "3DTS-DSS501-GRA",
+          "sku": "3DTS-DSS501-GRA",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 20.49,
+          "total_price": 20.49,
+          "commission": 3.19,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-10-24T15:19:47+02:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000JJ07L5",
+      "order_placed_at": "2026-10-24T12:40:56+02:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 20.49,
+      "total_commission": 3.19,
+      "eans": [
+        "8721516390691"
+      ],
+      "offer_references": [
+        "3DTS-DSS501-GRA"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4011952208",
+          "ean": "8721516390691",
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
+          "offer_reference": "3DTS-DSS501-GRA",
+          "sku": "3DTS-DSS501-GRA",
+          "quantity": 1,
+          "quantity_shipped": 1,
+          "quantity_cancelled": 0,
+          "unit_price": 20.49,
+          "total_price": 20.49,
+          "commission": 3.19,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-10-24T14:45:47+02:00"
+        }
+      ]
+    }
+  ],
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 0,
-    "total_order_amount": 0,
-    "total_commission": 0
+    "order_count": 2,
+    "total_order_amount": 40.98,
+    "total_commission": 6.38
   }
 }
