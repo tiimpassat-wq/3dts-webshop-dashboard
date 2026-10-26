@@ -1,54 +1,18 @@
 {
-  "generated_at": "2026-10-25T09:47:43.416Z",
+  "generated_at": "2026-10-26T11:05:39.924Z",
   "period": "last_30_days",
-  "date_from": "2026-09-26",
-  "date_to_exclusive": "2026-10-26",
+  "date_from": "2026-09-27",
+  "date_to_exclusive": "2026-10-27",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 97,
-    "item_count": 165,
-    "total_order_amount": 2730.25,
-    "shipping_paid_by_customer": 80.03,
+    "order_count": 100,
+    "item_count": 171,
+    "total_order_amount": 2822.05,
+    "shipping_paid_by_customer": 87.13,
     "discount": 4.35
   },
   "orders": [
-    {
-      "order_number": "#3dts1828",
-      "date": "2026-09-26T14:38:08Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 16.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000H417H8"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-          "variant_id": "63433470476637",
-          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
-          "sku": "Unifidesk3DTS.Shop",
-          "barcode": "8721516390073",
-          "ean": "8721516390073",
-          "quantity": 1,
-          "product_sale_price": 16.95,
-          "original_unit_price": 16.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1829",
       "date": "2026-09-27T10:34:59Z",
@@ -3694,7 +3658,7 @@
       "total_order_amount": 20.49,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000JJ5F47"
@@ -3730,7 +3694,7 @@
       "total_order_amount": 20.49,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
         "Bol-C000JJW783"
@@ -3749,6 +3713,149 @@
           "quantity": 1,
           "product_sale_price": 20.49,
           "original_unit_price": 20.49,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1925",
+      "date": "2026-10-25T16:29:22Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 19.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000JKN1KC"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
+          "quantity": 1,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1926",
+      "date": "2026-10-25T16:54:21Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 22.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000JKNX3R"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accu Houder voor Makita 18V – 4-voudige Wandhouder – 3D Geprint - 4-voudig",
+          "variant_id": "57872304963933",
+          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
+          "sku": "Makita4v3dts.shop",
+          "barcode": "8721516390097",
+          "ean": "8721516390097",
+          "quantity": 1,
+          "product_sale_price": 22.95,
+          "original_unit_price": 22.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1927",
+      "date": "2026-10-25T17:09:39Z",
+      "channel_source": "amazon",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Amazon Standard",
+      "discount": 0,
+      "total_order_amount": 14.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "A1S25ADMT138N3",
+        "Amazon",
+        "Amazon-NL",
+        "FBM"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Verstelbare wandbeugel geschikt voor UniFi UAP-AC-LR, U6-LR, U6-Lite en U7-Lite ? 3D-geprint",
+          "variant_id": null,
+          "variant_gid": null,
+          "sku": "3DTS-UNIFI-VERS",
+          "barcode": null,
+          "ean": null,
+          "quantity": 1,
+          "product_sale_price": 14.95,
+          "original_unit_price": 14.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1928",
+      "date": "2026-10-26T03:38:32Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 7.1,
+      "shipping_title": "Pakket",
+      "discount": 0,
+      "total_order_amount": 50.9,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/collections/unifi-beugels",
+      "referring_site": "https://www.google.com/",
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
+          "variant_id": "63433470476637",
+          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
+          "sku": "Unifidesk3DTS.Shop",
+          "barcode": "8721516390073",
+          "ean": "8721516390073",
+          "quantity": 4,
+          "product_sale_price": 10.95,
+          "original_unit_price": 10.95,
           "line_discount": 0,
           "currency": "EUR"
         }

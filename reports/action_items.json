@@ -1,23 +1,30 @@
 {
-  "generated_at": "2026-10-25T09:47:54.690Z",
+  "generated_at": "2026-10-26T11:05:52.213Z",
   "actions": [
+    {
+      "type": "product controleren",
+      "priority": "high",
+      "product_name": "Verstelbare wandbeugel geschikt voor UniFi UAP-AC-LR, U6-LR, U6-Lite en U7-Lite ? 3D-geprint",
+      "sku": "3DTS-UNIFI-VERS",
+      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
+    },
     {
       "type": "campagne pauzeren",
       "priority": "high",
       "campaign": "Bol Sponsored Products",
-      "reason": "Bol Ads ROAS laatste 7 dagen is 1.4418; controleer zoektermen en biedingen voordat budget omhoog gaat."
+      "reason": "Bol Ads ROAS laatste 7 dagen is 0.8286; controleer zoektermen en biedingen voordat budget omhoog gaat."
     },
     {
       "type": "product controleren",
       "priority": "high",
-      "product_name": "Accuhouder geschikt voor Hilti Nuron 22V - Wandmontage",
-      "sku": "Hiltinuronaccu3dts.shop",
-      "reason": "Bol commissie ontbreekt voor order #3dts1914; winst kan te hoog lijken."
+      "product_name": "Accu Houder voor Makita 18V – 4-voudige Wandhouder – 3D Geprint - 4-voudig",
+      "sku": "Makita4v3dts.shop",
+      "reason": "Bol commissie ontbreekt voor order #3dts1926; winst kan te hoog lijken."
     },
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Accu Houder Geschikt voor Hilti Nuron",
+      "product_name": "Accuhouder geschikt voor Hilti Nuron 22V - Wandmontage",
       "sku": "Hiltinuronaccu3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
@@ -31,8 +38,8 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Wandsteun UniFi Turret Camera - Wit",
-      "sku": "577299432738_2769",
+      "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
+      "sku": "Unifidesk3DTS.Shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -40,6 +47,13 @@
       "priority": "medium",
       "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
       "sku": "dc18rd3dts.shop",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
+      "sku": "Makita4v3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]

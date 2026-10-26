@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-25T09:47:42.208Z",
+  "generated_at": "2026-10-26T11:05:38.519Z",
   "period": "daily",
-  "date_from": "2026-10-24",
-  "date_to_exclusive": "2026-10-25",
+  "date_from": "2026-10-25",
+  "date_to_exclusive": "2026-10-26",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 2,
-    "item_count": 2,
-    "total_order_amount": 40.98,
+    "order_count": 4,
+    "item_count": 4,
+    "total_order_amount": 78.34,
     "shipping_paid_by_customer": 0,
     "discount": 0
   },
   "orders": [
     {
-      "order_number": "#3dts1922",
-      "date": "2026-10-24T10:44:20Z",
+      "order_number": "#3dts1924",
+      "date": "2026-10-25T07:44:20Z",
       "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
@@ -28,7 +28,7 @@
       "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000JJ07L5"
+        "Bol-C000JJW783"
       ],
       "landing_site": null,
       "referring_site": null,
@@ -50,36 +50,110 @@
       ]
     },
     {
-      "order_number": "#3dts1923",
-      "date": "2026-10-24T13:24:21Z",
+      "order_number": "#3dts1925",
+      "date": "2026-10-25T16:29:22Z",
       "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
       "shipping_paid_by_customer": 0,
       "shipping_title": null,
       "discount": 0,
-      "total_order_amount": 20.49,
+      "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000JJ5F47"
+        "Bol-C000JKN1KC"
       ],
       "landing_site": null,
       "referring_site": null,
       "referral_code": null,
       "line_items": [
         {
-          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-          "variant_id": "66045779870045",
-          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
-          "sku": "3DTS-DSS501-GRA",
-          "barcode": "8721516390691",
-          "ean": "8721516390691",
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "variant_id": "58085095440733",
+          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
+          "sku": "dc18rd3dts.shop",
+          "barcode": "8721516390004",
+          "ean": "8721516390004",
           "quantity": 1,
-          "product_sale_price": 20.49,
-          "original_unit_price": 20.49,
+          "product_sale_price": 19.95,
+          "original_unit_price": 19.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1926",
+      "date": "2026-10-25T16:54:21Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 22.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000JKNX3R"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accu Houder voor Makita 18V – 4-voudige Wandhouder – 3D Geprint - 4-voudig",
+          "variant_id": "57872304963933",
+          "variant_gid": "gid://shopify/ProductVariant/57872304963933",
+          "sku": "Makita4v3dts.shop",
+          "barcode": "8721516390097",
+          "ean": "8721516390097",
+          "quantity": 1,
+          "product_sale_price": 22.95,
+          "original_unit_price": 22.95,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts1927",
+      "date": "2026-10-25T17:09:39Z",
+      "channel_source": "amazon",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Amazon Standard",
+      "discount": 0,
+      "total_order_amount": 14.95,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "A1S25ADMT138N3",
+        "Amazon",
+        "Amazon-NL",
+        "FBM"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Verstelbare wandbeugel geschikt voor UniFi UAP-AC-LR, U6-LR, U6-Lite en U7-Lite ? 3D-geprint",
+          "variant_id": null,
+          "variant_gid": null,
+          "sku": "3DTS-UNIFI-VERS",
+          "barcode": null,
+          "ean": null,
+          "quantity": 1,
+          "product_sale_price": 14.95,
+          "original_unit_price": 14.95,
           "line_discount": 0,
           "currency": "EUR"
         }
