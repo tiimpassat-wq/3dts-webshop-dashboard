@@ -1,78 +1,10 @@
 {
-  "generated_at": "2026-10-26T11:05:43.640Z",
+  "generated_at": "2026-10-27T10:32:07.609Z",
   "period": "last_7_days",
-  "date_from": "2026-10-20",
-  "date_to_exclusive": "2026-10-27",
+  "date_from": "2026-10-21",
+  "date_to_exclusive": "2026-10-28",
   "source": "bol.com Retailer API",
   "orders": [
-    {
-      "bol_order_id": "C000HX36F4",
-      "order_placed_at": "2026-10-20T18:45:46+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 20.49,
-      "total_commission": 3.19,
-      "eans": [
-        "8721516390691"
-      ],
-      "offer_references": [
-        "3DTS-DSS501-GRA"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4009829721",
-          "ean": "8721516390691",
-          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-          "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
-          "offer_reference": "3DTS-DSS501-GRA",
-          "sku": "3DTS-DSS501-GRA",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 20.49,
-          "total_price": 20.49,
-          "commission": 3.19,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-20T19:02:55+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000J8K40X",
-      "order_placed_at": "2026-10-20T12:25:46+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 127.45,
-      "total_commission": 24.87,
-      "eans": [
-        "9503764519746"
-      ],
-      "offer_references": [
-        "Hiltinuronaccu3dts.shop"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4009607381",
-          "ean": "9503764519746",
-          "product_name": "Accuhouder geschikt voor Hilti Nuron 22V - Wandmontage",
-          "offer_id": "46a9ea81-bcbb-4ab4-82e0-93c3607908ec",
-          "offer_reference": "Hiltinuronaccu3dts.shop",
-          "sku": "Hiltinuronaccu3dts.shop",
-          "quantity": 5,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 5,
-          "unit_price": 25.49,
-          "total_price": 127.45,
-          "commission": 24.87,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": true,
-          "latest_changed_at": "2026-10-20T13:45:33+02:00"
-        }
-      ]
-    },
     {
       "bol_order_id": "C000J9LT7L",
       "order_placed_at": "2026-10-21T07:58:44+02:00",
@@ -138,40 +70,6 @@
           "distribution_party": "RETAILER",
           "cancellation_request": false,
           "latest_changed_at": "2026-10-22T21:47:07+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000J8KCM4",
-      "order_placed_at": "2026-10-20T12:34:39+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 254.9,
-      "total_commission": 49.74,
-      "eans": [
-        "9503764519746"
-      ],
-      "offer_references": [
-        "Hiltinuronaccu3dts.shop"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4009612344",
-          "ean": "9503764519746",
-          "product_name": "Accuhouder geschikt voor Hilti Nuron 22V - Wandmontage",
-          "offer_id": "46a9ea81-bcbb-4ab4-82e0-93c3607908ec",
-          "offer_reference": "Hiltinuronaccu3dts.shop",
-          "sku": "Hiltinuronaccu3dts.shop",
-          "quantity": 10,
-          "quantity_shipped": 10,
-          "quantity_cancelled": 0,
-          "unit_price": 25.49,
-          "total_price": 254.9,
-          "commission": 49.74,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-22T06:43:28+02:00"
         }
       ]
     },
@@ -346,40 +244,6 @@
       ]
     },
     {
-      "bol_order_id": "C000JKNX3R",
-      "order_placed_at": "2026-10-25T17:50:39+01:00",
-      "customer_country_code": "BE",
-      "pickup_point": false,
-      "total_order_amount": 22.95,
-      "total_commission": 4.59,
-      "eans": [
-        "8721516390097"
-      ],
-      "offer_references": [
-        "Makita4v3dts.shop"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4012744684",
-          "ean": "8721516390097",
-          "product_name": "Accu Houder voor Makita 18V – 4-voudige Wandhouder – 3D Geprint",
-          "offer_id": "8c06699a-750b-4d3a-bdbd-b6e7aa917b9a",
-          "offer_reference": "Makita4v3dts.shop",
-          "sku": "Makita4v3dts.shop",
-          "quantity": 1,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 22.95,
-          "total_price": 22.95,
-          "commission": 4.59,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-25T17:51:16+01:00"
-        }
-      ]
-    },
-    {
       "bol_order_id": "C000JJW783",
       "order_placed_at": "2026-10-25T08:43:28+01:00",
       "customer_country_code": "NL",
@@ -446,13 +310,183 @@
           "latest_changed_at": "2026-10-25T12:09:19+01:00"
         }
       ]
+    },
+    {
+      "bol_order_id": "C000JMKHN9",
+      "order_placed_at": "2026-10-26T22:01:05+01:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 20.49,
+      "total_commission": 3.19,
+      "eans": [
+        "8721516390691"
+      ],
+      "offer_references": [
+        "3DTS-DSS501-GRA"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4013633065",
+          "ean": "8721516390691",
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
+          "offer_reference": "3DTS-DSS501-GRA",
+          "sku": "3DTS-DSS501-GRA",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 20.49,
+          "total_price": 20.49,
+          "commission": 3.19,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-10-26T22:02:16+01:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000JLNMLM",
+      "order_placed_at": "2026-10-26T13:07:02+01:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 19.95,
+      "total_commission": 3.53,
+      "eans": [
+        "9509658425575"
+      ],
+      "offer_references": [
+        "U0-INRG-KJHL"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4013236612",
+          "ean": "9509658425575",
+          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
+          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+          "offer_reference": "U0-INRG-KJHL",
+          "sku": "U0-INRG-KJHL",
+          "quantity": 1,
+          "quantity_shipped": 1,
+          "quantity_cancelled": 0,
+          "unit_price": 19.95,
+          "total_price": 19.95,
+          "commission": 3.53,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-10-26T21:20:50+01:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000JM700N",
+      "order_placed_at": "2026-10-26T18:44:29+01:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 20.49,
+      "total_commission": 3.19,
+      "eans": [
+        "8721516390691"
+      ],
+      "offer_references": [
+        "3DTS-DSS501-GRA"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4013465975",
+          "ean": "8721516390691",
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
+          "offer_reference": "3DTS-DSS501-GRA",
+          "sku": "3DTS-DSS501-GRA",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 20.49,
+          "total_price": 20.49,
+          "commission": 3.19,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-10-26T18:44:50+01:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000JKNX3R",
+      "order_placed_at": "2026-10-25T17:50:39+01:00",
+      "customer_country_code": "BE",
+      "pickup_point": false,
+      "total_order_amount": 22.95,
+      "total_commission": 4.59,
+      "eans": [
+        "8721516390097"
+      ],
+      "offer_references": [
+        "Makita4v3dts.shop"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4012744684",
+          "ean": "8721516390097",
+          "product_name": "Accu Houder voor Makita 18V – 4-voudige Wandhouder – 3D Geprint",
+          "offer_id": "8c06699a-750b-4d3a-bdbd-b6e7aa917b9a",
+          "offer_reference": "Makita4v3dts.shop",
+          "sku": "Makita4v3dts.shop",
+          "quantity": 1,
+          "quantity_shipped": 1,
+          "quantity_cancelled": 0,
+          "unit_price": 22.95,
+          "total_price": 22.95,
+          "commission": 4.59,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-10-26T17:58:43+01:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000JN0N5F",
+      "order_placed_at": "2026-10-27T10:37:12+01:00",
+      "customer_country_code": "BE",
+      "pickup_point": false,
+      "total_order_amount": 20.49,
+      "total_commission": 3.19,
+      "eans": [
+        "8721516390691"
+      ],
+      "offer_references": [
+        "3DTS-DSS501-GRA"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4013809356",
+          "ean": "8721516390691",
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
+          "offer_reference": "3DTS-DSS501-GRA",
+          "sku": "3DTS-DSS501-GRA",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 20.49,
+          "total_price": 20.49,
+          "commission": 3.19,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-10-27T10:37:47+01:00"
+        }
+      ]
     }
   ],
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 13,
-    "total_order_amount": 605.12,
-    "total_commission": 109.63
+    "order_count": 14,
+    "total_order_amount": 283.7,
+    "total_commission": 44.93
   }
 }

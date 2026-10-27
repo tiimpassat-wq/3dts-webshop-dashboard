@@ -1,9 +1,9 @@
 # Ontbrekende Productkostprijzen
 
-Gegenereerd: 2026-10-26T11:05:52.214Z
+Gegenereerd: 2026-10-27T10:32:13.606Z
 
 Vul `config/product_costs.json` aan. Gebruik geen schatting als je de echte kostprijs nog niet weet.
 
 | SKU | EAN | Product | Aantal | Omzet | Status | Orders |
 | --- | --- | --- | ---: | ---: | --- | --- |
-| 3DTS-UNIFI-VERS | - | Verstelbare wandbeugel geschikt voor UniFi UAP-AC-LR, U6-LR, U6-Lite en U7-Lite ? 3D-geprint | 2 | EUR 29.90 | missing | #3dts1927 |
+| 3DTS-UNIFI-VERS | - | Verstelbare wandbeugel geschikt voor UniFi UAP-AC-LR, U6-LR, U6-Lite en U7-Lite ? 3D-geprint | 1 | EUR 14.95 | missing | #3dts1927 |

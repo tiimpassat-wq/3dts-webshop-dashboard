@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T11:05:52.213Z",
+  "generated_at": "2026-10-27T10:32:13.606Z",
   "actions": [
     {
       "type": "product controleren",
@@ -12,21 +12,7 @@
       "type": "campagne pauzeren",
       "priority": "high",
       "campaign": "Bol Sponsored Products",
-      "reason": "Bol Ads ROAS laatste 7 dagen is 0.8286; controleer zoektermen en biedingen voordat budget omhoog gaat."
-    },
-    {
-      "type": "product controleren",
-      "priority": "high",
-      "product_name": "Accu Houder voor Makita 18V – 4-voudige Wandhouder – 3D Geprint - 4-voudig",
-      "sku": "Makita4v3dts.shop",
-      "reason": "Bol commissie ontbreekt voor order #3dts1926; winst kan te hoog lijken."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Accuhouder geschikt voor Hilti Nuron 22V - Wandmontage",
-      "sku": "Hiltinuronaccu3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+      "reason": "Bol Ads ROAS laatste 7 dagen is 1.1295; controleer zoektermen en biedingen voordat budget omhoog gaat."
     },
     {
       "type": "bundel maken",
@@ -47,13 +33,6 @@
       "priority": "medium",
       "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
       "sku": "dc18rd3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Accuhouder Makita 18V – Wandmontage - 4-voudig",
-      "sku": "Makita4v3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]
