@@ -1,93 +1,24 @@
 {
-  "generated_at": "2026-10-27T10:32:02.954Z",
+  "generated_at": "2026-10-28T11:19:20.212Z",
   "period": "daily",
-  "date_from": "2026-10-26",
-  "date_to_exclusive": "2026-10-27",
+  "date_from": "2026-10-27",
+  "date_to_exclusive": "2026-10-28",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 6,
-    "item_count": 10,
-    "total_order_amount": 163.88,
-    "shipping_paid_by_customer": 14.2,
+    "order_count": 3,
+    "item_count": 3,
+    "total_order_amount": 61.47,
+    "shipping_paid_by_customer": 0,
     "discount": 0
   },
   "orders": [
     {
-      "order_number": "#3dts1928",
-      "date": "2026-10-26T03:38:32Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
-      "discount": 0,
-      "total_order_amount": 50.9,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/collections/unifi-beugels",
-      "referring_site": "https://www.google.com/",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Access Point Stand – Bureau Standaard voor U6-LR, U6+, U7 Pro & AC-Pro (PETG, 3D-geprint)",
-          "variant_id": "63433470476637",
-          "variant_gid": "gid://shopify/ProductVariant/63433470476637",
-          "sku": "Unifidesk3DTS.Shop",
-          "barcode": "8721516390073",
-          "ean": "8721516390073",
-          "quantity": 4,
-          "product_sale_price": 10.95,
-          "original_unit_price": 10.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1929",
-      "date": "2026-10-26T12:09:21Z",
+      "order_number": "#3dts1934",
+      "date": "2026-10-27T09:39:21Z",
       "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 19.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000JLNMLM"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 1,
-          "product_sale_price": 19.95,
-          "original_unit_price": 19.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1930",
-      "date": "2026-10-26T17:49:21Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
       "shipping_paid_by_customer": 0,
       "shipping_title": null,
       "discount": 0,
@@ -97,7 +28,7 @@
       "fulfillment_status": "UNFULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000JM700N"
+        "Bol-C000JN0N5F"
       ],
       "landing_site": null,
       "referring_site": null,
@@ -119,45 +50,8 @@
       ]
     },
     {
-      "order_number": "#3dts1931",
-      "date": "2026-10-26T18:38:11Z",
-      "channel_source": "amazon",
-      "customer_country_code": "DE",
-      "customer_country": "Germany",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 27.5,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [
-        "Amazon",
-        "Amazon-305-2478525-5192356",
-        "Amazon-DE"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Akkuhalter passend für Hilti Nuron - PETG Wandhalterung",
-          "variant_id": "58706483183965",
-          "variant_gid": "gid://shopify/ProductVariant/58706483183965",
-          "sku": "Hiltinuronaccu3dts.shop",
-          "barcode": "08721516390066",
-          "ean": "08721516390066",
-          "quantity": 1,
-          "product_sale_price": 27.5,
-          "original_unit_price": 27.5,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1932",
-      "date": "2026-10-26T21:04:21Z",
+      "order_number": "#3dts1935",
+      "date": "2026-10-27T11:04:22Z",
       "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
@@ -170,7 +64,7 @@
       "fulfillment_status": "UNFULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000JMKHN9"
+        "Bol-C000JN35R9"
       ],
       "landing_site": null,
       "referring_site": null,
@@ -192,46 +86,36 @@
       ]
     },
     {
-      "order_number": "#3dts1933",
-      "date": "2026-10-26T22:22:59Z",
-      "channel_source": "web",
+      "order_number": "#3dts1936",
+      "date": "2026-10-27T14:24:21Z",
+      "channel_source": "bol",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 7.1,
-      "shipping_title": "Pakket",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
       "discount": 0,
-      "total_order_amount": 24.55,
+      "total_order_amount": 20.49,
       "currency": "EUR",
       "payment_status": "PAID",
       "fulfillment_status": "UNFULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/collections/makita-beugels",
-      "referring_site": "https://www.google.com/",
+      "tags": [
+        "Bol",
+        "Bol-C000JNCM2D"
+      ],
+      "landing_site": null,
+      "referring_site": null,
       "referral_code": null,
       "line_items": [
         {
-          "product_name": "Universele Machinehouder – Makita, Bosch, DeWalt & Festool",
-          "variant_id": "57528429379933",
-          "variant_gid": "gid://shopify/ProductVariant/57528429379933",
-          "sku": null,
-          "barcode": "9505583956719",
-          "ean": "9505583956719",
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "variant_id": "66045779870045",
+          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
+          "sku": "3DTS-DSS501-GRA",
+          "barcode": "8721516390691",
+          "ean": "8721516390691",
           "quantity": 1,
-          "product_sale_price": 7.5,
-          "original_unit_price": 7.5,
-          "line_discount": 0,
-          "currency": "EUR"
-        },
-        {
-          "product_name": "Wandhouder Makita DC18RC Oplader",
-          "variant_id": "57512098234717",
-          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
-          "sku": "dc18rc3dts.shop",
-          "barcode": "8721516390011",
-          "ean": "8721516390011",
-          "quantity": 1,
-          "product_sale_price": 9.95,
-          "original_unit_price": 9.95,
+          "product_sale_price": 20.49,
+          "original_unit_price": 20.49,
           "line_discount": 0,
           "currency": "EUR"
         }
