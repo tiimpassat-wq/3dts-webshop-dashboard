@@ -1,6 +1,6 @@
 # Ontbrekende Productkostprijzen
 
-Gegenereerd: 2026-10-28T11:19:32.273Z
+Gegenereerd: 2026-10-29T11:31:01.927Z
 
 Vul `config/product_costs.json` aan. Gebruik geen schatting als je de echte kostprijs nog niet weet.
 
