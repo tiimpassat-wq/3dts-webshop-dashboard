@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-29T11:30:47.038Z",
+  "generated_at": "2026-10-30T11:22:40.409Z",
   "period": "last_7_days",
-  "date_from": "2026-10-23",
-  "date_to_exclusive": "2026-10-30",
+  "date_from": "2026-10-24",
+  "date_to_exclusive": "2026-10-31",
   "source": "bol.com Retailer API",
   "orders": [
     {
@@ -36,40 +36,6 @@
           "distribution_party": "RETAILER",
           "cancellation_request": false,
           "latest_changed_at": "2026-10-24T14:45:47+02:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000JH9MP8",
-      "order_placed_at": "2026-10-23T20:12:06+02:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 19.95,
-      "total_commission": 3.53,
-      "eans": [
-        "9509658425575"
-      ],
-      "offer_references": [
-        "U0-INRG-KJHL"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4011684062",
-          "ean": "9509658425575",
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-          "offer_reference": "U0-INRG-KJHL",
-          "sku": "U0-INRG-KJHL",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 19.95,
-          "total_price": 19.95,
-          "commission": 3.53,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-24T09:35:28+02:00"
         }
       ]
     },
@@ -514,6 +480,59 @@
       ]
     },
     {
+      "bol_order_id": "C000JTJ929",
+      "order_placed_at": "2026-10-29T19:19:08+01:00",
+      "customer_country_code": "BE",
+      "pickup_point": false,
+      "total_order_amount": 39.9,
+      "total_commission": 7.06,
+      "eans": [
+        "9509658425575",
+        "9504741952723"
+      ],
+      "offer_references": [
+        "U0-INRG-KJHL"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4015393247",
+          "ean": "9509658425575",
+          "product_name": "Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart",
+          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
+          "offer_reference": "U0-INRG-KJHL",
+          "sku": "U0-INRG-KJHL",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 19.95,
+          "total_price": 19.95,
+          "commission": 3.53,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-10-29T19:19:48+01:00"
+        },
+        {
+          "bol_order_item_id": "4015393248",
+          "ean": "9504741952723",
+          "product_name": "Wandhouder - geschikt voor Makita DC18RC oplader - zwart",
+          "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
+          "offer_reference": null,
+          "sku": null,
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 19.95,
+          "total_price": 19.95,
+          "commission": 3.53,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-10-29T19:19:48+01:00"
+        }
+      ]
+    },
+    {
       "bol_order_id": "C000JRTLT8",
       "order_placed_at": "2026-10-29T10:28:00+01:00",
       "customer_country_code": "NL",
@@ -648,13 +667,81 @@
           "latest_changed_at": "2026-10-29T01:51:45+01:00"
         }
       ]
+    },
+    {
+      "bol_order_id": "C000JW2TLC",
+      "order_placed_at": "2026-10-30T09:22:37+01:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 21.49,
+      "total_commission": 4.37,
+      "eans": [
+        "9501537169884"
+      ],
+      "offer_references": [
+        "3DTS"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4015625078",
+          "ean": "9501537169884",
+          "product_name": "Accuhouder - geschikt voor Bosch Professional 18V - 4 accu's",
+          "offer_id": "9893575b-c8e4-4f32-b2e8-e26c4a8c2b86",
+          "offer_reference": "3DTS",
+          "sku": "3DTS",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 21.49,
+          "total_price": 21.49,
+          "commission": 4.37,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-10-30T09:22:46+01:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000JW0LC7",
+      "order_placed_at": "2026-10-30T07:38:49+01:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 16.95,
+      "total_commission": 1.05,
+      "eans": [
+        "8721516390073"
+      ],
+      "offer_references": [
+        "Unifidesk3DTS.Shop"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4015586273",
+          "ean": "8721516390073",
+          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+          "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
+          "offer_reference": "Unifidesk3DTS.Shop",
+          "sku": "Unifidesk3DTS.Shop",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 16.95,
+          "total_price": 16.95,
+          "commission": 1.05,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-10-30T07:39:15+01:00"
+        }
+      ]
     }
   ],
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 19,
-    "total_order_amount": 406.4,
-    "total_commission": 69.15
+    "order_count": 21,
+    "total_order_amount": 464.79,
+    "total_commission": 78.1
   }
 }
