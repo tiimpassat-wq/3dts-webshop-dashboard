@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-30T11:22:32.870Z",
+  "generated_at": "2026-10-31T10:54:48.469Z",
   "period": "last_30_days",
-  "date_from": "2026-10-01",
-  "date_to": "2026-10-30",
+  "date_from": "2026-10-02",
+  "date_to": "2026-10-31",
   "timezone": "Europe/Amsterdam",
   "status": "error",
   "data_quality": "google_ads_unavailable",

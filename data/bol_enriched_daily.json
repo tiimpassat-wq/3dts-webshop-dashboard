@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-30T11:22:39.547Z",
+  "generated_at": "2026-10-31T10:54:53.694Z",
   "period": "daily",
-  "date_from": "2026-10-29",
-  "date_to_exclusive": "2026-10-30",
+  "date_from": "2026-10-30",
+  "date_to_exclusive": "2026-10-31",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
     "bol_raw": "bol_orders_raw_daily.json"
   },
   "summary": {
-    "bol_orders": 4,
-    "matched_orders": 4,
+    "bol_orders": 2,
+    "matched_orders": 2,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 119.24,
-    "total_bol_commission": 21.73
+    "total_bol_revenue": 38.44,
+    "total_bol_commission": 5.42
   },
   "warnings": [],
   "matches": [
@@ -20,104 +20,41 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1944",
-      "shopify_order_date": "2026-10-29T18:24:21Z",
-      "shopify_total_order_amount": 39.9,
+      "shopify_order_number": "#3dts1945",
+      "shopify_order_date": "2026-10-30T06:39:21Z",
+      "shopify_total_order_amount": 16.95,
       "channel": "bol.com",
       "bol": {
-        "bol_order_id": "C000JTJ929",
-        "order_placed_at": "2026-10-29T19:19:08+01:00",
-        "customer_country_code": "BE",
-        "pickup_point": false,
-        "total_order_amount": 39.9,
-        "total_commission": 7.06,
-        "eans": [
-          "9509658425575",
-          "9504741952723"
-        ],
-        "offer_references": [
-          "U0-INRG-KJHL"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "4015393247",
-            "ean": "9509658425575",
-            "product_name": "Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart",
-            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-            "offer_reference": "U0-INRG-KJHL",
-            "sku": "U0-INRG-KJHL",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.53,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-10-29T19:19:48+01:00"
-          },
-          {
-            "bol_order_item_id": "4015393248",
-            "ean": "9504741952723",
-            "product_name": "Wandhouder - geschikt voor Makita DC18RC oplader - zwart",
-            "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
-            "offer_reference": null,
-            "sku": null,
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.53,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-10-29T19:19:48+01:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1943",
-      "shopify_order_date": "2026-10-29T09:29:21Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000JRTLT8",
-        "order_placed_at": "2026-10-29T10:28:00+01:00",
+        "bol_order_id": "C000JW0LC7",
+        "order_placed_at": "2026-10-30T07:38:49+01:00",
         "customer_country_code": "NL",
         "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.53,
+        "total_order_amount": 16.95,
+        "total_commission": 1.05,
         "eans": [
-          "9509658425575"
+          "8721516390073"
         ],
         "offer_references": [
-          "U0-INRG-KJHL"
+          "Unifidesk3DTS.Shop"
         ],
         "line_items": [
           {
-            "bol_order_item_id": "4015089456",
-            "ean": "9509658425575",
-            "product_name": "Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart",
-            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-            "offer_reference": "U0-INRG-KJHL",
-            "sku": "U0-INRG-KJHL",
+            "bol_order_item_id": "4015586273",
+            "ean": "8721516390073",
+            "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
+            "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
+            "offer_reference": "Unifidesk3DTS.Shop",
+            "sku": "Unifidesk3DTS.Shop",
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.53,
+            "unit_price": 16.95,
+            "total_price": 16.95,
+            "commission": 1.05,
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-10-29T10:28:15+01:00"
+            "latest_changed_at": "2026-10-30T19:00:04+01:00"
           }
         ]
       },
@@ -127,29 +64,29 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1942",
-      "shopify_order_date": "2026-10-29T09:19:21Z",
+      "shopify_order_number": "#3dts1946",
+      "shopify_order_date": "2026-10-30T08:24:22Z",
       "shopify_total_order_amount": 21.49,
       "channel": "bol.com",
       "bol": {
-        "bol_order_id": "C000JRT7TL",
-        "order_placed_at": "2026-10-29T10:18:08+01:00",
+        "bol_order_id": "C000JW2TLC",
+        "order_placed_at": "2026-10-30T09:22:37+01:00",
         "customer_country_code": "NL",
         "pickup_point": false,
         "total_order_amount": 21.49,
         "total_commission": 4.37,
         "eans": [
-          "9504331234987"
+          "9501537169884"
         ],
         "offer_references": [
           "3DTS"
         ],
         "line_items": [
           {
-            "bol_order_item_id": "4015083701",
-            "ean": "9504331234987",
-            "product_name": "Accubeugel geschikt voor CAS accu's - Metabo, Hikoki, Mafell, Würth",
-            "offer_id": "de3394d6-77df-4fe2-9e47-fcde07a7e7ab",
+            "bol_order_item_id": "4015625078",
+            "ean": "9501537169884",
+            "product_name": "Accuhouder - geschikt voor Bosch Professional 18V - 4 accu's",
+            "offer_id": "9893575b-c8e4-4f32-b2e8-e26c4a8c2b86",
             "offer_reference": "3DTS",
             "sku": "3DTS",
             "quantity": 1,
@@ -161,51 +98,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-10-29T10:19:17+01:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1941",
-      "shopify_order_date": "2026-10-29T00:54:21Z",
-      "shopify_total_order_amount": 37.9,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000JRL238",
-        "order_placed_at": "2026-10-29T01:51:36+01:00",
-        "customer_country_code": "BE",
-        "pickup_point": false,
-        "total_order_amount": 37.9,
-        "total_commission": 6.77,
-        "eans": [
-          "9509658425575"
-        ],
-        "offer_references": [
-          "U0-INRG-KJHL"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "4014988099",
-            "ean": "9509658425575",
-            "product_name": "Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart",
-            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-            "offer_reference": "U0-INRG-KJHL",
-            "sku": "U0-INRG-KJHL",
-            "quantity": 2,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 18.95,
-            "total_price": 37.9,
-            "commission": 6.77,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-10-29T01:51:45+01:00"
+            "latest_changed_at": "2026-10-30T09:22:46+01:00"
           }
         ]
       },
