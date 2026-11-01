@@ -1,84 +1,15 @@
 {
-  "generated_at": "2026-10-31T10:54:51.417Z",
+  "generated_at": "2026-11-01T11:49:25.892Z",
   "period": "daily",
-  "date_from": "2026-10-30",
-  "date_to_exclusive": "2026-10-31",
+  "date_from": "2026-10-31",
+  "date_to_exclusive": "2026-11-01",
   "source": "bol.com Retailer API",
-  "orders": [
-    {
-      "bol_order_id": "C000JW0LC7",
-      "order_placed_at": "2026-10-30T07:38:49+01:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 16.95,
-      "total_commission": 1.05,
-      "eans": [
-        "8721516390073"
-      ],
-      "offer_references": [
-        "Unifidesk3DTS.Shop"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4015586273",
-          "ean": "8721516390073",
-          "product_name": "UniFi Access Point Standaard – Geschikt voor U6-LR, U6+, U7 Pro & AC-Pro – Bureau Houder",
-          "offer_id": "ddd73a94-13f5-48e6-bad7-a31adea896ec",
-          "offer_reference": "Unifidesk3DTS.Shop",
-          "sku": "Unifidesk3DTS.Shop",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 16.95,
-          "total_price": 16.95,
-          "commission": 1.05,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-30T19:00:04+01:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000JW2TLC",
-      "order_placed_at": "2026-10-30T09:22:37+01:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 21.49,
-      "total_commission": 4.37,
-      "eans": [
-        "9501537169884"
-      ],
-      "offer_references": [
-        "3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4015625078",
-          "ean": "9501537169884",
-          "product_name": "Accuhouder - geschikt voor Bosch Professional 18V - 4 accu's",
-          "offer_id": "9893575b-c8e4-4f32-b2e8-e26c4a8c2b86",
-          "offer_reference": "3DTS",
-          "sku": "3DTS",
-          "quantity": 1,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 21.49,
-          "total_price": 21.49,
-          "commission": 4.37,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-30T09:22:46+01:00"
-        }
-      ]
-    }
-  ],
+  "orders": [],
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 2,
-    "total_order_amount": 38.44,
-    "total_commission": 5.42
+    "order_count": 0,
+    "total_order_amount": 0,
+    "total_commission": 0
   }
 }

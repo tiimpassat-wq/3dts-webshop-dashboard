@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-10-31T10:55:02.135Z",
+  "generated_at": "2026-11-01T11:49:44.274Z",
   "actions": [
     {
       "type": "product controleren",
       "priority": "high",
-      "product_name": "Verstelbare wandbeugel geschikt voor UniFi UAP-AC-LR, U6-LR, U6-Lite en U7-Lite ? 3D-geprint",
-      "sku": "3DTS-UNIFI-VERS",
-      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
+      "product_name": "Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart",
+      "sku": "dc18rd3dts.shop",
+      "reason": "Bol commissie ontbreekt voor order #3dts1948; winst kan te hoog lijken."
+    },
+    {
+      "type": "product controleren",
+      "priority": "high",
+      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+      "sku": "3DTS-DSS501-GRA",
+      "reason": "Bol commissie ontbreekt voor order #3dts1949; winst kan te hoog lijken."
     },
     {
       "type": "product controleren",
@@ -41,6 +48,13 @@
       "priority": "medium",
       "product_name": "Wandhouder Makita DC18RC Oplader",
       "sku": "dc18rc3dts.shop",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Bosch 12V – 3-voudige accuhouder (PETG)",
+      "sku": "624574041623_93C3",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]
