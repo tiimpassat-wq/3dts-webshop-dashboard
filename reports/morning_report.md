@@ -1,54 +1,54 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-11-01T11:49:44.273Z
+Gegenereerd: 2026-11-02T13:29:19.993Z
 
 ## Samenvatting gisteren
 
-- Omzet gisteren: EUR 103.89
-- Betrouwbare nettowinst gisteren: EUR 43.72
+- Omzet gisteren: EUR 49.93
+- Betrouwbare nettowinst gisteren: EUR 17.92
 - Geschatte/onvolledige nettowinst gisteren: EUR 0.00
-- Totale nettowinstindicatie gisteren: EUR 43.72
-- Orders gisteren: 4
-- Orders met betrouwbare kostprijs gisteren: 4
-- Orders met Shopify kostprijs gisteren: 4
+- Totale nettowinstindicatie gisteren: EUR 17.92
+- Orders gisteren: 3
+- Orders met betrouwbare kostprijs gisteren: 3
+- Orders met Shopify kostprijs gisteren: 3
 - Orders met fallback kostprijs gisteren: 0
 - Orders met ontbrekende kostprijs gisteren: 0
 - Winststatus gisteren: betrouwbaar
-- Gemiddelde winst per order: EUR 10.93
+- Gemiddelde winst per order: EUR 5.97
 
 ## Top 5 winstgevende producten (indicatief)
 
-- Bosch 12V – 3-voudige accuhouder (PETG) (624574041623_93C3): EUR 16.50 nettowinst, 46.03% marge
-- Adaptateur de rail pour scie circulaire Makita DSS501 - PETG (3DTS-DSS501-GRA): EUR 14.84 nettowinst, 36.2% marge
-- Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart (dc18rd3dts.shop): EUR 9.11 nettowinst, 45.66% marge
+- UniFi Cloud Key Gen2 Plus Wallmount Verhoogd – Wandbeugel met Ventilatie – Geschikt voor Ubiquiti Cloud Key Gen2 Plus (cloudkeygen23DTS.SHOP): EUR 7.18 nettowinst, 43.54% marge
+- Wandbeugel geschikt voor UniFi AC Lite, nanoHD, AC LR en U6 Lite ? PETG ? 3D-geprint (Unifimountlite3DTS.shop): EUR 6.65 nettowinst, 51.35% marge
+- 3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart (3DTS-DSS501-GRA): EUR 4.09 nettowinst, 19.96% marge
 
 ## Producten met lage marge (indicatief)
 
-- Geen lage-marge producten gevonden in de beschikbare dagdata.
+- 3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart (3DTS-DSS501-GRA): EUR 4.09 nettowinst, 19.96% marge
 
 ## Shopify vs Google Ads
 
-- Shopify omzet gisteren: EUR 103.89
-- Shopify direct omzet gisteren: EUR 42.95
+- Shopify omzet gisteren: EUR 49.93
+- Shopify direct omzet gisteren: EUR 0.00
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
-- Laatste 7 dagen omzet: EUR 587.75
+- Laatste 7 dagen omzet: EUR 569.04
 - Laatste 7 dagen Google Ads kosten: EUR 0.00
-- Laatste 7 dagen betrouwbare nettowinst: EUR 201.62
+- Laatste 7 dagen betrouwbare nettowinst: EUR 221.18
 - Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 0.00
 
 ## Bol.com
 
-- Bol omzet gisteren: EUR 40.44
-- Bol winst gisteren: EUR 17.29
-- Bol commissie gisteren: EUR 0.00
-- Bol Ads kosten gisteren: EUR 1.90
-- Winst na Bol Ads gisteren: EUR 17.29
-- Bol omzet laatste 7 dagen: EUR 492.75
-- Bol winst laatste 7 dagen: EUR 167.38
-- Bol commissie laatste 7 dagen: EUR 70.32
-- Bol Ads kosten laatste 7 dagen: EUR 10.91
-- Bol Ads ROAS laatste 7 dagen: 11.9395
+- Bol omzet gisteren: EUR 36.98
+- Bol winst gisteren: EUR 11.27
+- Bol commissie gisteren: EUR 4.23
+- Bol Ads kosten gisteren: EUR 3.36
+- Winst na Bol Ads gisteren: EUR 11.27
+- Bol omzet laatste 7 dagen: EUR 513.14
+- Bol winst laatste 7 dagen: EUR 194.76
+- Bol commissie laatste 7 dagen: EUR 72.09
+- Bol Ads kosten laatste 7 dagen: EUR 13.45
+- Bol Ads ROAS laatste 7 dagen: 9.6848
 - Bol orders gematcht laatste 7 dagen: 19
 - Bol orders niet in Shopify gevonden laatste 7 dagen: 0
 
