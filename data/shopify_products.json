@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T13:29:05.025Z",
+  "generated_at": "2026-11-03T12:46:17.349Z",
   "source": "Shopify Admin GraphQL productVariants.inventoryItem.unitCost",
   "required_scopes": [
     "read_products",
