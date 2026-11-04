@@ -1,18 +1,25 @@
 {
-  "generated_at": "2026-11-03T12:46:36.530Z",
+  "generated_at": "2026-11-04T12:58:57.359Z",
   "actions": [
     {
       "type": "product controleren",
       "priority": "high",
       "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
       "sku": "3DTS-DSS501-GRA",
-      "reason": "Bol commissie ontbreekt voor order #3dts1957; winst kan te hoog lijken."
+      "reason": "Bol commissie ontbreekt voor order #3dts1961; winst kan te hoog lijken."
     },
     {
       "type": "bundel maken",
       "priority": "medium",
       "product_name": "Wandbeugel geschikt voor UniFi AC Lite, nanoHD, AC LR en U6 Lite ? PETG ? 3D-geprint",
       "sku": "Unifimountlite3DTS.shop",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Adaptateur de rail pour scie circulaire Makita DSS501 - PETG",
+      "sku": "3DTS-DSS501-GRA",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
@@ -25,13 +32,6 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-      "sku": "3DTS-DSS501-GRA",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
       "product_name": "UniFi Access Point Wandbeugel – Kantelbaar / Verstelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite en U7-Lite – Wit",
       "sku": "Unifikant3DTS.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
@@ -39,8 +39,8 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Bosch 12V – 3-voudige accuhouder (PETG)",
-      "sku": "624574041623_93C3",
+      "product_name": "Wandhouder - geschikt voor Makita DC18RC oplader - zwart",
+      "sku": "dc18rc3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]
