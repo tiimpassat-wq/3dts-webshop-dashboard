@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T12:58:46.471Z",
+  "generated_at": "2026-11-05T13:10:46.795Z",
   "period": "last_7_days",
-  "date_from": "2026-10-29",
-  "date_to_exclusive": "2026-11-05",
+  "date_from": "2026-10-30",
+  "date_to_exclusive": "2026-11-06",
   "source": "bol.com Retailer API",
   "orders": [
     {
@@ -40,108 +40,6 @@
       ]
     },
     {
-      "bol_order_id": "C000JRT7TL",
-      "order_placed_at": "2026-10-29T10:18:08+01:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 21.49,
-      "total_commission": 4.37,
-      "eans": [
-        "9504331234987"
-      ],
-      "offer_references": [
-        "3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4015083701",
-          "ean": "9504331234987",
-          "product_name": "Accubeugel geschikt voor CAS accu's - Metabo, Hikoki, Mafell, Würth",
-          "offer_id": "de3394d6-77df-4fe2-9e47-fcde07a7e7ab",
-          "offer_reference": "3DTS",
-          "sku": "3DTS",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 21.49,
-          "total_price": 21.49,
-          "commission": 4.37,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-30T18:55:22+01:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000JRL238",
-      "order_placed_at": "2026-10-29T01:51:36+01:00",
-      "customer_country_code": "BE",
-      "pickup_point": false,
-      "total_order_amount": 37.9,
-      "total_commission": 6.77,
-      "eans": [
-        "9509658425575"
-      ],
-      "offer_references": [
-        "U0-INRG-KJHL"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4014988099",
-          "ean": "9509658425575",
-          "product_name": "Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart",
-          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-          "offer_reference": "U0-INRG-KJHL",
-          "sku": "U0-INRG-KJHL",
-          "quantity": 2,
-          "quantity_shipped": 2,
-          "quantity_cancelled": 0,
-          "unit_price": 18.95,
-          "total_price": 37.9,
-          "commission": 6.77,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-30T18:43:35+01:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000JRTLT8",
-      "order_placed_at": "2026-10-29T10:28:00+01:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 19.95,
-      "total_commission": 3.53,
-      "eans": [
-        "9509658425575"
-      ],
-      "offer_references": [
-        "U0-INRG-KJHL"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4015089456",
-          "ean": "9509658425575",
-          "product_name": "Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart",
-          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-          "offer_reference": "U0-INRG-KJHL",
-          "sku": "U0-INRG-KJHL",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 19.95,
-          "total_price": 19.95,
-          "commission": 3.53,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-30T18:40:04+01:00"
-        }
-      ]
-    },
-    {
       "bol_order_id": "C000JW2TLC",
       "order_placed_at": "2026-10-30T09:22:37+01:00",
       "customer_country_code": "NL",
@@ -172,59 +70,6 @@
           "distribution_party": "RETAILER",
           "cancellation_request": false,
           "latest_changed_at": "2026-10-31T20:48:47+01:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000JTJ929",
-      "order_placed_at": "2026-10-29T19:19:08+01:00",
-      "customer_country_code": "BE",
-      "pickup_point": false,
-      "total_order_amount": 39.9,
-      "total_commission": 7.06,
-      "eans": [
-        "9509658425575",
-        "9504741952723"
-      ],
-      "offer_references": [
-        "U0-INRG-KJHL"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4015393247",
-          "ean": "9509658425575",
-          "product_name": "Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart",
-          "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-          "offer_reference": "U0-INRG-KJHL",
-          "sku": "U0-INRG-KJHL",
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 19.95,
-          "total_price": 19.95,
-          "commission": 3.53,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-31T08:41:22+01:00"
-        },
-        {
-          "bol_order_item_id": "4015393248",
-          "ean": "9504741952723",
-          "product_name": "Wandhouder - geschikt voor Makita DC18RC oplader - zwart",
-          "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
-          "offer_reference": null,
-          "sku": null,
-          "quantity": 1,
-          "quantity_shipped": 1,
-          "quantity_cancelled": 0,
-          "unit_price": 19.95,
-          "total_price": 19.95,
-          "commission": 3.53,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-10-31T08:41:22+01:00"
         }
       ]
     },
@@ -433,74 +278,6 @@
       ]
     },
     {
-      "bol_order_id": "C000K471JK",
-      "order_placed_at": "2026-11-03T23:18:13+01:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 20.49,
-      "total_commission": 3.19,
-      "eans": [
-        "8721516390691"
-      ],
-      "offer_references": [
-        "3DTS-DSS501-GRA"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4018434760",
-          "ean": "8721516390691",
-          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-          "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
-          "offer_reference": "3DTS-DSS501-GRA",
-          "sku": "3DTS-DSS501-GRA",
-          "quantity": 1,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 20.49,
-          "total_price": 20.49,
-          "commission": 3.19,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-11-03T23:18:45+01:00"
-        }
-      ]
-    },
-    {
-      "bol_order_id": "C000K428MW",
-      "order_placed_at": "2026-11-03T21:08:40+01:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 20.49,
-      "total_commission": 3.19,
-      "eans": [
-        "8721516390691"
-      ],
-      "offer_references": [
-        "3DTS-DSS501-GRA"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4018341227",
-          "ean": "8721516390691",
-          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-          "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
-          "offer_reference": "3DTS-DSS501-GRA",
-          "sku": "3DTS-DSS501-GRA",
-          "quantity": 1,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 20.49,
-          "total_price": 20.49,
-          "commission": 3.19,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-11-03T21:09:16+01:00"
-        }
-      ]
-    },
-    {
       "bol_order_id": "C000K3TCC6",
       "order_placed_at": "2026-11-03T19:15:48+01:00",
       "customer_country_code": "NL",
@@ -642,6 +419,72 @@
       ]
     },
     {
+      "bol_order_id": "C000K5MM3L",
+      "order_placed_at": "2026-11-04T22:47:45+01:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 20.49,
+      "total_commission": 3.19,
+      "eans": [
+        "8721516390691"
+      ],
+      "offer_references": [
+        "3DTS-DSS501-GRA"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4019119223",
+          "ean": "8721516390691",
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
+          "offer_reference": "3DTS-DSS501-GRA",
+          "sku": "3DTS-DSS501-GRA",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 20.49,
+          "total_price": 20.49,
+          "commission": 3.19,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-11-04T22:48:16+01:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000K50TL6",
+      "order_placed_at": "2026-11-04T15:23:31+01:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 37.9,
+      "total_commission": 6.77,
+      "eans": [
+        "9504741952723"
+      ],
+      "offer_references": [],
+      "line_items": [
+        {
+          "bol_order_item_id": "4018775479",
+          "ean": "9504741952723",
+          "product_name": "Wandhouder - geschikt voor Makita DC18RC oplader - zwart",
+          "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
+          "offer_reference": null,
+          "sku": null,
+          "quantity": 2,
+          "quantity_shipped": 2,
+          "quantity_cancelled": 0,
+          "unit_price": 18.95,
+          "total_price": 37.9,
+          "commission": 6.77,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-11-04T21:20:32+01:00"
+        }
+      ]
+    },
+    {
       "bol_order_id": "C000K4J90K",
       "order_placed_at": "2026-11-04T10:41:27+01:00",
       "customer_country_code": "NL",
@@ -663,7 +506,7 @@
           "offer_reference": "3DTS-DSS501-GRA",
           "sku": "3DTS-DSS501-GRA",
           "quantity": 1,
-          "quantity_shipped": 0,
+          "quantity_shipped": 1,
           "quantity_cancelled": 0,
           "unit_price": 20.49,
           "total_price": 20.49,
@@ -671,7 +514,109 @@
           "fulfilment_method": "FBR",
           "distribution_party": "RETAILER",
           "cancellation_request": false,
-          "latest_changed_at": "2026-11-04T10:42:18+01:00"
+          "latest_changed_at": "2026-11-04T21:18:30+01:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000K471JK",
+      "order_placed_at": "2026-11-03T23:18:13+01:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 20.49,
+      "total_commission": 3.19,
+      "eans": [
+        "8721516390691"
+      ],
+      "offer_references": [
+        "3DTS-DSS501-GRA"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4018434760",
+          "ean": "8721516390691",
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
+          "offer_reference": "3DTS-DSS501-GRA",
+          "sku": "3DTS-DSS501-GRA",
+          "quantity": 1,
+          "quantity_shipped": 1,
+          "quantity_cancelled": 0,
+          "unit_price": 20.49,
+          "total_price": 20.49,
+          "commission": 3.19,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-11-04T21:10:28+01:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000K428MW",
+      "order_placed_at": "2026-11-03T21:08:40+01:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 20.49,
+      "total_commission": 3.19,
+      "eans": [
+        "8721516390691"
+      ],
+      "offer_references": [
+        "3DTS-DSS501-GRA"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4018341227",
+          "ean": "8721516390691",
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
+          "offer_reference": "3DTS-DSS501-GRA",
+          "sku": "3DTS-DSS501-GRA",
+          "quantity": 1,
+          "quantity_shipped": 1,
+          "quantity_cancelled": 0,
+          "unit_price": 20.49,
+          "total_price": 20.49,
+          "commission": 3.19,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-11-04T18:20:21+01:00"
+        }
+      ]
+    },
+    {
+      "bol_order_id": "C000K68H3X",
+      "order_placed_at": "2026-11-05T13:53:03+01:00",
+      "customer_country_code": "BE",
+      "pickup_point": false,
+      "total_order_amount": 32.98,
+      "total_commission": 2.08,
+      "eans": [
+        "8721516390592"
+      ],
+      "offer_references": [
+        "Unifikant3DTS.shop"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4019393532",
+          "ean": "8721516390592",
+          "product_name": "UniFi Access Point Wandbeugel – Kantelbaar / Verstelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite en U7-Lite – Wit",
+          "offer_id": "3c22c742-be8a-44fe-b296-01c8a787c2b9",
+          "offer_reference": "Unifikant3DTS.shop",
+          "sku": "Unifikant3DTS.shop",
+          "quantity": 2,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 16.49,
+          "total_price": 32.98,
+          "commission": 2.08,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-11-05T13:54:19+01:00"
         }
       ]
     }
@@ -679,8 +624,8 @@
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 18,
-    "total_order_amount": 493.18,
-    "total_commission": 71.75
+    "order_count": 17,
+    "total_order_amount": 465.31,
+    "total_commission": 62.06
   }
 }
