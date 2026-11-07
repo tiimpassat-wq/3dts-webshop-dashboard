@@ -1,195 +1,20 @@
 {
-  "generated_at": "2026-11-06T12:55:54.420Z",
+  "generated_at": "2026-11-07T11:42:34.009Z",
   "period": "daily",
-  "date_from": "2026-11-05",
-  "date_to_exclusive": "2026-11-06",
+  "date_from": "2026-11-06",
+  "date_to_exclusive": "2026-11-07",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
     "bol_raw": "bol_orders_raw_daily.json"
   },
   "summary": {
-    "bol_orders": 4,
-    "matched_orders": 4,
+    "bol_orders": 0,
+    "matched_orders": 0,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 120.81,
-    "total_bol_commission": 14.37
+    "total_bol_revenue": 0,
+    "total_bol_commission": 0
   },
   "warnings": [],
-  "matches": [
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1967",
-      "shopify_order_date": "2026-11-05T21:29:20Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000K73M0F",
-        "order_placed_at": "2026-11-05T22:27:00+01:00",
-        "customer_country_code": "BE",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.53,
-        "eans": [
-          "9509658425575"
-        ],
-        "offer_references": [
-          "U0-INRG-KJHL"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "4019740102",
-            "ean": "9509658425575",
-            "product_name": "Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart",
-            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-            "offer_reference": "U0-INRG-KJHL",
-            "sku": "U0-INRG-KJHL",
-            "quantity": 1,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.53,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-11-05T22:27:48+01:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1965",
-      "shopify_order_date": "2026-11-05T14:34:21Z",
-      "shopify_total_order_amount": 29.98,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000K6FF2K",
-        "order_placed_at": "2026-11-05T15:30:13+01:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 29.98,
-        "total_commission": 1.99,
-        "eans": [
-          "9502163482132"
-        ],
-        "offer_references": [],
-        "line_items": [
-          {
-            "bol_order_item_id": "4019454106",
-            "ean": "9502163482132",
-            "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
-            "offer_id": "9452ecb2-fb08-40ca-9bac-5ecac48d376c",
-            "offer_reference": null,
-            "sku": null,
-            "quantity": 2,
-            "quantity_shipped": 2,
-            "quantity_cancelled": 0,
-            "unit_price": 14.99,
-            "total_price": 29.98,
-            "commission": 1.99,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-11-05T18:34:15+01:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1966",
-      "shopify_order_date": "2026-11-05T16:04:23Z",
-      "shopify_total_order_amount": 37.9,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000JNX53H",
-        "order_placed_at": "2026-11-05T17:00:28+01:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 37.9,
-        "total_commission": 6.77,
-        "eans": [
-          "9501537169884"
-        ],
-        "offer_references": [
-          "3DTS"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "4019511520",
-            "ean": "9501537169884",
-            "product_name": "Accuhouder - geschikt voor Bosch Professional 18V - 4 accu's",
-            "offer_id": "9893575b-c8e4-4f32-b2e8-e26c4a8c2b86",
-            "offer_reference": "3DTS",
-            "sku": "3DTS",
-            "quantity": 2,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 18.95,
-            "total_price": 37.9,
-            "commission": 6.77,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-11-05T17:01:22+01:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1964",
-      "shopify_order_date": "2026-11-05T12:54:21Z",
-      "shopify_total_order_amount": 32.98,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000K68H3X",
-        "order_placed_at": "2026-11-05T13:53:03+01:00",
-        "customer_country_code": "BE",
-        "pickup_point": false,
-        "total_order_amount": 32.98,
-        "total_commission": 2.08,
-        "eans": [
-          "8721516390592"
-        ],
-        "offer_references": [
-          "Unifikant3DTS.shop"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "4019393532",
-            "ean": "8721516390592",
-            "product_name": "UniFi Access Point Wandbeugel – Kantelbaar / Verstelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite en U7-Lite – Wit",
-            "offer_id": "3c22c742-be8a-44fe-b296-01c8a787c2b9",
-            "offer_reference": "Unifikant3DTS.shop",
-            "sku": "Unifikant3DTS.shop",
-            "quantity": 2,
-            "quantity_shipped": 0,
-            "quantity_cancelled": 0,
-            "unit_price": 16.49,
-            "total_price": 32.98,
-            "commission": 2.08,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-11-05T13:54:19+01:00"
-          }
-        ]
-      },
-      "warnings": []
-    }
-  ],
+  "matches": [],
   "unmatched_bol_orders": []
 }

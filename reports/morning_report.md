@@ -1,62 +1,58 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-11-06T12:56:01.873Z
+Gegenereerd: 2026-11-07T11:42:49.685Z
 
 ## Samenvatting gisteren
 
-- Omzet gisteren: EUR 120.81
-- Betrouwbare nettowinst gisteren: EUR 53.64
+- Omzet gisteren: EUR 25.90
+- Betrouwbare nettowinst gisteren: EUR 13.30
 - Geschatte/onvolledige nettowinst gisteren: EUR 0.00
-- Totale nettowinstindicatie gisteren: EUR 53.64
-- Orders gisteren: 4
-- Orders met betrouwbare kostprijs gisteren: 4
-- Orders met Shopify kostprijs gisteren: 4
+- Totale nettowinstindicatie gisteren: EUR 13.30
+- Orders gisteren: 2
+- Orders met betrouwbare kostprijs gisteren: 2
+- Orders met Shopify kostprijs gisteren: 2
 - Orders met fallback kostprijs gisteren: 0
 - Orders met ontbrekende kostprijs gisteren: 0
 - Winststatus gisteren: betrouwbaar
-- Gemiddelde winst per order: EUR 13.41
+- Gemiddelde winst per order: EUR 6.65
 
 ## Top 5 winstgevende producten (indicatief)
 
-- Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE (627819952868_0CD6): EUR 19.31 nettowinst, 64.41% marge
-- Accuhouder - geschikt voor Bosch Professional 18V - 4 accu's - 4-voudig (3DTS-BP18V-4): EUR 16.87 nettowinst, 44.51% marge
-- UniFi Access Point Wandbeugel – Kantelbaar / Verstelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite en U7-Lite – Wit (Unifikant3DTS.shop): EUR 13.72 nettowinst, 41.6% marge
-- Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart (dc18rd3dts.shop): EUR 3.74 nettowinst, 18.75% marge
+- Wandbeugel geschikt voor UniFi AC Lite, nanoHD, AC LR en U6 Lite ? PETG ? 3D-geprint (Unifimountlite3DTS.shop): EUR 13.30 nettowinst, 51.35% marge
 
 ## Producten met lage marge (indicatief)
 
-- Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart (dc18rd3dts.shop): EUR 3.74 nettowinst, 18.75% marge
+- Geen lage-marge producten gevonden in de beschikbare dagdata.
 
 ## Shopify vs Google Ads
 
-- Shopify omzet gisteren: EUR 120.81
+- Shopify omzet gisteren: EUR 25.90
 - Shopify direct omzet gisteren: EUR 0.00
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
-- Laatste 7 dagen omzet: EUR 591.10
+- Laatste 7 dagen omzet: EUR 533.06
 - Laatste 7 dagen Google Ads kosten: EUR 0.00
-- Laatste 7 dagen betrouwbare nettowinst: EUR 243.53
+- Laatste 7 dagen betrouwbare nettowinst: EUR 225.77
 - Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 0.00
 
 ## Bol.com
 
-- Bol omzet gisteren: EUR 120.81
-- Bol winst gisteren: EUR 53.64
-- Bol commissie gisteren: EUR 14.37
-- Bol Ads kosten gisteren: EUR 1.78
-- Winst na Bol Ads gisteren: EUR 53.64
-- Bol omzet laatste 7 dagen: EUR 535.20
-- Bol winst laatste 7 dagen: EUR 217.11
-- Bol commissie laatste 7 dagen: EUR 68.93
-- Bol Ads kosten laatste 7 dagen: EUR 15.08
-- Bol Ads ROAS laatste 7 dagen: 6.4509
-- Bol orders gematcht laatste 7 dagen: 18
+- Bol omzet gisteren: EUR 0.00
+- Bol winst gisteren: EUR 0.00
+- Bol commissie gisteren: EUR 0.00
+- Bol Ads kosten gisteren: EUR 1.88
+- Winst na Bol Ads gisteren: EUR 0.00
+- Bol omzet laatste 7 dagen: EUR 494.21
+- Bol winst laatste 7 dagen: EUR 205.82
+- Bol commissie laatste 7 dagen: EUR 65.74
+- Bol Ads kosten laatste 7 dagen: EUR 14.19
+- Bol Ads ROAS laatste 7 dagen: 5.6934
+- Bol orders gematcht laatste 7 dagen: 17
 - Bol orders niet in Shopify gevonden laatste 7 dagen: 0
 
 ## AI-adviezen
 
 - Verzendkosten liggen hoger dan wat klanten betalen; verhoog gratis-verzending drempel of bundel producten.
-- Voor sommige bol-orders ontbreekt commissie; voeg EAN/referentie goed toe of controleer bol Retailer API toegang.
 
 ## Datakwaliteit
 
