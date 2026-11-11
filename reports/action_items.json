@@ -1,20 +1,6 @@
 {
-  "generated_at": "2026-11-10T13:27:34.487Z",
+  "generated_at": "2026-11-11T12:42:34.111Z",
   "actions": [
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-      "sku": "3DTS-DSS501-GRA",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Wandhouder - geschikt voor Makita DC18RC oplader - zwart",
-      "sku": "dc18rc3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
     {
       "type": "bundel maken",
       "priority": "medium",
@@ -25,8 +11,22 @@
     {
       "type": "bundel maken",
       "priority": "medium",
+      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+      "sku": "3DTS-DSS501-GRA",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
       "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
       "sku": "627819952868_0CD6",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Wandhouder - geschikt voor Makita DC18RC oplader - zwart",
+      "sku": "dc18rc3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
