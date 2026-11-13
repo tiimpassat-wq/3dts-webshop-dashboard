@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T13:45:10.238Z",
+  "generated_at": "2026-11-13T13:05:22.144Z",
   "actions": [
     {
       "type": "bundel maken",
@@ -27,13 +27,6 @@
       "priority": "medium",
       "product_name": "Wandhouder - geschikt voor Makita DC18RC oplader - zwart",
       "sku": "dc18rc3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Wandbeugel geschikt voor UniFi AC Lite, nanoHD, AC LR en U6 Lite ? PETG ? 3D-geprint",
-      "sku": "Unifimountlite3DTS.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]
