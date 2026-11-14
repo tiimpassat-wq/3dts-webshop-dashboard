@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-13T13:05:10.772Z",
+  "generated_at": "2026-11-14T12:09:44.194Z",
   "period": "daily",
-  "date_from": "2026-11-12",
-  "date_to_exclusive": "2026-11-13",
+  "date_from": "2026-11-13",
+  "date_to_exclusive": "2026-11-14",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
     "bol_raw": "bol_orders_raw_daily.json"
   },
   "summary": {
-    "bol_orders": 2,
-    "matched_orders": 2,
+    "bol_orders": 1,
+    "matched_orders": 1,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 35.98,
-    "total_bol_commission": 4.2
+    "total_bol_revenue": 21.49,
+    "total_bol_commission": 4.37
   },
   "warnings": [],
   "matches": [
@@ -20,83 +20,41 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts1989",
-      "shopify_order_date": "2026-11-12T18:19:21Z",
-      "shopify_total_order_amount": 15.49,
+      "shopify_order_number": "#3dts1990",
+      "shopify_order_date": "2026-11-13T15:59:20Z",
+      "shopify_total_order_amount": 21.49,
       "channel": "bol.com",
       "bol": {
-        "bol_order_id": "C000KM0WHD",
-        "order_placed_at": "2026-11-12T19:17:18+01:00",
-        "customer_country_code": "BE",
+        "bol_order_id": "C000KN7T18",
+        "order_placed_at": "2026-11-13T16:55:59+01:00",
+        "customer_country_code": "NL",
         "pickup_point": false,
-        "total_order_amount": 15.49,
-        "total_commission": 1.01,
+        "total_order_amount": 21.49,
+        "total_commission": 4.37,
         "eans": [
-          "9502163482132"
+          "9503425233318"
         ],
-        "offer_references": [],
+        "offer_references": [
+          "Bosch4a-3DTS"
+        ],
         "line_items": [
           {
-            "bol_order_item_id": "4024414269",
-            "ean": "9502163482132",
-            "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
-            "offer_id": "9452ecb2-fb08-40ca-9bac-5ecac48d376c",
-            "offer_reference": null,
-            "sku": null,
+            "bol_order_item_id": "4025038674",
+            "ean": "9503425233318",
+            "product_name": "Wandhouder - geschikt voor Bosch 4A fietsoplader - zwart",
+            "offer_id": "7699e825-2bc3-4838-9cdb-74d3b1057833",
+            "offer_reference": "Bosch4a-3DTS",
+            "sku": "Bosch4a-3DTS",
             "quantity": 1,
             "quantity_shipped": 0,
             "quantity_cancelled": 0,
-            "unit_price": 15.49,
-            "total_price": 15.49,
-            "commission": 1.01,
+            "unit_price": 21.49,
+            "total_price": 21.49,
+            "commission": 4.37,
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-11-12T19:17:46+01:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1988",
-      "shopify_order_date": "2026-11-11T23:04:20Z",
-      "shopify_total_order_amount": 20.49,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000KKWX0N",
-        "order_placed_at": "2026-11-12T00:02:03+01:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 20.49,
-        "total_commission": 3.19,
-        "eans": [
-          "8721516390691"
-        ],
-        "offer_references": [
-          "3DTS-DSS501-GRA"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "4023917760",
-            "ean": "8721516390691",
-            "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-            "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
-            "offer_reference": "3DTS-DSS501-GRA",
-            "sku": "3DTS-DSS501-GRA",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 20.49,
-            "total_price": 20.49,
-            "commission": 3.19,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-11-12T18:40:11+01:00"
+            "latest_changed_at": "2026-11-13T16:56:46+01:00"
           }
         ]
       },
