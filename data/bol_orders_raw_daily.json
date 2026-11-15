@@ -1,50 +1,15 @@
 {
-  "generated_at": "2026-11-14T12:09:41.749Z",
+  "generated_at": "2026-11-15T12:43:37.926Z",
   "period": "daily",
-  "date_from": "2026-11-13",
-  "date_to_exclusive": "2026-11-14",
+  "date_from": "2026-11-14",
+  "date_to_exclusive": "2026-11-15",
   "source": "bol.com Retailer API",
-  "orders": [
-    {
-      "bol_order_id": "C000KN7T18",
-      "order_placed_at": "2026-11-13T16:55:59+01:00",
-      "customer_country_code": "NL",
-      "pickup_point": false,
-      "total_order_amount": 21.49,
-      "total_commission": 4.37,
-      "eans": [
-        "9503425233318"
-      ],
-      "offer_references": [
-        "Bosch4a-3DTS"
-      ],
-      "line_items": [
-        {
-          "bol_order_item_id": "4025038674",
-          "ean": "9503425233318",
-          "product_name": "Wandhouder - geschikt voor Bosch 4A fietsoplader - zwart",
-          "offer_id": "7699e825-2bc3-4838-9cdb-74d3b1057833",
-          "offer_reference": "Bosch4a-3DTS",
-          "sku": "Bosch4a-3DTS",
-          "quantity": 1,
-          "quantity_shipped": 0,
-          "quantity_cancelled": 0,
-          "unit_price": 21.49,
-          "total_price": 21.49,
-          "commission": 4.37,
-          "fulfilment_method": "FBR",
-          "distribution_party": "RETAILER",
-          "cancellation_request": false,
-          "latest_changed_at": "2026-11-13T16:56:46+01:00"
-        }
-      ]
-    }
-  ],
+  "orders": [],
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 1,
-    "total_order_amount": 21.49,
-    "total_commission": 4.37
+    "order_count": 0,
+    "total_order_amount": 0,
+    "total_commission": 0
   }
 }
