@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T12:43:46.047Z",
+  "generated_at": "2026-11-16T13:37:43.331Z",
   "actions": [
     {
       "type": "product controleren",
@@ -11,22 +11,22 @@
     {
       "type": "product controleren",
       "priority": "high",
-      "product_name": "Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart",
-      "sku": "dc18rd3dts.shop",
-      "reason": "Bol commissie ontbreekt voor order #3dts1992; winst kan te hoog lijken."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart",
-      "sku": "dc18rd3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+      "sku": "3DTS-DSS501-GRA",
+      "reason": "Bol commissie ontbreekt voor order #3dts1999; winst kan te hoog lijken."
     },
     {
       "type": "bundel maken",
       "priority": "medium",
       "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
       "sku": "3DTS-DSS501-GRA",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart",
+      "sku": "dc18rd3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {

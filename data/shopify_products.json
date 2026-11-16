@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T12:43:37.349Z",
+  "generated_at": "2026-11-16T13:37:25.271Z",
   "source": "Shopify Admin GraphQL productVariants.inventoryItem.unitCost",
   "required_scopes": [
     "read_products",
@@ -8,9 +8,9 @@
   "status": "ok",
   "warnings": [],
   "totals": {
-    "variants": 85,
+    "variants": 87,
     "with_unit_cost": 74,
-    "missing_unit_cost": 11
+    "missing_unit_cost": 13
   },
   "variants": [
     {
@@ -1284,6 +1284,36 @@
       "product_title": "Lasergravure bij je beugel",
       "variant_title": "Default Title",
       "verkoopprijs": 4.95,
+      "unit_cost_amount": 0,
+      "unit_cost_currency_code": null,
+      "has_unit_cost": false
+    },
+    {
+      "product_id": "16703977292125",
+      "variant_id": "66484339966301",
+      "product_gid": "gid://shopify/Product/16703977292125",
+      "variant_gid": "gid://shopify/ProductVariant/66484339966301",
+      "sku": "dc18rc3dts.shop-LASER",
+      "barcode": "8721516390707",
+      "ean": "8721516390707",
+      "product_title": "Wandhouder Makita DC18RC – persoonlijke lasergravure (Bol)",
+      "variant_title": "Default Title",
+      "verkoopprijs": 24.9,
+      "unit_cost_amount": 0,
+      "unit_cost_currency_code": null,
+      "has_unit_cost": false
+    },
+    {
+      "product_id": "16704117113181",
+      "variant_id": "66484653556061",
+      "product_gid": "gid://shopify/Product/16704117113181",
+      "variant_gid": "gid://shopify/ProductVariant/66484653556061",
+      "sku": "Bosch4a-3DTS-LASER",
+      "barcode": "8721516390714",
+      "ean": "8721516390714",
+      "product_title": "Wandhouder Bosch 4A BPC3400 – met naam of logo",
+      "variant_title": "Default Title",
+      "verkoopprijs": 26.44,
       "unit_cost_amount": 0,
       "unit_cost_currency_code": null,
       "has_unit_cost": false
