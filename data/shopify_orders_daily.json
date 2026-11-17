@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-11-16T13:37:24.051Z",
+  "generated_at": "2026-11-17T14:22:16.431Z",
   "period": "daily",
-  "date_from": "2026-11-15",
-  "date_to_exclusive": "2026-11-16",
+  "date_from": "2026-11-16",
+  "date_to_exclusive": "2026-11-17",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 7,
-    "item_count": 7,
-    "total_order_amount": 129.81,
-    "shipping_paid_by_customer": 0,
+    "order_count": 2,
+    "item_count": 2,
+    "total_order_amount": 34.6,
+    "shipping_paid_by_customer": 4.65,
     "discount": 0
   },
   "orders": [
     {
-      "order_number": "#3dts1993",
-      "date": "2026-11-15T07:44:21Z",
+      "order_number": "#3dts2000",
+      "date": "2026-11-16T07:49:21Z",
       "channel_source": "bol",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
       "shipping_paid_by_customer": 0,
       "shipping_title": null,
       "discount": 0,
       "total_order_amount": 19.95,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [
         "Bol",
-        "Bol-C000KR3WJF"
+        "Bol-C000KTT252"
       ],
       "landing_site": null,
       "referring_site": null,
@@ -50,218 +50,33 @@
       ]
     },
     {
-      "order_number": "#3dts1994",
-      "date": "2026-11-15T09:14:31Z",
-      "channel_source": "amazon",
+      "order_number": "#3dts2001",
+      "date": "2026-11-16T18:05:24Z",
+      "channel_source": "web",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Amazon Standard",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
       "discount": 0,
-      "total_order_amount": 14.95,
+      "total_order_amount": 14.65,
       "currency": "EUR",
       "payment_status": "PAID",
       "fulfillment_status": "FULFILLED",
-      "tags": [
-        "A1S25ADMT138N3",
-        "Amazon",
-        "Amazon-NL",
-        "FBM"
-      ],
-      "landing_site": null,
-      "referring_site": null,
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/geleiderailadapter-makita-dss501-cirkelzaag",
+      "referring_site": "https://www.google.com/",
       "referral_code": null,
       "line_items": [
         {
-          "product_name": "Verstelbare wandbeugel voor UniFi U6-LR, U6-Lite en U7-Lite",
-          "variant_id": null,
-          "variant_gid": null,
-          "sku": "3DTS-UNIFI-VERS",
-          "barcode": null,
-          "ean": null,
-          "quantity": 1,
-          "product_sale_price": 14.95,
-          "original_unit_price": 14.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1995",
-      "date": "2026-11-15T11:34:20Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 15.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000KRFF6M"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Plafondbeugel geschikt voor Unifi AC LitenanoHD, AC LR & U6 Lite",
-          "variant_id": "57838610743645",
-          "variant_gid": "gid://shopify/ProductVariant/57838610743645",
-          "sku": "Unifimountlite3DTS.shop",
-          "barcode": "08721516390042",
-          "ean": "08721516390042",
-          "quantity": 1,
-          "product_sale_price": 15.95,
-          "original_unit_price": 15.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1996",
-      "date": "2026-11-15T13:04:21Z",
-      "channel_source": "bol",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 20.49,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000CM7RKT"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "product_name": "Geleiderailadapter voor Makita DSS501 cirkelzaag",
           "variant_id": "66045779870045",
           "variant_gid": "gid://shopify/ProductVariant/66045779870045",
           "sku": "3DTS-DSS501-GRA",
           "barcode": "8721516390691",
           "ean": "8721516390691",
           "quantity": 1,
-          "product_sale_price": 20.49,
-          "original_unit_price": 20.49,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1997",
-      "date": "2026-11-15T13:54:21Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 17.49,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000KRNK3W"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder - Compatibel met UniFi U6 & U7 - Wandmontage Access Point",
-          "variant_id": "57440250986845",
-          "variant_gid": "gid://shopify/ProductVariant/57440250986845",
-          "sku": "574402509868_74BE",
-          "barcode": "9509139739962",
-          "ean": "9509139739962",
-          "quantity": 1,
-          "product_sale_price": 17.49,
-          "original_unit_price": 17.49,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1998",
-      "date": "2026-11-15T19:34:21Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 20.49,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000KT9KR6"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-          "variant_id": "66045779870045",
-          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
-          "sku": "3DTS-DSS501-GRA",
-          "barcode": "8721516390691",
-          "ean": "8721516390691",
-          "quantity": 1,
-          "product_sale_price": 20.49,
-          "original_unit_price": 20.49,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts1999",
-      "date": "2026-11-15T21:24:21Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 20.49,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000KTK6TX"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
-          "variant_id": "66045779870045",
-          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
-          "sku": "3DTS-DSS501-GRA",
-          "barcode": "8721516390691",
-          "ean": "8721516390691",
-          "quantity": 1,
-          "product_sale_price": 20.49,
-          "original_unit_price": 20.49,
+          "product_sale_price": 10,
+          "original_unit_price": 10,
           "line_discount": 0,
           "currency": "EUR"
         }
