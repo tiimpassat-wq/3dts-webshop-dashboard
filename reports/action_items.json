@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T14:24:54.589Z",
+  "generated_at": "2026-11-20T13:59:52.789Z",
   "actions": [
     {
       "type": "product controleren",
@@ -13,12 +13,12 @@
       "priority": "high",
       "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
       "sku": "3DTS-DSS501-GRA",
-      "reason": "Bol commissie ontbreekt voor order #3dts2003; winst kan te hoog lijken."
+      "reason": "Bol commissie ontbreekt voor order #3dts2009; winst kan te hoog lijken."
     },
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Geleiderailadapter voor Makita DSS501 cirkelzaag",
+      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
       "sku": "3DTS-DSS501-GRA",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
