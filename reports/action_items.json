@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T13:59:52.789Z",
+  "generated_at": "2026-11-21T13:27:47.707Z",
   "actions": [
     {
       "type": "product controleren",
@@ -27,13 +27,6 @@
       "priority": "medium",
       "product_name": "Wandhouder - geschikt voor Makita DC18RC oplader - zwart",
       "sku": "dc18rc3dts.shop",
-      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
-    },
-    {
-      "type": "bundel maken",
-      "priority": "medium",
-      "product_name": "Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart",
-      "sku": "dc18rd3dts.shop",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]

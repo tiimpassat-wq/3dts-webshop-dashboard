@@ -1,21 +1,57 @@
 {
-  "generated_at": "2026-11-20T13:59:39.793Z",
+  "generated_at": "2026-11-21T13:27:35.585Z",
   "period": "daily",
-  "date_from": "2026-11-19",
-  "date_to_exclusive": "2026-11-20",
+  "date_from": "2026-11-20",
+  "date_to_exclusive": "2026-11-21",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 2,
     "item_count": 2,
-    "total_order_amount": 30.14,
+    "total_order_amount": 35.14,
     "shipping_paid_by_customer": 4.65,
     "discount": 0
   },
   "orders": [
     {
-      "order_number": "#3dts2007",
-      "date": "2026-11-19T20:37:15Z",
+      "order_number": "#3dts2009",
+      "date": "2026-11-20T05:39:25Z",
+      "channel_source": "bol",
+      "customer_country_code": "BE",
+      "customer_country": "Belgium",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 20.49,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000L4W149"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "variant_id": "66045779870045",
+          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
+          "sku": "3DTS-DSS501-GRA",
+          "barcode": "8721516390691",
+          "ean": "8721516390691",
+          "quantity": 1,
+          "product_sale_price": 20.49,
+          "original_unit_price": 20.49,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts2010",
+      "date": "2026-11-20T20:06:58Z",
       "channel_source": "web",
       "customer_country_code": "NL",
       "customer_country": "Netherlands",
@@ -25,10 +61,10 @@
       "total_order_amount": 14.65,
       "currency": "EUR",
       "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
+      "fulfillment_status": "FULFILLED",
       "tags": [],
-      "landing_site": "https://3dts.shop/products/geleiderailadapter-makita-dss501-cirkelzaag",
-      "referring_site": "https://www.google.com/",
+      "landing_site": null,
+      "referring_site": null,
       "referral_code": null,
       "line_items": [
         {
@@ -41,42 +77,6 @@
           "quantity": 1,
           "product_sale_price": 10,
           "original_unit_price": 10,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts2008",
-      "date": "2026-11-19T21:14:20Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 15.49,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "UNFULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000L4MCN3"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE",
-          "variant_id": "62781995286877",
-          "variant_gid": "gid://shopify/ProductVariant/62781995286877",
-          "sku": "627819952868_0CD6",
-          "barcode": "8721516390394",
-          "ean": "8721516390394",
-          "quantity": 1,
-          "product_sale_price": 15.49,
-          "original_unit_price": 15.49,
           "line_discount": 0,
           "currency": "EUR"
         }

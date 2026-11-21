@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-20T13:59:51.862Z",
+  "generated_at": "2026-11-21T13:27:46.946Z",
   "period": "last_7_days",
-  "date_from": "2026-11-14",
-  "date_to_exclusive": "2026-11-21",
+  "date_from": "2026-11-15",
+  "date_to_exclusive": "2026-11-22",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
   },
   "summary": {
-    "bol_orders": 15,
-    "matched_orders": 15,
+    "bol_orders": 14,
+    "matched_orders": 14,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 285.57,
-    "total_bol_commission": 38.82
+    "total_bol_revenue": 265.62,
+    "total_bol_commission": 35.29
   },
   "warnings": [],
   "matches": [
@@ -141,50 +141,6 @@
             "distribution_party": "RETAILER",
             "cancellation_request": false,
             "latest_changed_at": "2026-11-15T18:16:41+01:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts1992",
-      "shopify_order_date": "2026-11-14T18:19:20Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000KPNJDL",
-        "order_placed_at": "2026-11-14T19:18:00+01:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.53,
-        "eans": [
-          "9509658425575"
-        ],
-        "offer_references": [
-          "U0-INRG-KJHL"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "4025731416",
-            "ean": "9509658425575",
-            "product_name": "Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart",
-            "offer_id": "d50f0199-3a3a-4761-9008-56332bff4cc4",
-            "offer_reference": "U0-INRG-KJHL",
-            "sku": "U0-INRG-KJHL",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.53,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-11-15T12:05:22+01:00"
           }
         ]
       },
@@ -608,7 +564,7 @@
             "offer_reference": null,
             "sku": null,
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
             "unit_price": 15.49,
             "total_price": 15.49,
@@ -616,7 +572,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-11-19T22:11:17+01:00"
+            "latest_changed_at": "2026-11-20T19:35:53+01:00"
           }
         ]
       },
@@ -652,7 +608,7 @@
             "offer_reference": "3DTS-DSS501-GRA",
             "sku": "3DTS-DSS501-GRA",
             "quantity": 1,
-            "quantity_shipped": 0,
+            "quantity_shipped": 1,
             "quantity_cancelled": 0,
             "unit_price": 20.49,
             "total_price": 20.49,
@@ -660,7 +616,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-11-20T06:37:16+01:00"
+            "latest_changed_at": "2026-11-20T19:32:55+01:00"
           }
         ]
       },
