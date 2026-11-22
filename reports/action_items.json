@@ -1,13 +1,6 @@
 {
-  "generated_at": "2026-11-21T13:27:47.707Z",
+  "generated_at": "2026-11-22T13:19:36.476Z",
   "actions": [
-    {
-      "type": "product controleren",
-      "priority": "high",
-      "product_name": "Verstelbare wandbeugel voor UniFi U6-LR, U6-Lite en U7-Lite",
-      "sku": "3DTS-UNIFI-VERS",
-      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
-    },
     {
       "type": "product controleren",
       "priority": "high",
@@ -18,7 +11,7 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+      "product_name": "Geleiderailadapter voor Makita DSS501 cirkelzaag",
       "sku": "3DTS-DSS501-GRA",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },

@@ -1,58 +1,58 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-11-21T13:27:47.706Z
+Gegenereerd: 2026-11-22T13:19:36.476Z
 
 ## Samenvatting gisteren
 
-- Omzet gisteren: EUR 35.14
-- Betrouwbare nettowinst gisteren: EUR 6.02
+- Omzet gisteren: EUR 0.00
+- Betrouwbare nettowinst gisteren: EUR 0.00
 - Geschatte/onvolledige nettowinst gisteren: EUR 0.00
-- Totale nettowinstindicatie gisteren: EUR 6.02
-- Orders gisteren: 2
-- Orders met betrouwbare kostprijs gisteren: 2
-- Orders met Shopify kostprijs gisteren: 2
+- Totale nettowinstindicatie gisteren: EUR 0.00
+- Orders gisteren: 0
+- Orders met betrouwbare kostprijs gisteren: 0
+- Orders met Shopify kostprijs gisteren: 0
 - Orders met fallback kostprijs gisteren: 0
 - Orders met ontbrekende kostprijs gisteren: 0
-- Winststatus gisteren: betrouwbaar
-- Gemiddelde winst per order: EUR 3.01
+- Winststatus gisteren: gedeeltelijk betrouwbaar
+- Gemiddelde winst per order: EUR 0.00
 
 ## Top 5 winstgevende producten (indicatief)
 
-- 3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart (3DTS-DSS501-GRA): EUR 4.97 nettowinst, 16.31% marge
+- Geen winstgevende producten gevonden in de beschikbare dagdata.
 
 ## Producten met lage marge (indicatief)
 
-- 3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart (3DTS-DSS501-GRA): EUR 4.97 nettowinst, 16.31% marge
+- Geen lage-marge producten gevonden in de beschikbare dagdata.
 
 ## Shopify vs Google Ads
 
-- Shopify omzet gisteren: EUR 35.14
-- Shopify direct omzet gisteren: EUR 14.65
+- Shopify omzet gisteren: EUR 0.00
+- Shopify direct omzet gisteren: EUR 0.00
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
-- Laatste 7 dagen omzet: EUR 324.52
+- Laatste 7 dagen omzet: EUR 194.71
 - Laatste 7 dagen Google Ads kosten: EUR 0.00
-- Laatste 7 dagen betrouwbare nettowinst: EUR 86.46
-- Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 9.35
+- Laatste 7 dagen betrouwbare nettowinst: EUR 51.45
+- Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 0.00
 
 ## Bol.com
 
-- Bol omzet gisteren: EUR 20.49
-- Bol winst gisteren: EUR 2.72
-- Bol commissie gisteren: EUR 3.19
-- Bol Ads kosten gisteren: EUR 0.74
-- Winst na Bol Ads gisteren: EUR 2.72
-- Bol omzet laatste 7 dagen: EUR 280.27
-- Bol winst laatste 7 dagen: EUR 79.86
-- Bol commissie laatste 7 dagen: EUR 35.29
-- Bol Ads kosten laatste 7 dagen: EUR 11.11
-- Bol Ads ROAS laatste 7 dagen: 2.9685
-- Bol orders gematcht laatste 7 dagen: 14
+- Bol omzet gisteren: EUR 0.00
+- Bol winst gisteren: EUR 0.00
+- Bol commissie gisteren: EUR 0.00
+- Bol Ads kosten gisteren: EUR 0.00
+- Winst na Bol Ads gisteren: EUR 0.00
+- Bol omzet laatste 7 dagen: EUR 165.41
+- Bol winst laatste 7 dagen: EUR 44.85
+- Bol commissie laatste 7 dagen: EUR 20.10
+- Bol Ads kosten laatste 7 dagen: EUR 9.41
+- Bol Ads ROAS laatste 7 dagen: 1.7524
+- Bol orders gematcht laatste 7 dagen: 8
 - Bol orders niet in Shopify gevonden laatste 7 dagen: 0
 
 ## AI-adviezen
 
-- Vul Shopify Cost per item aan waar mogelijk; gebruik config/product_costs.json alleen als fallback. Onvolledige orders tellen niet mee als betrouwbare winst.
+- Shopify dagdata ontbreekt nog; vul SHOPIFY secrets in en draai de workflow opnieuw.
 - Verzendkosten liggen hoger dan wat klanten betalen; verhoog gratis-verzending drempel of bundel producten.
 - Voor sommige bol-orders ontbreekt commissie; voeg EAN/referentie goed toe of controleer bol Retailer API toegang.
 
@@ -60,10 +60,10 @@ Gegenereerd: 2026-11-21T13:27:47.706Z
 
 - Shopify producten met Cost per item: 74
 - Shopify producten zonder Cost per item: 13
-- Percentage betrouwbare orders gisteren: 100%
-- Percentage betrouwbare winst gisteren: 100%
-- Winststatus gisteren: betrouwbaar
-- Percentage betrouwbare orders laatste 7 dagen: 94.44%
-- Percentage betrouwbare winst laatste 7 dagen: 90.24%
-- Winststatus laatste 7 dagen: gedeeltelijk betrouwbaar
-- Shopify Cost per item ontbreekt voor 1 orders; zie reports/missing_shopify_costs.md.
+- Percentage betrouwbare orders gisteren: onbekend%
+- Percentage betrouwbare winst gisteren: onbekend%
+- Winststatus gisteren: gedeeltelijk betrouwbaar
+- Percentage betrouwbare orders laatste 7 dagen: 100%
+- Percentage betrouwbare winst laatste 7 dagen: 100%
+- Winststatus laatste 7 dagen: betrouwbaar
+- Geen waarschuwingen.

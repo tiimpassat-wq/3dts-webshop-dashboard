@@ -1,9 +1,10 @@
 # Ontbrekende Productkostprijzen
 
-Gegenereerd: 2026-11-21T13:27:47.707Z
+Gegenereerd: 2026-11-22T13:19:36.478Z
 
 Vul `config/product_costs.json` aan. Gebruik geen schatting als je de echte kostprijs nog niet weet.
 
 | SKU | EAN | Product | Aantal | Omzet | Status | Orders |
 | --- | --- | --- | ---: | ---: | --- | --- |
-| 3DTS-UNIFI-VERS | - | Verstelbare wandbeugel voor UniFi U6-LR, U6-Lite en U7-Lite | 1 | EUR 14.95 | missing | #3dts1994 |
+
+Geen ontbrekende productkostprijzen gevonden.

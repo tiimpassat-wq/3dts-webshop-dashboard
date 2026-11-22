@@ -1,54 +1,18 @@
 {
-  "generated_at": "2026-11-21T13:27:36.727Z",
+  "generated_at": "2026-11-22T13:19:28.669Z",
   "period": "last_30_days",
-  "date_from": "2026-10-23",
-  "date_to_exclusive": "2026-11-22",
+  "date_from": "2026-10-24",
+  "date_to_exclusive": "2026-11-23",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 90,
-    "item_count": 110,
-    "total_order_amount": 2029.11,
+    "order_count": 89,
+    "item_count": 109,
+    "total_order_amount": 2009.16,
     "shipping_paid_by_customer": 47,
     "discount": 0
   },
   "orders": [
-    {
-      "order_number": "#3dts1921",
-      "date": "2026-10-23T18:14:20Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 19.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000JH9MP8"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder geschikt voor Makita DC18RD Duo oplader",
-          "variant_id": "58085095440733",
-          "variant_gid": "gid://shopify/ProductVariant/58085095440733",
-          "sku": "dc18rd3dts.shop",
-          "barcode": "8721516390004",
-          "ean": "8721516390004",
-          "quantity": 1,
-          "product_sale_price": 19.95,
-          "original_unit_price": 19.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts1922",
       "date": "2026-10-24T10:44:20Z",
