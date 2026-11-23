@@ -1,6 +1,19 @@
 {
-  "generated_at": "2026-11-22T13:19:36.476Z",
+  "generated_at": "2026-11-23T15:57:23.860Z",
   "actions": [
+    {
+      "type": "product controleren",
+      "priority": "high",
+      "product_name": "Support mural compatible avec chargeur double Makita DC18RD",
+      "sku": "U0-INRG-KJHL",
+      "reason": "Kostprijs ontbreekt in Shopify Cost per item en config/product_costs.json; betrouwbare nettowinst telt deze order niet mee."
+    },
+    {
+      "type": "campagne pauzeren",
+      "priority": "high",
+      "campaign": "Bol Sponsored Products",
+      "reason": "Bol Ads ROAS laatste 7 dagen is 0; controleer zoektermen en biedingen voordat budget omhoog gaat."
+    },
     {
       "type": "product controleren",
       "priority": "high",
@@ -11,15 +24,15 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Geleiderailadapter voor Makita DSS501 cirkelzaag",
-      "sku": "3DTS-DSS501-GRA",
+      "product_name": "Support mural compatible avec chargeur double Makita DC18RD",
+      "sku": "U0-INRG-KJHL",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     },
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Wandhouder - geschikt voor Makita DC18RC oplader - zwart",
-      "sku": "dc18rc3dts.shop",
+      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+      "sku": "3DTS-DSS501-GRA",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]

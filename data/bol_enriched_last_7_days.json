@@ -1,63 +1,21 @@
 {
-  "generated_at": "2026-11-22T13:19:35.482Z",
+  "generated_at": "2026-11-23T15:57:22.579Z",
   "period": "last_7_days",
-  "date_from": "2026-11-16",
-  "date_to_exclusive": "2026-11-23",
+  "date_from": "2026-11-17",
+  "date_to_exclusive": "2026-11-24",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
   },
   "summary": {
-    "bol_orders": 8,
-    "matched_orders": 8,
+    "bol_orders": 7,
+    "matched_orders": 7,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 150.76,
-    "total_bol_commission": 20.1
+    "total_bol_revenue": 130.81,
+    "total_bol_commission": 16.57
   },
   "warnings": [],
   "matches": [
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts2000",
-      "shopify_order_date": "2026-11-16T07:49:21Z",
-      "shopify_total_order_amount": 19.95,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000KTT252",
-        "order_placed_at": "2026-11-16T08:47:11+01:00",
-        "customer_country_code": "NL",
-        "pickup_point": false,
-        "total_order_amount": 19.95,
-        "total_commission": 3.53,
-        "eans": [
-          "9504741952723"
-        ],
-        "offer_references": [],
-        "line_items": [
-          {
-            "bol_order_item_id": "4026826843",
-            "ean": "9504741952723",
-            "product_name": "Wandhouder - geschikt voor Makita DC18RC oplader - zwart",
-            "offer_id": "4f7f61fc-dd0b-4e4a-b0ff-f1006587d7ea",
-            "offer_reference": null,
-            "sku": null,
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 19.95,
-            "total_price": 19.95,
-            "commission": 3.53,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-11-16T19:25:36+01:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
     {
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
@@ -104,9 +62,9 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts2001",
-      "shopify_order_date": "2026-11-16T18:05:24Z",
-      "shopify_total_order_amount": 14.65,
+      "shopify_order_number": "#3dts2003",
+      "shopify_order_date": "2026-11-17T17:09:20Z",
+      "shopify_total_order_amount": 20.49,
       "channel": "bol.com",
       "bol": {
         "bol_order_id": "C000L0KW85",
@@ -322,9 +280,9 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts2003",
-      "shopify_order_date": "2026-11-17T17:09:20Z",
-      "shopify_total_order_amount": 20.49,
+      "shopify_order_number": "#3dts2007",
+      "shopify_order_date": "2026-11-19T20:37:15Z",
+      "shopify_total_order_amount": 14.65,
       "channel": "bol.com",
       "bol": {
         "bol_order_id": "C000L4W149",

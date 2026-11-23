@@ -1,87 +1,18 @@
 {
-  "generated_at": "2026-11-22T13:19:27.616Z",
+  "generated_at": "2026-11-23T15:57:10.335Z",
   "period": "last_7_days",
-  "date_from": "2026-11-16",
-  "date_to_exclusive": "2026-11-23",
+  "date_from": "2026-11-17",
+  "date_to_exclusive": "2026-11-24",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
     "order_count": 11,
-    "item_count": 11,
-    "total_order_amount": 194.71,
+    "item_count": 12,
+    "total_order_amount": 220.06,
     "shipping_paid_by_customer": 13.95,
     "discount": 0
   },
   "orders": [
-    {
-      "order_number": "#3dts2000",
-      "date": "2026-11-16T07:49:21Z",
-      "channel_source": "bol",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 19.95,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000KTT252"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Wandhouder - geschikt voor Makita DC18RC oplader - zwart",
-          "variant_id": "57512098234717",
-          "variant_gid": "gid://shopify/ProductVariant/57512098234717",
-          "sku": "dc18rc3dts.shop",
-          "barcode": "8721516390011",
-          "ean": "8721516390011",
-          "quantity": 1,
-          "product_sale_price": 19.95,
-          "original_unit_price": 19.95,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts2001",
-      "date": "2026-11-16T18:05:24Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 4.65,
-      "shipping_title": "Nederland",
-      "discount": 0,
-      "total_order_amount": 14.65,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/geleiderailadapter-makita-dss501-cirkelzaag",
-      "referring_site": "https://www.google.com/",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Geleiderailadapter voor Makita DSS501 cirkelzaag",
-          "variant_id": "66045779870045",
-          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
-          "sku": "3DTS-DSS501-GRA",
-          "barcode": "8721516390691",
-          "ean": "8721516390691",
-          "quantity": 1,
-          "product_sale_price": 10,
-          "original_unit_price": 10,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts2002",
       "date": "2026-11-17T10:24:21Z",
@@ -383,6 +314,77 @@
       "tags": [],
       "landing_site": null,
       "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Geleiderailadapter voor Makita DSS501 cirkelzaag",
+          "variant_id": "66045779870045",
+          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
+          "sku": "3DTS-DSS501-GRA",
+          "barcode": "8721516390691",
+          "ean": "8721516390691",
+          "quantity": 1,
+          "product_sale_price": 10,
+          "original_unit_price": 10,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts2011",
+      "date": "2026-11-22T19:37:03Z",
+      "channel_source": "amazon-fr",
+      "customer_country_code": "FR",
+      "customer_country": "France",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": "Amazon Standard",
+      "discount": 0,
+      "total_order_amount": 45.3,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [
+        "A1S25ADMT138N3",
+        "Amazon",
+        "Amazon-FR",
+        "FBM"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Support mural compatible avec chargeur double Makita DC18RD",
+          "variant_id": null,
+          "variant_gid": null,
+          "sku": "U0-INRG-KJHL",
+          "barcode": null,
+          "ean": null,
+          "quantity": 2,
+          "product_sale_price": 22.65,
+          "original_unit_price": 22.65,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts2012",
+      "date": "2026-11-22T20:37:45Z",
+      "channel_source": "web",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 4.65,
+      "shipping_title": "Nederland",
+      "discount": 0,
+      "total_order_amount": 14.65,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "FULFILLED",
+      "tags": [],
+      "landing_site": "https://3dts.shop/products/geleiderailadapter-makita-dss501-cirkelzaag",
+      "referring_site": "https://www.google.com/",
       "referral_code": null,
       "line_items": [
         {
