@@ -1,88 +1,16 @@
 {
-  "generated_at": "2026-11-23T15:57:09.981Z",
+  "generated_at": "2026-11-24T15:51:50.027Z",
   "period": "daily",
-  "date_from": "2026-11-22",
-  "date_to_exclusive": "2026-11-23",
+  "date_from": "2026-11-23",
+  "date_to_exclusive": "2026-11-24",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 2,
-    "item_count": 3,
-    "total_order_amount": 59.95,
-    "shipping_paid_by_customer": 4.65,
+    "order_count": 0,
+    "item_count": 0,
+    "total_order_amount": 0,
+    "shipping_paid_by_customer": 0,
     "discount": 0
   },
-  "orders": [
-    {
-      "order_number": "#3dts2011",
-      "date": "2026-11-22T19:37:03Z",
-      "channel_source": "amazon-fr",
-      "customer_country_code": "FR",
-      "customer_country": "France",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": "Amazon Standard",
-      "discount": 0,
-      "total_order_amount": 45.3,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "A1S25ADMT138N3",
-        "Amazon",
-        "Amazon-FR",
-        "FBM"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Support mural compatible avec chargeur double Makita DC18RD",
-          "variant_id": null,
-          "variant_gid": null,
-          "sku": "U0-INRG-KJHL",
-          "barcode": null,
-          "ean": null,
-          "quantity": 2,
-          "product_sale_price": 22.65,
-          "original_unit_price": 22.65,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
-    {
-      "order_number": "#3dts2012",
-      "date": "2026-11-22T20:37:45Z",
-      "channel_source": "web",
-      "customer_country_code": "NL",
-      "customer_country": "Netherlands",
-      "shipping_paid_by_customer": 4.65,
-      "shipping_title": "Nederland",
-      "discount": 0,
-      "total_order_amount": 14.65,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [],
-      "landing_site": "https://3dts.shop/products/geleiderailadapter-makita-dss501-cirkelzaag",
-      "referring_site": "https://www.google.com/",
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "Geleiderailadapter voor Makita DSS501 cirkelzaag",
-          "variant_id": "66045779870045",
-          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
-          "sku": "3DTS-DSS501-GRA",
-          "barcode": "8721516390691",
-          "ean": "8721516390691",
-          "quantity": 1,
-          "product_sale_price": 10,
-          "original_unit_price": 10,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    }
-  ]
+  "orders": []
 }
