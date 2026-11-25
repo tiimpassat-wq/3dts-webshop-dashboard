@@ -1,54 +1,18 @@
 {
-  "generated_at": "2026-11-24T15:51:50.444Z",
+  "generated_at": "2026-11-25T15:34:33.841Z",
   "period": "last_7_days",
-  "date_from": "2026-11-18",
-  "date_to_exclusive": "2026-11-25",
+  "date_from": "2026-11-19",
+  "date_to_exclusive": "2026-11-26",
   "timezone": "Europe/Amsterdam",
   "warnings": [],
   "totals": {
-    "order_count": 7,
-    "item_count": 8,
-    "total_order_amount": 142.72,
+    "order_count": 8,
+    "item_count": 9,
+    "total_order_amount": 167.21,
     "shipping_paid_by_customer": 13.95,
     "discount": 0
   },
   "orders": [
-    {
-      "order_number": "#3dts2006",
-      "date": "2026-11-17T23:09:21Z",
-      "channel_source": "bol",
-      "customer_country_code": "BE",
-      "customer_country": "Belgium",
-      "shipping_paid_by_customer": 0,
-      "shipping_title": null,
-      "discount": 0,
-      "total_order_amount": 17.49,
-      "currency": "EUR",
-      "payment_status": "PAID",
-      "fulfillment_status": "FULFILLED",
-      "tags": [
-        "Bol",
-        "Bol-C000L189K2"
-      ],
-      "landing_site": null,
-      "referring_site": null,
-      "referral_code": null,
-      "line_items": [
-        {
-          "product_name": "UniFi Access Point Wandbeugel – Kantelbaar / Verstelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite en U7-Lite – Wit",
-          "variant_id": "63739025588573",
-          "variant_gid": "gid://shopify/ProductVariant/63739025588573",
-          "sku": "Unifikant3DTS.shop",
-          "barcode": "8721516390592",
-          "ean": "8721516390592",
-          "quantity": 1,
-          "product_sale_price": 17.49,
-          "original_unit_price": 17.49,
-          "line_discount": 0,
-          "currency": "EUR"
-        }
-      ]
-    },
     {
       "order_number": "#3dts2007",
       "date": "2026-11-19T20:37:15Z",
@@ -253,6 +217,78 @@
           "quantity": 1,
           "product_sale_price": 10,
           "original_unit_price": 10,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts2013",
+      "date": "2026-11-25T07:09:25Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 20.49,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000LJD884"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+          "variant_id": "66045779870045",
+          "variant_gid": "gid://shopify/ProductVariant/66045779870045",
+          "sku": "3DTS-DSS501-GRA",
+          "barcode": "8721516390691",
+          "ean": "8721516390691",
+          "quantity": 1,
+          "product_sale_price": 20.49,
+          "original_unit_price": 20.49,
+          "line_discount": 0,
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "order_number": "#3dts2014",
+      "date": "2026-11-25T09:24:21Z",
+      "channel_source": "bol",
+      "customer_country_code": "NL",
+      "customer_country": "Netherlands",
+      "shipping_paid_by_customer": 0,
+      "shipping_title": null,
+      "discount": 0,
+      "total_order_amount": 21.49,
+      "currency": "EUR",
+      "payment_status": "PAID",
+      "fulfillment_status": "UNFULFILLED",
+      "tags": [
+        "Bol",
+        "Bol-C000LJM3WT"
+      ],
+      "landing_site": null,
+      "referring_site": null,
+      "referral_code": null,
+      "line_items": [
+        {
+          "product_name": "Accuhouder - geschikt voor Bosch Professional 18V - 4 accu's - 4-voudig",
+          "variant_id": "57884320072029",
+          "variant_gid": "gid://shopify/ProductVariant/57884320072029",
+          "sku": "3DTS-BP18V-4",
+          "barcode": "8721516390585",
+          "ean": "8721516390585",
+          "quantity": 1,
+          "product_sale_price": 21.49,
+          "original_unit_price": 21.49,
           "line_discount": 0,
           "currency": "EUR"
         }

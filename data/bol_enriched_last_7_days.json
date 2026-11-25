@@ -1,65 +1,21 @@
 {
-  "generated_at": "2026-11-24T15:51:57.501Z",
+  "generated_at": "2026-11-25T15:34:39.022Z",
   "period": "last_7_days",
-  "date_from": "2026-11-18",
-  "date_to_exclusive": "2026-11-25",
+  "date_from": "2026-11-19",
+  "date_to_exclusive": "2026-11-26",
   "source_files": {
     "shopify": "shopify_orders_last_7_days.json",
     "bol_raw": "bol_orders_raw_last_7_days.json"
   },
   "summary": {
-    "bol_orders": 3,
-    "matched_orders": 3,
+    "bol_orders": 4,
+    "matched_orders": 4,
     "missing_in_shopify": 0,
-    "total_bol_revenue": 53.47,
-    "total_bol_commission": 5.27
+    "total_bol_revenue": 77.96,
+    "total_bol_commission": 11.76
   },
   "warnings": [],
   "matches": [
-    {
-      "match_status": "matched",
-      "match_method": "identifier_or_sku_tag_source",
-      "confidence": 0.95,
-      "shopify_order_number": "#3dts2006",
-      "shopify_order_date": "2026-11-17T23:09:21Z",
-      "shopify_total_order_amount": 17.49,
-      "channel": "bol.com",
-      "bol": {
-        "bol_order_id": "C000L189K2",
-        "order_placed_at": "2026-11-18T00:07:02+01:00",
-        "customer_country_code": "BE",
-        "pickup_point": false,
-        "total_order_amount": 17.49,
-        "total_commission": 1.07,
-        "eans": [
-          "8721516390592"
-        ],
-        "offer_references": [
-          "Unifikant3DTS.shop"
-        ],
-        "line_items": [
-          {
-            "bol_order_item_id": "4028554641",
-            "ean": "8721516390592",
-            "product_name": "UniFi Access Point Wandbeugel – Kantelbaar / Verstelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite en U7-Lite – Wit",
-            "offer_id": "3c22c742-be8a-44fe-b296-01c8a787c2b9",
-            "offer_reference": "Unifikant3DTS.shop",
-            "sku": "Unifikant3DTS.shop",
-            "quantity": 1,
-            "quantity_shipped": 1,
-            "quantity_cancelled": 0,
-            "unit_price": 17.49,
-            "total_price": 17.49,
-            "commission": 1.07,
-            "fulfilment_method": "FBR",
-            "distribution_party": "RETAILER",
-            "cancellation_request": false,
-            "latest_changed_at": "2026-11-18T19:40:57+01:00"
-          }
-        ]
-      },
-      "warnings": []
-    },
     {
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
@@ -141,6 +97,94 @@
             "distribution_party": "RETAILER",
             "cancellation_request": false,
             "latest_changed_at": "2026-11-20T19:32:55+01:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts2014",
+      "shopify_order_date": "2026-11-25T09:24:21Z",
+      "shopify_total_order_amount": 21.49,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000LJM3WT",
+        "order_placed_at": "2026-11-25T10:19:32+01:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 21.49,
+        "total_commission": 4.37,
+        "eans": [
+          "9501537169884"
+        ],
+        "offer_references": [
+          "3DTS"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "4035344031",
+            "ean": "9501537169884",
+            "product_name": "Accuhouder - geschikt voor Bosch Professional 18V - 4 accu's",
+            "offer_id": "9893575b-c8e4-4f32-b2e8-e26c4a8c2b86",
+            "offer_reference": "3DTS",
+            "sku": "3DTS",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 21.49,
+            "total_price": 21.49,
+            "commission": 4.37,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-11-25T10:20:16+01:00"
+          }
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "match_status": "matched",
+      "match_method": "identifier_or_sku_tag_source",
+      "confidence": 0.95,
+      "shopify_order_number": "#3dts2009",
+      "shopify_order_date": "2026-11-20T05:39:25Z",
+      "shopify_total_order_amount": 20.49,
+      "channel": "bol.com",
+      "bol": {
+        "bol_order_id": "C000LJD884",
+        "order_placed_at": "2026-11-25T08:06:00+01:00",
+        "customer_country_code": "NL",
+        "pickup_point": false,
+        "total_order_amount": 20.49,
+        "total_commission": 3.19,
+        "eans": [
+          "8721516390691"
+        ],
+        "offer_references": [
+          "3DTS-DSS501-GRA"
+        ],
+        "line_items": [
+          {
+            "bol_order_item_id": "4035218786",
+            "ean": "8721516390691",
+            "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
+            "offer_id": "83f38fe8-6b9c-4d2e-ae39-522f5c37a04d",
+            "offer_reference": "3DTS-DSS501-GRA",
+            "sku": "3DTS-DSS501-GRA",
+            "quantity": 1,
+            "quantity_shipped": 0,
+            "quantity_cancelled": 0,
+            "unit_price": 20.49,
+            "total_price": 20.49,
+            "commission": 3.19,
+            "fulfilment_method": "FBR",
+            "distribution_party": "RETAILER",
+            "cancellation_request": false,
+            "latest_changed_at": "2026-11-25T08:06:45+01:00"
           }
         ]
       },

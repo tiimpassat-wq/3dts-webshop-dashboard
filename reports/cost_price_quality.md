@@ -1,6 +1,6 @@
 # Kostprijs Kwaliteit
 
-Gegenereerd: 2026-11-24T15:51:58.257Z
+Gegenereerd: 2026-11-25T15:34:39.694Z
 
 ## Samenvatting
 
@@ -16,6 +16,6 @@ Gegenereerd: 2026-11-24T15:51:58.257Z
 | Bron | SKU | EAN | Product | Kostprijs | Aantal verkocht |
 | --- | --- | --- | --- | ---: | ---: |
 | missing | U0-INRG-KJHL | - | Support mural compatible avec chargeur double Makita DC18RD | EUR 0.00 | 2 |
-| shopify_unit_cost | 3DTS-DSS501-GRA | 8721516390691 | Geleiderailadapter voor Makita DSS501 cirkelzaag | EUR 5.75 | 4 |
-| shopify_unit_cost | Unifikant3DTS.shop | 8721516390592 | UniFi Access Point Wandbeugel – Kantelbaar / Verstelbare Mount – Geschikt voor UAP-AC-LR, U6-LR, U6-Lite en U7-Lite – Wit | EUR 4.30 | 1 |
+| shopify_unit_cost | 3DTS-DSS501-GRA | 8721516390691 | Geleiderailadapter voor Makita DSS501 cirkelzaag | EUR 5.75 | 5 |
 | shopify_unit_cost | 627819952868_0CD6 | 8721516390394 | Wandbeugel voor switch - geschikt voor Unifi USW Lite 8 & 16 POE | EUR 2.27 | 1 |
+| shopify_unit_cost | 3DTS-BP18V-4 | 8721516390585 | Accuhouder - geschikt voor Bosch Professional 18V - 4 accu's - 4-voudig | EUR 5.00 | 1 |

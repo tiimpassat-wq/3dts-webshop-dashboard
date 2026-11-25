@@ -1,6 +1,6 @@
 # 3DTS Morning Report
 
-Gegenereerd: 2026-11-24T15:51:58.251Z
+Gegenereerd: 2026-11-25T15:34:39.691Z
 
 ## Samenvatting gisteren
 
@@ -30,9 +30,9 @@ Gegenereerd: 2026-11-24T15:51:58.251Z
 - Shopify direct omzet gisteren: EUR 0.00
 - Google Ads kosten gisteren: EUR 0.00
 - Google Ads ROAS gisteren: onbekend
-- Laatste 7 dagen omzet: EUR 142.72
+- Laatste 7 dagen omzet: EUR 167.21
 - Laatste 7 dagen Google Ads kosten: EUR 0.00
-- Laatste 7 dagen betrouwbare nettowinst: EUR 21.85
+- Laatste 7 dagen betrouwbare nettowinst: EUR 32.44
 - Laatste 7 dagen geschatte/onvolledige nettowinst: EUR 33.45
 
 ## Bol.com
@@ -42,12 +42,12 @@ Gegenereerd: 2026-11-24T15:51:58.251Z
 - Bol commissie gisteren: EUR 0.00
 - Bol Ads kosten gisteren: EUR 0.00
 - Winst na Bol Ads gisteren: EUR 0.00
-- Bol omzet laatste 7 dagen: EUR 68.12
-- Bol winst laatste 7 dagen: EUR 15.25
-- Bol commissie laatste 7 dagen: EUR 5.27
-- Bol Ads kosten laatste 7 dagen: EUR 4.04
+- Bol omzet laatste 7 dagen: EUR 92.61
+- Bol winst laatste 7 dagen: EUR 25.84
+- Bol commissie laatste 7 dagen: EUR 11.76
+- Bol Ads kosten laatste 7 dagen: EUR 3.81
 - Bol Ads ROAS laatste 7 dagen: 0
-- Bol orders gematcht laatste 7 dagen: 3
+- Bol orders gematcht laatste 7 dagen: 4
 - Bol orders niet in Shopify gevonden laatste 7 dagen: 0
 
 ## AI-adviezen
@@ -65,7 +65,7 @@ Gegenereerd: 2026-11-24T15:51:58.251Z
 - Percentage betrouwbare orders gisteren: onbekend%
 - Percentage betrouwbare winst gisteren: onbekend%
 - Winststatus gisteren: gedeeltelijk betrouwbaar
-- Percentage betrouwbare orders laatste 7 dagen: 85.71%
-- Percentage betrouwbare winst laatste 7 dagen: 39.51%
+- Percentage betrouwbare orders laatste 7 dagen: 87.5%
+- Percentage betrouwbare winst laatste 7 dagen: 49.23%
 - Winststatus laatste 7 dagen: gedeeltelijk betrouwbaar
 - Shopify Cost per item ontbreekt voor 1 orders; zie reports/missing_shopify_costs.md.
