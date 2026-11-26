@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T15:34:39.692Z",
+  "generated_at": "2026-11-26T15:12:42.277Z",
   "actions": [
     {
       "type": "product controleren",
@@ -22,6 +22,13 @@
       "reason": "Bol commissie ontbreekt voor order #3dts2013; winst kan te hoog lijken."
     },
     {
+      "type": "product controleren",
+      "priority": "high",
+      "product_name": "Wandhouder - geschikt voor Makita DC18RD Duo oplader - zwart",
+      "sku": "dc18rd3dts.shop",
+      "reason": "Bol commissie ontbreekt voor order #3dts2018; winst kan te hoog lijken."
+    },
+    {
       "type": "bundel maken",
       "priority": "medium",
       "product_name": "Support mural compatible avec chargeur double Makita DC18RD",
@@ -31,8 +38,15 @@
     {
       "type": "bundel maken",
       "priority": "medium",
-      "product_name": "Geleiderailadapter voor Makita DSS501 cirkelzaag",
+      "product_name": "3DTS Geleiderailadapter - Geschikt voor Makita DSS501 - Zwart",
       "sku": "3DTS-DSS501-GRA",
+      "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
+    },
+    {
+      "type": "bundel maken",
+      "priority": "medium",
+      "product_name": "Accuhouder - geschikt voor Bosch Professional 18V - 4 accu's - 4-voudig",
+      "sku": "3DTS-BP18V-4",
       "reason": "Meerdere verkopen in 7 dagen; test een bundel of 2-pack om verzendkosten per stuk te verlagen."
     }
   ]

@@ -1,15 +1,50 @@
 {
-  "generated_at": "2026-11-25T15:34:35.104Z",
+  "generated_at": "2026-11-26T15:12:31.535Z",
   "period": "daily",
-  "date_from": "2026-11-24",
-  "date_to_exclusive": "2026-11-25",
+  "date_from": "2026-11-25",
+  "date_to_exclusive": "2026-11-26",
   "source": "bol.com Retailer API",
-  "orders": [],
+  "orders": [
+    {
+      "bol_order_id": "C000LJM3WT",
+      "order_placed_at": "2026-11-25T10:19:32+01:00",
+      "customer_country_code": "NL",
+      "pickup_point": false,
+      "total_order_amount": 21.49,
+      "total_commission": 4.37,
+      "eans": [
+        "9501537169884"
+      ],
+      "offer_references": [
+        "3DTS"
+      ],
+      "line_items": [
+        {
+          "bol_order_item_id": "4035344031",
+          "ean": "9501537169884",
+          "product_name": "Accuhouder - geschikt voor Bosch Professional 18V - 4 accu's",
+          "offer_id": "9893575b-c8e4-4f32-b2e8-e26c4a8c2b86",
+          "offer_reference": "3DTS",
+          "sku": "3DTS",
+          "quantity": 1,
+          "quantity_shipped": 0,
+          "quantity_cancelled": 0,
+          "unit_price": 21.49,
+          "total_price": 21.49,
+          "commission": 4.37,
+          "fulfilment_method": "FBR",
+          "distribution_party": "RETAILER",
+          "cancellation_request": false,
+          "latest_changed_at": "2026-11-25T10:20:16+01:00"
+        }
+      ]
+    }
+  ],
   "warnings": [],
   "credentials_configured": true,
   "totals": {
-    "order_count": 0,
-    "total_order_amount": 0,
-    "total_commission": 0
+    "order_count": 1,
+    "total_order_amount": 21.49,
+    "total_commission": 4.37
   }
 }
