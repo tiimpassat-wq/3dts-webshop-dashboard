@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-26T15:12:33.258Z",
+  "generated_at": "2026-11-27T15:03:05.370Z",
   "period": "daily",
-  "date_from": "2026-11-25",
-  "date_to_exclusive": "2026-11-26",
+  "date_from": "2026-11-26",
+  "date_to_exclusive": "2026-11-27",
   "source_files": {
     "shopify": "shopify_orders_daily.json",
     "bol_raw": "bol_orders_raw_daily.json"
@@ -20,13 +20,13 @@
       "match_status": "matched",
       "match_method": "identifier_or_sku_tag_source",
       "confidence": 0.95,
-      "shopify_order_number": "#3dts2014",
-      "shopify_order_date": "2026-11-25T09:24:21Z",
+      "shopify_order_number": "#3dts2017",
+      "shopify_order_date": "2026-11-26T10:29:21Z",
       "shopify_total_order_amount": 21.49,
       "channel": "bol.com",
       "bol": {
-        "bol_order_id": "C000LJM3WT",
-        "order_placed_at": "2026-11-25T10:19:32+01:00",
+        "bol_order_id": "C000LM4K05",
+        "order_placed_at": "2026-11-26T11:24:06+01:00",
         "customer_country_code": "NL",
         "pickup_point": false,
         "total_order_amount": 21.49,
@@ -39,7 +39,7 @@
         ],
         "line_items": [
           {
-            "bol_order_item_id": "4035344031",
+            "bol_order_item_id": "4036615916",
             "ean": "9501537169884",
             "product_name": "Accuhouder - geschikt voor Bosch Professional 18V - 4 accu's",
             "offer_id": "9893575b-c8e4-4f32-b2e8-e26c4a8c2b86",
@@ -54,7 +54,7 @@
             "fulfilment_method": "FBR",
             "distribution_party": "RETAILER",
             "cancellation_request": false,
-            "latest_changed_at": "2026-11-25T10:20:16+01:00"
+            "latest_changed_at": "2026-11-26T11:24:48+01:00"
           }
         ]
       },
